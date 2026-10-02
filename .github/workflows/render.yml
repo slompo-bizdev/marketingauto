@@ -1,0 +1,60 @@
+name: Gerar carrosséis
+
+on:
+  push:
+    branches: [main]
+    paths: ["posts/**.json", "render/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Instalar dependências
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+          npm install --no-audit --no-fund
+
+      - name: Descobrir specs alterados
+        id: specs
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -q '^render/'; then
+            files=$(ls posts/*.json)
+          else
+            files=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'posts/*.json' 2>/dev/null || ls posts/*.json)
+          fi
+          echo "files=$(echo $files | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Renderizar
+        if: steps.specs.outputs.files != ''
+        run: python render/render.py ${{ steps.specs.outputs.files }}
+
+      - name: Publicar imagens no repositório (GitHub Pages)
+        if: steps.specs.outputs.files != ''
+        run: |
+          git config user.name "marketingauto-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || git commit -m "Render: ${{ steps.specs.outputs.files }}"
+          git pull --rebase origin main
+          git push
