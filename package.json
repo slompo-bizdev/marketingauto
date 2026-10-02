@@ -1,0 +1,9 @@
+{
+  "name": "marketingauto",
+  "private": true,
+  "description": "Fontes do gerador de carrosséis da VS Solutions",
+  "dependencies": {
+    "@fontsource/inter": "^5.2.0",
+    "@fontsource/jetbrains-mono": "^5.2.0"
+  }
+}
