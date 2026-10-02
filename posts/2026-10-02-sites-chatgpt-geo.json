@@ -1,0 +1,84 @@
+{
+  "slug": "2026-10-02-sites-chatgpt-geo",
+  "lang": "pt",
+  "palette": [
+    "yellow",
+    "black"
+  ],
+  "accent": "yellow",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis · GMT-3",
+  "story_eyebrow": "PERGUNTA DO DIA",
+  "story_pergunta": "Na sua empresa, alguém mede citação em ChatGPT, Claude ou Perplexity?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "IA EM ALTA · SITES NO CHATGPT",
+      "headline": "Se o conteúdo é consumido na IA, SEO sozinho não basta",
+      "sub": "A disputa passa a ser ser lido, entendido e citado"
+    },
+    {
+      "type": "text",
+      "eyebrow": "O QUE ACONTECEU",
+      "headline": "OpenAI lançou o recurso Sites dentro do ChatGPT",
+      "body": "A página oficial diz que dá para criar, hospedar e compartilhar sites, apps e jogos no ChatGPT. Também permite publicar com URL hospedada pelo ChatGPT ou conectar domínio próprio."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "O NÚMERO",
+      "stat": "95%",
+      "label": "menos custo em tokens de entrada com cache",
+      "sub": "No guia de produção da OpenAI, isso vale para tokens em cache, conforme o modelo."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+      "headline": "O que eu vejo nas empresas quando a descoberta vai para IA",
+      "items": [
+        "O conteúdo existe, mas não foi estruturado para máquina ler bem",
+        "A empresa aparece no Google, mas não mede citação em IA",
+        "Tem teste de IA no ar, mas sem separar leitura, pergunta e clique"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "EU JÁ RESOLVI ISSO",
+      "headline": "Fiz isso para uma das maiores empresas de cosméticos do Brasil",
+      "items": [
+        "Relatório anual refeito para ser lido e citado por ChatGPT, Claude e Perplexity",
+        "1.427 leituras por robôs de IA, de 8 motores diferentes, em 15 dias",
+        "60 pessoas chegaram ao site clicando numa citação de IA"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MINHA LEITURA",
+      "headline": "Medir em vez de assumir.",
+      "body": "Se a interface de descoberta muda, a empresa precisa medir o novo canal de verdade. Na prática, não basta adaptar conteúdo para IA. É preciso separar varredura, pergunta real e clique de citação para saber se isso gera aquisição ou só visita de robô."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "QUER VER COMO EU FIZ?",
+      "headline": "Comenta GEO.",
+      "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+      "button": "Comenta GEO · vssolutions.io"
+    }
+  ],
+  "caption": "A OpenAI lançou o recurso Sites no ChatGPT: dá para criar, hospedar e compartilhar sites, apps e jogos dentro da própria interface. Na mesma direção, o guia de produção da OpenAI reforça um ponto menos glamouroso e mais importante: produção exige medição, monitoramento e workflow preparado.\n\nMinha leitura é simples: se conteúdo e navegação passam a acontecer em interfaces de IA, não basta aparecer no Google. A empresa precisa ser legível para modelos, entendida por eles e, principalmente, citada.\n\nÉ aí que muita operação trava. O conteúdo foi feito para humano e crawler tradicional, mas não para buscadores de IA. E quase ninguém mede direito o que acontece: leitura de robô, pergunta real e clique vindo de citação acabam misturados.\n\nEu já resolvi isso para uma das maiores empresas de cosméticos do Brasil. Refizemos o relatório anual para ser lido e citado por ChatGPT, Claude e Perplexity, com medição própria. Em 15 dias, foram 1.427 leituras por robôs de IA, de 8 motores diferentes, e 60 pessoas chegaram ao site clicando numa citação de IA.\n\nIA só vira canal quando sai do discurso e entra na medição.\n\nComenta GEO que eu te mando no direct como fiz.\n\nFontes: chatgpt.com, openai.com\n\n#IA #ChatGPT #SEO #GEO #InteligenciaArtificial #MarketingDigital",
+  "first_comment": "Fontes: https://chatgpt.com/features/sites/ · https://openai.com/index/practical-guide-building-gpt-6\n\nvssolutions.io",
+  "meta": {
+    "tema": "Sites no ChatGPT e o novo SEO para ser citado por IA",
+    "tipo": "ponte",
+    "case_id": "geo",
+    "palavra": "GEO",
+    "valor": "Medir em vez de assumir.",
+    "angulo": "Não basta aparecer no Google: empresa precisa adaptar conteúdo e medir citações em ChatGPT, Claude e Perplexity para transformar IA em canal real de aquisição.",
+    "fontes": [
+      "https://chatgpt.com/features/sites/",
+      "https://openai.com/index/practical-guide-building-gpt-6"
+    ],
+    "roteiro_reels": "[0-3s] Se os sites passam a ser consumidos no ChatGPT, SEO sozinho não basta.\n[3-20s] A OpenAI agora oferece Sites dentro do ChatGPT.\nIsso reforça uma mudança: descoberta de conteúdo pode acontecer na interface de IA.\nO problema é que a maioria das empresas não adapta conteúdo nem mede citação.\n[20-30s] Eu já fiz isso para uma das maiores empresas de cosméticos do Brasil: conteúdo refeito para ser lido e citado por ChatGPT, Claude e Perplexity, com medição própria. Comenta GEO que eu te mando como fiz.",
+    "gerado_em": "2026-10-02T23:59:38.459Z"
+  }
+}
