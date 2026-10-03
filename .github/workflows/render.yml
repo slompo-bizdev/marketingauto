@@ -49,8 +49,10 @@ jobs:
         if: steps.specs.outputs.files != ''
         run: python render/render.py ${{ steps.specs.outputs.files }}
 
+      - name: Gerar índice para o site
+        run: python render/index.py
+
       - name: Publicar imagens no repositório (GitHub Pages)
-        if: steps.specs.outputs.files != ''
         run: |
           git config user.name "marketingauto-bot"
           git config user.email "actions@users.noreply.github.com"
