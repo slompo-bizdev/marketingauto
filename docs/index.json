@@ -1,0 +1,179 @@
+{
+  "atualizado_em": "2026-10-03T00:52:30.039506Z",
+  "posts": [
+    {
+      "slug": "2026-10-02-sites-chatgpt-geo",
+      "data": "2026-10-02",
+      "titulo": "Se o conteúdo é consumido na IA, SEO sozinho não basta",
+      "subtitulo": "A disputa passa a ser ser lido, entendido e citado",
+      "tema": "Sites no ChatGPT e o novo SEO para ser citado por IA",
+      "tipo": "ponte",
+      "case_id": "geo",
+      "palavra": "GEO",
+      "valor": "Medir em vez de assumir.",
+      "fontes": [
+        "https://chatgpt.com/features/sites/",
+        "https://openai.com/index/practical-guide-building-gpt-6"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "IA EM ALTA · SITES NO CHATGPT",
+          "headline": "Se o conteúdo é consumido na IA, SEO sozinho não basta",
+          "sub": "A disputa passa a ser ser lido, entendido e citado"
+        },
+        {
+          "type": "text",
+          "eyebrow": "O QUE ACONTECEU",
+          "headline": "OpenAI lançou o recurso Sites dentro do ChatGPT",
+          "body": "A página oficial diz que dá para criar, hospedar e compartilhar sites, apps e jogos no ChatGPT. Também permite publicar com URL hospedada pelo ChatGPT ou conectar domínio próprio."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "O NÚMERO",
+          "stat": "95%",
+          "label": "menos custo em tokens de entrada com cache",
+          "sub": "No guia de produção da OpenAI, isso vale para tokens em cache, conforme o modelo."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+          "headline": "O que eu vejo nas empresas quando a descoberta vai para IA",
+          "items": [
+            "O conteúdo existe, mas não foi estruturado para máquina ler bem",
+            "A empresa aparece no Google, mas não mede citação em IA",
+            "Tem teste de IA no ar, mas sem separar leitura, pergunta e clique"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "EU JÁ RESOLVI ISSO",
+          "headline": "Fiz isso para uma das maiores empresas de cosméticos do Brasil",
+          "items": [
+            "Relatório anual refeito para ser lido e citado por ChatGPT, Claude e Perplexity",
+            "1.427 leituras por robôs de IA, de 8 motores diferentes, em 15 dias",
+            "60 pessoas chegaram ao site clicando numa citação de IA"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MINHA LEITURA",
+          "headline": "Medir em vez de assumir.",
+          "body": "Se a interface de descoberta muda, a empresa precisa medir o novo canal de verdade. Na prática, não basta adaptar conteúdo para IA. É preciso separar varredura, pergunta real e clique de citação para saber se isso gera aquisição ou só visita de robô."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "QUER VER COMO EU FIZ?",
+          "headline": "Comenta GEO.",
+          "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+          "button": "Comenta GEO · vssolutions.io"
+        }
+      ],
+      "legenda": "A OpenAI lançou o recurso Sites no ChatGPT: dá para criar, hospedar e compartilhar sites, apps e jogos dentro da própria interface. Na mesma direção, o guia de produção da OpenAI reforça um ponto menos glamouroso e mais importante: produção exige medição, monitoramento e workflow preparado.\n\nMinha leitura é simples: se conteúdo e navegação passam a acontecer em interfaces de IA, não basta aparecer no Google. A empresa precisa ser legível para modelos, entendida por eles e, principalmente, citada.\n\nÉ aí que muita operação trava. O conteúdo foi feito para humano e crawler tradicional, mas não para buscadores de IA. E quase ninguém mede direito o que acontece: leitura de robô, pergunta real e clique vindo de citação acabam misturados.\n\nEu já resolvi isso para uma das maiores empresas de cosméticos do Brasil. Refizemos o relatório anual para ser lido e citado por ChatGPT, Claude e Perplexity, com medição própria. Em 15 dias, foram 1.427 leituras por robôs de IA, de 8 motores diferentes, e 60 pessoas chegaram ao site clicando numa citação de IA.\n\nIA só vira canal quando sai do discurso e entra na medição.\n\nComenta GEO que eu te mando no direct como fiz.\n\nFontes: chatgpt.com, openai.com\n\n#IA #ChatGPT #SEO #GEO #InteligenciaArtificial #MarketingDigital",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-sites-chatgpt-geo/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-sites-chatgpt-geo/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-sites-chatgpt-geo/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-sites-chatgpt-geo/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-sites-chatgpt-geo/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-sites-chatgpt-geo/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-sites-chatgpt-geo/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-sites-chatgpt-geo/1.jpg",
+      "gerado_em": "2026-10-02T23:59:38.459Z"
+    },
+    {
+      "slug": "2026-10-02-geo-workshop",
+      "data": "2026-10-02",
+      "titulo": "Todo mundo fala de GEO. Eu medi.",
+      "subtitulo": "SEO, GEO, AEO. Sem hype. Com log de servidor.",
+      "tema": "Todo mundo fala de GEO. Eu medi.",
+      "tipo": "",
+      "case_id": null,
+      "palavra": "",
+      "valor": "",
+      "fontes": [],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "TREINAMENTO · WORKSHOP · GEO",
+          "headline": "Todo mundo fala de GEO.\nEu medi.",
+          "sub": "SEO, GEO, AEO.\nSem hype. Com log de servidor."
+        },
+        {
+          "type": "text",
+          "eyebrow": "O PROBLEMA",
+          "headline": "GEO virou palavra da moda. Quase ninguém mostra resultado.",
+          "body": "A maioria para em \"adicione dados estruturados\". E nem OpenAI nem Google entregam relatório de quanto você aparece nas respostas.\n\nResultado: todo mundo promete, ninguém prova."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O CASE",
+          "headline": "O relatório anual de uma das maiores empresas de cosméticos do Brasil, refeito para a IA ler.",
+          "items": [
+            "HTML de verdade, renderizado no servidor, em 3 idiomas",
+            "Schema.org/JSON-LD, llms.txt e 17 robôs de IA convidados pelo nome",
+            "E o mais importante: um coletor de logs para medir tudo"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "stat",
+          "eyebrow": "PROVA #1 · A IA LEU",
+          "stat": "1.427",
+          "stat_size": 280,
+          "label": "leituras do conteúdo por robôs de IA",
+          "sub": "8 motores diferentes · 15 dias de medição · 8.047 requisições registradas"
+        },
+        {
+          "type": "stat",
+          "eyebrow": "PROVA #2 · ALGUÉM PERGUNTOU",
+          "stat": "553",
+          "stat_size": 320,
+          "label": "buscas disparadas por uma pergunta real",
+          "sub": "Não é varredura. É o ChatGPT ou o Claude indo ao site no instante em que uma pessoa perguntou."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "PROVA #3 · VIROU VISITA",
+          "stat": "60",
+          "stat_size": 340,
+          "label": "pessoas chegaram ao site clicando numa citação de IA",
+          "sub": "57 vindas do ChatGPT · 113 downloads do PDF do relatório"
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O QUE VOCÊ LEVA DO WORKSHOP",
+          "headline": "O método que gerou esses números. Passo a passo.",
+          "items": [
+            "Conteúdo que IA e gente entendem: perguntas, FAQs, tabelas e voz de especialista",
+            "A camada técnica: Schema, llms.txt e robots para agentes de IA",
+            "Como medir: separar varredura, pergunta real e clique de citação"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "cta",
+          "eyebrow": "TREINAMENTOS E WORKSHOPS",
+          "headline": "GEO com prova, não com promessa.",
+          "body": "Para times de marketing, SEO e conteúdo. In company ou online.",
+          "button": "Me chama na DM · vssolutions.io"
+        }
+      ],
+      "legenda": "Todo mundo fala de GEO. Eu medi.\n\nSEO, GEO, AEO: a sigla muda toda semana, a promessa é sempre a mesma. E quase ninguém mostra resultado, até porque nem OpenAI nem Google entregam relatório de quanto sua marca aparece nas respostas.\n\nEntão eu construí a medição junto com o projeto. O relatório anual de uma das maiores empresas de cosméticos do Brasil, refeito para a IA ler, com um coletor de logs ligado do primeiro dia:\n\n→ 1.427 leituras por robôs de IA, de 8 motores diferentes\n→ 553 buscas disparadas por uma pergunta real de alguém\n→ 60 pessoas que chegaram ao site clicando numa citação de IA\n\nEm 15 dias.\n\nÉ esse método que eu ensino nos treinamentos e workshops: conteúdo, camada técnica e, principalmente, como medir.\n\nGEO com prova, não com promessa. Me chama na DM.\n\n#GEO #SEO #AEO #marketingdigital #inteligenciaartificial #ChatGPT",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-geo-workshop/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-geo-workshop/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-geo-workshop/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-geo-workshop/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-geo-workshop/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-geo-workshop/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-geo-workshop/7.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-geo-workshop/8.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-geo-workshop/1.jpg",
+      "gerado_em": ""
+    }
+  ]
+}
