@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-02-sites-chatgpt-geo",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A OpenAI lançou o recurso Sites no ChatGPT: dá para criar, hospedar e compartilhar sites, apps e jogos dentro da própria interface. Na mesma direção, o guia de produção da OpenAI reforça um ponto menos glamouroso e mais importante: produção exige medição, monitoramento e workflow preparado.\n\nMinha leitura é simples: se conteúdo e navegação passam a acontecer em interfaces de IA, não basta aparecer no Google. A empresa precisa ser legível para modelos, entendida por eles e, principalmente, citada.\n\nÉ aí que muita operação trava. O conteúdo foi feito para humano e crawler tradicional, mas não para buscadores de IA. E quase ninguém mede direito o que acontece: leitura de robô, pergunta real e clique vindo de citação acabam misturados.\n\nEu já resolvi isso para uma das maiores empresas de cosméticos do Brasil. Refizemos o relatório anual para ser lido e citado por ChatGPT, Claude e Perplexity, com medição própria. Em 15 dias, foram 1.427 leituras por robôs de IA, de 8 motores diferentes, e 60 pessoas chegaram ao site clicando numa citação de IA.\n\nIA só vira canal quando sai do discurso e entra na medição.\n\nComenta GEO que eu te mando no direct como fiz.\n\nFontes: chatgpt.com, openai.com\n\n#IA #ChatGPT #SEO #GEO #InteligenciaArtificial #MarketingDigital",
+  "first_comment": "Fontes: https://chatgpt.com/features/sites/ · https://openai.com/index/practical-guide-building-gpt-6\n\nvssolutions.io"
+}
