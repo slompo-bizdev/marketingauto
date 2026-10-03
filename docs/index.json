@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-03T00:52:30.039506Z",
+  "atualizado_em": "2026-10-03T01:35:38.324662Z",
   "posts": [
     {
       "slug": "2026-10-02-sites-chatgpt-geo",
@@ -81,7 +81,129 @@
         "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-sites-chatgpt-geo/7.jpg"
       ],
       "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-sites-chatgpt-geo/1.jpg",
-      "gerado_em": "2026-10-02T23:59:38.459Z"
+      "gerado_em": "2026-10-02T23:59:38.459Z",
+      "traducoes": {
+        "en": {
+          "titulo": "If content is consumed inside AI, SEO alone isn't enough",
+          "subtitulo": "The race becomes being read, understood and cited",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI NOW · SITES IN CHATGPT",
+              "headline": "If content is consumed inside AI, SEO alone isn't enough",
+              "sub": "The race becomes being read, understood and cited"
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "OpenAI launched the Sites feature inside ChatGPT",
+              "body": "The official page says you can create, host and share websites, apps and games in ChatGPT. You can also publish with a ChatGPT-hosted URL or connect your own domain."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "95%",
+              "label": "lower input token cost with caching",
+              "sub": "In OpenAI's production guide, this applies to cached tokens, depending on the model."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies when discovery moves to AI",
+              "items": [
+                "The content exists, but it wasn't structured for machines to read well",
+                "The company shows up on Google, but doesn't measure AI citations",
+                "There's an AI test live, but nobody separates reads, questions and clicks"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "I did this for one of Brazil's largest cosmetics companies",
+              "items": [
+                "Annual report rebuilt to be read and cited by ChatGPT, Claude and Perplexity",
+                "1,427 reads by AI crawlers, from 8 different engines, in 15 days",
+                "60 people reached the site by clicking an AI citation"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assuming.",
+              "body": "If the discovery interface changes, companies need to measure the new channel for real. In practice, adapting content for AI isn't enough. You have to separate crawls, real questions and citation clicks to know whether this drives acquisition or just bot traffic."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment GEO.",
+              "body": "I'll send you the step-by-step of the case by DM. I take AI off the slide deck and put it into production, with measured results.",
+              "button": "Comment GEO · vssolutions.io"
+            }
+          ],
+          "legenda": "OpenAI launched the Sites feature in ChatGPT: you can create, host and share websites, apps and games right inside the interface. Along the same lines, OpenAI's production guide stresses a less glamorous and more important point: production requires measurement, monitoring and a prepared workflow.\n\nMy take is simple: if content and browsing start happening inside AI interfaces, showing up on Google isn't enough. A company needs to be readable by models, understood by them and, above all, cited.\n\nThat's where a lot of operations get stuck. The content was made for humans and traditional crawlers, not for AI search engines. And almost nobody measures what actually happens: bot reads, real questions and clicks from citations all get mixed together.\n\nI've already solved this for one of Brazil's largest cosmetics companies. We rebuilt their annual report to be read and cited by ChatGPT, Claude and Perplexity, with our own measurement. In 15 days there were 1,427 reads by AI crawlers from 8 different engines, and 60 people reached the site by clicking an AI citation.\n\nAI only becomes a channel when it moves from talk to measurement.\n\nComment GEO and I'll send you how I did it by DM.\n\nSources: chatgpt.com, openai.com\n\n#IA #ChatGPT #SEO #GEO #InteligenciaArtificial #MarketingDigital"
+        },
+        "ru": {
+          "titulo": "Если контент потребляют внутри ИИ, одного SEO уже мало",
+          "subtitulo": "Теперь борьба идёт за то, чтобы тебя прочитали, поняли и процитировали",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ СЕЙЧАС · САЙТЫ В CHATGPT",
+              "headline": "Если контент потребляют внутри ИИ, одного SEO уже мало",
+              "sub": "Теперь борьба идёт за то, чтобы тебя прочитали, поняли и процитировали"
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "OpenAI запустила функцию Sites внутри ChatGPT",
+              "body": "На официальной странице сказано, что в ChatGPT можно создавать, размещать и публиковать сайты, приложения и игры. Также можно опубликовать их по адресу на хостинге ChatGPT или подключить собственный домен."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "95%",
+              "label": "экономии на входных токенах с кешированием",
+              "sub": "В руководстве OpenAI по продакшену это относится к кешированным токенам, в зависимости от модели."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, когда поиск уходит в ИИ",
+              "items": [
+                "Контент есть, но он не структурирован так, чтобы машине было удобно его читать",
+                "Компания видна в Google, но не измеряет цитирования в ИИ",
+                "ИИ-эксперимент запущен, но никто не разделяет прочтения, вопросы и клики"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ ЭТО РЕШИЛ",
+              "headline": "Я сделал это для одной из крупнейших косметических компаний Бразилии",
+              "items": [
+                "Годовой отчёт переделан так, чтобы его читали и цитировали ChatGPT, Claude и Perplexity",
+                "1 427 прочтений ИИ-краулерами, от 8 разных систем, за 15 дней",
+                "60 человек пришли на сайт, кликнув по цитате в ответе ИИ"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЙ ВЗГЛЯД",
+              "headline": "Измерять, а не предполагать.",
+              "body": "Если меняется интерфейс, через который ищут информацию, компании нужно по-настоящему измерять новый канал. На практике мало просто адаптировать контент под ИИ. Нужно отделять обходы, реальные вопросы и клики по цитатам, чтобы понять, приносит ли это клиентов или только визиты роботов."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите GEO.",
+              "body": "Пришлю в директ пошаговый разбор кейса. Я вывожу ИИ из презентаций в продакшен — с измеримым результатом.",
+              "button": "Напишите GEO · vssolutions.io"
+            }
+          ],
+          "legenda": "OpenAI запустила функцию Sites в ChatGPT: прямо в интерфейсе можно создавать, размещать и публиковать сайты, приложения и игры. В том же духе руководство OpenAI по продакшену подчёркивает менее эффектную, но более важную вещь: продакшен требует измерений, мониторинга и подготовленного процесса.\n\nМой вывод простой: если контент и навигация переходят в ИИ-интерфейсы, одного присутствия в Google недостаточно. Компания должна быть читаемой для моделей, понятной им и, главное, цитируемой.\n\nИменно здесь многие застревают. Контент создавался для людей и обычных поисковых роботов, а не для ИИ-поисковиков. И почти никто толком не измеряет, что происходит: прочтения роботами, реальные вопросы и клики по цитатам смешиваются в одну кучу.\n\nЯ уже решил это для одной из крупнейших косметических компаний Бразилии. Мы переделали их годовой отчёт так, чтобы его читали и цитировали ChatGPT, Claude и Perplexity, с собственной системой измерений. За 15 дней — 1 427 прочтений ИИ-краулерами от 8 разных систем, и 60 человек пришли на сайт, кликнув по цитате в ответе ИИ.\n\nИИ становится каналом только тогда, когда разговоры сменяются измерениями.\n\nНапишите GEO в комментариях — и я пришлю в директ, как я это сделал.\n\nИсточники: chatgpt.com, openai.com\n\n#IA #ChatGPT #SEO #GEO #InteligenciaArtificial #MarketingDigital"
+        }
+      }
     },
     {
       "slug": "2026-10-02-geo-workshop",
@@ -173,7 +295,153 @@
         "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-geo-workshop/8.jpg"
       ],
       "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-02-geo-workshop/1.jpg",
-      "gerado_em": ""
+      "gerado_em": "",
+      "traducoes": {
+        "en": {
+          "titulo": "Everyone talks about GEO. I measured it.",
+          "subtitulo": "SEO, GEO, AEO. No hype. Server logs.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "TRAINING · WORKSHOP · GEO",
+              "headline": "Everyone talks about GEO.\nI measured it.",
+              "sub": "SEO, GEO, AEO.\nNo hype. Server logs."
+            },
+            {
+              "type": "text",
+              "eyebrow": "THE PROBLEM",
+              "headline": "GEO became a buzzword. Almost nobody shows results.",
+              "body": "Most people stop at \"add structured data\". And neither OpenAI nor Google gives you a report on how often you show up in their answers.\n\nThe result: everyone promises, nobody proves it."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE CASE",
+              "headline": "The annual report of one of Brazil's largest cosmetics companies, rebuilt for AI to read.",
+              "items": [
+                "Real HTML, server-rendered, in 3 languages",
+                "Schema.org/JSON-LD, llms.txt and 17 AI crawlers invited by name",
+                "And most important: a log collector to measure everything"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "stat",
+              "eyebrow": "PROOF #1 · AI READ IT",
+              "stat": "1,427",
+              "stat_size": 280,
+              "label": "reads of the content by AI crawlers",
+              "sub": "8 different engines · 15 days of measurement · 8,047 requests logged"
+            },
+            {
+              "type": "stat",
+              "eyebrow": "PROOF #2 · SOMEONE ASKED",
+              "stat": "553",
+              "stat_size": 320,
+              "label": "fetches triggered by a real question",
+              "sub": "Not a crawl. It's ChatGPT or Claude going to the site the moment a person asked."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "PROOF #3 · IT BECAME A VISIT",
+              "stat": "60",
+              "stat_size": 340,
+              "label": "people reached the site by clicking an AI citation",
+              "sub": "57 from ChatGPT · 113 downloads of the report PDF"
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "WHAT YOU TAKE FROM THE WORKSHOP",
+              "headline": "The method behind these numbers. Step by step.",
+              "items": [
+                "Content that both AI and people understand: questions, FAQs, tables and an expert voice",
+                "The technical layer: Schema, llms.txt and robots rules for AI agents",
+                "How to measure: separate crawls, real questions and citation clicks"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "cta",
+              "eyebrow": "TRAINING AND WORKSHOPS",
+              "headline": "GEO with proof, not promises.",
+              "body": "For marketing, SEO and content teams. In-company or online.",
+              "button": "Send me a DM · vssolutions.io"
+            }
+          ],
+          "legenda": "Everyone talks about GEO. I measured it.\n\nSEO, GEO, AEO: the acronym changes every week, the promise is always the same. And almost nobody shows results, partly because neither OpenAI nor Google reports how often your brand appears in their answers.\n\nSo I built the measurement into the project. The annual report of one of Brazil's largest cosmetics companies, rebuilt for AI to read, with a log collector running from day one:\n\n→ 1,427 reads by AI crawlers, from 8 different engines\n→ 553 fetches triggered by someone's real question\n→ 60 people who reached the site by clicking an AI citation\n\nIn 15 days.\n\nThat's the method I teach in my training sessions and workshops: content, the technical layer and, above all, how to measure.\n\nGEO with proof, not promises. Send me a DM.\n\n#GEO #SEO #AEO #marketingdigital #inteligenciaartificial #ChatGPT"
+        },
+        "ru": {
+          "titulo": "Все говорят о GEO. Я это измерил.",
+          "subtitulo": "SEO, GEO, AEO. Без хайпа. С серверными логами.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ОБУЧЕНИЕ · ВОРКШОП · GEO",
+              "headline": "Все говорят о GEO.\nЯ это измерил.",
+              "sub": "SEO, GEO, AEO.\nБез хайпа. С серверными логами."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ПРОБЛЕМА",
+              "headline": "GEO стало модным словом. Результаты почти никто не показывает.",
+              "body": "Большинство останавливается на «добавьте структурированные данные». А ни OpenAI, ни Google не дают отчёта о том, как часто вы появляетесь в их ответах.\n\nИтог: все обещают, никто не доказывает."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "КЕЙС",
+              "headline": "Годовой отчёт одной из крупнейших косметических компаний Бразилии, переделанный так, чтобы его читал ИИ.",
+              "items": [
+                "Настоящий HTML с серверным рендерингом, на 3 языках",
+                "Schema.org/JSON-LD, llms.txt и 17 ИИ-краулеров, приглашённых по имени",
+                "И главное: сборщик логов, чтобы всё измерять"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ДОКАЗАТЕЛЬСТВО №1 · ИИ ПРОЧИТАЛ",
+              "stat": "1 427",
+              "stat_size": 280,
+              "label": "прочтений контента ИИ-краулерами",
+              "sub": "8 разных систем · 15 дней измерений · 8 047 зарегистрированных запросов"
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ДОКАЗАТЕЛЬСТВО №2 · КТО-ТО СПРОСИЛ",
+              "stat": "553",
+              "stat_size": 320,
+              "label": "обращения, вызванных реальным вопросом",
+              "sub": "Это не обход. Это ChatGPT или Claude, заходящие на сайт в тот момент, когда человек задал вопрос."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ДОКАЗАТЕЛЬСТВО №3 · ЭТО СТАЛО ВИЗИТОМ",
+              "stat": "60",
+              "stat_size": 340,
+              "label": "человек пришли на сайт, кликнув по цитате в ответе ИИ",
+              "sub": "57 — из ChatGPT · 113 скачиваний PDF-отчёта"
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "ЧТО ВЫ ВЫНЕСЕТЕ С ВОРКШОПА",
+              "headline": "Метод, который дал эти цифры. Шаг за шагом.",
+              "items": [
+                "Контент, понятный и ИИ, и людям: вопросы, FAQ, таблицы и экспертный голос",
+                "Технический слой: Schema, llms.txt и правила robots для ИИ-агентов",
+                "Как измерять: отделять обходы, реальные вопросы и клики по цитатам"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ОБУЧЕНИЕ И ВОРКШОПЫ",
+              "headline": "GEO с доказательствами, а не с обещаниями.",
+              "body": "Для команд маркетинга, SEO и контента. В компании или онлайн.",
+              "button": "Напишите мне в директ · vssolutions.io"
+            }
+          ],
+          "legenda": "Все говорят о GEO. Я это измерил.\n\nSEO, GEO, AEO: аббревиатура меняется каждую неделю, обещание всегда одно и то же. И результаты почти никто не показывает — в том числе потому, что ни OpenAI, ни Google не сообщают, как часто ваш бренд появляется в их ответах.\n\nПоэтому я встроил измерения прямо в проект. Годовой отчёт одной из крупнейших косметических компаний Бразилии, переделанный для чтения ИИ, со сборщиком логов с первого дня:\n\n→ 1 427 прочтений ИИ-краулерами, от 8 разных систем\n→ 553 обращения, вызванных чьим-то реальным вопросом\n→ 60 человек, пришедших на сайт по клику на цитату в ответе ИИ\n\nЗа 15 дней.\n\nИменно этому методу я учу на тренингах и воркшопах: контент, технический слой и, прежде всего, измерения.\n\nGEO с доказательствами, а не с обещаниями. Напишите мне в директ.\n\n#GEO #SEO #AEO #marketingdigital #inteligenciaartificial #ChatGPT"
+        }
+      }
     }
   ]
 }
