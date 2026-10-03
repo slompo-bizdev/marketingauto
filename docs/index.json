@@ -1,6 +1,219 @@
 {
-  "atualizado_em": "2026-10-03T01:35:38.324662Z",
+  "atualizado_em": "2026-10-03T09:32:14.143754Z",
   "posts": [
+    {
+      "slug": "2026-10-03-apple-permissoes-agentes",
+      "data": "2026-10-03",
+      "titulo": "Quando o agente ganha acesso real, o risco muda de nível",
+      "subtitulo": "Apple apertou controles de acesso total no macOS por risco com agentes",
+      "tema": "Apple aperta permissões no macOS por risco de agentes de IA",
+      "tipo": "ponte",
+      "case_id": "enterprise",
+      "palavra": "AGENTES",
+      "valor": "Lançar não é o mesmo que ser usado.",
+      "fontes": [
+        "https://developer.apple.com/news/?id=p6zjojqw",
+        "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "IA EM ALTA · PERMISSÕES NO MACOS",
+          "headline": "Quando o agente ganha acesso real, o risco muda de nível",
+          "sub": "Apple apertou controles de acesso total no macOS por risco com agentes"
+        },
+        {
+          "type": "text",
+          "eyebrow": "O QUE ACONTECEU",
+          "headline": "Apple vai adicionar controles extras ao Full Disk Access",
+          "body": "A Apple disse que alguns apps usam esse acesso de um jeito que pode expor arquivos, e-mails, mensagens e histórico sem pleno entendimento do usuário. E afirmou que, com agentes de IA mais capazes e autônomos, esse risco cresce substancialmente."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O QUE MUDA",
+          "headline": "O recado técnico ficou bem claro",
+          "items": [
+            "Acesso total exigirá ação muito explícita do usuário",
+            "A Apple trata esse nível de acesso como extraordinário",
+            "O risco aumenta conforme agentes ficam mais capazes e autônomos"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+          "headline": "O que eu vejo nas empresas quando agente sai do demo",
+          "items": [
+            "Pedem autonomia antes de definir quem pode acessar o quê",
+            "Conectam sistemas reais sem trilha clara de auditoria",
+            "Escalam o piloto sem limites operacionais bem desenhados"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "EU JÁ RESOLVI ISSO",
+          "headline": "Isso já apareceu para mim em uma conta enterprise",
+          "items": [
+            "Plataforma multiagente em produção numa conta enterprise",
+            "Conta de US$ 5,5 milhões",
+            "Cerca de 60% de ganho de eficiência; log de defeitos auditado"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MINHA LEITURA",
+          "headline": "Lançar não é o mesmo que ser usado.",
+          "body": "Na prática, agente em produção não é só modelo e interface. É controle de acesso, auditoria e limite operacional. Sem isso, até funciona no piloto. Mas não vira operação confiável quando encosta em sistema, dado sensível e decisão real."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "QUER VER COMO EU FIZ?",
+          "headline": "Comenta AGENTES.",
+          "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+          "button": "Comenta AGENTES · vssolutions.io"
+        }
+      ],
+      "legenda": "A Apple anunciou controles adicionais para o Full Disk Access no macOS. O motivo está no texto oficial: esse nível de permissão pode expor arquivos, e-mails, mensagens e histórico, e o risco cresce à medida que agentes de IA ficam mais capazes e autônomos.\n\nPra mim, o ponto importante não é só segurança no desktop. É o recado para qualquer empresa tentando escalar agentes: quando a IA sai do demo e ganha acesso a sistemas reais, permissões, auditoria e limites operacionais deixam de ser detalhe técnico. Viram pré-requisito de produção.\n\nÉ exatamente aí que muita iniciativa trava. O piloto funciona, mas ninguém desenhou direito quem acessa o quê, como auditar defeitos e quais limites o agente precisa respeitar.\n\nEu já resolvi isso com plataforma multiagente em produção numa conta enterprise: conta de US$ 5,5 milhões, cerca de 60% de ganho de eficiência e exigência de log de defeitos auditado.\n\nLançar agente é fácil. Colocar em produção com controle e resultado medido é outra conversa.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: developer.apple.com, techcrunch.com\n\n#IA #AgentesDeIA #EnterpriseAI #GovernancaDeIA #SegurancaDaInformacao",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-03-apple-permissoes-agentes/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-03-apple-permissoes-agentes/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-03-apple-permissoes-agentes/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-03-apple-permissoes-agentes/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-03-apple-permissoes-agentes/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-03-apple-permissoes-agentes/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-03-apple-permissoes-agentes/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-03-apple-permissoes-agentes/1.jpg",
+      "gerado_em": "2026-10-03T09:30:54.911Z",
+      "traducoes": {
+        "en": {
+          "titulo": "When the agent gets real access, the risk moves to another level",
+          "subtitulo": "Apple tightened Full Disk Access controls in macOS because of agent-related risk",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · PERMISSIONS ON MACOS",
+              "headline": "When the agent gets real access, the risk moves to another level",
+              "sub": "Apple tightened Full Disk Access controls in macOS because of agent-related risk"
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Apple will add extra controls to Full Disk Access",
+              "body": "Apple said some apps use this access in a way that can expose files, emails, messages, and browsing history without the user fully understanding it. And it said that, with more capable and autonomous AI agents, that risk grows substantially."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "WHAT CHANGES",
+              "headline": "The technical message was very clear",
+              "items": [
+                "Full access will require very explicit user action",
+                "Apple treats this level of access as extraordinary",
+                "The risk increases as agents become more capable and autonomous"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies when the agent moves past the demo",
+              "items": [
+                "They ask for autonomy before defining who can access what",
+                "They connect real systems without a clear audit trail",
+                "They scale the pilot without well-defined operational limits"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "I've already seen this in an enterprise account",
+              "items": [
+                "Multi-agent platform in production in an enterprise account",
+                "US$ 5.5 million account",
+                "About 60% efficiency gain; audited defect log"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Launching is not the same as being used.",
+              "body": "In practice, an agent in production is not just a model and an interface. It's access control, auditing, and operational limits. Without that, it may work in the pilot. But it doesn't become a reliable operation once it touches systems, sensitive data, and real decisions."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment AGENTES.",
+              "body": "I'll send you the case step by step in DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment AGENTES · vssolutions.io"
+            }
+          ],
+          "legenda": "Apple announced additional controls for Full Disk Access in macOS. The reason is in the official text: this level of permission can expose files, emails, messages, and browsing history, and the risk grows as AI agents become more capable and autonomous.\n\nFor me, the important point isn't just desktop security. It's the message for any company trying to scale agents: when AI moves past the demo and gets access to real systems, permissions, auditing, and operational limits stop being technical details. They become production prerequisites.\n\nThat's exactly where a lot of initiatives get stuck. The pilot works, but nobody properly designed who can access what, how to audit defects, and which limits the agent needs to respect.\n\nI've already solved this with a multi-agent platform in production in an enterprise account: a US$ 5.5 million account, about 60% efficiency gain, and a requirement for an audited defect log.\n\nLaunching an agent is easy. Putting it into production with control and measured results is a different conversation.\n\nComment AGENTES and I'll send you in DM how I did it.\n\nSources: developer.apple.com, techcrunch.com\n\n#IA #AgentesDeIA #EnterpriseAI #GovernancaDeIA #SegurancaDaInformacao"
+        },
+        "ru": {
+          "titulo": "Когда агент получает реальный доступ, риск выходит на другой уровень",
+          "subtitulo": "Apple ужесточила контроль Full Disk Access в macOS из-за рисков, связанных с агентами",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · РАЗРЕШЕНИЯ В MACOS",
+              "headline": "Когда агент получает реальный доступ, риск выходит на другой уровень",
+              "sub": "Apple ужесточила контроль Full Disk Access в macOS из-за рисков, связанных с агентами"
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Apple добавит дополнительные меры контроля для Full Disk Access",
+              "body": "Apple заявила, что некоторые приложения используют этот доступ так, что это может открыть доступ к файлам, email, сообщениям и истории браузера без полного понимания со стороны пользователя. И подчеркнула, что с появлением более способных и автономных ИИ-агентов этот риск существенно растёт."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "ЧТО МЕНЯЕТСЯ",
+              "headline": "Технический сигнал был предельно ясным",
+              "items": [
+                "Полный доступ потребует очень явного действия со стороны пользователя",
+                "Apple считает этот уровень доступа исключительным",
+                "Риск растёт по мере того, как агенты становятся более способными и автономными"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, когда агент выходит за пределы демо",
+              "items": [
+                "Просят автономность до того, как определили, кто к чему может получать доступ",
+                "Подключают реальные системы без понятного аудиторского следа",
+                "Масштабируют пилот без чётко заданных операционных ограничений"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ ЭТО РЕШАЛ",
+              "headline": "Я уже сталкивался с этим в одном enterprise-аккаунте",
+              "items": [
+                "Мультиагентная платформа в продакшене в enterprise-аккаунте",
+                "Аккаунт на US$ 5,5 млн",
+                "Около 60% прироста эффективности; аудитируемый лог дефектов"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЙ ВЫВОД",
+              "headline": "Запустить — не значит добиться использования.",
+              "body": "На практике агент в продакшене — это не только модель и интерфейс. Это контроль доступа, аудит и операционные ограничения. Без этого пилот может работать. Но это не превращается в надёжную операцию, когда агент касается систем, чувствительных данных и реальных решений."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите AGENTES.",
+              "body": "Я отправлю в direct пошаговый разбор кейса. Я вывожу ИИ из стадии идеи в продакшн, с измеримым результатом.",
+              "button": "Напишите AGENTES · vssolutions.io"
+            }
+          ],
+          "legenda": "Apple объявила о дополнительных мерах контроля для Full Disk Access в macOS. Причина прямо указана в официальном тексте: такой уровень разрешений может открыть доступ к файлам, email, сообщениям и истории браузера, а риск растёт по мере того, как ИИ-агенты становятся более способными и автономными.\n\nДля меня важный момент не только в безопасности на десктопе. Это сигнал для любой компании, которая пытается масштабировать агентов: когда ИИ выходит за пределы демо и получает доступ к реальным системам, разрешения, аудит и операционные ограничения перестают быть технической деталью. Они становятся обязательным условием продакшена.\n\nИменно здесь многие инициативы и стопорятся. Пилот работает, но никто нормально не спроектировал, кто к чему получает доступ, как аудировать дефекты и какие ограничения агент должен соблюдать.\n\nЯ уже решал это с мультиагентной платформой в продакшене в enterprise-аккаунте: аккаунт на US$ 5,5 млн, около 60% прироста эффективности и требование к аудитируемому логу дефектов.\n\nЗапустить агента легко. Вывести его в продакшн с контролем и измеримым результатом — это уже другой разговор.\n\nНапишите AGENTES, и я отправлю в direct, как я это сделал.\n\nИсточники: developer.apple.com, techcrunch.com\n\n#IA #AgentesDeIA #EnterpriseAI #GovernancaDeIA #SegurancaDaInformacao"
+        }
+      }
+    },
     {
       "slug": "2026-10-02-sites-chatgpt-geo",
       "data": "2026-10-02",
