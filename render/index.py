@@ -17,6 +17,19 @@ for p in sorted((ROOT / "posts").glob("*.json"), reverse=True):
     hook = slides[0] if slides else {}
     imgs = [f"{BASE}/posts/{slug}/{f}" for f in m.get("slides_jpg", [])]
     data = slug[:10] if re.match(r"\d{4}-\d{2}-\d{2}", slug) else ""
+    # Traduções feitas pelo motor (en, ru): o site mostra cada idioma em /radar, /ru/radar
+    traducoes = {}
+    for lang, t in (s.get("traducoes") or {}).items():
+        ts = t.get("slides") or []
+        if len(ts) != len(slides):
+            continue
+        th = ts[0] if ts else {}
+        traducoes[lang] = {
+            "titulo": th.get("headline", "").replace("\n", " "),
+            "subtitulo": th.get("sub", "").replace("\n", " "),
+            "slides": ts,
+            "legenda": t.get("caption", ""),
+        }
     posts.append({
         "slug": slug,
         "data": data,
@@ -33,6 +46,7 @@ for p in sorted((ROOT / "posts").glob("*.json"), reverse=True):
         "imagens": imgs,
         "capa": imgs[0] if imgs else "",
         "gerado_em": meta.get("gerado_em", ""),
+        "traducoes": traducoes,
     })
 
 out = ROOT / "docs" / "index.json"
