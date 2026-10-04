@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-04-ia-teto-custo-padrao",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A discussão sobre hard budget caps faz sentido por um motivo simples: IA em produção consome recurso de verdade. API, storage, compute, workflow. Quando isso roda com mais autonomia, o risco deixa de ser técnico e vira financeiro.\n\nA fonte defende um ponto objetivo: limite duro por padrão. Bateu o orçamento mensal, pausa. Aviso por e-mail não resolve quando o consumo acelera fora do horário ou escala sem controle.\n\nO que eu vejo nas empresas é o mesmo padrão: colocam agente para rodar, mas sem teto de custo, sem regra clara de interrupção e sem observabilidade suficiente para entender onde o gasto nasceu. Aí o piloto parece funcionar, mas a operação fica exposta.\n\nEu já resolvi isso em uma conta enterprise: plataforma multiagente em produção, em uma conta de US$ 5,5 milhões. Com cerca de 60% de ganho de eficiência. E com um requisito que eu considero básico nesse nível: multiagente em produção exige log de defeitos auditado.\n\nIA sem limite e sem medição não é maturidade. É risco.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: simonwillison.net\n\n#inteligenciaartificial #agentesdeia #governancadeia #aiops #automacao",
+  "first_comment": "Fontes: https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/\n\nvssolutions.io"
+}

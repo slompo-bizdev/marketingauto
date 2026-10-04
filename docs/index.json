@@ -1,6 +1,209 @@
 {
-  "atualizado_em": "2026-10-03T09:32:14.143754Z",
+  "atualizado_em": "2026-10-04T09:31:51.040251Z",
   "posts": [
+    {
+      "slug": "2026-10-04-ia-teto-custo-padrao",
+      "data": "2026-10-04",
+      "titulo": "IA sem teto de gasto vira risco aberto no caixa",
+      "subtitulo": "Agentes autônomos aumentam uso. Sem limite duro, o erro fica caro.",
+      "tema": "IA precisa de teto de custo por padrão nas empresas",
+      "tipo": "ponte",
+      "case_id": "enterprise",
+      "palavra": "AGENTES",
+      "valor": "Medir em vez de assumir.",
+      "fontes": [
+        "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "IA EM ALTA · TETO DE CUSTO",
+          "headline": "IA sem teto de gasto vira risco aberto no caixa",
+          "sub": "Agentes autônomos aumentam uso.\nSem limite duro, o erro fica caro."
+        },
+        {
+          "type": "text",
+          "eyebrow": "O QUE ACONTECEU",
+          "headline": "A defesa agora é limite financeiro duro por padrão",
+          "body": "A proposta é simples: serviços cobrados por uso deveriam cortar a operação ao bater o orçamento mensal. Aviso por e-mail não basta. A leitura da fonte é que, com agentes e automações, o risco de consumo descontrolado aumenta."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "O NÚMERO",
+          "stat": "$10,000+",
+          "label": "Conta surpresa que empresas preferem evitar",
+          "sub": "A fonte diz que muitos preferem erro no sistema a uma fatura inesperada."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+          "headline": "O que eu vejo nas empresas quando isso vai pra produção",
+          "items": [
+            "Tem agente rodando sem limite claro de consumo por tarefa ou projeto",
+            "Tem piloto bonito sem regra de pausa quando custo sai do esperado",
+            "Tem uso sem observabilidade suficiente para saber onde o gasto nasceu"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "EU JÁ RESOLVI ISSO",
+          "headline": "Isso liga direto ao que fiz em uma conta enterprise",
+          "items": [
+            "Plataforma multiagente em produção em uma conta enterprise",
+            "Projeto em uma conta de US$ 5,5 milhões",
+            "Multiagente em produção exige log de defeitos auditado"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MINHA LEITURA",
+          "headline": "Medir em vez de assumir.",
+          "body": "Na prática, governança de IA não começa no modelo. Começa em limite operacional, limite financeiro e rastreabilidade. Se eu não sei quanto pode gastar, quando para e onde falhou, eu não tenho produção. Eu tenho exposição."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "QUER VER COMO EU FIZ?",
+          "headline": "Comenta AGENTES.",
+          "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+          "button": "Comenta AGENTES · vssolutions.io"
+        }
+      ],
+      "legenda": "A discussão sobre hard budget caps faz sentido por um motivo simples: IA em produção consome recurso de verdade. API, storage, compute, workflow. Quando isso roda com mais autonomia, o risco deixa de ser técnico e vira financeiro.\n\nA fonte defende um ponto objetivo: limite duro por padrão. Bateu o orçamento mensal, pausa. Aviso por e-mail não resolve quando o consumo acelera fora do horário ou escala sem controle.\n\nO que eu vejo nas empresas é o mesmo padrão: colocam agente para rodar, mas sem teto de custo, sem regra clara de interrupção e sem observabilidade suficiente para entender onde o gasto nasceu. Aí o piloto parece funcionar, mas a operação fica exposta.\n\nEu já resolvi isso em uma conta enterprise: plataforma multiagente em produção, em uma conta de US$ 5,5 milhões. Com cerca de 60% de ganho de eficiência. E com um requisito que eu considero básico nesse nível: multiagente em produção exige log de defeitos auditado.\n\nIA sem limite e sem medição não é maturidade. É risco.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: simonwillison.net\n\n#inteligenciaartificial #agentesdeia #governancadeia #aiops #automacao",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-04-ia-teto-custo-padrao/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-04-ia-teto-custo-padrao/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-04-ia-teto-custo-padrao/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-04-ia-teto-custo-padrao/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-04-ia-teto-custo-padrao/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-04-ia-teto-custo-padrao/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-04-ia-teto-custo-padrao/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-04-ia-teto-custo-padrao/1.jpg",
+      "gerado_em": "2026-10-04T09:30:56.117Z",
+      "traducoes": {
+        "en": {
+          "titulo": "AI without a spending cap becomes an open cash-flow risk",
+          "subtitulo": "Autonomous agents increase usage. Without a hard limit, mistakes get expensive.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · COST CEILING",
+              "headline": "AI without a spending cap becomes an open cash-flow risk",
+              "sub": "Autonomous agents increase usage.\nWithout a hard limit, mistakes get expensive."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "The defense now is a hard financial limit by default",
+              "body": "The idea is simple: usage-based services should stop the operation when they hit the monthly budget. An email warning is not enough. The source’s take is that, with agents and automations, the risk of uncontrolled consumption increases."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "$10,000+",
+              "label": "The surprise bill companies would rather avoid",
+              "sub": "The source says many would prefer a system error over an unexpected invoice."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies when this goes into production",
+              "items": [
+                "There’s an agent running without a clear consumption limit per task or project",
+                "There’s a polished pilot with no pause rule when costs go beyond expectations",
+                "There’s usage without enough observability to know where the spending started"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I’VE ALREADY SOLVED THIS",
+              "headline": "This connects directly to what I did in an enterprise account",
+              "items": [
+                "Multi-agent platform in production in an enterprise account",
+                "Project in a US$ 5.5 million account",
+                "Multi-agent in production requires an audited defect log"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assume.",
+              "body": "In practice, AI governance does not start with the model. It starts with operational limits, financial limits, and traceability. If I don’t know how much it can spend, when it stops, and where it failed, I don’t have production. I have exposure."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment AGENTES.",
+              "body": "I’ll send you the case step by step in DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment AGENTES · vssolutions.io"
+            }
+          ],
+          "legenda": "The discussion around hard budget caps makes sense for one simple reason: AI in production consumes real resources. API, storage, compute, workflow. When that runs with more autonomy, the risk stops being technical and becomes financial.\n\nThe source argues for one objective point: a hard limit by default. Once the monthly budget is hit, pause. An email warning does not solve it when consumption accelerates after hours or scales without control.\n\nWhat I see in companies is the same pattern: they put an agent into operation, but without a cost ceiling, without a clear stop rule, and without enough observability to understand where the spending started. Then the pilot seems to work, but the operation stays exposed.\n\nI’ve already solved this in an enterprise account: a multi-agent platform in production, in a US$ 5.5 million account. With about 60% efficiency gains. And with a requirement I consider basic at that level: multi-agent in production requires an audited defect log.\n\nAI without limits and without measurement is not maturity. It’s risk.\n\nComment AGENTES and I’ll send you in DM how I did it.\n\nSources: simonwillison.net\n\n#inteligenciaartificial #agentesdeia #governancadeia #aiops #automacao"
+        },
+        "ru": {
+          "titulo": "ИИ без лимита расходов превращается в прямой риск для бюджета",
+          "subtitulo": "Автономные агенты увеличивают использование. Без жёсткого лимита ошибка обходится дорого.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · ПОТОЛОК РАСХОДОВ",
+              "headline": "ИИ без лимита расходов превращается в прямой риск для бюджета",
+              "sub": "Автономные агенты увеличивают использование.\nБез жёсткого лимита ошибка обходится дорого."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Теперь защита по умолчанию — жёсткий финансовый лимит",
+              "body": "Идея простая: сервисы с оплатой по использованию должны останавливать работу, когда достигают месячного бюджета. Предупреждения по email недостаточно. По мнению источника, с агентами и автоматизациями риск неконтролируемого потребления растёт."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "$10,000+",
+              "label": "Неожиданный счёт, которого компании предпочитают избегать",
+              "sub": "Источник говорит, что многие предпочтут системную ошибку неожиданному счёту."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, когда это уходит в прод",
+              "items": [
+                "Агент работает без понятного лимита потребления на задачу или проект",
+                "Есть красивый пилот, но нет правила паузы, когда расходы выходят за ожидаемые рамки",
+                "Есть использование без достаточной наблюдаемости, чтобы понять, откуда появился расход"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ РЕШАЛ ЭТО",
+              "headline": "Это напрямую связано с тем, что я сделал в одном enterprise-аккаунте",
+              "items": [
+                "Мультиагентная платформа в проде в enterprise-аккаунте",
+                "Проект в аккаунте на US$ 5,5 миллиона",
+                "Мультиагент в проде требует аудируемый лог дефектов"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЙ ВЗГЛЯД",
+              "headline": "Измерять, а не предполагать.",
+              "body": "На практике управление ИИ начинается не с модели. Оно начинается с операционных лимитов, финансовых лимитов и трассируемости. Если я не знаю, сколько это может потратить, когда это останавливается и где произошёл сбой, значит, у меня не прод. У меня зона риска."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите AGENTES.",
+              "body": "Я отправлю в direct пошаговый разбор кейса. Я вывожу ИИ из стадии идеи в прод, с измеримым результатом.",
+              "button": "Напишите AGENTES · vssolutions.io"
+            }
+          ],
+          "legenda": "Обсуждение hard budget caps имеет смысл по одной простой причине: ИИ в проде потребляет реальные ресурсы. API, storage, compute, workflow. Когда всё это работает с большей автономией, риск перестаёт быть техническим и становится финансовым.\n\nИсточник отстаивает чёткую позицию: жёсткий лимит по умолчанию. Достигли месячного бюджета — пауза. Предупреждение по email не решает проблему, когда потребление ускоряется вне рабочего времени или масштабируется без контроля.\n\nЯ вижу в компаниях один и тот же сценарий: запускают агента, но без потолка расходов, без понятного правила остановки и без достаточной наблюдаемости, чтобы понять, откуда появился расход. В итоге пилот вроде бы работает, но сама операция остаётся под риском.\n\nЯ уже решал это в enterprise-аккаунте: мультиагентная платформа в проде, в аккаунте на US$ 5,5 миллиона. С приростом эффективности около 60%. И с требованием, которое я считаю базовым для этого уровня: мультиагент в проде требует аудируемый лог дефектов.\n\nИИ без лимитов и без измерения — это не зрелость. Это риск.\n\nНапишите AGENTES, и я отправлю в direct, как я это сделал.\n\nИсточник: simonwillison.net\n\n#inteligenciaartificial #agentesdeia #governancadeia #aiops #automacao"
+        }
+      }
+    },
     {
       "slug": "2026-10-03-apple-permissoes-agentes",
       "data": "2026-10-03",
