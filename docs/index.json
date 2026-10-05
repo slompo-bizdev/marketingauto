@@ -1,6 +1,210 @@
 {
-  "atualizado_em": "2026-10-04T09:31:51.040251Z",
+  "atualizado_em": "2026-10-05T09:31:57.166402Z",
   "posts": [
+    {
+      "slug": "2026-10-05-qwen-local-ia-privada",
+      "data": "2026-10-05",
+      "titulo": "Rodar IA local em hardware comum muda a conta",
+      "subtitulo": "Não é só velocidade. É arquitetura, privacidade e controle.",
+      "tema": "Qwen 3.8 local em hardware comum muda a conta da IA privada",
+      "tipo": "ponte",
+      "case_id": "enterprise",
+      "palavra": "AGENTES",
+      "valor": "Simples que funciona vale mais que complexo que impressiona.",
+      "fontes": [
+        "https://github.com/Niko1221/Strata",
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "IA EM ALTA · IA PRIVADA",
+          "headline": "Rodar IA local em hardware comum muda a conta",
+          "sub": "Não é só velocidade. É arquitetura, privacidade e controle."
+        },
+        {
+          "type": "text",
+          "eyebrow": "O QUE ACONTECEU",
+          "headline": "Qwen3.8-Flash-Next já roda em PC comum com Strata",
+          "body": "Segundo o repositório, o modelo pode rodar em Windows ou Linux, em GPU NVIDIA ou AMD com 12 GB ou mais, com API local compatível com OpenAI e Anthropic. A proposta é simples: nada sai do PC."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "O NÚMERO",
+          "stat": "12 GB",
+          "label": "VRAM mínima citada para rodar em hardware de consumo",
+          "sub": "A fonte também cita 32 GB ou mais de RAM e download de cerca de 70 GB."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+          "headline": "O que eu vejo nas empresas quando isso chega na mesa",
+          "items": [
+            "O piloto funciona, mas ninguém fecha a arquitetura de produção",
+            "Privacidade vira objeção porque dado sensível sai do ambiente",
+            "Sem governança, agente responde sem trilha auditável do erro"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "EU JÁ RESOLVI ISSO",
+          "headline": "Levar isso para produção já aconteceu numa conta enterprise",
+          "items": [
+            "Plataforma multiagente em produção numa conta enterprise",
+            "Conta de US$ 5,5 milhões",
+            "Cerca de 60% de ganho de eficiência e log de defeitos auditado"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MINHA LEITURA",
+          "headline": "Simples que funciona vale mais que complexo que impressiona.",
+          "body": "Na prática, a novidade abre espaço para redesenhar a arquitetura em empresas onde privacidade, custo previsível e confiabilidade importam mais que demo bonita. Se já dá para rodar local com mais controle, fica mais viável produzir com governança."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "QUER VER COMO EU FIZ?",
+          "headline": "Comenta AGENTES.",
+          "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+          "button": "Comenta AGENTES · vssolutions.io"
+        }
+      ],
+      "legenda": "Qwen3.8-Flash-Next rodando localmente em hardware de consumo muda uma parte importante da conversa sobre IA privada.\n\nA fonte cita execução em Windows ou Linux, com GPU NVIDIA ou AMD de 12 GB ou mais, API local compatível com OpenAI e Anthropic, e um ponto central: nada sai do PC. Também traz números de velocidade em máquinas comuns, com casos acima de 60 tokens por segundo.\n\nMinha leitura é menos sobre benchmark e mais sobre arquitetura. Quando modelos grandes passam a rodar localmente em hardware mais acessível, fica mais viável desenhar agentes com mais privacidade, custo previsível e controle operacional.\n\nÉ aí que muita empresa trava. O piloto até funciona. Mas produção exige governança, integração e trilha de auditoria quando algo dá errado.\n\nEu já resolvi isso em uma conta enterprise: plataforma multiagente em produção, conta de US$ 5,5 milhões, cerca de 60% de ganho de eficiência e log de defeitos auditado.\n\nLançar o agente é uma etapa. Colocar para operar com controle é outra. E é essa segunda que decide resultado.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: github.com, huggingface.co\n\n#InteligenciaArtificial #IAGenerativa #AgentesDeIA #IAEmpresarial #GovernancaDeIA #AutomacaoInteligente",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-05-qwen-local-ia-privada/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-05-qwen-local-ia-privada/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-05-qwen-local-ia-privada/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-05-qwen-local-ia-privada/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-05-qwen-local-ia-privada/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-05-qwen-local-ia-privada/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-05-qwen-local-ia-privada/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-05-qwen-local-ia-privada/1.jpg",
+      "gerado_em": "2026-10-05T09:30:56.967Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Running AI locally on standard hardware changes the equation",
+          "subtitulo": "It’s not just about speed. It’s about architecture, privacy, and control.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · PRIVATE AI",
+              "headline": "Running AI locally on standard hardware changes the equation",
+              "sub": "It’s not just about speed. It’s about architecture, privacy, and control."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Qwen3.8-Flash-Next already runs on a standard PC with Strata",
+              "body": "According to the repository, the model can run on Windows or Linux, on NVIDIA or AMD GPUs with 12 GB or more, with a local API compatible with OpenAI and Anthropic. The idea is simple: nothing leaves the PC."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "12 GB",
+              "label": "Minimum VRAM mentioned to run on consumer hardware",
+              "sub": "The source also mentions 32 GB or more of RAM and a download of around 70 GB."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies when this lands on the table",
+              "items": [
+                "The pilot works, but no one finalizes the production architecture",
+                "Privacy becomes an objection because sensitive data leaves the environment",
+                "Without governance, the agent responds with no auditable trail of the error"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I’VE ALREADY SOLVED THIS",
+              "headline": "Taking this into production has already happened in an enterprise account",
+              "items": [
+                "Multi-agent platform in production in an enterprise account",
+                "US$ 5.5 million account",
+                "Around 60% efficiency gain and audited defect log"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Simple that works is worth more than complex that impresses.",
+              "body": "In practice, this opens room to redesign architecture in companies where privacy, predictable cost, and reliability matter more than a pretty demo. If it’s already possible to run locally with more control, it becomes more viable to put it into production with governance."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment AGENTES.",
+              "body": "I’ll send you the step-by-step of the case in DM. I take AI off the whiteboard and put it into production, with measured results.",
+              "button": "Comment AGENTES · vssolutions.io"
+            }
+          ],
+          "legenda": "Qwen3.8-Flash-Next running locally on consumer hardware changes an important part of the conversation about private AI.\n\nThe source mentions running on Windows or Linux, with an NVIDIA or AMD GPU of 12 GB or more, a local API compatible with OpenAI and Anthropic, and one central point: nothing leaves the PC. It also brings speed numbers on standard machines, with cases above 60 tokens per second.\n\nMy take is less about benchmark numbers and more about architecture. When large models can run locally on more accessible hardware, it becomes more viable to design agents with more privacy, predictable cost, and operational control.\n\nThat’s where many companies get stuck. The pilot may work. But production requires governance, integration, and an audit trail when something goes wrong.\n\nI’ve already solved this in an enterprise account: multi-agent platform in production, US$ 5.5 million account, around 60% efficiency gain, and audited defect log.\n\nLaunching the agent is one step. Getting it to operate with control is another. And it’s the second one that determines results.\n\nComment AGENTES and I’ll send you in DM how I did it.\n\nSources: github.com, huggingface.co\n\n#InteligenciaArtificial #IAGenerativa #AgentesDeIA #IAEmpresarial #GovernancaDeIA #AutomacaoInteligente"
+        },
+        "ru": {
+          "titulo": "Запускать ИИ локально на обычном железе — это совсем другая экономика",
+          "subtitulo": "Дело не только в скорости. Дело в архитектуре, приватности и контроле.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · ЧАСТНЫЙ ИИ",
+              "headline": "Запускать ИИ локально на обычном железе — это совсем другая экономика",
+              "sub": "Дело не только в скорости. Дело в архитектуре, приватности и контроле."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Qwen3.8-Flash-Next уже работает на обычном ПК с Strata",
+              "body": "Согласно репозиторию, модель может работать на Windows или Linux, на GPU NVIDIA или AMD с 12 ГБ и более, с локальным API, совместимым с OpenAI и Anthropic. Идея простая: ничего не выходит за пределы ПК."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЧИСЛО",
+              "stat": "12 ГБ",
+              "label": "Минимальный объём VRAM, указанный для работы на потребительском оборудовании",
+              "sub": "Источник также указывает 32 ГБ или больше RAM и загрузку объёмом около 70 ГБ."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, когда это попадает на стол",
+              "items": [
+                "Пилот работает, но никто не доводит продакшн-архитектуру до конца",
+                "Приватность становится возражением, потому что чувствительные данные выходят за пределы среды",
+                "Без governance агент отвечает без аудируемого следа ошибки"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ ЭТО РЕШАЛ",
+              "headline": "Выводить это в продакшн уже приходилось в одном enterprise-аккаунте",
+              "items": [
+                "Мультиагентная платформа в продакшне в enterprise-аккаунте",
+                "Аккаунт на US$ 5,5 млн",
+                "Около 60% прироста эффективности и аудируемый лог дефектов"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЙ ВЗГЛЯД",
+              "headline": "Простое, что работает, ценнее сложного, которое впечатляет.",
+              "body": "На практике это открывает пространство для пересборки архитектуры в компаниях, где приватность, предсказуемая стоимость и надёжность важнее красивого демо. Если уже можно запускать локально с большим контролем, значит, становится реальнее выводить это в продакшн с governance."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОЧЕШЬ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напиши AGENTES.",
+              "body": "Я пришлю в direct пошаговый разбор кейса. Я перевожу ИИ из идеи в продакшн с измеримым результатом.",
+              "button": "Напиши AGENTES · vssolutions.io"
+            }
+          ],
+          "legenda": "Qwen3.8-Flash-Next, работающий локально на потребительском железе, меняет важную часть разговора о частном ИИ.\n\nИсточник указывает запуск на Windows или Linux, с GPU NVIDIA или AMD на 12 ГБ или больше, локальным API, совместимым с OpenAI и Anthropic, и ключевой момент: ничего не выходит за пределы ПК. Там же есть цифры по скорости на обычных машинах, включая кейсы выше 60 токенов в секунду.\n\nДля меня здесь меньше про бенчмарки и больше про архитектуру. Когда большие модели начинают работать локально на более доступном железе, становится реальнее проектировать агентов с большей приватностью, предсказуемой стоимостью и операционным контролем.\n\nИменно здесь у многих компаний всё стопорится. Пилот даже может работать. Но продакшн требует governance, интеграции и аудиторского следа, когда что-то идёт не так.\n\nЯ уже решал это в enterprise-аккаунте: мультиагентная платформа в продакшне, аккаунт на US$ 5,5 млн, около 60% прироста эффективности и аудируемый лог дефектов.\n\nЗапустить агента — это один этап. Наладить его работу с контролем — другой. И именно второй определяет результат.\n\nНапиши AGENTES, и я пришлю в direct, как я это сделал.\n\nИсточники: github.com, huggingface.co\n\n#InteligenciaArtificial #IAGenerativa #AgentesDeIA #IAEmpresarial #GovernancaDeIA #AutomacaoInteligente"
+        }
+      }
+    },
     {
       "slug": "2026-10-04-ia-teto-custo-padrao",
       "data": "2026-10-04",
