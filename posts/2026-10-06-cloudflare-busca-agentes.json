@@ -1,0 +1,202 @@
+{
+  "slug": "2026-10-06-cloudflare-busca-agentes",
+  "lang": "pt",
+  "palette": [
+    "red",
+    "black"
+  ],
+  "accent": "red",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis · GMT-3",
+  "story_eyebrow": "PERGUNTA DO DIA",
+  "story_pergunta": "Na sua empresa, o agente consulta fontes externas com regra clara ou no improviso?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "IA EM ALTA · BUSCA PARA AGENTES",
+      "headline": "Plugar busca no agente não resolve o problema",
+      "sub": "Sem contexto e regra, ele consulta mais e acerta menos"
+    },
+    {
+      "type": "text",
+      "eyebrow": "O QUE ACONTECEU",
+      "headline": "Cloudflare lançou uma API de busca para agentes e apps com IA",
+      "body": "A Web Search API entrou em beta. Ela permite buscar informação ao vivo na internet via AI Gateway, em vez de depender do treino do modelo ou adivinhar URL. No lançamento, há três provedores: Ceramic.ai, Exa e Linkup."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "O NÚMERO",
+      "stat": "3",
+      "label": "provedores de busca no lançamento",
+      "sub": "A API roda no AI Gateway e pode usar a chave do próprio provedor"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+      "headline": "O que eu vejo nas empresas quando tentam usar busca no agente",
+      "items": [
+        "A busca entra, mas ninguém define quando consultar e quando responder",
+        "O agente acha muita coisa, mas não filtra o que serve para a tarefa",
+        "Sem regra e métrica, ninguém sabe se ele ajudou ou só pareceu útil"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "EU JÁ RESOLVI ISSO",
+      "headline": "Eu apliquei isso em uma loja de materiais de construção do Sul do Brasil",
+      "items": [
+        "13.312 produtos no ERP e 136 jeitos diferentes de escrever a unidade",
+        "A IA nunca vê o catálogo: busca simples responde em milissegundos e entrega 8 resultados",
+        "65 de 65 perguntas reais de clientes encontraram o produto certo"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MINHA LEITURA",
+      "headline": "Medir em vez de assumir.",
+      "body": "Busca para agente é infraestrutura. Valor de negócio vem depois: ferramenta certa, contexto certo e regra clara para executar a tarefa sem alucinar. Na prática, eu olho menos para a demo e mais para o que foi consultado, o que foi respondido e o que acertou."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "QUER VER COMO EU FIZ?",
+      "headline": "Comenta SDR.",
+      "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+      "button": "Comenta SDR · vssolutions.io"
+    }
+  ],
+  "caption": "A Cloudflare lançou uma Web Search API em beta para agentes e apps com IA. A proposta é simples: buscar informação ao vivo na internet pelo AI Gateway, em vez de depender só do que o modelo já sabe. No lançamento, são 3 provedores: Ceramic.ai, Exa e Linkup.\n\nMinha leitura: isso reforça um ponto importante. Busca não resolve sozinha. Plugar uma API no agente não faz ele executar melhor uma tarefa real. O valor aparece quando busca, contexto, regras e medição trabalham juntos.\n\nÉ aí que muita empresa trava. O agente até consulta fontes externas, mas ninguém define quando buscar, o que trazer de volta, o que ele pode afirmar e como medir acerto.\n\nEu já resolvi isso em uma loja de materiais de construção do Sul do Brasil. Eram 13.312 produtos no ERP, 136 jeitos diferentes de escrever unidade e 245 sinônimos de balcão mapeados. A IA nunca vê o catálogo: uma busca simples responde em milissegundos e entrega 8 resultados para o modelo. Com esse desenho, 65 de 65 perguntas reais de clientes encontraram o produto certo.\n\nInfraestrutura ajuda. Orquestração e métrica fazem funcionar.\n\nComenta SDR que eu te mando no direct como fiz.\n\nFontes: developers.cloudflare.com, techcrunch.com\n\n#inteligenciaartificial #agentesdeia #automacao #whatsappbusiness #iaparanaempresas",
+  "first_comment": "Fontes: https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/ · https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/\n\nvssolutions.io",
+  "meta": {
+    "tema": "Cloudflare lança API de busca para agentes e apps com IA",
+    "tipo": "ponte",
+    "case_id": "sdr",
+    "palavra": "SDR",
+    "valor": "Medir em vez de assumir.",
+    "angulo": "Não basta plugar uma busca no agente: o valor vem de orquestrar ferramenta, contexto e métricas para ele resolver tarefa real sem alucinar.",
+    "fontes": [
+      "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+      "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/"
+    ],
+    "roteiro_reels": "[0-3s] Cloudflare lançou busca para agentes. Mas o problema não é ter busca.\n[3-20s] O problema é orquestrar quando buscar, o que trazer e o que o agente pode responder.\nBusca sem contexto aumenta consulta, não necessariamente acerto.\nEm empresa de verdade, valor vem de ferramenta, regra e métrica rodando juntas.\n[20-30s] Eu fiz isso no vendedor por WhatsApp de uma loja de materiais de construção do Sul do Brasil. A IA não vê o catálogo inteiro: ela busca, recebe 8 resultados e responde dentro de regra. 65 de 65 perguntas reais encontraram o produto certo. Comenta SDR que eu te mando como fiz.",
+    "gerado_em": "2026-10-06T09:30:56.044Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · SEARCH FOR AGENTS",
+          "headline": "Plugging search into the agent doesn’t solve the problem",
+          "sub": "Without context and rules, it searches more and gets less right"
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Cloudflare launched a search API for agents and AI apps",
+          "body": "The Web Search API entered beta. It lets you search live information on the internet via AI Gateway, instead of depending on model training or guessing a URL. At launch, there are three providers: Ceramic.ai, Exa and Linkup."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "3",
+          "label": "search providers at launch",
+          "sub": "The API runs on AI Gateway and can use the provider’s own key"
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies when they try to use search in the agent",
+          "items": [
+            "Search gets added, but no one defines when to query and when to answer",
+            "The agent finds a lot, but doesn’t filter what actually fits the task",
+            "Without rules and metrics, no one knows whether it helped or just seemed useful"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I’VE ALREADY SOLVED THIS",
+          "headline": "I applied this in a building materials store in Southern Brazil",
+          "items": [
+            "13,312 products in the ERP and 136 different ways to write the unit",
+            "The AI never sees the catalog: a simple search answers in milliseconds and returns 8 results",
+            "65 out of 65 real customer questions found the right product"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assume.",
+          "body": "Search for agents is infrastructure. Business value comes after that: the right tool, the right context and a clear rule to execute the task without hallucinating. In practice, I look less at the demo and more at what was queried, what was answered and what got it right."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I’ll send you the case step by step in DM. I take AI out of the slides and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "caption": "Cloudflare launched a Web Search API in beta for agents and AI apps. The idea is simple: search live information on the internet through AI Gateway, instead of relying only on what the model already knows. At launch, there are 3 providers: Ceramic.ai, Exa and Linkup.\n\nMy take: this reinforces an important point. Search doesn’t solve things on its own. Plugging an API into the agent doesn’t make it execute a real task better. The value shows up when search, context, rules and measurement work together.\n\nThat’s where many companies get stuck. The agent may query external sources, but no one defines when to search, what to bring back, what it is allowed to state and how to measure accuracy.\n\nI already solved this in a building materials store in Southern Brazil. There were 13,312 products in the ERP, 136 ways to write the unit and 245 mapped synonyms for countertop. The AI never sees the catalog: a simple search answers in milliseconds and returns 8 results to the model. With this setup, 65 out of 65 real customer questions found the right product.\n\nInfrastructure helps. Orchestration and metrics make it work.\n\nComment SDR and I’ll send you in DM how I did it.\n\nSources: developers.cloudflare.com, techcrunch.com\n\n#inteligenciaartificial #agentesdeia #automacao #whatsappbusiness #iaparanaempresas"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЁМЕ · ПОИСК ДЛЯ АГЕНТОВ",
+          "headline": "Подключить поиск к агенту — не значит решить проблему",
+          "sub": "Без контекста и правил он ищет больше, а попадает реже"
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Cloudflare запустила API поиска для агентов и ИИ-приложений",
+          "body": "Web Search API вышел в beta. Он позволяет искать актуальную информацию в интернете через AI Gateway, вместо того чтобы зависеть от обучения модели или угадывать URL. На запуске доступны три провайдера: Ceramic.ai, Exa и Linkup."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЦИФРА",
+          "stat": "3",
+          "label": "поисковых провайдера на запуске",
+          "sub": "API работает через AI Gateway и может использовать ключ самого провайдера"
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях, когда они пытаются использовать поиск в агенте",
+          "items": [
+            "Поиск подключают, но никто не определяет, когда искать, а когда отвечать",
+            "Агент находит много всего, но не фильтрует то, что подходит под задачу",
+            "Без правил и метрик никто не понимает, помог ли он на самом деле или только выглядел полезным"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ ЭТО РЕШИЛ",
+          "headline": "Я применил это в магазине стройматериалов на юге Бразилии",
+          "items": [
+            "13 312 товаров в ERP и 136 разных способов записать единицу измерения",
+            "ИИ никогда не видит каталог: простой поиск отвечает за миллисекунды и отдаёт 8 результатов",
+            "65 из 65 реальных вопросов клиентов нашли нужный товар"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЙ ВЫВОД",
+          "headline": "Измерять, а не предполагать.",
+          "body": "Поиск для агента — это инфраструктура. Бизнес-ценность появляется потом: правильный инструмент, правильный контекст и чёткое правило, чтобы выполнять задачу без галлюцинаций. На практике я меньше смотрю на демо и больше — на то, что запрашивали, что ответили и что сработало точно."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОТИТЕ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напишите SDR.",
+          "body": "Я отправлю в direct пошаговый разбор кейса. Я перевожу ИИ из идеи в продакшн, с измеримым результатом.",
+          "button": "Напишите SDR · vssolutions.io"
+        }
+      ],
+      "caption": "Cloudflare запустила Web Search API в beta для агентов и ИИ-приложений. Идея простая: искать актуальную информацию в интернете через AI Gateway, а не опираться только на то, что модель уже знает. На запуске доступны 3 провайдера: Ceramic.ai, Exa и Linkup.\n\nМой вывод: это ещё раз подтверждает важный момент. Сам по себе поиск ничего не решает. Если просто подключить API к агенту, он не начнёт лучше выполнять реальную задачу. Ценность появляется, когда поиск, контекст, правила и измерение работают вместе.\n\nИменно здесь у многих компаний всё стопорится. Агент вроде бы обращается к внешним источникам, но никто не определяет, когда искать, что возвращать, что ему можно утверждать и как измерять точность.\n\nЯ уже решил это в магазине стройматериалов на юге Бразилии. Там было 13 312 товаров в ERP, 136 способов записать единицу измерения и 245 синонимов для balcão в маппинге. ИИ никогда не видит каталог: простой поиск отвечает за миллисекунды и отдаёт модели 8 результатов. С такой схемой 65 из 65 реальных вопросов клиентов нашли нужный товар.\n\nИнфраструктура помогает. Оркестрация и метрики заставляют это работать.\n\nНапишите SDR, и я отправлю в direct, как я это сделал.\n\nИсточники: developers.cloudflare.com, techcrunch.com\n\n#inteligenciaartificial #agentesdeia #automacao #whatsappbusiness #iaparanaempresas"
+    }
+  }
+}
