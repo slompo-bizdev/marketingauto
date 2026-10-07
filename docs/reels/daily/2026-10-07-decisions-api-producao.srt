@@ -1,0 +1,220 @@
+1
+00:00:00,250 --> 00:00:01,375
+An agent that answers
+
+2
+00:00:01,375 --> 00:00:03,500
+doesn’t solve business decisions
+
+3
+00:00:03,662 --> 00:00:05,225
+The new Decisions API
+
+4
+00:00:05,225 --> 00:00:06,562
+formalizes a layer that
+
+5
+00:00:06,562 --> 00:00:08,250
+was missing in production
+
+6
+00:00:09,125 --> 00:00:10,462
+OpenAI put the Decisions
+
+7
+00:00:10,462 --> 00:00:12,350
+API into public beta
+
+8
+00:00:12,538 --> 00:00:14,525
+The API evaluates text
+
+9
+00:00:14,625 --> 00:00:15,800
+image or both and
+
+10
+00:00:15,800 --> 00:00:17,975
+returns typed responses It’s
+
+11
+00:00:17,975 --> 00:00:19,425
+used to classify content
+
+12
+00:00:19,500 --> 00:00:21,125
+route requests and prioritize
+
+13
+00:00:21,125 --> 00:00:21,825
+work
+
+14
+00:00:22,725 --> 00:00:23,925
+10x faster than the
+
+15
+00:00:23,925 --> 00:00:26,350
+Responses API According to
+
+16
+00:00:26,350 --> 00:00:28,450
+OpenAI’s documentation for typed
+
+17
+00:00:28,450 --> 00:00:30,025
+decision responses
+
+18
+00:00:30,900 --> 00:00:31,525
+What I see in
+
+19
+00:00:31,525 --> 00:00:32,550
+companies when they try
+
+20
+00:00:32,550 --> 00:00:34,550
+to automate decisions First
+
+21
+00:00:34,625 --> 00:00:35,462
+they have an agent
+
+22
+00:00:35,462 --> 00:00:36,688
+answering but no clear
+
+23
+00:00:36,688 --> 00:00:37,375
+rule for when it
+
+24
+00:00:37,375 --> 00:00:39,200
+should act Second there’s
+
+25
+00:00:39,200 --> 00:00:41,050
+no observability to understand
+
+26
+00:00:41,050 --> 00:00:42,000
+why the decision went
+
+27
+00:00:42,000 --> 00:00:44,050
+that way Third without
+
+28
+00:00:44,050 --> 00:00:45,675
+governance the automation may
+
+29
+00:00:45,675 --> 00:00:46,713
+run but it doesn’t
+
+30
+00:00:46,713 --> 00:00:48,575
+become a safe operation
+
+31
+00:00:49,450 --> 00:00:50,613
+This connects directly to
+
+32
+00:00:50,613 --> 00:00:51,238
+what I built in
+
+33
+00:00:51,238 --> 00:00:53,225
+an enterprise account First
+
+34
+00:00:53,325 --> 00:00:54,675
+A multi-agent platform in
+
+35
+00:00:54,675 --> 00:00:55,575
+production in a US
+
+36
+00:00:55,600 --> 00:00:59,000
+5.5 million account Second
+
+37
+00:00:59,113 --> 00:01:01,188
+around 60% efficiency gains
+
+38
+00:01:01,188 --> 00:01:02,125
+with the operation in
+
+39
+00:01:02,125 --> 00:01:04,812
+production Third multi-agent in
+
+40
+00:01:04,812 --> 00:01:06,538
+production requires an audited
+
+41
+00:01:06,538 --> 00:01:07,950
+defect log
+
+42
+00:01:08,750 --> 00:01:10,325
+Measure instead of assuming
+
+43
+00:01:10,450 --> 00:01:11,938
+When AI starts deciding
+
+44
+00:01:11,938 --> 00:01:13,950
+route priority or classification
+
+45
+00:01:14,025 --> 00:01:14,725
+it’s not enough to
+
+46
+00:01:14,725 --> 00:01:16,188
+look smart It needs
+
+47
+00:01:16,188 --> 00:01:17,738
+rules traceability and a
+
+48
+00:01:17,738 --> 00:01:19,500
+clear accuracy standard
+
+49
+00:01:20,400 --> 00:01:21,938
+Comment AGENTES I’ll send
+
+50
+00:01:21,938 --> 00:01:22,675
+you the case step
+
+51
+00:01:22,675 --> 00:01:24,200
+by step in DM
+
+52
+00:01:24,350 --> 00:01:25,188
+I take AI off
+
+53
+00:01:25,188 --> 00:01:26,012
+the whiteboard and put
+
+54
+00:01:26,012 --> 00:01:27,038
+it into production with
+
+55
+00:01:27,038 --> 00:01:28,400
+measured results
+
