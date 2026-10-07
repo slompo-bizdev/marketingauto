@@ -3,7 +3,7 @@ name: Gerar Reels narrado
 on:
   push:
     branches: [main]
-    paths: ["posts/**.json"]
+    paths: ["posts/**.json", "reel/**"]
   workflow_dispatch:
     inputs:
       slug:
@@ -31,6 +31,8 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             if [ -n "${{ inputs.slug }}" ]; then files="posts/${{ inputs.slug }}.json"; else files=$(ls posts/*.json | sort | tail -1); fi
+          elif git diff --name-only HEAD~1 HEAD | grep -q '^reel/'; then
+            files=$(ls posts/*.json | sort | tail -1)   # mudou o gerador: refaz só o post mais recente
           else
             files=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'posts/*.json' 2>/dev/null)
           fi
