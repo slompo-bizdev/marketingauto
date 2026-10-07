@@ -1,0 +1,201 @@
+{
+  "slug": "2026-10-07-decisions-api-producao",
+  "lang": "pt",
+  "palette": [
+    "yellow",
+    "black"
+  ],
+  "accent": "yellow",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis · GMT-3",
+  "story_eyebrow": "PERGUNTA DO DIA",
+  "story_pergunta": "Na sua empresa, a IA já decide algo com regra e auditoria?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "IA EM ALTA · DECISÃO EM PRODUÇÃO",
+      "headline": "Agente que responde não resolve decisão de negócio",
+      "sub": "A nova Decisions API formaliza uma camada que faltava em produção"
+    },
+    {
+      "type": "text",
+      "eyebrow": "O QUE ACONTECEU",
+      "headline": "OpenAI colocou a Decisions API em beta público",
+      "body": "A API avalia texto, imagem ou ambos e devolve respostas tipadas. Serve para classificar conteúdo, rotear pedidos e priorizar trabalho. Segundo a documentação, faz isso 10x mais rápido que a Responses API."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "O NÚMERO",
+      "stat": "10x",
+      "label": "mais rápido que a Responses API",
+      "sub": "Segundo a documentação da OpenAI para respostas tipadas de decisão"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+      "headline": "O que eu vejo nas empresas quando tentam automatizar decisão",
+      "items": [
+        "Tem agente respondendo, mas sem regra clara de quando agir",
+        "Falta observabilidade para entender por que a decisão saiu dali",
+        "Sem governança, a automação até roda, mas não vira operação segura"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "EU JÁ RESOLVI ISSO",
+      "headline": "Isso conecta direto com o que fiz em uma conta enterprise",
+      "items": [
+        "Plataforma multiagente em produção numa conta de US$ 5,5 milhões",
+        "Cerca de 60% de ganho de eficiência com a operação em produção",
+        "Multiagente em produção exige log de defeitos auditado"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MINHA LEITURA",
+      "headline": "Medir em vez de assumir.",
+      "body": "Quando a IA passa a decidir rota, prioridade ou classificação, não basta parecer inteligente. Precisa ter regra, rastreabilidade e critério de acerto. Na prática, valor vem quando a decisão entra na operação e o resultado pode ser medido."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "QUER VER COMO EU FIZ?",
+      "headline": "Comenta AGENTES.",
+      "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+      "button": "Comenta AGENTES · vssolutions.io"
+    }
+  ],
+  "caption": "A OpenAI colocou a Decisions API em beta público. A proposta é objetiva: avaliar texto, imagem ou ambos e devolver respostas tipadas para classificar, rotear e priorizar trabalho. Segundo a documentação, isso acontece 10x mais rápido que a Responses API.\n\nMinha leitura é simples: isso reforça uma camada que muita empresa ainda ignora. Ter agente que responde é uma parte. Colocar decisão automatizada em produção é outra. Quando a IA começa a escolher caminho, prioridade ou ação, entram três temas que travam projeto real: regras, observabilidade e governança.\n\nÉ exatamente aí que vejo empresas pararem. O piloto funciona. A demo impressiona. Mas sem controle sobre por que decidiu, quando deve agir e como auditar erro, a automação não vira operação confiável.\n\nEu já resolvi isso em uma conta enterprise com plataforma multiagente em produção. Era uma conta de US$ 5,5 milhões, com cerca de 60% de ganho de eficiência. E um ponto foi inegociável: multiagente em produção exige log de defeitos auditado.\n\nLançar agente é fácil. Produzir decisão com controle é outra disciplina.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: developers.openai.com\n\n#InteligenciaArtificial #IAgenerativa #OpenAI #Automacao #AgentesDeIA #IAEmProducao",
+  "first_comment": "Fontes: https://developers.openai.com/api/docs/guides/decisions\n\nvssolutions.io",
+  "meta": {
+    "tema": "Decisions API da OpenAI leva fluxos de decisão para produção",
+    "tipo": "ponte",
+    "case_id": "enterprise",
+    "palavra": "AGENTES",
+    "valor": "Medir em vez de assumir.",
+    "angulo": "Não basta ter agente que responde: empresa precisa de camada de decisão, observabilidade e regras para colocar automações de IA em produção com resultado mensurável.",
+    "fontes": [
+      "https://developers.openai.com/api/docs/guides/decisions"
+    ],
+    "roteiro_reels": "[0-3s] A maioria das empresas ainda confunde agente que responde com decisão em produção.\n[3-20s] A OpenAI lançou a Decisions API em beta público.\nEla devolve respostas tipadas para classificar, rotear e priorizar trabalho.\nNa prática, isso reforça que automação de IA precisa de camada de decisão, observabilidade e regras.\n[20-30s] Eu já fiz isso em uma conta enterprise com plataforma multiagente em produção. Sem governança e log auditado, não escala com segurança. Comenta AGENTES que eu te mando como fiz.",
+    "gerado_em": "2026-10-07T09:30:55.675Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · DECISION IN PRODUCTION",
+          "headline": "An agent that answers doesn’t solve business decisions",
+          "sub": "The new Decisions API formalizes a layer that was missing in production"
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "OpenAI put the Decisions API into public beta",
+          "body": "The API evaluates text, image, or both and returns typed responses. It’s used to classify content, route requests, and prioritize work. According to the documentation, it does this 10x faster than the Responses API."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "10x",
+          "label": "faster than the Responses API",
+          "sub": "According to OpenAI’s documentation for typed decision responses"
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies when they try to automate decisions",
+          "items": [
+            "They have an agent answering, but no clear rule for when it should act",
+            "There’s no observability to understand why the decision went that way",
+            "Without governance, the automation may run, but it doesn’t become a safe operation"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I’VE ALREADY SOLVED THIS",
+          "headline": "This connects directly to what I built in an enterprise account",
+          "items": [
+            "A multi-agent platform in production in a US$ 5.5 million account",
+            "Around 60% efficiency gains with the operation in production",
+            "Multi-agent in production requires an audited defect log"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "When AI starts deciding route, priority, or classification, it’s not enough to look smart. It needs rules, traceability, and a clear accuracy standard. In practice, value comes when the decision enters the operation and the outcome can be measured."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment AGENTES.",
+          "body": "I’ll send you the case step by step in DM. I take AI off the whiteboard and put it into production, with measured results.",
+          "button": "Comment AGENTES · vssolutions.io"
+        }
+      ],
+      "caption": "OpenAI has put the Decisions API into public beta. The proposal is straightforward: evaluate text, image, or both and return typed responses to classify, route, and prioritize work. According to the documentation, this happens 10x faster than the Responses API.\n\nMy take is simple: this reinforces a layer that many companies still ignore. Having an agent that answers is one thing. Putting automated decision-making into production is another. When AI starts choosing the path, priority, or action, three issues show up that stall real projects: rules, observability, and governance.\n\nThat’s exactly where I see companies stop. The pilot works. The demo impresses. But without control over why it decided, when it should act, and how to audit errors, the automation doesn’t become a reliable operation.\n\nI’ve already solved this in an enterprise account with a multi-agent platform in production. It was a US$ 5.5 million account, with around 60% efficiency gains. And one point was non-negotiable: multi-agent in production requires an audited defect log.\n\nLaunching an agent is easy. Producing decisions with control is a different discipline.\n\nComment AGENTES and I’ll send you in DM how I did it.\n\nSources: developers.openai.com\n\n#InteligenciaArtificial #IAgenerativa #OpenAI #Automacao #AgentesDeIA #IAEmProducao"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЁМЕ · РЕШЕНИЯ В ПРОДАКШЕНЕ",
+          "headline": "Агент, который отвечает, не решает бизнес-задачи по принятию решений",
+          "sub": "Новая Decisions API формализует слой, которого не хватало в продакшене"
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "OpenAI вывела Decisions API в публичную бету",
+          "body": "API оценивает текст, изображение или и то и другое и возвращает типизированные ответы. Подходит для классификации контента, маршрутизации запросов и приоритизации работы. Согласно документации, делает это в 10x быстрее, чем Responses API."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЦИФРА",
+          "stat": "10x",
+          "label": "быстрее, чем Responses API",
+          "sub": "Согласно документации OpenAI по типизированным ответам для принятия решений"
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях, когда они пытаются автоматизировать решения",
+          "items": [
+            "Агент отвечает, но нет чёткого правила, когда он должен действовать",
+            "Не хватает наблюдаемости, чтобы понять, почему решение получилось именно таким",
+            "Без governance автоматизация может работать, но не становится безопасной операцией"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ РЕШАЛ ЭТО",
+          "headline": "Это напрямую связано с тем, что я сделал в одном enterprise-аккаунте",
+          "items": [
+            "Мультиагентная платформа в продакшене в аккаунте на US$ 5,5 million",
+            "Около 60% прироста эффективности в продакшене",
+            "Мультиагент в продакшене требует аудируемый лог дефектов"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЙ ВЫВОД",
+          "headline": "Измерять, а не предполагать.",
+          "body": "Когда ИИ начинает решать маршрут, приоритет или классификацию, недостаточно просто выглядеть умным. Нужны правила, трассируемость и критерий точности. На практике ценность появляется, когда решение входит в операцию и результат можно измерить."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОЧЕШЬ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напиши AGENTES.",
+          "body": "Я отправлю в direct пошаговый разбор кейса. Я перевожу ИИ из идеи в продакшен, с измеримым результатом.",
+          "button": "Напиши AGENTES · vssolutions.io"
+        }
+      ],
+      "caption": "OpenAI вывела Decisions API в публичную бету. Идея простая: оценивать текст, изображение или и то и другое и возвращать типизированные ответы для классификации, маршрутизации и приоритизации работы. Согласно документации, это происходит в 10x быстрее, чем Responses API.\n\nМой вывод простой: это усиливает слой, который многие компании всё ещё игнорируют. Агент, который отвечает, — это одно. Автоматизированное принятие решений в продакшене — совсем другое. Когда ИИ начинает выбирать путь, приоритет или действие, всплывают три темы, на которых тормозятся реальные проекты: правила, наблюдаемость и governance.\n\nИменно здесь я чаще всего вижу, как компании останавливаются. Пилот работает. Демо впечатляет. Но без контроля над тем, почему было принято решение, когда система должна действовать и как аудировать ошибки, автоматизация не становится надёжной операцией.\n\nЯ уже решал это в enterprise-аккаунте с мультиагентной платформой в продакшене. Это был аккаунт на US$ 5,5 million с примерно 60% прироста эффективности. И один пункт был принципиальным: мультиагент в продакшене требует аудируемый лог дефектов.\n\nЗапустить агента легко. Выстроить принятие решений с контролем — это уже другая дисциплина.\n\nНапиши AGENTES, и я отправлю в direct, как я это сделал.\n\nИсточники: developers.openai.com\n\n#InteligenciaArtificial #IAgenerativa #OpenAI #Automacao #AgentesDeIA #IAEmProducao"
+    }
+  }
+}
