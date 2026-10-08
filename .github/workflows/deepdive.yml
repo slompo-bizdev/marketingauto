@@ -1,0 +1,80 @@
+name: Gerar Deep Dive do meio-dia
+
+on:
+  push:
+    branches: [main]
+    paths: ["deepdive/**.json", "reel/deepdive.py"]
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Slug do deep dive (vazio = o mais recente)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deepdive
+  cancel-in-progress: false
+
+jobs:
+  deepdive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Descobrir specs
+        id: specs
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ -n "${{ inputs.slug }}" ]; then files="deepdive/${{ inputs.slug }}.json"; else files=$(ls deepdive/*.json 2>/dev/null | sort | tail -1); fi
+          elif git diff --name-only HEAD~1 HEAD | grep -q '^reel/deepdive.py'; then
+            files=$(ls deepdive/*.json 2>/dev/null | sort | tail -1)   # mudou o gerador: refaz só o mais recente
+          else
+            files=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'deepdive/*.json' 2>/dev/null)
+          fi
+          echo "files=$(echo $files | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-python@v5
+        if: steps.specs.outputs.files != ''
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: actions/setup-node@v4
+        if: steps.specs.outputs.files != ''
+        with:
+          node-version: "22"
+
+      - name: Cache do modelo Kokoro
+        if: steps.specs.outputs.files != ''
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: kokoro-82m-v1
+
+      - name: Instalar dependências
+        if: steps.specs.outputs.files != ''
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt -r reel/requirements.txt
+          python -m playwright install --with-deps chromium
+          npm install --no-audit --no-fund
+
+      - name: Gerar vídeo (Kokoro, voz am_adam)
+        if: steps.specs.outputs.files != ''
+        run: python reel/deepdive.py ${{ steps.specs.outputs.files }}
+
+      - name: Publicar vídeo no repositório
+        if: steps.specs.outputs.files != ''
+        run: |
+          git config user.name "marketingauto-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/reels/deepdive/
+          git diff --cached --quiet && exit 0
+          git commit -m "Deep Dive: ${{ steps.specs.outputs.files }}"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
