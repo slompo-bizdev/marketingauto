@@ -1,9 +1,7 @@
 name: Gerar Reels narrado
 
+# Desligado no automático: o Reels do meio-dia agora é o Deep Dive (deepdive.yml). Fica só manual.
 on:
-  push:
-    branches: [main]
-    paths: ["posts/**.json", "reel/**"]
   workflow_dispatch:
     inputs:
       slug:
