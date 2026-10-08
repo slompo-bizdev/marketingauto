@@ -3,6 +3,8 @@
   "private": true,
   "description": "Fontes do gerador de carrosséis da VS Solutions",
   "dependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
     "@fontsource/inter": "^5.2.0",
     "@fontsource/jetbrains-mono": "^5.2.0"
   }
