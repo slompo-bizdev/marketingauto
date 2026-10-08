@@ -1,0 +1,93 @@
+{
+  "slug": "2026-10-07-decisions-api-producao",
+  "topic": "DECISIONS API",
+  "keyword": "AGENTES",
+  "hook": {
+    "claim": "\"10x faster\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning, we looked at OpenAI putting the Decisions API into public beta for typed decision flows in production. I went back in to check the pricing, the direct benchmark, and one product limit."
+  },
+  "findings": [
+    {
+      "label": "PRICE",
+      "big": "2.1×",
+      "headline": "Measured cost per call was 2.1× Jev in one benchmark",
+      "detail": "Same workload, 2,759 calls, with both vendors’ own token counts.",
+      "bars": [
+        {
+          "label": "Decisions",
+          "value": 0.22,
+          "display": "$0.22",
+          "kind": "accent"
+        },
+        {
+          "label": "Jev",
+          "value": 0.11,
+          "display": "$0.11",
+          "kind": "solid"
+        }
+      ],
+      "source": 1,
+      "evidence": "Per 1,000 calls: $0.22 for the Decisions API against $0.11 for Jev.",
+      "say": "First, an independent benchmark measured the Decisions API at 2.1 times the cost per call versus Jev on the same workload."
+    },
+    {
+      "label": "LATENCY",
+      "big": "1469ms",
+      "headline": "At p99, the slow tail was 1,469 ms vs 526 ms",
+      "detail": "Median latency was basically tied, but tail latency was wider for Decisions.",
+      "bars": [
+        {
+          "label": "Decisions",
+          "value": 1469,
+          "display": "1469 ms",
+          "kind": "accent"
+        },
+        {
+          "label": "Jev",
+          "value": 526,
+          "display": "526 ms",
+          "kind": "solid"
+        },
+        {
+          "label": "Median",
+          "value": 268,
+          "display": "268 ms",
+          "kind": "solid"
+        }
+      ],
+      "source": 1,
+      "evidence": "At the 99th percentile it is 1,469 ms against 526 ms, 2.8× slower.",
+      "say": "Second, the same test says median speed was basically tied, but at p99 the Decisions API had a much longer tail."
+    },
+    {
+      "label": "LIMIT",
+      "big": "0",
+      "headline": "API reference shows no external image URLs or file IDs",
+      "detail": "Image input exists, but only inline image payloads are documented today.",
+      "bars": [],
+      "source": 2,
+      "evidence": "An inline image. External URLs and file IDs are not supported.",
+      "say": "Third, the API supports images, but the reference says external image URLs and file IDs are not supported right now."
+    }
+  ],
+  "take": {
+    "headline": "Good for routing, but measure the tails",
+    "say": "My take: typed decisions are useful, but shipping means checking latency tails, real call cost, and operational limits before wiring it into production."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "Nexus Agent — OpenAI Decisions API vs Jev",
+      "url": "https://agent.nexus/blog/openai-decisions-api-vs-jev"
+    },
+    {
+      "n": 2,
+      "title": "OpenAI API Reference — Decisions",
+      "url": "https://developers.openai.com/api/reference/typescript/resources/decisions"
+    }
+  ],
+  "caption": "This morning, I showed why OpenAI’s Decisions API matters: it gives production workflows a typed decision layer instead of just another agent reply.\n\n2.1× measured cost per call vs Jev on one 2,759-call benchmark.\n1,469 ms p99 latency vs 526 ms in that same head-to-head test.\nImage support is there, but the reference says no external image URLs or file IDs.\n\nMy take: production AI is not about sounding smart. It is about measuring cost, tails, and limits before the decision touches the operation.\n\nComment AGENTES and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Nexus Agent — OpenAI Decisions API vs Jev — https://agent.nexus/blog/openai-decisions-api-vs-jev\n[2] OpenAI API Reference — Decisions — https://developers.openai.com/api/reference/typescript/resources/decisions\n\nvssolutions.io",
+  "gerado_em": "2026-10-08T00:16:53.102Z"
+}
