@@ -1,6 +1,213 @@
 {
-  "atualizado_em": "2026-10-07T09:32:02.459569Z",
+  "atualizado_em": "2026-10-09T09:31:56.220705Z",
   "posts": [
+    {
+      "slug": "2026-10-09-agentes-gemini-empresas",
+      "data": "2026-10-09",
+      "titulo": "Google leva agentes ao Gemini com foco em empresas",
+      "subtitulo": "O recado é menos hype e mais operação corporativa real",
+      "tema": "Google leva agentes do Gemini para empresas",
+      "tipo": "ponte",
+      "case_id": "enterprise",
+      "palavra": "AGENTES",
+      "valor": "Medir em vez de assumir.",
+      "fontes": [
+        "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+        "https://openai.com/index/oracle"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "IA EM ALTA · AGENTES NAS EMPRESAS",
+          "headline": "Google leva agentes ao Gemini com foco em empresas",
+          "sub": "O recado é menos hype e mais operação corporativa real"
+        },
+        {
+          "type": "text",
+          "eyebrow": "O QUE ACONTECEU",
+          "headline": "Google lançou um agente unificado do Gemini para empresas",
+          "body": "Segundo a TechCrunch, o agente recebe objetivos, planeja tarefas, usa ferramentas, conecta sistemas internos e delega trabalho a subagentes. A Google diz que começa por empresas para enfrentar os problemas mais difíceis de segurança, escala e performance."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "O NÚMERO",
+          "stat": "90%",
+          "label": "das Fortune 100 usam Gemini Enterprise no trabalho",
+          "sub": "A fala citada pela TechCrunch ajuda a explicar o foco inicial no mercado corporativo"
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+          "headline": "O que eu vejo nas empresas quando o agente sai do demo",
+          "items": [
+            "Sem identidade e permissão, o agente acessa mais do que deveria",
+            "Sem integração real, ele responde bem mas não executa o trabalho",
+            "Sem trilha auditável, ninguém confia quando algo dá errado"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "EU JÁ RESOLVI ISSO",
+          "headline": "Fiz isso em uma conta enterprise",
+          "items": [
+            "Plataforma multiagente em produção numa conta enterprise",
+            "Conta de US$ 5,5 milhões",
+            "Cerca de 60% de ganho de eficiência",
+            "Multiagente em produção exige log de defeitos auditado"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MINHA LEITURA",
+          "headline": "Medir em vez de assumir.",
+          "body": "Quando a notícia fala de agente com identidade própria, permissões, subagentes e trilha de auditoria, o ponto central é governança. Na prática, agente empresarial precisa nascer com confiabilidade e medição de resultado. Sem isso, fica bonito no demo e fraco na operação."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "QUER VER COMO EU FIZ?",
+          "headline": "Comenta AGENTES.",
+          "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+          "button": "Comenta AGENTES · vssolutions.io"
+        }
+      ],
+      "legenda": "A Google anunciou um agente unificado do Gemini com foco inicial em empresas. Segundo a TechCrunch, ele recebe objetivos, planeja tarefas, usa ferramentas, conecta sistemas internos, delega a subagentes e opera com conta própria, permissões e trilha de auditoria.\n\nPra mim, esse é o ponto importante da notícia.\n\nNão é sobre “agente fazer mais coisas”. É sobre o padrão que começa a ficar explícito no mercado corporativo: agente empresarial não pode nascer só como interface boa. Precisa nascer com identidade, permissão, integração, rastreabilidade e controle.\n\nÉ exatamente aí que muita empresa trava. O agente funciona no demo, mas não entra de verdade na operação. Ou entra sem governança e sem medição clara de resultado.\n\nEsse é o tipo de problema que eu já resolvi em uma conta enterprise: plataforma multiagente em produção, numa conta de US$ 5,5 milhões, com cerca de 60% de ganho de eficiência. E com uma exigência que eu considero básica nesse nível: log de defeitos auditado.\n\nNa prática, 2026 está deixando claro uma coisa: lançar agente não basta. Tem que operar direito e medir.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: techcrunch.com, openai.com\n\n#inteligenciaartificial #agentesdeia #iaempresarial #automacao #governancadeia",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-09-agentes-gemini-empresas/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-09-agentes-gemini-empresas/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-09-agentes-gemini-empresas/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-09-agentes-gemini-empresas/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-09-agentes-gemini-empresas/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-09-agentes-gemini-empresas/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-09-agentes-gemini-empresas/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-09-agentes-gemini-empresas/1.jpg",
+      "gerado_em": "2026-10-09T09:30:57.767Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Google brings agents to Gemini with a focus on businesses",
+          "subtitulo": "The message is less hype and more real corporate operations",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · AGENTS IN BUSINESS",
+              "headline": "Google brings agents to Gemini with a focus on businesses",
+              "sub": "The message is less hype and more real corporate operations"
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Google launched a unified Gemini agent for businesses",
+              "body": "According to TechCrunch, the agent receives goals, plans tasks, uses tools, connects internal systems, and delegates work to subagents. Google says it is starting with businesses to tackle the hardest problems in security, scale, and performance."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "90%",
+              "label": "of the Fortune 100 use Gemini Enterprise at work",
+              "sub": "The statement cited by TechCrunch helps explain the initial focus on the enterprise market"
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies when the agent leaves the demo",
+              "items": [
+                "Without identity and permissions, the agent accesses more than it should",
+                "Without real integration, it responds well but does not do the work",
+                "Without an auditable trail, no one trusts it when something goes wrong"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I HAVE ALREADY SOLVED THIS",
+              "headline": "I did this in an enterprise account",
+              "items": [
+                "Multi-agent platform in production in an enterprise account",
+                "US$ 5.5 million account",
+                "About 60% efficiency gain",
+                "Multi-agent in production requires an audited defect log"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assume.",
+              "body": "When the news talks about an agent with its own identity, permissions, subagents, and an audit trail, the core point is governance. In practice, an enterprise agent needs to be built with reliability and outcome measurement from day one. Without that, it looks good in the demo and weak in operations."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment AGENTES.",
+              "body": "I will send you the case step by step by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment AGENTES · vssolutions.io"
+            }
+          ],
+          "legenda": "Google announced a unified Gemini agent with an initial focus on businesses. According to TechCrunch, it receives goals, plans tasks, uses tools, connects internal systems, delegates to subagents, and operates with its own account, permissions, and audit trail.\n\nTo me, that is the important part of the news.\n\nThis is not about an “agent doing more things.” It is about the standard that is starting to become explicit in the corporate market: an enterprise agent cannot be born as just a good interface. It needs to be built with identity, permission, integration, traceability, and control.\n\nThat is exactly where many companies get stuck. The agent works in the demo, but does not really enter operations. Or it does enter, but without governance and without clear measurement of results.\n\nThis is the kind of problem I have already solved in an enterprise account: a multi-agent platform in production, in a US$ 5.5 million account, with about 60% efficiency gain. And with one requirement that I consider basic at this level: an audited defect log.\n\nIn practice, 2026 is making one thing clear: launching an agent is not enough. You have to run it properly and measure it.\n\nComment AGENTES and I will send you by DM how I did it.\n\nSources: techcrunch.com, openai.com\n\n#inteligenciaartificial #agentesdeia #iaempresarial #automacao #governancadeia"
+        },
+        "ru": {
+          "titulo": "Google выводит агентов в Gemini с фокусом на компании",
+          "subtitulo": "Посыл здесь — меньше хайпа, больше реальной корпоративной работы",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · АГЕНТЫ В БИЗНЕСЕ",
+              "headline": "Google выводит агентов в Gemini с фокусом на компании",
+              "sub": "Посыл здесь — меньше хайпа, больше реальной корпоративной работы"
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Google запустила единого агента Gemini для компаний",
+              "body": "По данным TechCrunch, агент получает цели, планирует задачи, использует инструменты, подключает внутренние системы и делегирует работу субагентам. Google говорит, что начинает с компаний, чтобы решать самые сложные задачи в безопасности, масштабе и производительности."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "90%",
+              "label": "из Fortune 100 используют Gemini Enterprise в работе",
+              "sub": "Заявление, на которое ссылается TechCrunch, помогает понять начальный фокус на корпоративном рынке"
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, когда агент выходит за пределы демо",
+              "items": [
+                "Без идентичности и прав доступа агент получает больше доступа, чем должен",
+                "Без реальной интеграции он хорошо отвечает, но не выполняет работу",
+                "Без аудируемого следа никто не доверяет системе, когда что-то идет не так"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ РЕШАЛ ЭТО",
+              "headline": "Я сделал это в enterprise-аккаунте",
+              "items": [
+                "Мультиагентная платформа в продакшене в enterprise-аккаунте",
+                "Аккаунт на US$ 5,5 млн",
+                "Около 60% прироста эффективности",
+                "Мультиагент в продакшене требует аудируемого лога дефектов"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЙ ВЫВОД",
+              "headline": "Измерять, а не предполагать.",
+              "body": "Когда в новости говорят про агента с собственной идентичностью, правами доступа, субагентами и аудиторским следом, ключевой вопрос — это governance. На практике корпоративный агент должен изначально строиться с учетом надежности и измерения результата. Без этого в демо он выглядит красиво, а в операционной работе оказывается слабым."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите AGENTES.",
+              "body": "Я отправлю в директ пошаговый разбор кейса. Я вывожу ИИ из стадии идеи в продакшен, с измеримым результатом.",
+              "button": "Напишите AGENTES · vssolutions.io"
+            }
+          ],
+          "legenda": "Google анонсировала единого агента Gemini с начальным фокусом на компании. По данным TechCrunch, он получает цели, планирует задачи, использует инструменты, подключает внутренние системы, делегирует работу субагентам и работает с собственной учетной записью, правами доступа и аудиторским следом.\n\nДля меня это и есть главный смысл новости.\n\nРечь не о том, что «агент умеет больше». Речь о стандарте, который начинает явно проявляться на корпоративном рынке: корпоративный агент не может строиться только как удобный интерфейс. Он должен изначально иметь идентичность, права доступа, интеграции, прослеживаемость и контроль.\n\nИменно здесь у многих компаний все стопорится. Агент работает в демо, но по-настоящему не входит в операционную работу. Или входит, но без governance и без понятного измерения результата.\n\nЭто именно тот тип проблемы, который я уже решал в enterprise-аккаунте: мультиагентная платформа в продакшене, в аккаунте на US$ 5,5 млн, с приростом эффективности около 60%. И с требованием, которое я считаю базовым для такого уровня: аудируемый лог дефектов.\n\nНа практике 2026 год ясно показывает одну вещь: запустить агента недостаточно. Нужно правильно его эксплуатировать и измерять результат.\n\nНапишите AGENTES, и я отправлю в директ, как я это сделал.\n\nИсточники: techcrunch.com, openai.com\n\n#inteligenciaartificial #agentesdeia #iaempresarial #automacao #governancadeia"
+        }
+      }
+    },
     {
       "slug": "2026-10-07-decisions-api-producao",
       "data": "2026-10-07",

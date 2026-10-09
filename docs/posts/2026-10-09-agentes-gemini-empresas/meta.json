@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-09-agentes-gemini-empresas",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A Google anunciou um agente unificado do Gemini com foco inicial em empresas. Segundo a TechCrunch, ele recebe objetivos, planeja tarefas, usa ferramentas, conecta sistemas internos, delega a subagentes e opera com conta própria, permissões e trilha de auditoria.\n\nPra mim, esse é o ponto importante da notícia.\n\nNão é sobre “agente fazer mais coisas”. É sobre o padrão que começa a ficar explícito no mercado corporativo: agente empresarial não pode nascer só como interface boa. Precisa nascer com identidade, permissão, integração, rastreabilidade e controle.\n\nÉ exatamente aí que muita empresa trava. O agente funciona no demo, mas não entra de verdade na operação. Ou entra sem governança e sem medição clara de resultado.\n\nEsse é o tipo de problema que eu já resolvi em uma conta enterprise: plataforma multiagente em produção, numa conta de US$ 5,5 milhões, com cerca de 60% de ganho de eficiência. E com uma exigência que eu considero básica nesse nível: log de defeitos auditado.\n\nNa prática, 2026 está deixando claro uma coisa: lançar agente não basta. Tem que operar direito e medir.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: techcrunch.com, openai.com\n\n#inteligenciaartificial #agentesdeia #iaempresarial #automacao #governancadeia",
+  "first_comment": "Fontes: https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/ · https://openai.com/index/oracle\n\nvssolutions.io"
+}
