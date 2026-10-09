@@ -1,0 +1,168 @@
+1
+00:00:00,250 --> 00:00:00,950
+This morning the
+
+2
+00:00:00,950 --> 00:00:01,825
+post said Google
+
+3
+00:00:01,825 --> 00:00:02,900
+launched one Gemini
+
+4
+00:00:02,900 --> 00:00:03,750
+agent for business
+
+5
+00:00:03,750 --> 00:00:05,225
+work with identity
+
+6
+00:00:05,325 --> 00:00:07,050
+permissions subagents and
+
+7
+00:00:07,050 --> 00:00:08,750
+auditability I went
+
+8
+00:00:08,750 --> 00:00:09,262
+back in to
+
+9
+00:00:09,262 --> 00:00:09,725
+check what the
+
+10
+00:00:09,725 --> 00:00:11,175
+product limits pricing
+
+11
+00:00:11,225 --> 00:00:12,338
+and rollout details
+
+12
+00:00:12,338 --> 00:00:13,550
+actually say
+
+13
+00:00:14,400 --> 00:00:15,300
+First Google’s own
+
+14
+00:00:15,300 --> 00:00:16,400
+quota page shows
+
+15
+00:00:16,400 --> 00:00:16,950
+this is not
+
+16
+00:00:16,950 --> 00:00:18,900
+unlimited Business edition
+
+17
+00:00:18,900 --> 00:00:19,988
+allows 1 custom
+
+18
+00:00:19,988 --> 00:00:20,875
+agent build per
+
+19
+00:00:20,875 --> 00:00:22,325
+day pooled
+
+20
+00:00:23,200 --> 00:00:24,000
+Second the entry
+
+21
+00:00:24,000 --> 00:00:24,800
+point is priced
+
+22
+00:00:24,800 --> 00:00:26,075
+like software not
+
+23
+00:00:26,075 --> 00:00:27,638
+magic Google lists
+
+24
+00:00:27,638 --> 00:00:28,675
+Gemini for business
+
+25
+00:00:28,675 --> 00:00:29,650
+starting at 21
+
+26
+00:00:29,650 --> 00:00:30,550
+dollars per seat
+
+27
+00:00:30,550 --> 00:00:31,425
+monthly
+
+28
+00:00:32,300 --> 00:00:33,325
+Third the connector
+
+29
+00:00:33,325 --> 00:00:34,288
+story is broad
+
+30
+00:00:34,288 --> 00:00:35,113
+with over 100
+
+31
+00:00:35,113 --> 00:00:36,750
+integrations but Google
+
+32
+00:00:36,750 --> 00:00:37,638
+also says some
+
+33
+00:00:37,638 --> 00:00:39,175
+delegated background task
+
+34
+00:00:39,175 --> 00:00:40,175
+features are still
+
+35
+00:00:40,175 --> 00:00:41,525
+early access
+
+36
+00:00:42,375 --> 00:00:43,563
+My take enterprise
+
+37
+00:00:43,563 --> 00:00:44,613
+agents become real
+
+38
+00:00:44,613 --> 00:00:46,000
+when identity logs
+
+39
+00:00:46,038 --> 00:00:46,725
+and limits meet
+
+40
+00:00:46,725 --> 00:00:48,800
+live workflows Simple
+
+41
+00:00:48,913 --> 00:00:50,238
+governed automation beats
+
+42
+00:00:50,238 --> 00:00:51,550
+a clever demo
+

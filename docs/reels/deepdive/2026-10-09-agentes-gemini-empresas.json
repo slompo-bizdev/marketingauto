@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-09-agentes-gemini-empresas",
+  "video": "2026-10-09-agentes-gemini-empresas.mp4",
+  "duration": 55.35,
+  "voice": "am_adam",
+  "tts": "kokoro",
+  "caption": "This morning’s post said Google is taking Gemini agents into business first, with governance as the real story.\n\n1/day custom agent builds on Business edition.\n$21 per seat per month is the public starting price.\n100+ integrations are listed, but some delegated background features are still early access.\n\nMy take: shipping matters more than the demo. In production, limits, permissions, and audit trails decide whether the agent actually works.\n\nComment AGENTES and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Google Help — Gemini Enterprise Business edition usage limits and quotas — https://support.google.com/g/answer/16626091?hl=en\n[2] Google Cloud — AI for business and teams — https://cloud.google.com/gemini-enterprise/business?hl=en\n[3] Google Cloud — Gemini for Business overview — https://cloud.google.com/gemini-enterprise\n\nvssolutions.io",
+  "keyword": "AGENTES",
+  "check_dm": "",
+  "scenes": [
+    "This morning, the post said Google launched one Gemini agent for business work, with identity, permissions, subagents, and auditability. I went back in to check what the product limits, pricing, and rollout details actually say.",
+    "First, Google’s own quota page shows this is not unlimited. Business edition allows 1 custom agent build per day, pooled.",
+    "Second, the entry point is priced like software, not magic. Google lists Gemini for business starting at 21 dollars per seat monthly.",
+    "Third, the connector story is broad with over 100 integrations, but Google also says some delegated background task features are still early access.",
+    "My take: enterprise agents become real when identity, logs, and limits meet live workflows. Simple, governed automation beats a clever demo."
+  ]
+}
