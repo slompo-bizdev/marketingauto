@@ -1,0 +1,88 @@
+{
+  "slug": "2026-10-09-agentes-gemini-empresas",
+  "topic": "GEMINI AGENTS",
+  "keyword": "AGENTES",
+  "hook": {
+    "claim": "\"90% of F100.\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning, the post said Google launched one Gemini agent for business work, with identity, permissions, subagents, and auditability. I went back in to check what the product limits, pricing, and rollout details actually say."
+  },
+  "findings": [
+    {
+      "label": "LIMITS",
+      "big": "1/day",
+      "headline": "Business edition caps custom agent builds at 1 per day",
+      "detail": "The same plan also lists 120 text queries, 120 grounded searches, and 3 deep-research runs daily.",
+      "bars": [
+        {
+          "label": "Build agents/day",
+          "value": 1,
+          "display": "1",
+          "kind": "accent"
+        },
+        {
+          "label": "Deep research/day",
+          "value": 3,
+          "display": "3",
+          "kind": "solid"
+        },
+        {
+          "label": "Grounded searches/day",
+          "value": 120,
+          "display": "120",
+          "kind": "solid"
+        }
+      ],
+      "source": 1,
+      "evidence": "Build agents (via No-Code Agent Building Tools) | 1 / day, pooled",
+      "say": "First, Google’s own quota page shows this is not unlimited. Business edition allows 1 custom agent build per day, pooled.",
+      "status": "confirmed"
+    },
+    {
+      "label": "PRICE",
+      "big": "$21",
+      "headline": "Entry price starts at $21 per seat per month",
+      "detail": "That is the public starting price on Google’s business page, before heavier platform usage pricing.",
+      "bars": [],
+      "source": 2,
+      "evidence": "Starting at $21 per seat per month",
+      "say": "Second, the entry point is priced like software, not magic. Google lists Gemini for business starting at 21 dollars per seat monthly.",
+      "status": "confirmed"
+    },
+    {
+      "label": "ROLLOUT",
+      "big": "100+",
+      "headline": "Google lists over 100 integrations, but key agent features are early access",
+      "detail": "Google says some capabilities shown, including delegated background tasks, are not yet available to all customers.",
+      "bars": [],
+      "source": 3,
+      "evidence": "Over 100 supported integrations",
+      "say": "Third, the connector story is broad with over 100 integrations, but Google also says some delegated background task features are still early access.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "Governance matters, but shipping still wins",
+    "say": "My take: enterprise agents become real when identity, logs, and limits meet live workflows. Simple, governed automation beats a clever demo."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "Google Help — Gemini Enterprise Business edition usage limits and quotas",
+      "url": "https://support.google.com/g/answer/16626091?hl=en"
+    },
+    {
+      "n": 2,
+      "title": "Google Cloud — AI for business and teams",
+      "url": "https://cloud.google.com/gemini-enterprise/business?hl=en"
+    },
+    {
+      "n": 3,
+      "title": "Google Cloud — Gemini for Business overview",
+      "url": "https://cloud.google.com/gemini-enterprise"
+    }
+  ],
+  "caption": "This morning’s post said Google is taking Gemini agents into business first, with governance as the real story.\n\n1/day custom agent builds on Business edition.\n$21 per seat per month is the public starting price.\n100+ integrations are listed, but some delegated background features are still early access.\n\nMy take: shipping matters more than the demo. In production, limits, permissions, and audit trails decide whether the agent actually works.\n\nComment AGENTES and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Google Help — Gemini Enterprise Business edition usage limits and quotas — https://support.google.com/g/answer/16626091?hl=en\n[2] Google Cloud — AI for business and teams — https://cloud.google.com/gemini-enterprise/business?hl=en\n[3] Google Cloud — Gemini for Business overview — https://cloud.google.com/gemini-enterprise\n\nvssolutions.io",
+  "gerado_em": "2026-10-09T13:18:06.193Z"
+}
