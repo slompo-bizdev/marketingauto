@@ -65,8 +65,10 @@ jobs:
           python -m playwright install --with-deps chromium
           npm install --no-audit --no-fund
 
-      - name: Gerar vídeo (Kokoro, voz am_adam)
+      - name: Gerar vídeo (Kokoro, voz am_liam)
         if: steps.specs.outputs.files != ''
+        env:
+          REEL_VOICE: am_liam
         run: python reel/deepdive.py ${{ steps.specs.outputs.files }}
 
       - name: Publicar vídeo no repositório
