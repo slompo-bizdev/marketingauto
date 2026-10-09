@@ -6,6 +6,8 @@
   "tts": "kokoro",
   "caption": "This morning, I showed why OpenAI’s Decisions API matters: it gives production workflows a typed decision layer instead of just another agent reply.\n\n2.1× measured cost per call vs Jev on one 2,759-call benchmark.\n1,469 ms p99 latency vs 526 ms in that same head-to-head test.\nImage support is there, but the reference says no external image URLs or file IDs.\n\nMy take: production AI is not about sounding smart. It is about measuring cost, tails, and limits before the decision touches the operation.\n\nComment AGENTES and I will send you the details by DM.\n\nSources in the first comment.",
   "first_comment": "Sources:\n[1] Nexus Agent — OpenAI Decisions API vs Jev — https://agent.nexus/blog/openai-decisions-api-vs-jev\n[2] OpenAI API Reference — Decisions — https://developers.openai.com/api/reference/typescript/resources/decisions\n\nvssolutions.io",
+  "keyword": "AGENTES",
+  "check_dm": "",
   "scenes": [
     "This morning, we looked at OpenAI putting the Decisions API into public beta for typed decision flows in production. I went back in to check the pricing, the direct benchmark, and one product limit.",
     "First, an independent benchmark measured the Decisions API at 2.1 times the cost per call versus Jev on the same workload.",
