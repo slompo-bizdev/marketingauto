@@ -11,11 +11,13 @@ O spec vem do n8n (pesquisa + checagem de fatos). Formato:
   "findings": [  # exatamente 3
     {"label": "SPEED", "big": "10×", "headline": "...", "detail": "...",          # detail opcional
      "bars": [{"label": "...", "value": 1, "display": "1×", "kind": "solid|accent|dashed"}],  # opcional
-     "source": 1, "say": "..."}
+     "source": 1, "say": "...", "status": "confirmed|unconfirmed"}   # unconfirmed: máx. 1, vira "CLAIMED · NOT CONFIRMED"
   ],
   "take": {"headline": "...", "say": "..."},
   "sources": [{"n": 1, "title": "...", "url": "https://..."}],
-  "caption": "...", "first_comment": "..."
+  "caption": "...", "first_comment": "...",
+  "cta": {"keyword": "CHECK", "line": "I will DM you what I find"},  # opcional (dia com dado não confirmado)
+  "check_dm": "..."                                                  # texto da DM para quem comentar CHECK
 }
 Cenas: abertura, 3 descobertas e a leitura do Victor são narradas (Kokoro am_adam, legenda palavra a palavra).
 A última cena (CTA vssolutions.io) é muda: só o botão pulsando e o "link in bio" piscando.
@@ -114,8 +116,17 @@ def scene_finding(sp, i):
     src = next((s for s in sp["sources"] if s["n"] == f.get("source")), None)
     dom = urlparse(src["url"]).netloc.replace("www.", "") if src else ""
     big = f["big"]
-    body = (f"<div class='cond' style='font-size:{fit(big, 330, 170, 4)}px;line-height:.85;letter-spacing:-6px;color:{ACCENT}'>{esc(big)}</div>"
-            f"<div class='semi' style='font-size:{fit(f['headline'], 60, 44, 60)}px;line-height:1.02'>{esc(f['headline'])}</div>")
+    unconf = f.get("status") == "unconfirmed"
+    if unconf:
+        # dado que a checagem não confirmou: número vazado e carimbo "CLAIMED · NOT CONFIRMED"
+        num = (f"<div style='display:flex;align-items:flex-end;gap:28px;flex-wrap:wrap'>"
+               f"<div class='cond' style='font-size:{fit(big, 300, 160, 4)}px;line-height:.85;letter-spacing:-6px;color:transparent;"
+               f"-webkit-text-stroke:4px {ACCENT}'>{esc(big)}</div>"
+               f"<div class='mono' style='border:3px dashed {ACCENT};color:{ACCENT};font-size:26px;font-weight:600;padding:10px 16px;"
+               f"transform:rotate(-4deg);margin-bottom:24px'>CLAIMED · NOT CONFIRMED</div></div>")
+    else:
+        num = f"<div class='cond' style='font-size:{fit(big, 330, 170, 4)}px;line-height:.85;letter-spacing:-6px;color:{ACCENT}'>{esc(big)}</div>"
+    body = num + f"<div class='semi' style='font-size:{fit(f['headline'], 60, 44, 60)}px;line-height:1.02'>{esc(f['headline'])}</div>"
     extra = ""
     if f.get("bars"):
         extra = bars_html(f["bars"])
@@ -123,10 +134,10 @@ def scene_finding(sp, i):
         extra = (f"<div style='font-size:40px;line-height:1.25;font-weight:500;font-stretch:90%;border-top:2px solid rgba(255,255,255,.5);"
                  f"padding-top:24px'>{esc(f['detail'])}</div>")
     return page(
-        header(f"DATA POINT {i + 1:02d} / {len(sp['findings']):02d}", f["label"])
+        header(f"DATA POINT {i + 1:02d} / {len(sp['findings']):02d}", f["label"] + (" · UNCONFIRMED" if unconf else ""))
         + f"<div class='a' style='left:72px;right:140px;top:260px;display:flex;flex-direction:column;gap:28px'>{body}</div>"
         + (f"<div class='a' style='left:72px;right:140px;top:860px'>{extra}</div>" if extra else "")
-        + footer(f"[{f.get('source')}] {dom}" if dom else "@victorslompo"))
+        + footer((f"[{f.get('source')}] {dom}" + (" · not confirmed on the page" if unconf else "")) if dom else "@victorslompo"))
 
 
 def scene_take(sp):
@@ -150,10 +161,17 @@ def scene_cta(sp, on):
           f"background:{ACCENT};color:{GROUND};padding:40px 48px;font-size:84px;font-weight:900;font-stretch:75%;text-transform:uppercase'>"
           f"<span>vssolutions.io</span><svg width='76' height='76' viewBox='0 0 24 24' fill='none' stroke='{GROUND}' stroke-width='2.6' "
           f"stroke-linecap='square'><path d='M5 12h14M13 6l6 6-6 6'/></svg></div>"
-          f"<div class='mono' style='display:flex;gap:16px;align-items:center;font-size:28px'>"
-          f"<span style='background:#fff;color:{GROUND};padding:8px 14px;font-weight:600;opacity:{1 if on else .25}'>LINK IN BIO</span>"
-          f"<span>or comment {esc(sp['keyword'])} → DM</span></div></div>"
+          f"<div class='mono' style='display:flex;flex-wrap:wrap;row-gap:14px;gap:16px;align-items:center;font-size:28px'>"
+          f"<span style='background:#fff;color:{GROUND};padding:8px 14px;font-weight:600;white-space:nowrap;opacity:{1 if on else .25}'>LINK IN BIO</span>"
+          f"<span>{cta_line(sp)}</span></div></div>"
         + footer("@victorslompo"))
+
+
+def cta_line(sp):
+    cta = sp.get("cta") or {}
+    if cta.get("keyword"):  # dia com dado não confirmado: CTA puxa conversa sobre ele
+        return f"or comment {esc(cta['keyword'])} → {esc(cta.get('line') or 'I will DM you what I find')}"
+    return f"or comment {esc(sp['keyword'])} → DM"
 
 
 def caption_doc(words, active):
@@ -252,6 +270,7 @@ def build(spec_path, tts, browser):
             f"{i}\n{RL.srt_time(a)} --> {RL.srt_time(b)}\n{t}\n\n" for i, (a, b, t) in enumerate(srt, 1)))
         meta = {"slug": slug, "video": f"{slug}.mp4", "duration": round(total, 2), "voice": RL.VOICE, "tts": tts,
                 "caption": sp.get("caption", ""), "first_comment": sp.get("first_comment", ""),
+                "keyword": (sp.get("cta") or {}).get("keyword") or sp.get("keyword", ""), "check_dm": sp.get("check_dm", ""),
                 "scenes": [sc["say"] for sc in scenes]}
         (OUT / f"{slug}.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2))
         print(f"ok  {slug}: {total:.1f}s -> {mp4.relative_to(ROOT)}")
