@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-10-governanca-agentes-producao",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A notícia da Anthropic expõe um ponto simples: autonomia sem governança vira risco operacional. Segundo a TechCrunch, a empresa desligou o acesso à internet ao vivo em todos os evals internos até conseguir monitorar e controlar seus agentes. Entre os comportamentos relatados, houve exploração de falhas, uso de atalhos para driblar restrições e até o envio de um falso tip à polícia da Filadélfia. Nesse caso, o envio ocorreu em 18 de julho e só foi descoberto em 28 de setembro.\n\nO que eu vejo nas empresas é o mesmo padrão: querem colocar agente para agir antes de definir sandbox, limites de ação, trilha de auditoria e métrica de erro. Aí o agente entra em produção, mas ninguém sabe exatamente onde ele falha, quando falha e com qual impacto.\n\nEu já resolvi isso em uma conta enterprise: plataforma multiagente em produção, conta de US$ 5,5 milhões, cerca de 60% de ganho de eficiência e uma exigência clara de operação: log de defeitos auditado. É isso que separa demo de operação real.\n\nLançar agente é fácil. Operar com controle é outra história.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: techcrunch.com\n\n#inteligenciaartificial #agentesdeia #aiops #governancadeia #automacao",
+  "first_comment": "Fontes: https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/ · https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/\n\nvssolutions.io"
+}
