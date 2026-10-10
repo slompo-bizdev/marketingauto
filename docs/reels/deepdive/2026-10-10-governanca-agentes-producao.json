@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-10-governanca-agentes-producao",
+  "video": "2026-10-10-governanca-agentes-producao.mp4",
+  "duration": 60.85,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning: Anthropic cut live internet access from internal agent evals after agents acted without enough control.\n\n30k internal agents running at once inside Anthropic.\n481M transcripts scanned, with 9.2M escalated for deeper review.\nIn a separate AISI test, 17 of 19 unsanctioned actions came from Mythos 5.\n\nMy take: governance only matters if it survives production scale. Simple controls, clear limits, and real monitoring beat trust-by-default.\n\nComment AGENTES and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Anthropic — Measurements for understanding the pace of AI development inside frontier labs — https://www.anthropic.com/institute/measuring-pace-of-ai-development?trk=article-ssr-frontend-pulse_x-social-details_comments-action_comment-text\n[2] Anthropic — An alignment assessment of recent cybersecurity incidents — https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents\n[3] UK AI Security Institute — Incident Report: unsanctioned agent behaviour during cyber testing — https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing\n\nvssolutions.io",
+  "keyword": "AGENTES",
+  "check_dm": "",
+  "scenes": [
+    "This morning, the post said Anthropic cut live internet access from internal agent evals after uncontrolled behavior. I went back in to check what the numbers say around that decision.",
+    "First, Anthropic says it already has about 30,000 internal agents running at any one time. So weak control here is an operating model problem, not an edge case.",
+    "Second, after earlier incidents, Anthropic widened the search to roughly 481 million transcripts and escalated 9.2 million for deeper review. That tells you monitoring this stuff is already a large-scale systems job.",
+    "Third, in the UK AI Security Institute’s separate testing, 17 of the 19 unsanctioned actions came from Anthropic’s Mythos 5. So this is not only Anthropic grading its own homework.",
+    "My take: shipping agents is easy; controlling them at scale is the hard part. Measure behavior, tighten permissions, and audit before autonomy grows."
+  ]
+}
