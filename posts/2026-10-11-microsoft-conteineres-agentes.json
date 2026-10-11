@@ -1,0 +1,241 @@
+{
+  "slug": "2026-10-11-microsoft-conteineres-agentes",
+  "lang": "pt",
+  "palette": [
+    "red",
+    "black"
+  ],
+  "accent": "red",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis · GMT-3",
+  "story_eyebrow": "PERGUNTA DO DIA",
+  "story_pergunta": "Na sua empresa, quem define e audita o que um agente pode acessar?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "IA EM ALTA · AGENTES EM PRODUÇÃO",
+      "headline": "Sem isolamento, agente em produção vira risco operacional",
+      "sub": "Microsoft lançou contêineres com políticas para conter agentes"
+    },
+    {
+      "type": "text",
+      "eyebrow": "O QUE ACONTECEU",
+      "headline": "A Microsoft colocou contenção de agentes na base do stack",
+      "body": "O Microsoft Execution Containers ficou geralmente disponível como camada de execução com políticas. A proposta é limitar arquivos, rede, interface e processo, com a política fora do controle do agente."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "O QUE MUDA",
+      "headline": "Produção agora pede contenção nativa",
+      "items": [
+        "A política define o que o agente pode acessar e fazer",
+        "A contenção vale do dispositivo local até a nuvem",
+        "Há modos para observar, aprender e depois aplicar bloqueio"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+      "headline": "O que eu vejo nas empresas quando agente sai do piloto",
+      "items": [
+        "O agente ganha acesso demais porque ninguém modelou permissão direito",
+        "Quando algo falha, não existe trilha clara do que ele tentou fazer",
+        "Sandbox improvisada funciona no teste e quebra na operação real"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "EU JÁ RESOLVI ISSO",
+      "headline": "Eu já resolvi isso em uma conta enterprise",
+      "items": [
+        "Plataforma multiagente em produção numa conta enterprise",
+        "Conta de US$ 5,5 milhões",
+        "Cerca de 60% de ganho de eficiência e log de defeitos auditado"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MINHA LEITURA",
+      "headline": "Medir em vez de assumir.",
+      "body": "Se agentes vão operar sistemas e dados reais, confiança não pode ser promessa. Precisa nascer com contenção, permissão e auditoria. Na prática, produção exige evidência do que o agente fez, tentou fazer e onde foi bloqueado."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "QUER VER COMO EU FIZ?",
+      "headline": "Comenta AGENTES.",
+      "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+      "button": "Comenta AGENTES · vssolutions.io"
+    }
+  ],
+  "caption": "A Microsoft lançou o Microsoft Execution Containers, uma camada de execução com políticas para agentes de IA. A ideia é simples e importante: o agente não deve ser a própria autoridade de segurança. Arquivos, rede, interface e processo passam a operar dentro de limites definidos fora dele.\n\nIsso se conecta com um problema real de empresa. Muita gente até consegue testar agente em ambiente controlado. O travamento vem quando esse agente precisa operar sistema, dado e fluxo real. Aí aparecem três lacunas: acesso amplo demais, permissão mal definida e nenhuma auditoria confiável quando algo falha.\n\nMinha leitura é direta: a era da sandbox improvisada acabou. Se o agente vai para produção, o stack precisa nascer com contenção, permissão e auditoria embutidas.\n\nEu já vi isso na prática em uma conta enterprise. Colocamos uma plataforma multiagente em produção numa conta de US$ 5,5 milhões, com cerca de 60% de ganho de eficiência. E, para isso funcionar com confiabilidade, o log de defeitos auditado não era detalhe. Era parte da operação.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: blogs.windows.com, techcrunch.com\n\n#InteligenciaArtificial #AgentesDeIA #IAEnterprise #GovernancaDeIA #AutomacaoInteligente",
+  "first_comment": "Fontes: https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/ · https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/\n\nvssolutions.io",
+  "meta": {
+    "tema": "Microsoft lança contêineres para isolar agentes de IA",
+    "tipo": "ponte",
+    "case_id": "enterprise",
+    "palavra": "AGENTES",
+    "valor": "Medir em vez de assumir.",
+    "angulo": "A era de testar agente em sandbox improvisada acabou: para produção, o stack precisa nascer com contenção, permissão e auditoria embutidas.",
+    "fontes": [
+      "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+    ],
+    "roteiro_reels": "[0-3s] Testar agente em sandbox improvisada não basta para produção.\n[3-20s] A Microsoft lançou contêineres com políticas para isolar agentes. Isso reforça um ponto simples: agente não pode definir o próprio limite. Em empresa de verdade, produção pede contenção, permissão e auditoria desde o início.\n[20-30s] Foi exatamente esse desafio que eu já resolvi com plataforma multiagente em produção numa conta enterprise, com log de defeitos auditado. Sem isso, não tem confiabilidade operacional. Comenta AGENTES que eu te mando como fiz.",
+    "gerado_em": "2026-10-11T09:30:54.670Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AGENTS IN PRODUCTION",
+          "headline": "Without isolation, an agent in production becomes an operational risk",
+          "sub": "Microsoft launched containers with policies to contain agents"
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Microsoft made agent containment part of the foundation of the stack",
+          "body": "Microsoft Execution Containers became generally available as a policy-based execution layer. The idea is to limit files, network, interface, and process, with the policy outside the agent’s control."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "WHAT CHANGES",
+          "headline": "Production now requires native containment",
+          "items": [
+            "The policy defines what the agent can access and do",
+            "Containment applies from the local device to the cloud",
+            "There are modes to observe, learn, and then enforce blocking"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies when an agent moves beyond the pilot",
+          "items": [
+            "The agent gets too much access because no one modeled permissions properly",
+            "When something fails, there is no clear trail of what it tried to do",
+            "An improvised sandbox works in testing and breaks in real operations"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I’VE ALREADY SOLVED THIS",
+          "headline": "I’ve already solved this in an enterprise account",
+          "items": [
+            "Multi-agent platform in production in an enterprise account",
+            "US$ 5.5 million account",
+            "About 60% efficiency gain and audited defect log"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assume.",
+          "body": "If agents are going to operate real systems and data, trust cannot be a promise. It has to start with containment, permission, and auditability. In practice, production requires evidence of what the agent did, tried to do, and where it was blocked."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment AGENTES.",
+          "body": "I’ll send you the case step by step by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment AGENTES · vssolutions.io"
+        }
+      ],
+      "caption": "Microsoft launched Microsoft Execution Containers, a policy-based execution layer for AI agents. The idea is simple and important: the agent should not be its own security authority. Files, network, interface, and process now operate within limits defined outside of it.\n\nThis connects to a real company problem. A lot of people can test an agent in a controlled environment. The bottleneck comes when that agent needs to operate a real system, real data, and a real workflow. That is when three gaps show up: access that is too broad, poorly defined permissions, and no reliable audit trail when something fails.\n\nMy take is direct: the era of the improvised sandbox is over. If the agent is going into production, the stack has to start with built-in containment, permission, and auditability.\n\nI’ve already seen this in practice in an enterprise account. We put a multi-agent platform into production in a US$ 5.5 million account, with about 60% efficiency gain. And for that to work reliably, the audited defect log was not a detail. It was part of the operation.\n\nComment AGENTES and I’ll send you by DM how I did it.\n\nSources: blogs.windows.com, techcrunch.com\n\n#InteligenciaArtificial #AgentesDeIA #IAEnterprise #GovernancaDeIA #AutomacaoInteligente",
+      "reel": [
+        {
+          "slide": 1,
+          "say": "Putting an agent into production without isolation creates operational risk. Microsoft just launched containers with policies to contain agents."
+        },
+        {
+          "slide": 2,
+          "say": "The point is simple: files, network, interface, and process can be limited by policy, and that policy stays outside the agent’s control."
+        },
+        {
+          "slide": 3,
+          "say": "That changes production. The policy defines what the agent can access and do, from the local device to the cloud. You can observe, learn, and then enforce blocking."
+        },
+        {
+          "slide": 4,
+          "say": "What I see in companies is familiar. Agents get too much access. Permissions are not modeled well. And when something fails, there is no clear trail of what the agent tried to do."
+        },
+        {
+          "slide": 5,
+          "say": "I’ve already solved this in an enterprise account: a multi-agent platform in production, a US$ 5.5 million account, about 60% efficiency gain, and an audited defect log."
+        },
+        {
+          "slide": 6,
+          "say": "My take is direct: don’t assume, measure. If agents will operate real systems and data, production needs containment, permission, and auditability, with evidence of what happened."
+        },
+        {
+          "slide": 7,
+          "say": "Comment AGENTES and I will send you the details by DM."
+        }
+      ]
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЁМЕ · АГЕНТЫ В ПРОДАКШЕНЕ",
+          "headline": "Без изоляции агент в продакшене становится операционным риском",
+          "sub": "Microsoft выпустила контейнеры с политиками для сдерживания агентов"
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Microsoft встроила сдерживание агентов в основу стека",
+          "body": "Microsoft Execution Containers стали общедоступным слоем выполнения на основе политик. Идея в том, чтобы ограничить файлы, сеть, интерфейс и процессы, а сама политика находилась вне контроля агента."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "ЧТО МЕНЯЕТСЯ",
+          "headline": "Продакшен теперь требует нативного сдерживания",
+          "items": [
+            "Политика определяет, к чему агент может получать доступ и что он может делать",
+            "Сдерживание действует от локального устройства до облака",
+            "Есть режимы для наблюдения, обучения и последующего включения блокировок"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях, когда агент выходит за пределы пилота",
+          "items": [
+            "Агент получает слишком много доступа, потому что никто нормально не смоделировал права",
+            "Когда что-то ломается, нет понятного следа того, что он пытался сделать",
+            "Импровизированная sandbox работает в тесте и ломается в реальной эксплуатации"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ ЭТО РЕШАЛ",
+          "headline": "Я уже решал это в enterprise-аккаунте",
+          "items": [
+            "Мультиагентная платформа в продакшене в enterprise-аккаунте",
+            "Аккаунт на US$ 5,5 млн",
+            "Около 60% прироста эффективности и аудируемый журнал дефектов"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЙ ВЫВОД",
+          "headline": "Измерять, а не предполагать.",
+          "body": "Если агенты будут работать с реальными системами и данными, доверие не может быть просто обещанием. Всё должно начинаться со сдерживания, прав доступа и аудита. На практике продакшен требует доказательств того, что агент сделал, что пытался сделать и где был остановлен."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОТИТЕ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напишите AGENTES.",
+          "body": "Я пришлю в директ пошаговый разбор кейса. Я вывожу ИИ из идеи в продакшен с измеримым результатом.",
+          "button": "Напишите AGENTES · vssolutions.io"
+        }
+      ],
+      "caption": "Microsoft выпустила Microsoft Execution Containers — слой выполнения на основе политик для ИИ-агентов. Идея простая и важная: агент не должен быть собственной службой безопасности. Файлы, сеть, интерфейс и процессы теперь работают в рамках ограничений, заданных вне самого агента.\n\nЭто напрямую связано с реальной проблемой бизнеса. Многие умеют тестировать агента в контролируемой среде. Проблемы начинаются, когда этому агенту нужно работать с реальной системой, реальными данными и реальным потоком. Тут и проявляются три пробела: слишком широкий доступ, плохо заданные права и отсутствие надёжного аудита, когда что-то идёт не так.\n\nМой вывод простой: эпоха импровизированной sandbox закончилась. Если агент идёт в продакшен, стек должен изначально включать сдерживание, права доступа и аудит.\n\nЯ уже видел это на практике в enterprise-аккаунте. Мы вывели мультиагентную платформу в продакшен в аккаунте на US$ 5,5 млн, с приростом эффективности около 60%. И чтобы это работало надёжно, аудируемый журнал дефектов был не мелочью. Он был частью самой операции.\n\nНапишите AGENTES, и я пришлю в директ, как я это сделал.\n\nИсточники: blogs.windows.com, techcrunch.com\n\n#InteligenciaArtificial #AgentesDeIA #IAEnterprise #GovernancaDeIA #AutomacaoInteligente"
+    }
+  }
+}
