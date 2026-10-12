@@ -1,0 +1,108 @@
+{
+  "slug": "2026-10-12-voice-ai-contexto-escala",
+  "topic": "VOICE AI",
+  "keyword": "SDR",
+  "hook": {
+    "claim": "\"fails on context\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning, the post said voice AI still breaks on context, speed, transcription and trust, so demos still do not translate into production. I went back in to check the numbers around that."
+  },
+  "findings": [
+    {
+      "label": "LATENCY",
+      "big": "1.94s",
+      "headline": "GPT Realtime 2.1 still answers slower than Azure",
+      "detail": "Same benchmark also shows Azure at 1.66 seconds median.",
+      "bars": [
+        {
+          "label": "GPT Realtime 2.1",
+          "value": 1.94,
+          "display": "1.94s",
+          "kind": "accent"
+        },
+        {
+          "label": "Azure Realtime",
+          "value": 1.66,
+          "display": "1.66s",
+          "kind": "solid"
+        }
+      ],
+      "source": 1,
+      "evidence": "GPT Realtime 2.1 takes 1.94s and 2.46s.",
+      "say": "First, in Cekura’s live-call benchmark, GPT Realtime 2.1 needed 1.94 seconds median to answer, while Azure Realtime came in at 1.66.",
+      "status": "confirmed"
+    },
+    {
+      "label": "STALLS",
+      "big": "3.3%",
+      "headline": "OpenAI still went silent on 3.3% of calls",
+      "detail": "Cekura counts a stall when the agent is silent for 10 seconds or more.",
+      "bars": [
+        {
+          "label": "GPT Realtime 2.1",
+          "value": 3.3,
+          "display": "3.3%",
+          "kind": "accent"
+        },
+        {
+          "label": "Gemini 3.8 Live",
+          "value": 2,
+          "display": "2.0%",
+          "kind": "solid"
+        }
+      ],
+      "source": 2,
+      "evidence": "The agent went silent for 10 seconds or more on 2.0% of Gemini 3.8 Live calls and 3.3% of GPT Realtime 2.1 calls.",
+      "say": "Second, even a strong model still stalled: GPT Realtime 2.1 went silent on 3.3% of calls, versus 2.0% for Gemini 3.8 Live.",
+      "status": "confirmed"
+    },
+    {
+      "label": "COST",
+      "big": "$0.085",
+      "headline": "Published call cost is higher than a cheaper rival",
+      "detail": "Cekura lists vendor-published per-minute rates for the same benchmark setup.",
+      "bars": [
+        {
+          "label": "GPT Realtime 2.1",
+          "value": 0.085,
+          "display": "$0.085",
+          "kind": "accent"
+        },
+        {
+          "label": "GPT-Live 1 + Sol low",
+          "value": 0.055,
+          "display": "$0.055",
+          "kind": "solid"
+        }
+      ],
+      "source": 3,
+      "evidence": "GPT-Live 1 + GPT-6 Sol (low thinking) costs $0.055 a minute of call and GPT Realtime 2.1 $0.085",
+      "say": "Third, cost still matters: in that benchmark setup, GPT Realtime 2.1 was priced at $0.085 per minute, versus $0.055 for GPT-Live plus Sol low.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "Good voice is not enough",
+    "say": "My take: if latency, stalls and cost still move this much, the bottleneck is the system, not the voice demo."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "Cekura Bench — Azure Realtime vs GPT Realtime 2.1",
+      "url": "https://benchmarks.cekura.ai/speech-to-speech/compare/azure-realtime-vs-openai-realtime"
+    },
+    {
+      "n": 2,
+      "title": "Cekura Bench — Gemini 3.8 Live vs GPT Realtime 2.1",
+      "url": "https://benchmarks.cekura.ai/speech-to-speech/compare/gemini-live-standard-vs-openai-realtime"
+    },
+    {
+      "n": 3,
+      "title": "Cekura Bench — GPT-Live 1 + Sol low vs GPT Realtime 2.1",
+      "url": "https://benchmarks.cekura.ai/speech-to-speech/compare/gpt-live-vs-openai-realtime"
+    }
+  ],
+  "caption": "This morning’s post said voice AI still breaks on the basics that block scale: context, speed, transcription and trust. I went back in and checked the numbers around that.\n\n1.94s median reply time for GPT Realtime 2.1, versus 1.66s for Azure Realtime.\n3.3% stalled-call rate for GPT Realtime 2.1, versus 2.0% for Gemini 3.8 Live.\n$0.085 per minute for GPT Realtime 2.1 in Cekura’s setup, versus $0.055 for GPT-Live + Sol low.\n\nMy take: good voice is not enough. If the system is still slower, stalls more, and costs more, production will expose it fast.\n\nComment SDR and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Cekura Bench — Azure Realtime vs GPT Realtime 2.1 — https://benchmarks.cekura.ai/speech-to-speech/compare/azure-realtime-vs-openai-realtime\n[2] Cekura Bench — Gemini 3.8 Live vs GPT Realtime 2.1 — https://benchmarks.cekura.ai/speech-to-speech/compare/gemini-live-standard-vs-openai-realtime\n[3] Cekura Bench — GPT-Live 1 + Sol low vs GPT Realtime 2.1 — https://benchmarks.cekura.ai/speech-to-speech/compare/gpt-live-vs-openai-realtime\n\nvssolutions.io",
+  "gerado_em": "2026-10-12T13:00:27.943Z"
+}
