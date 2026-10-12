@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-12-voice-ai-contexto-escala",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Voice AI está avançando, mas a discussão mais útil não é sobre sotaque, entonação ou demo fluida. É sobre contexto confiável em produção.\n\nNa matéria da TechCrunch, os pontos aparecem com clareza: voz melhorou, mas ainda há problema em entender o usuário, capturar contexto completo, responder rápido e passar confiança. E, quando a transcrição erra, tudo que vem depois pode sair errado também.\n\nMinha leitura é simples: antes de colocar voz na operação, a empresa precisa resolver o mesmo gargalo que já trava agente em chat e WhatsApp. Contexto, integração, regras e medição. Senão só troca um chatbot frágil por um callbot frágil.\n\nFoi exatamente esse tipo de problema que eu já resolvi em uma loja de materiais de construção do Sul do Brasil. Eram 13.312 produtos no ERP, 136 jeitos diferentes de escrever a unidade e 245 sinônimos de balcão mapeados. A IA não vê o catálogo inteiro. Uma busca simples responde em milissegundos e entrega 8 resultados para o modelo. Resultado: 65 de 65 perguntas reais de clientes encontraram o produto certo.\n\nÉ assim que IA sai do papel: menos efeito, mais estrutura.\n\nComenta SDR que eu te mando no direct como fiz.\n\nFontes: techcrunch.com, twitter.com\n\n#InteligenciaArtificial #IA #VoiceAI #Automacao #AgentesDeIA #WhatsAppBusiness",
+  "first_comment": "Fontes: https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/ · https://twitter.com/karpathy/status/2109361546505966046\n\nvssolutions.io"
+}
