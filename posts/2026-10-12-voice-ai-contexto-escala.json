@@ -1,0 +1,202 @@
+{
+  "slug": "2026-10-12-voice-ai-contexto-escala",
+  "lang": "pt",
+  "palette": [
+    "yellow",
+    "black"
+  ],
+  "accent": "yellow",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis · GMT-3",
+  "story_eyebrow": "PERGUNTA DO DIA",
+  "story_pergunta": "Na sua empresa, a IA já consulta sistema e regras ou ainda responde solta?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "IA EM ALTA · VOICE AI",
+      "headline": "Voice AI ainda falha no básico que impede escala",
+      "sub": "Sem contexto confiável, só troca chatbot frágil por callbot frágil"
+    },
+    {
+      "type": "text",
+      "eyebrow": "O QUE ACONTECEU",
+      "headline": "Executivos apontam que voz ainda não teve seu momento",
+      "body": "A TechCrunch reuniu leituras parecidas: voz melhorou, mas ainda trava em contexto, velocidade de resposta, transcrição e confiança. Também pesa a transparência: em chamadas corporativas, precisa ficar claro quando a pessoa fala com IA."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "O NÚMERO",
+      "stat": "6B",
+      "label": "pessoas mal tiveram contato com LLMs, segundo Karpathy",
+      "sub": "A distância entre demo, uso casual e uso real em produção ainda é grande"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+      "headline": "O que eu vejo nas empresas quando tentam pôr isso de pé",
+      "items": [
+        "A voz fica boa, mas a IA não encontra o dado certo na hora",
+        "Sem regra clara, o agente responde além do que deveria",
+        "Sem integração e métrica, ninguém sabe se resolveu ou só atendeu"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "EU JÁ RESOLVI ISSO",
+      "headline": "Foi assim numa loja de materiais de construção do Sul do Brasil",
+      "items": [
+        "13.312 produtos no ERP e 136 jeitos diferentes de escrever a unidade",
+        "245 sinônimos de balcão mapeados para o cliente achar o item certo",
+        "65 de 65 perguntas reais de clientes encontraram o produto certo"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MINHA LEITURA",
+      "headline": "Simples que funciona vale mais que complexo que impressiona.",
+      "body": "Na prática, antes de colocar voz na operação, eu resolveria contexto, integração e regra. No case, a IA não vê o catálogo inteiro: uma busca simples responde em milissegundos e entrega 8 resultados para o modelo. É isso que deixa o uso confiável em produção."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "QUER VER COMO EU FIZ?",
+      "headline": "Comenta SDR.",
+      "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+      "button": "Comenta SDR · vssolutions.io"
+    }
+  ],
+  "caption": "Voice AI está avançando, mas a discussão mais útil não é sobre sotaque, entonação ou demo fluida. É sobre contexto confiável em produção.\n\nNa matéria da TechCrunch, os pontos aparecem com clareza: voz melhorou, mas ainda há problema em entender o usuário, capturar contexto completo, responder rápido e passar confiança. E, quando a transcrição erra, tudo que vem depois pode sair errado também.\n\nMinha leitura é simples: antes de colocar voz na operação, a empresa precisa resolver o mesmo gargalo que já trava agente em chat e WhatsApp. Contexto, integração, regras e medição. Senão só troca um chatbot frágil por um callbot frágil.\n\nFoi exatamente esse tipo de problema que eu já resolvi em uma loja de materiais de construção do Sul do Brasil. Eram 13.312 produtos no ERP, 136 jeitos diferentes de escrever a unidade e 245 sinônimos de balcão mapeados. A IA não vê o catálogo inteiro. Uma busca simples responde em milissegundos e entrega 8 resultados para o modelo. Resultado: 65 de 65 perguntas reais de clientes encontraram o produto certo.\n\nÉ assim que IA sai do papel: menos efeito, mais estrutura.\n\nComenta SDR que eu te mando no direct como fiz.\n\nFontes: techcrunch.com, twitter.com\n\n#InteligenciaArtificial #IA #VoiceAI #Automacao #AgentesDeIA #WhatsAppBusiness",
+  "first_comment": "Fontes: https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/ · https://twitter.com/karpathy/status/2109361546505966046\n\nvssolutions.io",
+  "meta": {
+    "tema": "Voice AI ainda quebra no contexto e por isso não escala",
+    "tipo": "ponte",
+    "case_id": "sdr",
+    "palavra": "SDR",
+    "valor": "Simples que funciona vale mais que complexo que impressiona.",
+    "angulo": "Antes de colocar voz na operação, a empresa precisa resolver contexto, integração e métricas de resultado — senão só troca um chatbot frágil por um callbot frágil.",
+    "fontes": [
+      "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "https://twitter.com/karpathy/status/2109361546505966046"
+    ],
+    "roteiro_reels": "[0-3s] Voice AI não escala só porque fala bem.\n[3-20s] O ponto não é a voz. É contexto.\nSe a IA não encontra o dado certo na hora, ela quebra confiança.\nSem integração, regra e métrica, você só troca chatbot frágil por callbot frágil.\n[20-30s] Foi isso que eu resolvi numa loja de materiais de construção do Sul do Brasil: ligar IA a catálogo, regras e ferramentas para funcionar em produção. Comenta SDR que eu te mando como fiz.",
+    "gerado_em": "2026-10-12T09:31:04.119Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · VOICE AI",
+          "headline": "Voice AI still fails at the basics that block scale",
+          "sub": "Without reliable context, it just swaps a fragile chatbot for a fragile callbot"
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Executives say voice still has not had its moment",
+          "body": "TechCrunch pulled together similar takes: voice has improved, but it still gets stuck on context, response speed, transcription and trust. Transparency also matters: in corporate calls, it needs to be clear when the person is speaking with AI."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "6B",
+          "label": "people have barely had contact with LLMs, according to Karpathy",
+          "sub": "The gap between demo, casual use and real production use is still large"
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies when they try to get this up and running",
+          "items": [
+            "The voice sounds good, but the AI does not find the right data in time",
+            "Without a clear rule, the agent answers beyond what it should",
+            "Without integration and metrics, no one knows whether it solved anything or just answered"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I HAVE ALREADY SOLVED THIS",
+          "headline": "This is how it worked at a construction materials store in Southern Brazil",
+          "items": [
+            "13,312 products in the ERP and 136 different ways to write the unit",
+            "245 counter synonyms mapped so the customer could find the right item",
+            "65 out of 65 real customer questions found the right product"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works is worth more than complex that impresses.",
+          "body": "In practice, before putting voice into the operation, I would solve context, integration and rules. In the case, the AI does not see the entire catalog: a simple search answers in milliseconds and delivers 8 results to the model. That is what makes production use reliable."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I will send you the case step by step by DM. I take AI off the page and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "caption": "Voice AI is moving forward, but the most useful discussion is not about accent, intonation or a smooth demo. It is about reliable context in production.\n\nIn the TechCrunch article, the points are clear: voice has improved, but there are still problems with understanding the user, capturing full context, responding quickly and building trust. And when the transcription gets it wrong, everything that comes after can go wrong too.\n\nMy take is simple: before putting voice into the operation, the company needs to solve the same bottleneck that already holds back agents in chat and WhatsApp. Context, integration, rules and measurement. Otherwise, it just swaps a fragile chatbot for a fragile callbot.\n\nThat is exactly the kind of problem I have already solved at a construction materials store in Southern Brazil. There were 13,312 products in the ERP, 136 different ways to write the unit and 245 counter synonyms mapped. The AI does not see the entire catalog. A simple search answers in milliseconds and delivers 8 results to the model. Result: 65 out of 65 real customer questions found the right product.\n\nThat is how AI moves off the page: less effect, more structure.\n\nComment SDR and I will send you by DM how I did it.\n\nSources: techcrunch.com, twitter.com\n\n#InteligenciaArtificial #IA #VoiceAI #Automacao #AgentesDeIA #WhatsAppBusiness"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЁМЕ · VOICE AI",
+          "headline": "Voice AI всё ещё проваливает базовые вещи, без которых не бывает масштаба",
+          "sub": "Без надёжного контекста это просто замена хрупкого чат-бота на хрупкого голосового бота"
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Руководители говорят, что у голоса ещё не было своего момента",
+          "body": "TechCrunch собрал похожие мнения: голос стал лучше, но всё ещё буксует на контексте, скорости ответа, транскрибации и доверии. Важна и прозрачность: в корпоративных звонках должно быть ясно, когда человек разговаривает с ИИ."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЧИСЛО",
+          "stat": "6B",
+          "label": "людей почти не сталкивались с LLM, по словам Karpathy",
+          "sub": "Разрыв между демо, редким использованием и реальной работой в проде всё ещё большой"
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях, когда они пытаются это запустить",
+          "items": [
+            "Голос звучит хорошо, но ИИ не находит нужные данные вовремя",
+            "Без чёткого правила агент отвечает больше, чем должен",
+            "Без интеграции и метрик никто не понимает, это реально решило задачу или просто ответило"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ РЕШАЛ ЭТО",
+          "headline": "Вот как это сработало в магазине стройматериалов на юге Бразилии",
+          "items": [
+            "13 312 товаров в ERP и 136 разных способов записать единицу измерения",
+            "245 синонимов для balcão сопоставили, чтобы клиент находил нужный товар",
+            "65 из 65 реальных вопросов клиентов нашли нужный товар"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЙ ВЗГЛЯД",
+          "headline": "Простое, которое работает, ценнее сложного, которое впечатляет.",
+          "body": "На практике, прежде чем добавлять голос в операцию, я бы решил вопросы контекста, интеграции и правил. В этом кейсе ИИ не видит весь каталог: простой поиск отвечает за миллисекунды и отдаёт модели 8 результатов. Именно это делает использование в проде надёжным."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОТИТЕ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напишите SDR.",
+          "body": "Я отправлю в директ пошагово, как был сделан этот кейс. Я перевожу ИИ из идеи в прод с измеримым результатом.",
+          "button": "Напишите SDR · vssolutions.io"
+        }
+      ],
+      "caption": "Voice AI развивается, но самый полезный разговор сейчас не про акцент, интонацию или гладкое демо. Он про надёжный контекст в проде.\n\nВ статье TechCrunch это видно очень ясно: голос стал лучше, но всё ещё есть проблемы с пониманием пользователя, захватом полного контекста, скоростью ответа и доверием. И когда транскрибация ошибается, всё, что идёт после, тоже может пойти не туда.\n\nМой вывод простой: прежде чем добавлять голос в операцию, компании нужно решить то же узкое место, которое уже тормозит агентов в чате и WhatsApp. Контекст, интеграции, правила и измерение. Иначе это просто замена хрупкого чат-бота на хрупкого голосового бота.\n\nИменно такую задачу я уже решал в магазине стройматериалов на юге Бразилии. Там было 13 312 товаров в ERP, 136 разных способов записать единицу измерения и 245 сопоставленных синонимов для balcão. ИИ не видит весь каталог. Простой поиск отвечает за миллисекунды и отдаёт модели 8 результатов. Результат: 65 из 65 реальных вопросов клиентов нашли нужный товар.\n\nВот так ИИ выходит из стадии идеи: меньше эффектов, больше структуры.\n\nНапишите SDR, и я отправлю в директ, как я это сделал.\n\nИсточники: techcrunch.com, twitter.com\n\n#InteligenciaArtificial #IA #VoiceAI #Automacao #AgentesDeIA #WhatsAppBusiness"
+    }
+  }
+}
