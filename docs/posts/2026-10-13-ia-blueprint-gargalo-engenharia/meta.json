@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-13-ia-blueprint-gargalo-engenharia",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "O TechCrunch trouxe uma startup que diz gerar blueprints prontos para aprovação em minutos, a partir de sketch 2D ou PDF. A proposta é clara: tirar tempo do drafting e devolver tempo para design. Segundo a fonte, arquitetos gastam 80% do tempo com drafting.\n\nMinha leitura é outra camada do problema.\n\nQuando a IA consegue gerar a planta, o desafio deixa de ser “ela desenha?” e vira “isso entra no processo real da empresa?”. Porque em engenharia, saída bonita não basta. Precisa conversar com regra técnica, software de entrega, revisão e fluxo operacional.\n\nÉ exatamente aí que muita iniciativa trava. A demo funciona. A operação não.\n\nFoi esse tipo de problema que eu já resolvi na Consult Eng, empresa brasileira de engenharia sanitária: automação de Revit que gera modelos de estações elevatórias de esgoto, com Revit rodando sem tela, na nuvem, via APS Design Automation.\n\nNo fim, o valor não está em impressionar no prompt. Está em colocar a automação dentro do processo que já precisa acontecer.\n\nComenta REVIT que eu te mando no direct como fiz.\n\nFontes: techcrunch.com, github.com\n\n#IAnaEngenharia #Automacao #Revit #Engenharia #InteligenciaArtificial",
+  "first_comment": "Fontes: https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/ · https://github.com/bherbruck/solidcraft\n\nvssolutions.io"
+}

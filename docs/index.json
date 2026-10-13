@@ -1,6 +1,210 @@
 {
-  "atualizado_em": "2026-10-12T09:32:13.019341Z",
+  "atualizado_em": "2026-10-13T09:31:59.488709Z",
   "posts": [
+    {
+      "slug": "2026-10-13-ia-blueprint-gargalo-engenharia",
+      "data": "2026-10-13",
+      "titulo": "Gerar planta em minutos não resolve o projeto inteiro",
+      "subtitulo": "Quando a IA desenha mais rápido, o gargalo muda de lugar.",
+      "tema": "IA em blueprint pronto expõe o gargalo de levar automação à engenharia",
+      "tipo": "ponte",
+      "case_id": "revit",
+      "palavra": "REVIT",
+      "valor": "Simples que funciona vale mais que complexo que impressiona.",
+      "fontes": [
+        "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+        "https://github.com/bherbruck/solidcraft"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "IA EM ALTA · BLUEPRINTS",
+          "headline": "Gerar planta em minutos não resolve o projeto inteiro",
+          "sub": "Quando a IA desenha mais rápido, o gargalo muda de lugar."
+        },
+        {
+          "type": "text",
+          "eyebrow": "O QUE ACONTECEU",
+          "headline": "Uma startup diz gerar blueprints prontos para aprovação",
+          "body": "Segundo o TechCrunch, a Blueprints AI gera blueprints code-compliant e permit-ready em minutos a partir de sketch 2D ou PDF. A versão 2 atualiza o projeto inteiro com uma mudança e checa contra códigos locais."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "O NÚMERO",
+          "stat": "80%",
+          "label": "tempo que arquitetos gastam com drafting, segundo a fonte",
+          "sub": "A proposta da empresa é inverter isso para 20-80 entre drafting e design."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+          "headline": "O que eu vejo nas empresas quando a demo impressiona",
+          "items": [
+            "Gerar saída não basta sem validar regra técnica do processo real",
+            "A IA desenha, mas não conversa com o software que entrega o projeto",
+            "A automação para na prova de conceito e não entra no fluxo operacional"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "EU JÁ RESOLVI ISSO",
+          "headline": "Na Consult Eng, empresa brasileira de engenharia sanitária",
+          "items": [
+            "Automação de Revit que gera modelos de estações elevatórias de esgoto",
+            "Os modelos são gerados no Revit, dentro do software técnico do processo",
+            "Revit rodando sem tela, na nuvem, com APS Design Automation"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MINHA LEITURA",
+          "headline": "Simples que funciona vale mais que complexo que impressiona.",
+          "body": "Na prática, o valor na engenharia não está só em gerar desenho. Está em conectar geração, validação e entrega no fluxo que a empresa já opera. Se não entra no software técnico e na rotina real, continua sendo demo."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "QUER VER COMO EU FIZ?",
+          "headline": "Comenta REVIT.",
+          "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+          "button": "Comenta REVIT · vssolutions.io"
+        }
+      ],
+      "legenda": "O TechCrunch trouxe uma startup que diz gerar blueprints prontos para aprovação em minutos, a partir de sketch 2D ou PDF. A proposta é clara: tirar tempo do drafting e devolver tempo para design. Segundo a fonte, arquitetos gastam 80% do tempo com drafting.\n\nMinha leitura é outra camada do problema.\n\nQuando a IA consegue gerar a planta, o desafio deixa de ser “ela desenha?” e vira “isso entra no processo real da empresa?”. Porque em engenharia, saída bonita não basta. Precisa conversar com regra técnica, software de entrega, revisão e fluxo operacional.\n\nÉ exatamente aí que muita iniciativa trava. A demo funciona. A operação não.\n\nFoi esse tipo de problema que eu já resolvi na Consult Eng, empresa brasileira de engenharia sanitária: automação de Revit que gera modelos de estações elevatórias de esgoto, com Revit rodando sem tela, na nuvem, via APS Design Automation.\n\nNo fim, o valor não está em impressionar no prompt. Está em colocar a automação dentro do processo que já precisa acontecer.\n\nComenta REVIT que eu te mando no direct como fiz.\n\nFontes: techcrunch.com, github.com\n\n#IAnaEngenharia #Automacao #Revit #Engenharia #InteligenciaArtificial",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-13-ia-blueprint-gargalo-engenharia/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-13-ia-blueprint-gargalo-engenharia/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-13-ia-blueprint-gargalo-engenharia/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-13-ia-blueprint-gargalo-engenharia/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-13-ia-blueprint-gargalo-engenharia/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-13-ia-blueprint-gargalo-engenharia/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-13-ia-blueprint-gargalo-engenharia/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-13-ia-blueprint-gargalo-engenharia/1.jpg",
+      "gerado_em": "2026-10-13T09:30:55.596Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Generating a floor plan in minutes doesn’t solve the whole project",
+          "subtitulo": "When AI draws faster, the bottleneck moves somewhere else.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · BLUEPRINTS",
+              "headline": "Generating a floor plan in minutes doesn’t solve the whole project",
+              "sub": "When AI draws faster, the bottleneck moves somewhere else."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "A startup says it can generate blueprints ready for approval",
+              "body": "According to TechCrunch, Blueprints AI generates code-compliant, permit-ready blueprints in minutes from a 2D sketch or PDF. Version 2 updates the entire project with one change and checks it against local codes."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "80%",
+              "label": "of the time architects spend on drafting, according to the source",
+              "sub": "The company’s proposal is to flip that to 20-80 between drafting and design."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies when the demo looks impressive",
+              "items": [
+                "Generating output is not enough without validating the technical rules of the real process",
+                "AI draws, but it doesn’t talk to the software that delivers the project",
+                "Automation gets stuck at the proof of concept and never enters the operational workflow"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I’VE ALREADY SOLVED THIS",
+              "headline": "At Consult Eng, a Brazilian sanitary engineering company",
+              "items": [
+                "Revit automation that generates models of sewage pumping stations",
+                "The models are generated in Revit, inside the technical software used in the process",
+                "Revit running headless, in the cloud, with APS Design Automation"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Simple that works is worth more than complex that impresses.",
+              "body": "In practice, the value in engineering is not just in generating drawings. It is in connecting generation, validation, and delivery inside the workflow the company already runs. If it doesn’t enter the technical software and the real routine, it is still just a demo."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment REVIT.",
+              "body": "I’ll send you the step-by-step of the case by DM. I take AI out of the concept stage and put it into production, with measured results.",
+              "button": "Comment REVIT · vssolutions.io"
+            }
+          ],
+          "legenda": "TechCrunch featured a startup that says it can generate blueprints ready for approval in minutes from a 2D sketch or PDF. The proposal is clear: take time away from drafting and give that time back to design. According to the source, architects spend 80% of their time on drafting.\n\nMy take is a different layer of the problem.\n\nWhen AI can generate the plan, the challenge stops being “can it draw?” and becomes “does this fit into the company’s real process?”. Because in engineering, nice-looking output is not enough. It has to work with technical rules, delivery software, review, and the operational workflow.\n\nThat is exactly where many initiatives get stuck. The demo works. The operation doesn’t.\n\nThat is the kind of problem I have already solved at Consult Eng, a Brazilian sanitary engineering company: Revit automation that generates models of sewage pumping stations, with Revit running headless in the cloud via APS Design Automation.\n\nIn the end, the value is not in impressing with a prompt. It is in putting automation inside the process that already needs to happen.\n\nComment REVIT and I’ll send you by DM how I did it.\n\nSources: techcrunch.com, github.com\n\n#IAnaEngenharia #Automacao #Revit #Engenharia #InteligenciaArtificial"
+        },
+        "ru": {
+          "titulo": "Сгенерировать план за минуты — не значит решить весь проект",
+          "subtitulo": "Когда ИИ рисует быстрее, узкое место просто смещается.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · BLUEPRINTS",
+              "headline": "Сгенерировать план за минуты — не значит решить весь проект",
+              "sub": "Когда ИИ рисует быстрее, узкое место просто смещается."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Один стартап заявляет, что генерирует blueprints, готовые к согласованию",
+              "body": "По данным TechCrunch, Blueprints AI генерирует blueprints, соответствующие нормам и готовые для получения разрешения, за считанные минуты на основе 2D-эскиза или PDF. Версия 2 обновляет весь проект после одного изменения и проверяет его по местным нормам."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "80%",
+              "label": "времени архитекторы тратят на drafting, по данным источника",
+              "sub": "Идея компании — перевернуть это соотношение до 20-80 между drafting и design."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, когда демо производит впечатление",
+              "items": [
+                "Сгенерировать результат недостаточно, если не проверены технические правила реального процесса",
+                "ИИ рисует, но не взаимодействует с ПО, через которое проект сдается",
+                "Автоматизация застревает на proof of concept и не входит в операционный поток"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ РЕШИЛ ЭТО",
+              "headline": "В Consult Eng, бразильской компании по санитарному инжинирингу",
+              "items": [
+                "Автоматизация Revit, которая генерирует модели канализационных насосных станций",
+                "Модели генерируются в Revit, внутри технического ПО этого процесса",
+                "Revit работает без интерфейса, в облаке, с APS Design Automation"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЙ ВЫВОД",
+              "headline": "Простое, которое работает, ценнее сложного, которое впечатляет.",
+              "body": "На практике ценность в инженерии не только в генерации чертежа. Она в том, чтобы связать генерацию, валидацию и выдачу результата в том процессе, по которому компания уже работает. Если это не входит в техническое ПО и в реальную рутину, это всё ещё просто демо."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите REVIT.",
+              "body": "Я отправлю вам в direct пошаговый разбор кейса. Я вывожу ИИ из стадии идеи в продакшн, с измеримым результатом.",
+              "button": "Напишите REVIT · vssolutions.io"
+            }
+          ],
+          "legenda": "TechCrunch рассказал о стартапе, который заявляет, что генерирует blueprints, готовые к согласованию, за считанные минуты на основе 2D-эскиза или PDF. Идея понятна: забрать время у drafting и вернуть его design. По данным источника, архитекторы тратят 80% времени на drafting.\n\nМой взгляд — это другой слой проблемы.\n\nКогда ИИ уже может генерировать план, вопрос перестаёт быть «он умеет рисовать?» и становится таким: «это встраивается в реальный процесс компании?». Потому что в инженерии красивого результата недостаточно. Он должен учитывать технические правила, ПО для выдачи проекта, проверку и операционный поток.\n\nИменно здесь многие инициативы и буксуют. Демо работает. Операция — нет.\n\nИменно такую задачу я уже решал в Consult Eng, бразильской компании по санитарному инжинирингу: автоматизация Revit, которая генерирует модели канализационных насосных станций, с Revit без интерфейса в облаке через APS Design Automation.\n\nВ итоге ценность не в том, чтобы впечатлить промптом. Она в том, чтобы встроить автоматизацию в процесс, который и так должен происходить.\n\nНапишите REVIT, и я отправлю в direct, как я это сделал.\n\nИсточники: techcrunch.com, github.com\n\n#IAnaEngenharia #Automacao #Revit #Engenharia #InteligenciaArtificial"
+        }
+      }
+    },
     {
       "slug": "2026-10-12-voice-ai-contexto-escala",
       "data": "2026-10-12",
