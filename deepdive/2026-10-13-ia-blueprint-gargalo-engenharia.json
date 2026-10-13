@@ -1,0 +1,101 @@
+{
+  "slug": "2026-10-13-ia-blueprint-gargalo-engenharia",
+  "topic": "BLUEPRINT AI",
+  "keyword": "REVIT",
+  "hook": {
+    "claim": "\"permit-ready in minutes\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning, the post was about Blueprints AI saying it can generate permit-ready blueprints in minutes and update a full project from one change. I went back in to check the numbers around product scope, market pull, and what rivals already charge."
+  },
+  "findings": [
+    {
+      "label": "SCOPE",
+      "big": "300+ h",
+      "headline": "Blueprints AI says V2 saves 300+ hours per project",
+      "detail": "Company site says a full set is generated in minutes rather than weeks.",
+      "bars": [
+        {
+          "label": "Blueprints AI hours saved",
+          "value": 300,
+          "display": "300+ h",
+          "kind": "accent"
+        },
+        {
+          "label": "First CD set chat time",
+          "value": 30,
+          "display": "30 min",
+          "kind": "accent"
+        }
+      ],
+      "source": 1,
+      "evidence": "saving 300+ hours per project",
+      "say": "First, the company now puts a number on the pitch: 300 plus hours saved per project, with a first CD set in about 30 minutes of chat.",
+      "status": "confirmed"
+    },
+    {
+      "label": "ADOPTION",
+      "big": "4,000+",
+      "headline": "Blueprints AI says 4,000+ companies have signed up",
+      "detail": "That is sign-up volume, not confirmed paid deployment or production usage.",
+      "bars": [],
+      "source": 1,
+      "evidence": "Join the 4,000+ companies already signed up",
+      "say": "Second, Blueprints says more than 4,000 companies have signed up. That shows interest, but signed up is not the same as live inside an engineering workflow.",
+      "status": "confirmed"
+    },
+    {
+      "label": "PRICE",
+      "big": "$4,950",
+      "headline": "Sibling product ADU AI sells permit package from $4,950",
+      "detail": "ADU AI is built by the same founder and compares one-time filing to monthly SaaS.",
+      "bars": [
+        {
+          "label": "ADU AI Complete Plan",
+          "value": 4950,
+          "display": "$4,950",
+          "kind": "solid"
+        },
+        {
+          "label": "ADU AI Full Service",
+          "value": 9950,
+          "display": "$9,950",
+          "kind": "solid"
+        },
+        {
+          "label": "Blueprints AI start",
+          "value": 3200,
+          "display": "$3,200/mo",
+          "kind": "accent"
+        }
+      ],
+      "source": 2,
+      "evidence": "$4,950 one-time",
+      "say": "Third, the same founder’s ADU AI sells a permit-ready package at 4,950 dollars one time, while Blueprints AI was reported at 3,200 dollars a month.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "The real test is workflow fit",
+    "say": "My take: fast generation matters less than where the output lands. Simple, reviewable automation inside the real toolchain beats a smart-looking demo."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "Blueprints AI — Features",
+      "url": "https://www.blueprints-ai.com/features"
+    },
+    {
+      "n": 2,
+      "title": "ADU AI — Pricing",
+      "url": "https://www.adus-ai.com/"
+    },
+    {
+      "n": 3,
+      "title": "Mango Developer — Blueprints AI v2 pricing report",
+      "url": "https://mangodeveloper.com/articles/blueprints-ai-launches-v2-at-disrupt-permit-ready-construction-docs-from-a-sketch-in-minutes"
+    }
+  ],
+  "caption": "This morning was about Blueprints AI claiming permit-ready blueprints in minutes and shifting time away from drafting.\n\n300+ hours saved per project, according to Blueprints AI.\n4,000+ companies signed up, but that is demand, not proven production use.\nADU AI, from the same founder, sells a permit-ready package from $4,950 one time, while Blueprints AI was reported from $3,200 per month.\n\nMy take: in engineering, speed only matters if generation, review, and delivery fit the workflow people already run.\n\nComment REVIT and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Blueprints AI — Features — https://www.blueprints-ai.com/features\n[2] ADU AI — Pricing — https://www.adus-ai.com/\n[3] Mango Developer — Blueprints AI v2 pricing report — https://mangodeveloper.com/articles/blueprints-ai-launches-v2-at-disrupt-permit-ready-construction-docs-from-a-sketch-in-minutes\n\nvssolutions.io",
+  "gerado_em": "2026-10-13T13:00:25.696Z"
+}
