@@ -1,0 +1,95 @@
+{
+  "slug": "2026-10-14-versionamento-agentes",
+  "topic": "SOURCE CONTROL",
+  "keyword": "CLAUDE",
+  "hook": {
+    "claim": "\"git became a bottleneck\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning, the post said Anthropic rebuilt version control because agent-written code pushed git into the main bottleneck. I went back in to check the surrounding numbers."
+  },
+  "findings": [
+    {
+      "label": "SPEED",
+      "big": "200×",
+      "headline": "Scion cut infra footprint by 200×",
+      "detail": "Anthropic says the new stack uses far less CPU and memory than its git mirroring setup.",
+      "bars": [
+        {
+          "label": "Scion infra",
+          "value": 1,
+          "display": "1×",
+          "kind": "accent"
+        },
+        {
+          "label": "Old git infra",
+          "value": 200,
+          "display": "200×",
+          "kind": "solid"
+        }
+      ],
+      "source": 1,
+      "evidence": "Our Scion infrastructure footprint is now 200x smaller than our previous git mirroring infrastructure",
+      "say": "First, Anthropic says Scion made the infrastructure much lighter, with a 200-times smaller footprint than its previous git mirroring setup.",
+      "status": "confirmed"
+    },
+    {
+      "label": "CHECKOUT",
+      "big": "25%",
+      "headline": "CI got a 25% CPU capacity win",
+      "detail": "The same post says checkouts moved from minutes to seconds for CI and research jobs.",
+      "bars": [
+        {
+          "label": "CPU saved in CI",
+          "value": 25,
+          "display": "25%",
+          "kind": "accent"
+        },
+        {
+          "label": "CPU baseline",
+          "value": 100,
+          "display": "100%",
+          "kind": "solid"
+        }
+      ],
+      "source": 1,
+      "evidence": "CI alone realized a 25% CPU capacity win.",
+      "say": "Second, the operational gain was not just faster checkouts. Anthropic says CI alone saw a 25 percent CPU capacity win.",
+      "status": "confirmed"
+    },
+    {
+      "label": "CONTEXT",
+      "big": "60–70k",
+      "headline": "Google publication cites 60–70k commits a workday",
+      "detail": "We could not confirm this claim on the cited Google source at check time.",
+      "bars": [],
+      "source": 2,
+      "evidence": "we’ll regularly handle 60,000 to 70,000 commits to the repository per work day",
+      "say": "Third, a Google publication is cited for 60 to 70 thousand commits per workday, but we could not confirm that on the cited page.",
+      "status": "unconfirmed"
+    }
+  ],
+  "take": {
+    "headline": "Workflow wins before tooling does",
+    "say": "My take: workflow still matters more than tooling here. If you use Piper or similar systems, Comment CHECK and tell me."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "Anthropic — Redesigning source control",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+    },
+    {
+      "n": 2,
+      "title": "Google — Software Engineering at Google, Version Control at Google",
+      "url": "https://jinwoongkim.net/images/software-engineering-at-google-lessons-learned-from-programming-over-time-1nbsped-1492082791-9781492082798_compress.pdf"
+    }
+  ],
+  "caption": "This morning’s post was about Anthropic rebuilding version control because agent-written code pushed git into the bottleneck.\n\n200× smaller infrastructure footprint versus its previous git mirroring setup.\n25% CPU capacity win in CI, with checkouts moving from minutes to seconds.\nA Google publication is cited for 60–70k commits per workday in Piper, but this point was not confirmed on the cited source at check time.\n\nMy take: the lesson is still workflow first. Simple review, rollback, and operational control beat complexity that only looks impressive.\n\nComment CHECK and I will DM you what I find.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Anthropic — Redesigning source control — https://www.anthropic.com/engineering/redesigning-source-control\n[2] Google — Software Engineering at Google, Version Control at Google — https://jinwoongkim.net/images/software-engineering-at-google-lessons-learned-from-programming-over-time-1nbsped-1492082791-9781492082798_compress.pdf (claim not confirmed on this page at check time)\n\nvssolutions.io",
+  "gerado_em": "2026-10-14T13:00:45.538Z",
+  "cta": {
+    "keyword": "CHECK",
+    "line": "I'll DM you what I find"
+  },
+  "check_dm": "Thanks for commenting. I could not confirm the claim that Google handles 60–70k commits per workday in Piper from the cited source, \"Google — Software Engineering at Google, Version Control at Google.\" If you use Piper or a similar setup, what do you see in practice? I will reply here when I confirm it."
+}
