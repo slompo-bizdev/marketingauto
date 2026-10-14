@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-14-versionamento-agentes",
+  "video": "2026-10-14-versionamento-agentes.mp4",
+  "duration": 45.6,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning’s post was about Anthropic rebuilding version control because agent-written code pushed git into the bottleneck.\n\n200× smaller infrastructure footprint versus its previous git mirroring setup.\n25% CPU capacity win in CI, with checkouts moving from minutes to seconds.\nA Google publication is cited for 60–70k commits per workday in Piper, but this point was not confirmed on the cited source at check time.\n\nMy take: the lesson is still workflow first. Simple review, rollback, and operational control beat complexity that only looks impressive.\n\nComment CHECK and I will DM you what I find.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Anthropic — Redesigning source control — https://www.anthropic.com/engineering/redesigning-source-control\n[2] Google — Software Engineering at Google, Version Control at Google — https://jinwoongkim.net/images/software-engineering-at-google-lessons-learned-from-programming-over-time-1nbsped-1492082791-9781492082798_compress.pdf (claim not confirmed on this page at check time)\n\nvssolutions.io",
+  "keyword": "CHECK",
+  "check_dm": "Thanks for commenting. I could not confirm the claim that Google handles 60–70k commits per workday in Piper from the cited source, \"Google — Software Engineering at Google, Version Control at Google.\" If you use Piper or a similar setup, what do you see in practice? I will reply here when I confirm it.",
+  "scenes": [
+    "This morning, the post said Anthropic rebuilt version control because agent-written code pushed git into the main bottleneck. I went back in to check the surrounding numbers.",
+    "First, Anthropic says Scion made the infrastructure much lighter, with a 200-times smaller footprint than its previous git mirroring setup.",
+    "Second, the operational gain was not just faster checkouts. Anthropic says CI alone saw a 25 percent CPU capacity win.",
+    "Third, a Google publication is cited for 60 to 70 thousand commits per workday, but we could not confirm that on the cited page.",
+    "My take: workflow still matters more than tooling here. If you use Piper or similar systems, Comment CHECK and tell me."
+  ]
+}
