@@ -1,0 +1,231 @@
+{
+  "slug": "2026-10-14-versionamento-agentes",
+  "lang": "pt",
+  "palette": [
+    "black",
+    "offwhite"
+  ],
+  "accent": "green",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis · GMT-3",
+  "story_eyebrow": "PERGUNTA DO DIA",
+  "story_pergunta": "Na sua empresa, quem revisa e governa o código feito por agentes?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "IA EM ALTA · VERSIONAMENTO",
+      "headline": "Quando agentes escalam, git pode virar gargalo",
+      "sub": "O problema deixa de ser escrever código.\nPassa a ser operar mudança."
+    },
+    {
+      "type": "text",
+      "eyebrow": "O QUE ACONTECEU",
+      "headline": "A Anthropic redesenhou controle de versão para agentes",
+      "body": "A empresa criou o Scion, um sistema próprio de versionamento, e migrou seu monorepo do git em cinco meses. A justificativa foi direta: com agentes produzindo mais código, source control virou o maior gargalo de desenvolvimento."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "O NÚMERO",
+      "stat": "30.000",
+      "label": "code changes merged por dia em setembro de 2026",
+      "sub": "Em maio de 2026, a média era de cerca de 2.500 por dia."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+      "headline": "O que eu vejo nas empresas quando entram agentes de código",
+      "items": [
+        "O time gera mudança mais rápido do que consegue revisar com segurança",
+        "O fluxo continua desenhado para humano, não para agente sempre online",
+        "Sem governança de merge e rollback, produtividade vira retrabalho"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "EU JÁ RESOLVI ISSO",
+      "headline": "O que fiz com o time de desenvolvimento do AskMoses.AI",
+      "items": [
+        "Cada dev trabalha com Claude Code no projeto",
+        "Outro Claude revisa o pull request",
+        "Deploy na Vercel com rollback em 1 clique e backup diário"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MINHA LEITURA",
+      "headline": "Simples que funciona vale mais que complexo que impressiona.",
+      "body": "Na prática, usar agentes bem não começa no modelo. Começa no fluxo. Revisão, decisão humana de negócio, deploy seguro e rollback simples sustentam produção. Sem isso, vibe coding só acelera o caos."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "QUER VER COMO EU FIZ?",
+      "headline": "Comenta CLAUDE.",
+      "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+      "button": "Comenta CLAUDE · vssolutions.io"
+    }
+  ],
+  "caption": "A Anthropic publicou um ponto importante: quando o volume de código cresce com agentes, o gargalo pode sair da escrita e ir para o controle de versão, revisão e operação. No caso deles, o número foi de cerca de 2.500 merges por dia em maio de 2026 para mais de 30.000 em setembro. A resposta foi redesenhar a infraestrutura de source control.\n\nMinha leitura é simples: vibe coding sem operação de engenharia não escala. Quando a empresa quer usar agentes de código de verdade, ela precisa redesenhar fluxo, revisão e governança. Senão, o time produz mais mudança do que consegue absorver com segurança.\n\nFoi exatamente essa lógica no time de desenvolvimento do AskMoses.AI: cada dev trabalha com Claude Code no projeto, outro Claude revisa o pull request, o humano decide pelo negócio, não pela técnica, e o deploy na Vercel tem rollback em 1 clique e backup diário.\n\nAgente sem processo aumenta throughput. Processo bom transforma throughput em produção confiável.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: anthropic.com\n\n#inteligenciaartificial #engenhariadesoftware #aiagents #devops #gestaodeproduto",
+  "first_comment": "Fontes: https://www.anthropic.com/engineering/redesigning-source-control\n\nvssolutions.io",
+  "meta": {
+    "tema": "Anthropic redesenha controle de versão para times com agentes",
+    "tipo": "ponte",
+    "case_id": "agentic",
+    "palavra": "CLAUDE",
+    "valor": "Simples que funciona vale mais que complexo que impressiona.",
+    "angulo": "Vibe coding sem operação de engenharia vira caos: para usar agentes de código de verdade, a empresa precisa redesenhar fluxo, revisão e governança.",
+    "fontes": [
+      "https://www.anthropic.com/engineering/redesigning-source-control"
+    ],
+    "roteiro_reels": "[0-3s] Se agente de código está acelerando seu time, o próximo gargalo pode ser o versionamento.\n[3-20s] A Anthropic disse que source control virou o maior bottleneck deles.\nEles saíram de cerca de 2.500 merges por dia em maio de 2026 para mais de 30.000 em setembro.\nIsso mostra uma coisa: sem fluxo, revisão e governança, mais código só cria mais caos.\n[20-30s] No time de desenvolvimento do AskMoses.AI, eu já montei isso com Claude Code no projeto, outro Claude revisando pull request e deploy com rollback em 1 clique. Simples que funciona vale mais que complexo que impressiona. Comenta CLAUDE que eu te mando como fiz.",
+    "gerado_em": "2026-10-14T09:30:56.015Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · VERSIONING",
+          "headline": "When agents scale, git can become a bottleneck",
+          "sub": "The problem stops being writing code.\nIt becomes operating change."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Anthropic redesigned version control for agents",
+          "body": "The company created Scion, its own versioning system, and migrated its monorepo off git in five months. The reason was straightforward: with agents producing more code, source control became the biggest development bottleneck."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "30,000",
+          "label": "code changes merged per day in September 2026",
+          "sub": "In May 2026, the average was around 2,500 per day."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies when they bring in coding agents",
+          "items": [
+            "The team generates change faster than it can review safely",
+            "The workflow is still designed for humans, not for agents that are always online",
+            "Without merge and rollback governance, productivity turns into rework"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I’VE ALREADY SOLVED THIS",
+          "headline": "What I did with the AskMoses.AI development team",
+          "items": [
+            "Each dev works with Claude Code on the project",
+            "Another Claude reviews the pull request",
+            "Deploy on Vercel with 1-click rollback and daily backup"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works is worth more than complex that impresses.",
+          "body": "In practice, using agents well does not start with the model. It starts with the workflow. Review, human business decisions, safe deploys, and simple rollback are what sustain production. Without that, vibe coding just speeds up the chaos."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment CLAUDE.",
+          "body": "I’ll send you the case step by step in DM. I take AI out of slides and put it into production, with measured results.",
+          "button": "Comment CLAUDE · vssolutions.io"
+        }
+      ],
+      "caption": "Anthropic published an important point: when code volume grows with agents, the bottleneck can move from writing to version control, review, and operations. In their case, the number went from around 2,500 merges per day in May 2026 to more than 30,000 in September. The response was to redesign the source control infrastructure.\n\nMy take is simple: vibe coding without engineering operations does not scale. When a company wants to use coding agents for real, it needs to redesign workflow, review, and governance. Otherwise, the team produces more change than it can absorb safely.\n\nThat was exactly the logic with the AskMoses.AI development team: each dev works with Claude Code on the project, another Claude reviews the pull request, the human decides based on the business, not the technical side, and deployment on Vercel has 1-click rollback and daily backup.\n\nAgent without process increases throughput. Good process turns throughput into reliable production.\n\nComment CLAUDE and I’ll send you in DM how I did it.\n\nSources: anthropic.com\n\n#inteligenciaartificial #engenhariadesoftware #aiagents #devops #gestaodeproduto",
+      "reel": [
+        {
+          "slide": 1,
+          "say": "When agents scale, git can become the bottleneck. The problem stops being writing code and becomes operating change."
+        },
+        {
+          "slide": 2,
+          "say": "That is why Anthropic redesigned version control for agents. They built Scion and moved their monorepo off git in five months."
+        },
+        {
+          "slide": 3,
+          "say": "The shift was big: 30,000 code changes merged per day in September 2026, up from around 2,500 per day in May."
+        },
+        {
+          "slide": 4,
+          "say": "What I see in companies is simple. Teams generate change faster than they can review safely. The workflow is still built for humans, not always-online agents. And without merge and rollback governance, productivity becomes rework."
+        },
+        {
+          "slide": 5,
+          "say": "With the AskMoses.AI development team, each dev works with Claude Code, another Claude reviews the pull request, and deployment on Vercel has 1-click rollback and daily backup."
+        },
+        {
+          "slide": 6,
+          "say": "What works is simple: workflow, review, human business decisions, safe deploys, and simple rollback. Without that, vibe coding just speeds up the chaos."
+        },
+        {
+          "slide": 7,
+          "say": "Comment CLAUDE and I will send you the details by DM."
+        }
+      ]
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЁМЕ · ВЕРСИОНИРОВАНИЕ",
+          "headline": "Когда агенты масштабируются, git может стать узким местом",
+          "sub": "Проблема перестаёт быть в написании кода.\nОна становится в управлении изменениями."
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Anthropic перестроила контроль версий для агентов",
+          "body": "Компания создала Scion, собственную систему версионирования, и за пять месяцев перевела свой монорепозиторий с git. Причина была простой: когда агенты начали производить больше кода, source control стал главным узким местом в разработке."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЦИФРА",
+          "stat": "30 000",
+          "label": "изменений кода, влитых в день в сентябре 2026",
+          "sub": "В мае 2026 среднее значение было около 2 500 в день."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях, когда туда приходят кодовые агенты",
+          "items": [
+            "Команда генерирует изменения быстрее, чем успевает безопасно их проверять",
+            "Процесс всё ещё спроектирован под человека, а не под агента, который всегда онлайн",
+            "Без правил для merge и rollback продуктивность превращается в переделку"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ РЕШАЛ ЭТО",
+          "headline": "Что я сделал с командой разработки AskMoses.AI",
+          "items": [
+            "Каждый разработчик работает с Claude Code в проекте",
+            "Другой Claude проверяет pull request",
+            "Деплой в Vercel с rollback в 1 клик и ежедневным бэкапом"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЙ ВЫВОД",
+          "headline": "Простое, которое работает, ценнее сложного, которое впечатляет.",
+          "body": "На практике хорошее использование агентов начинается не с модели. Оно начинается с процесса. Ревью, человеческие бизнес-решения, безопасный деплой и простой rollback — вот что держит продакшн. Без этого vibe coding только ускоряет хаос."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОЧЕШЬ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напиши CLAUDE в комментариях.",
+          "body": "Я отправлю в директ пошаговый разбор кейса. Я вывожу ИИ из презентаций в продакшн, с измеримым результатом.",
+          "button": "Напиши CLAUDE · vssolutions.io"
+        }
+      ],
+      "caption": "Anthropic обозначила важный момент: когда объём кода растёт за счёт агентов, узкое место может сместиться с написания кода на контроль версий, ревью и операционку. В их случае показатель вырос примерно с 2 500 merge в день в мае 2026 до более чем 30 000 в сентябре. Ответом стало переосмысление инфраструктуры source control.\n\nМой вывод простой: vibe coding без инженерной операционки не масштабируется. Когда компания хочет по-настоящему использовать кодовых агентов, ей нужно перестроить процесс, ревью и governance. Иначе команда производит больше изменений, чем может безопасно переварить.\n\nИменно по этой логике я выстроил процесс в команде разработки AskMoses.AI: каждый разработчик работает с Claude Code в проекте, другой Claude проверяет pull request, человек принимает решение с точки зрения бизнеса, а не техники, а деплой в Vercel даёт rollback в 1 клик и ежедневный бэкап.\n\nАгент без процесса повышает throughput. Хороший процесс превращает throughput в надёжный продакшн.\n\nНапиши CLAUDE в комментариях — и я отправлю в директ, как я это сделал.\n\nИсточники: anthropic.com\n\n#inteligenciaartificial #engenhariadesoftware #aiagents #devops #gestaodeproduto"
+    }
+  }
+}
