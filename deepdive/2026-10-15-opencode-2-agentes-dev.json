@@ -1,0 +1,112 @@
+{
+  "slug": "2026-10-15-opencode-2-agentes-dev",
+  "topic": "OPENCODE 2.0",
+  "keyword": "CLAUDE",
+  "hook": {
+    "claim": "\"agent as workflow\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning post said OpenCode 2.0 pushes the idea that the agent is not the whole gain; the workflow around it has to change too. I went back in to check the numbers that sit around that claim."
+  },
+  "findings": [
+    {
+      "label": "BENCHMARK",
+      "big": "65.4%",
+      "headline": "Cursor’s paper lists Claude Code at 65.4%",
+      "detail": "We could not confirm this number on the cited Cursor research paper at check time.",
+      "bars": [],
+      "source": 1,
+      "evidence": "Opus 4.6 High 58.2 75.8 / 77.8 58.0 / 65.4",
+      "say": "First, Cursor’s paper lists Claude Code at 65.4% on Terminal-Bench, but we could not confirm that on the cited page.",
+      "status": "unconfirmed"
+    },
+    {
+      "label": "COST",
+      "big": "$10",
+      "headline": "OpenCode now starts with a paid hosted tier at $10",
+      "detail": "The new Console docs show Go at $10 and Go Plus at $40 for open source model access.",
+      "bars": [
+        {
+          "label": "OpenCode Go",
+          "value": 10,
+          "display": "$10",
+          "kind": "accent"
+        },
+        {
+          "label": "OpenCode Go Plus",
+          "value": 40,
+          "display": "$40",
+          "kind": "accent"
+        },
+        {
+          "label": "Claude Pro",
+          "value": 20,
+          "display": "$20",
+          "kind": "solid"
+        }
+      ],
+      "source": 2,
+      "evidence": "OpenCode Go and Go Plus, $10 and $40 monthly subscriptions",
+      "say": "Second, OpenCode is not only BYOK anymore. Its own docs now show hosted tiers at $10 and $40 a month.",
+      "status": "confirmed"
+    },
+    {
+      "label": "COMPARE",
+      "big": "$60",
+      "headline": "Mid-tier price sits below Claude Code Max 5x",
+      "detail": "A current comparison puts OpenCode at $0 plus API costs, versus Claude Code Max 5x at $100 and Cursor Pro+ at $60.",
+      "bars": [
+        {
+          "label": "OpenCode",
+          "value": 0,
+          "display": "$0+",
+          "kind": "accent"
+        },
+        {
+          "label": "Cursor Pro+",
+          "value": 60,
+          "display": "$60",
+          "kind": "solid"
+        },
+        {
+          "label": "Claude Max 5x",
+          "value": 100,
+          "display": "$100",
+          "kind": "solid"
+        }
+      ],
+      "source": 3,
+      "evidence": "Mid tier | $0 + API costs | $100/mo (Max 5x) | $60/mo (Pro+)",
+      "say": "Third, the pricing choice is really workflow choice. If your token burn stays low, OpenCode can undercut Cursor at $60 and Claude at $100.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "Workflow wins only if costs stay visible",
+    "say": "My take: workflow matters more than demos if costs stay visible. If you use it, what do you see? Comment CHECK and tell me."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "Cursor research paper — Composer 2 benchmarks",
+      "url": "https://cursor.com/resources/Composer2.pdf"
+    },
+    {
+      "n": 2,
+      "title": "OpenCode docs — Console pricing",
+      "url": "https://dev.opencode.ai/v2/docs/console/"
+    },
+    {
+      "n": 3,
+      "title": "Danilchenko — OpenCode vs Claude Code vs Cursor costs",
+      "url": "https://www.danilchenko.dev/posts/opencode-vs-claude-code/"
+    }
+  ],
+  "caption": "This morning: OpenCode 2.0 made the case that code agents matter less on their own than the workflow built around them.\n\nUnconfirmed at check time: Cursor’s benchmark paper appears to list Claude Code at 65.4% on Terminal-Bench.\n$10: OpenCode now has hosted Go pricing, not just BYOK.\n$60 vs $100: OpenCode can be cheaper than Cursor Pro+ and Claude Max if token burn stays under control.\n\nThe takeaway for teams is simple: measure the workflow, not just the demo. Comment CHECK and I will DM you what I find.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Cursor research paper — Composer 2 benchmarks — https://cursor.com/resources/Composer2.pdf (claim not confirmed on this page at check time)\n[2] OpenCode docs — Console pricing — https://dev.opencode.ai/v2/docs/console/\n[3] Danilchenko — OpenCode vs Claude Code vs Cursor costs — https://www.danilchenko.dev/posts/opencode-vs-claude-code/\n\nvssolutions.io",
+  "gerado_em": "2026-10-15T13:00:37.546Z",
+  "cta": {
+    "keyword": "CHECK",
+    "line": "I'll DM you what I find"
+  },
+  "check_dm": "Thanks for the comment. I could not confirm the claim that Claude Code scored 65.4% on Terminal-Bench from the source titled “Cursor research paper — Composer 2 benchmarks.” If you use Claude Code or Cursor, what do you see in practice, or what do you pay? I will reply here when I confirm it."
+}
