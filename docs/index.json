@@ -1,6 +1,210 @@
 {
-  "atualizado_em": "2026-10-14T09:32:00.223049Z",
+  "atualizado_em": "2026-10-15T09:32:00.386308Z",
   "posts": [
+    {
+      "slug": "2026-10-15-opencode-2-agentes-dev",
+      "data": "2026-10-15",
+      "titulo": "O ganho não vem do agente sozinho",
+      "subtitulo": "Ferramenta evolui. O fluxo de engenharia precisa evoluir junto.",
+      "tema": "OpenCode 2.0 e o que muda em times de dev com agentes",
+      "tipo": "ponte",
+      "case_id": "agentic",
+      "palavra": "CLAUDE",
+      "valor": "Lançar não é o mesmo que ser usado.",
+      "fontes": [
+        "https://anoma.ly/notes/opencode-2-0/",
+        "https://github.com/awslabs/aidlc-workflows"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "IA EM ALTA · AGENTES NO DEV",
+          "headline": "O ganho não vem do agente sozinho",
+          "sub": "Ferramenta evolui. O fluxo de engenharia precisa evoluir junto."
+        },
+        {
+          "type": "text",
+          "eyebrow": "O QUE ACONTECEU",
+          "headline": "OpenCode 2.0 reforça a ideia de agente como fluxo",
+          "body": "A atualização trouxe serviço local único, API refeita, subagentes em background, comandos assíncronos, 80+ plugins e SDK. Em paralelo, o AI-DLC propõe workflows verificáveis para agentes de código em vários harnesses."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "O NÚMERO",
+          "stat": "33",
+          "label": "estágios no ciclo do AI-DLC",
+          "sub": "A proposta é ligar requisitos, implementação, revisão e operação."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+          "headline": "O que eu vejo nas empresas quando entram agentes no dev",
+          "items": [
+            "Testam copiloto novo, mas mantêm o mesmo fluxo manual",
+            "O agente escreve código, mas a revisão e a decisão ficam soltas",
+            "Sai protótipo rápido, mas sem trilha clara até produção"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "EU JÁ RESOLVI ISSO",
+          "headline": "Foi assim no time de desenvolvimento do AskMoses.AI",
+          "items": [
+            "Cada dev trabalha com Claude Code no projeto",
+            "Outro Claude revisa o pull request",
+            "Deploy na Vercel com rollback em 1 clique e backup diário"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MINHA LEITURA",
+          "headline": "Lançar não é o mesmo que ser usado.",
+          "body": "Na prática, agente de código só muda resultado quando entra num fluxo operável. Com revisão, decisão humana de negócio e caminho seguro de deploy. Sem isso, vira só mais uma demo rápida que não sustenta produção."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "QUER VER COMO EU FIZ?",
+          "headline": "Comenta CLAUDE.",
+          "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+          "button": "Comenta CLAUDE · vssolutions.io"
+        }
+      ],
+      "legenda": "OpenCode 2.0 aponta para uma direção clara: agente de programação não é só autocomplete melhorado. A proposta agora inclui serviço central, API pensada para automação, subagentes em background e integração com mais ferramentas. Do outro lado, o AI-DLC organiza isso em workflow: 5 fases, 33 estágios, agentes especializados, gates de aprovação e trilha de auditoria.\n\nMinha leitura é simples: o ganho real não vem de testar mais um copiloto. Vem de redesenhar o fluxo de engenharia para usar agentes com qualidade, rastreabilidade e entrega em produção.\n\nÉ exatamente esse ponto que eu já apliquei no time de desenvolvimento do AskMoses.AI. Cada dev trabalha com Claude Code no projeto. Outro Claude revisa o pull request. O humano decide pelo negócio, não pela técnica. E o deploy roda na Vercel com rollback em 1 clique e backup diário.\n\nFerramenta nova ajuda. Processo certo é o que sustenta resultado.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: anoma.ly, github.com\n\n#inteligenciaartificial #engenhariadesoftware #devtools #aiagents #softwaredelivery #produtividade",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-15-opencode-2-agentes-dev/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-15-opencode-2-agentes-dev/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-15-opencode-2-agentes-dev/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-15-opencode-2-agentes-dev/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-15-opencode-2-agentes-dev/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-15-opencode-2-agentes-dev/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-15-opencode-2-agentes-dev/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-15-opencode-2-agentes-dev/1.jpg",
+      "gerado_em": "2026-10-15T09:30:56.436Z",
+      "traducoes": {
+        "en": {
+          "titulo": "The gain does not come from the agent alone",
+          "subtitulo": "The tool evolves. The engineering workflow needs to evolve with it.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · AGENTS IN DEV",
+              "headline": "The gain does not come from the agent alone",
+              "sub": "The tool evolves. The engineering workflow needs to evolve with it."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "OpenCode 2.0 reinforces the idea of the agent as a workflow",
+              "body": "The update brought a single local service, a rebuilt API, background subagents, asynchronous commands, 80+ plugins and an SDK. In parallel, AI-DLC proposes verifiable workflows for code agents across multiple harnesses."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "33",
+              "label": "stages in the AI-DLC cycle",
+              "sub": "The idea is to connect requirements, implementation, review and operations."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies when agents enter dev",
+              "items": [
+                "They test a new copilot, but keep the same manual workflow",
+                "The agent writes code, but review and decision-making stay loose",
+                "A prototype ships fast, but without a clear path to production"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I HAVE ALREADY SOLVED THIS",
+              "headline": "This is how it worked on the AskMoses.AI development team",
+              "items": [
+                "Each dev works with Claude Code in the project",
+                "Another Claude reviews the pull request",
+                "Deploys run on Vercel with 1-click rollback and daily backup"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Launching is not the same as being used.",
+              "body": "In practice, a code agent only changes results when it enters an operable workflow. With review, human business decisions, and a safe deployment path. Without that, it becomes just another quick demo that does not hold up in production."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment CLAUDE.",
+              "body": "I will send you the case step by step by DM. I take AI out of slides and put it into production, with measured results.",
+              "button": "Comment CLAUDE · vssolutions.io"
+            }
+          ],
+          "legenda": "OpenCode 2.0 points in a clear direction: a programming agent is not just improved autocomplete. The proposal now includes a central service, an API designed for automation, background subagents, and integration with more tools. On the other side, AI-DLC organizes this into a workflow: 5 phases, 33 stages, specialized agents, approval gates, and an audit trail.\n\nMy take is simple: the real gain does not come from testing one more copilot. It comes from redesigning the engineering workflow to use agents with quality, traceability, and production delivery.\n\nThat is exactly the point I have already applied on the AskMoses.AI development team. Each dev works with Claude Code in the project. Another Claude reviews the pull request. The human decides based on the business, not the technical side. And deployment runs on Vercel with 1-click rollback and daily backup.\n\nA new tool helps. The right process is what sustains results.\n\nComment CLAUDE and I will send you by DM how I did it.\n\nSources: anoma.ly, github.com\n\n#inteligenciaartificial #engenhariadesoftware #devtools #aiagents #softwaredelivery #produtividade"
+        },
+        "ru": {
+          "titulo": "Результат даёт не сам агент",
+          "subtitulo": "Инструмент развивается. Инженерный процесс должен развиваться вместе с ним.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · АГЕНТЫ В DEV",
+              "headline": "Результат даёт не сам агент",
+              "sub": "Инструмент развивается. Инженерный процесс должен развиваться вместе с ним."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "OpenCode 2.0 усиливает идею агента как процесса",
+              "body": "Обновление принесло единый локальный сервис, переработанный API, фоновых субагентов, асинхронные команды, 80+ плагинов и SDK. Параллельно AI-DLC предлагает проверяемые workflow для кодовых агентов в нескольких harnesses."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЧИСЛО",
+              "stat": "33",
+              "label": "этапа в цикле AI-DLC",
+              "sub": "Идея в том, чтобы связать требования, реализацию, ревью и эксплуатацию."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, когда агенты приходят в dev",
+              "items": [
+                "Тестируют новый copilot, но сохраняют тот же ручной процесс",
+                "Агент пишет код, но ревью и принятие решений остаются несвязанными",
+                "Прототип выходит быстро, но без понятного пути до production"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ ЭТО РЕШИЛ",
+              "headline": "Вот как это было устроено в команде разработки AskMoses.AI",
+              "items": [
+                "Каждый dev работает с Claude Code в проекте",
+                "Другой Claude ревьюит pull request",
+                "Деплой идёт в Vercel с rollback в 1 клик и ежедневным backup"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЙ ВЫВОД",
+              "headline": "Запустить — не значит, что этим будут пользоваться.",
+              "body": "На практике кодовый агент меняет результат только тогда, когда встроен в рабочий процесс. С ревью, человеческим бизнес-решением и безопасным путём деплоя. Без этого это просто ещё одна быстрая демо-версия, которая не выдерживает production."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите CLAUDE.",
+              "body": "Я отправлю в директ пошаговый разбор кейса. Я вывожу ИИ из идеи в production, с измеримым результатом.",
+              "button": "Напишите CLAUDE · vssolutions.io"
+            }
+          ],
+          "legenda": "OpenCode 2.0 указывает на понятное направление: агент для программирования — это не просто улучшенный autocomplete. Теперь в подходе есть центральный сервис, API, продуманный под автоматизацию, фоновые субагенты и интеграция с большим числом инструментов. С другой стороны, AI-DLC собирает это в workflow: 5 фаз, 33 этапа, специализированные агенты, approval gates и audit trail.\n\nМой вывод простой: реальный эффект не приходит от теста ещё одного copilot. Он приходит, когда вы заново проектируете инженерный процесс так, чтобы использовать агентов с качеством, прослеживаемостью и доставкой в production.\n\nИменно это я уже применил в команде разработки AskMoses.AI. Каждый dev работает с Claude Code в проекте. Другой Claude ревьюит pull request. Человек принимает решение по бизнесу, а не по технике. А деплой идёт в Vercel с rollback в 1 клик и ежедневным backup.\n\nНовый инструмент помогает. Но результат держится на правильном процессе.\n\nНапишите CLAUDE, и я отправлю в директ, как я это сделал.\n\nИсточники: anoma.ly, github.com\n\n#inteligenciaartificial #engenhariadesoftware #devtools #aiagents #softwaredelivery #produtividade"
+        }
+      }
+    },
     {
       "slug": "2026-10-14-versionamento-agentes",
       "data": "2026-10-14",

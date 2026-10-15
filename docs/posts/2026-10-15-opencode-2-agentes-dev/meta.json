@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-15-opencode-2-agentes-dev",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "OpenCode 2.0 aponta para uma direção clara: agente de programação não é só autocomplete melhorado. A proposta agora inclui serviço central, API pensada para automação, subagentes em background e integração com mais ferramentas. Do outro lado, o AI-DLC organiza isso em workflow: 5 fases, 33 estágios, agentes especializados, gates de aprovação e trilha de auditoria.\n\nMinha leitura é simples: o ganho real não vem de testar mais um copiloto. Vem de redesenhar o fluxo de engenharia para usar agentes com qualidade, rastreabilidade e entrega em produção.\n\nÉ exatamente esse ponto que eu já apliquei no time de desenvolvimento do AskMoses.AI. Cada dev trabalha com Claude Code no projeto. Outro Claude revisa o pull request. O humano decide pelo negócio, não pela técnica. E o deploy roda na Vercel com rollback em 1 clique e backup diário.\n\nFerramenta nova ajuda. Processo certo é o que sustenta resultado.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: anoma.ly, github.com\n\n#inteligenciaartificial #engenhariadesoftware #devtools #aiagents #softwaredelivery #produtividade",
+  "first_comment": "Fontes: https://anoma.ly/notes/opencode-2-0/ · https://github.com/awslabs/aidlc-workflows\n\nvssolutions.io"
+}
