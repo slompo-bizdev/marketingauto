@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-15-opencode-2-agentes-dev",
+  "video": "2026-10-15-opencode-2-agentes-dev.mp4",
+  "duration": 48.08,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning: OpenCode 2.0 made the case that code agents matter less on their own than the workflow built around them.\n\nUnconfirmed at check time: Cursor’s benchmark paper appears to list Claude Code at 65.4% on Terminal-Bench.\n$10: OpenCode now has hosted Go pricing, not just BYOK.\n$60 vs $100: OpenCode can be cheaper than Cursor Pro+ and Claude Max if token burn stays under control.\n\nThe takeaway for teams is simple: measure the workflow, not just the demo. Comment CHECK and I will DM you what I find.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Cursor research paper — Composer 2 benchmarks — https://cursor.com/resources/Composer2.pdf (claim not confirmed on this page at check time)\n[2] OpenCode docs — Console pricing — https://dev.opencode.ai/v2/docs/console/\n[3] Danilchenko — OpenCode vs Claude Code vs Cursor costs — https://www.danilchenko.dev/posts/opencode-vs-claude-code/\n\nvssolutions.io",
+  "keyword": "CHECK",
+  "check_dm": "Thanks for the comment. I could not confirm the claim that Claude Code scored 65.4% on Terminal-Bench from the source titled “Cursor research paper — Composer 2 benchmarks.” If you use Claude Code or Cursor, what do you see in practice, or what do you pay? I will reply here when I confirm it.",
+  "scenes": [
+    "This morning post said OpenCode 2.0 pushes the idea that the agent is not the whole gain; the workflow around it has to change too. I went back in to check the numbers that sit around that claim.",
+    "First, Cursor’s paper lists Claude Code at 65.4% on Terminal-Bench, but we could not confirm that on the cited page.",
+    "Second, OpenCode is not only BYOK anymore. Its own docs now show hosted tiers at $10 and $40 a month.",
+    "Third, the pricing choice is really workflow choice. If your token burn stays low, OpenCode can undercut Cursor at $60 and Claude at $100.",
+    "My take: workflow matters more than demos if costs stay visible. If you use it, what do you see? Comment CHECK and tell me."
+  ]
+}
