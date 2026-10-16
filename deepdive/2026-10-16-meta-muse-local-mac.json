@@ -1,0 +1,106 @@
+{
+  "slug": "2026-10-16-meta-muse-local-mac",
+  "topic": "MUSE SPARK",
+  "keyword": "CLAUDE",
+  "hook": {
+    "claim": "\"Runs local on Macs.\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning, we covered Meta opening Muse Spark Open for local use on Macs, aimed at coding and agentic work. I went back in to check the numbers around speed, ranking, and cost."
+  },
+  "findings": [
+    {
+      "label": "SPEED",
+      "big": "36 t/s",
+      "headline": "Apple shows over 36 tokens per second on 4 Macs",
+      "detail": "Apple’s MLX post measured Muse Spark Open on a four–Mac Studio M5 Ultra setup.",
+      "bars": [],
+      "source": 1,
+      "evidence": "\"On a cluster of four Mac Studios, Muse Spark Open generates over 36 tokens per second\"",
+      "say": "First, Apple says the setup reaches over 36 tokens per second on four Mac Studios, so local is real, but not cheap.",
+      "status": "confirmed"
+    },
+    {
+      "label": "RANK",
+      "big": "#27",
+      "headline": "BenchLM puts it at #27 for agentic tool use",
+      "detail": "Its public category score there is 60.2 out of 100, with higher-ranked options still available.",
+      "bars": [
+        {
+          "label": "Agentic rank",
+          "value": 27,
+          "display": "#27",
+          "kind": "accent"
+        },
+        {
+          "label": "Eligible models",
+          "value": 127,
+          "display": "127",
+          "kind": "solid"
+        },
+        {
+          "label": "Category score",
+          "value": 60.2,
+          "display": "60.2",
+          "kind": "solid"
+        }
+      ],
+      "source": 2,
+      "evidence": "\"Muse Spark Open ranks #27 out of 127 eligible models for agentic tool use\"",
+      "say": "Second, an independent leaderboard puts it at number 27 out of 127 for agentic tool use, so launch claims need workload testing.",
+      "status": "confirmed"
+    },
+    {
+      "label": "COST",
+      "big": "$4.25",
+      "headline": "Cheapest listed output price is $4.25 per 1M tokens",
+      "detail": "That tracker also lists 11 providers. Mistral Medium 3.5 is listed at $7.5 per 1M output tokens.",
+      "bars": [
+        {
+          "label": "Muse output",
+          "value": 4.25,
+          "display": "$4.25",
+          "kind": "accent"
+        },
+        {
+          "label": "Mistral output",
+          "value": 7.5,
+          "display": "$7.50",
+          "kind": "solid"
+        }
+      ],
+      "source": 3,
+      "evidence": "\"the cheapest Muse Spark Open API price is $1.25 per 1M input tokens and $4.25 per 1M output tokens\"",
+      "say": "Third, the cheapest listed API rate is four dollars and twenty-five cents per million output tokens, below Mistral Medium three point five.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "Ops wins when numbers hold up",
+    "say": "My take: shipping is not the same as being used. Measure the workflow, the latency, and the governance before calling local AI a fit."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "Apple ML Research — Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference"
+    },
+    {
+      "n": 2,
+      "title": "BenchLM — Muse Spark Open Benchmarks & Context",
+      "url": "https://benchlm.ai/models/muse-spark-open"
+    },
+    {
+      "n": 3,
+      "title": "Sovyron — Muse Spark Open API Pricing",
+      "url": "https://sovyron.com/models/muse-spark-open/"
+    },
+    {
+      "n": 4,
+      "title": "Mistral Docs — API pricing",
+      "url": "https://docs.mistral.ai/inference/pricing"
+    }
+  ],
+  "caption": "This morning, we covered Meta opening Muse Spark Open to run locally on Macs, with the promise that the conversation moves from benchmark to operations.\n\nApple says it generates over 36 tokens per second on four Mac Studios. BenchLM ranks it #27 out of 127 for agentic tool use. The cheapest listed API output price is $4.25 per 1M tokens, below Mistral Medium 3.5 at $7.50.\n\nMy take: local matters when it fits the real workflow. Simple that works still beats complex that impresses.\n\nComment CLAUDE and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Apple ML Research — Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio — https://machinelearning.apple.com/research/mlx-distributed-inference\n[2] BenchLM — Muse Spark Open Benchmarks & Context — https://benchlm.ai/models/muse-spark-open\n[3] Sovyron — Muse Spark Open API Pricing — https://sovyron.com/models/muse-spark-open/\n[4] Mistral Docs — API pricing — https://docs.mistral.ai/inference/pricing\n\nvssolutions.io",
+  "gerado_em": "2026-10-16T13:00:28.848Z"
+}
