@@ -1,6 +1,210 @@
 {
-  "atualizado_em": "2026-10-15T09:32:00.386308Z",
+  "atualizado_em": "2026-10-16T09:32:04.884572Z",
   "posts": [
+    {
+      "slug": "2026-10-16-meta-muse-local-mac",
+      "data": "2026-10-16",
+      "titulo": "IA open-weight no desktop muda mais que benchmark",
+      "subtitulo": "O ponto é o que isso altera em custo, fluxo e governança.",
+      "tema": "Meta abre o Muse Spark Open para rodar local em Macs",
+      "tipo": "ponte",
+      "case_id": "agentic",
+      "palavra": "CLAUDE",
+      "valor": "Simples que funciona vale mais que complexo que impressiona.",
+      "fontes": [
+        "https://research.meta.ai/blog/muse-spark-open",
+        "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "IA EM ALTA · IA LOCAL",
+          "headline": "IA open-weight no desktop muda mais que benchmark",
+          "sub": "O ponto é o que isso altera em custo, fluxo e governança."
+        },
+        {
+          "type": "text",
+          "eyebrow": "O QUE ACONTECEU",
+          "headline": "A Meta abriu o Muse Spark Open para rodar local em Macs",
+          "body": "Segundo a Meta, o Muse Spark Open foi otimizado para Apple Silicon e roda no desktop com dois Mac Studio M5 Ultra via MLX. A empresa diz que o modelo é voltado para coding e trabalho agentic."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "O NÚMERO",
+          "stat": "1M",
+          "label": "janela de contexto do Muse Spark Open",
+          "sub": "A Meta também informa 816B parâmetros totais e 42B ativos."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+          "headline": "O que eu vejo nas empresas quando IA entra no dev",
+          "items": [
+            "O time testa IA, mas ela fica fora do fluxo real de desenvolvimento",
+            "Depender só de API externa complica custo, latência e governança",
+            "Sem stack pronta para deploy e revisão, agente vira só demo bonita"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "EU JÁ RESOLVI ISSO",
+          "headline": "Foi assim com o time de desenvolvimento do AskMoses.AI",
+          "items": [
+            "time de desenvolvimento 100% agentic",
+            "cada dev trabalha com Claude Code no projeto",
+            "outro Claude revisa o pull request; deploy na Vercel com rollback em 1 clique e backup diário"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MINHA LEITURA",
+          "headline": "Simples que funciona vale mais que complexo que impressiona.",
+          "body": "Na prática, quando um modelo open-weight consegue entrar no ciclo real de desenvolvimento, a conversa sai do benchmark e vai para operação. O que importa é integrar revisão, deploy e decisão humana de negócio com governança viável."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "QUER VER COMO EU FIZ?",
+          "headline": "Comenta CLAUDE.",
+          "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+          "button": "Comenta CLAUDE · vssolutions.io"
+        }
+      ],
+      "legenda": "A Meta abriu o Muse Spark Open com uma proposta bem objetiva: levar capacidades agentic para o desktop, com execução local em Macs usando dois Mac Studio M5 Ultra via MLX. Na fonte primária, a empresa destaca 1M de contexto, 816B parâmetros totais e foco em coding e trabalho agentic. A reportagem do TechCrunch adiciona a leitura prática: quando modelos open-weight passam a rodar localmente, eles podem trazer mais eficiência de custo, transparência e flexibilidade do que depender só de modelos fechados.\n\nPra mim, esse é o ponto central da notícia. Não é só benchmark. É o que muda quando a IA entra no fluxo real de engenharia com mais controle de infraestrutura e governança.\n\nO que eu vejo nas empresas é o contrário: muita experimentação solta e pouca produção. O agente escreve algo, mas não revisa PR, não encaixa no deploy e não fecha o ciclo com decisão humana clara.\n\nNo time de desenvolvimento do AskMoses.AI, eu já operei esse modelo de trabalho: time de desenvolvimento 100% agentic, cada dev com Claude Code no projeto, outro Claude revisando o pull request, e o humano decidindo pelo negócio, não pela técnica. O deploy é na Vercel com rollback em 1 clique e backup diário.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: research.meta.ai, techcrunch.com\n\n#InteligenciaArtificial #IAgenerativa #EngenhariaDeSoftware #AIinProduction #OpenWeight",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-16-meta-muse-local-mac/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-16-meta-muse-local-mac/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-16-meta-muse-local-mac/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-16-meta-muse-local-mac/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-16-meta-muse-local-mac/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-16-meta-muse-local-mac/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-16-meta-muse-local-mac/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-16-meta-muse-local-mac/1.jpg",
+      "gerado_em": "2026-10-16T09:30:58.884Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Open-weight AI on the desktop changes more than a benchmark",
+          "subtitulo": "The point is what this changes in cost, workflow, and governance.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · LOCAL AI",
+              "headline": "Open-weight AI on the desktop changes more than a benchmark",
+              "sub": "The point is what this changes in cost, workflow, and governance."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Meta released Muse Spark Open to run locally on Macs",
+              "body": "According to Meta, Muse Spark Open was optimized for Apple Silicon and runs on the desktop with two Mac Studio M5 Ultra machines via MLX. The company says the model is aimed at coding and agentic work."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "1M",
+              "label": "Muse Spark Open context window",
+              "sub": "Meta also reports 816B total parameters and 42B active."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies when AI enters dev",
+              "items": [
+                "The team tests AI, but it stays outside the real development workflow",
+                "Relying only on an external API complicates cost, latency, and governance",
+                "Without a ready stack for deploy and review, an agent becomes just a nice-looking demo"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I’VE ALREADY SOLVED THIS",
+              "headline": "This is how it worked with the AskMoses.AI development team",
+              "items": [
+                "100% agentic development team",
+                "each dev works with Claude Code on the project",
+                "another Claude reviews the pull request; deploy on Vercel with 1-click rollback and daily backup"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Simple that works is worth more than complex that impresses.",
+              "body": "In practice, when an open-weight model can enter the real development cycle, the conversation moves from benchmark to operations. What matters is integrating review, deploy, and human business decisions with viable governance."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment CLAUDE.",
+              "body": "I’ll send you the case step by step by DM. I take AI out of the concept stage and put it into production, with measured results.",
+              "button": "Comment CLAUDE · vssolutions.io"
+            }
+          ],
+          "legenda": "Meta released Muse Spark Open with a very objective proposal: bring agentic capabilities to the desktop, with local execution on Macs using two Mac Studio M5 Ultra machines via MLX. In the primary source, the company highlights 1M context, 816B total parameters, and a focus on coding and agentic work. The TechCrunch report adds the practical angle: when open-weight models start running locally, they can bring more cost efficiency, transparency, and flexibility than relying only on closed models.\n\nFor me, that is the central point of the news. It is not just benchmark. It is what changes when AI enters the real engineering workflow with more control over infrastructure and governance.\n\nWhat I see in companies is the opposite: a lot of loose experimentation and very little production. The agent writes something, but it does not review PRs, does not fit into deploy, and does not close the loop with a clear human decision.\n\nIn the AskMoses.AI development team, I have already run this way of working: a 100% agentic development team, each dev with Claude Code on the project, another Claude reviewing the pull request, and the human deciding based on the business, not the technical side. Deployment is on Vercel with 1-click rollback and daily backup.\n\nComment CLAUDE and I’ll send you by DM how I did it.\n\nSources: research.meta.ai, techcrunch.com\n\n#InteligenciaArtificial #IAgenerativa #EngenhariaDeSoftware #AIinProduction #OpenWeight"
+        },
+        "ru": {
+          "titulo": "Open-weight ИИ на десктопе меняет больше, чем бенчмарк",
+          "subtitulo": "Суть в том, как это меняет стоимость, процесс и управление.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · ЛОКАЛЬНЫЙ ИИ",
+              "headline": "Open-weight ИИ на десктопе меняет больше, чем бенчмарк",
+              "sub": "Суть в том, как это меняет стоимость, процесс и управление."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Meta открыла Muse Spark Open для локального запуска на Mac",
+              "body": "По данным Meta, Muse Spark Open оптимизирован для Apple Silicon и работает на десктопе с двумя Mac Studio M5 Ultra через MLX. Компания говорит, что модель ориентирована на coding и agentic work."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЧИСЛО",
+              "stat": "1M",
+              "label": "контекстное окно Muse Spark Open",
+              "sub": "Meta также сообщает о 816B общих параметров и 42B активных."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, когда ИИ приходит в dev",
+              "items": [
+                "Команда тестирует ИИ, но он остаётся вне реального процесса разработки",
+                "Зависимость только от внешнего API усложняет стоимость, задержку и управление",
+                "Без готового стека для deploy и review агент остаётся просто красивой демкой"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ ЭТО РЕШИЛ",
+              "headline": "Именно так это работало с командой разработки AskMoses.AI",
+              "items": [
+                "команда разработки на 100% agentic",
+                "каждый dev работает с Claude Code в проекте",
+                "другой Claude проверяет pull request; deploy в Vercel с rollback в 1 клик и ежедневным backup"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЙ ВЗГЛЯД",
+              "headline": "Простое, но рабочее, ценнее сложного, которое впечатляет.",
+              "body": "На практике, когда open-weight модель входит в реальный цикл разработки, разговор уходит от бенчмарков к операционке. Важно встроить review, deploy и человеческое бизнес-решение в процесс с рабочим управлением."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОЧЕШЬ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напиши CLAUDE.",
+              "body": "Я отправлю в direct пошаговый разбор кейса. Я вывожу ИИ из стадии идеи в продакшн с измеримым результатом.",
+              "button": "Напиши CLAUDE · vssolutions.io"
+            }
+          ],
+          "legenda": "Meta открыла Muse Spark Open с очень понятной целью: перенести agentic-возможности на десктоп, с локальным запуском на Mac с использованием двух Mac Studio M5 Ultra через MLX. В первоисточнике компания выделяет 1M контекста, 816B общих параметров и фокус на coding и agentic work. Материал TechCrunch добавляет практический взгляд: когда open-weight модели начинают работать локально, они могут дать больше эффективности по стоимости, прозрачности и гибкости, чем зависимость только от закрытых моделей.\n\nДля меня в этом и есть главный смысл новости. Дело не только в бенчмарке. Дело в том, что меняется, когда ИИ входит в реальный инженерный процесс с большим контролем над инфраструктурой и управлением.\n\nВ компаниях я обычно вижу обратное: много разрозненных экспериментов и мало продакшна. Агент что-то пишет, но не проверяет PR, не встраивается в deploy и не замыкает цикл с понятным человеческим решением.\n\nВ команде разработки AskMoses.AI я уже выстраивал такой формат работы: команда разработки на 100% agentic, у каждого dev в проекте Claude Code, другой Claude проверяет pull request, а человек принимает решение по бизнесу, а не по технике. Deploy идёт в Vercel с rollback в 1 клик и ежедневным backup.\n\nНапиши CLAUDE, и я отправлю в direct, как я это сделал.\n\nИсточники: research.meta.ai, techcrunch.com\n\n#InteligenciaArtificial #IAgenerativa #EngenhariaDeSoftware #AIinProduction #OpenWeight"
+        }
+      }
+    },
     {
       "slug": "2026-10-15-opencode-2-agentes-dev",
       "data": "2026-10-15",

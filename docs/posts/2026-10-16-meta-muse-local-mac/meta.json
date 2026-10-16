@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-16-meta-muse-local-mac",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A Meta abriu o Muse Spark Open com uma proposta bem objetiva: levar capacidades agentic para o desktop, com execução local em Macs usando dois Mac Studio M5 Ultra via MLX. Na fonte primária, a empresa destaca 1M de contexto, 816B parâmetros totais e foco em coding e trabalho agentic. A reportagem do TechCrunch adiciona a leitura prática: quando modelos open-weight passam a rodar localmente, eles podem trazer mais eficiência de custo, transparência e flexibilidade do que depender só de modelos fechados.\n\nPra mim, esse é o ponto central da notícia. Não é só benchmark. É o que muda quando a IA entra no fluxo real de engenharia com mais controle de infraestrutura e governança.\n\nO que eu vejo nas empresas é o contrário: muita experimentação solta e pouca produção. O agente escreve algo, mas não revisa PR, não encaixa no deploy e não fecha o ciclo com decisão humana clara.\n\nNo time de desenvolvimento do AskMoses.AI, eu já operei esse modelo de trabalho: time de desenvolvimento 100% agentic, cada dev com Claude Code no projeto, outro Claude revisando o pull request, e o humano decidindo pelo negócio, não pela técnica. O deploy é na Vercel com rollback em 1 clique e backup diário.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: research.meta.ai, techcrunch.com\n\n#InteligenciaArtificial #IAgenerativa #EngenhariaDeSoftware #AIinProduction #OpenWeight",
+  "first_comment": "Fontes: https://research.meta.ai/blog/muse-spark-open · https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/\n\nvssolutions.io"
+}
