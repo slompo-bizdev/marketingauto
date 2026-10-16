@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-16-meta-muse-local-mac",
+  "video": "2026-10-16-meta-muse-local-mac.mp4",
+  "duration": 47.95,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning, we covered Meta opening Muse Spark Open to run locally on Macs, with the promise that the conversation moves from benchmark to operations.\n\nApple says it generates over 36 tokens per second on four Mac Studios. BenchLM ranks it #27 out of 127 for agentic tool use. The cheapest listed API output price is $4.25 per 1M tokens, below Mistral Medium 3.5 at $7.50.\n\nMy take: local matters when it fits the real workflow. Simple that works still beats complex that impresses.\n\nComment CLAUDE and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Apple ML Research — Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio — https://machinelearning.apple.com/research/mlx-distributed-inference\n[2] BenchLM — Muse Spark Open Benchmarks & Context — https://benchlm.ai/models/muse-spark-open\n[3] Sovyron — Muse Spark Open API Pricing — https://sovyron.com/models/muse-spark-open/\n[4] Mistral Docs — API pricing — https://docs.mistral.ai/inference/pricing\n\nvssolutions.io",
+  "keyword": "CLAUDE",
+  "check_dm": "",
+  "scenes": [
+    "This morning, we covered Meta opening Muse Spark Open for local use on Macs, aimed at coding and agentic work. I went back in to check the numbers around speed, ranking, and cost.",
+    "First, Apple says the setup reaches over 36 tokens per second on four Mac Studios, so local is real, but not cheap.",
+    "Second, an independent leaderboard puts it at number 27 out of 127 for agentic tool use, so launch claims need workload testing.",
+    "Third, the cheapest listed API rate is four dollars and twenty-five cents per million output tokens, below Mistral Medium three point five.",
+    "My take: shipping is not the same as being used. Measure the workflow, the latency, and the governance before calling local AI a fit."
+  ]
+}
