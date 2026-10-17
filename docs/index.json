@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-17T09:31:58.067441Z",
+  "atualizado_em": "2026-10-17T12:03:28.648719Z",
   "posts": [
     {
       "slug": "2026-10-17-code-review-ia-gargalo",
@@ -201,6 +201,209 @@
             }
           ],
           "legenda": "Anthropic опубликовала, как команда Claude Code делает code review, когда агенты уже производят код в большом объёме. Ключевая мысль не в том, чтобы «убрать людей из процесса». А в том, чтобы перестроить review так, чтобы человеческое внимание использовалось там, где риск выше всего.\n\nВ источнике процесс многоуровневый: проверка до PR, review агентами, security review, обязательный CI, человеческое одобрение по уровню риска, merge queue, flags и быстрый rollback. С июня по сентябрь количество merged pull requests выросло более чем в 2 раза, а доля PR, которые откатывали, снизилась более чем на 40%.\n\nНа практике это вскрывает проблему, которую я постоянно вижу в компаниях: ИИ подключают, чтобы писать быстрее, а code review остаётся прежним. Объём продакшена растёт. Уверенность — нет. И узкое место просто смещается.\n\nИменно этот разрыв я уже закрывал в команде разработки AskMoses.AI: каждый разработчик работает с Claude Code в проекте, другой Claude ревьюит pull request, человек принимает решение по бизнесу, а не по технике, а деплой в Vercel имеет rollback в 1 клик и ежедневный backup.\n\nСуть не в том, чтобы ИИ писал код. Суть в том, чтобы review был надёжным и встроенным в рабочий процесс.\n\nНапишите CLAUDE, и я отправлю в директ, как я это сделал.\n\nИсточники: claude.dev\n\n#inteligenciaartificial #engenhariadesoftware #codereview #automacao #aiops"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-17-benchmark-vs-trabalho-real",
+      "data": "2026-10-17",
+      "titulo": "90% do trabalho real ainda escapa dos benchmarks",
+      "subtitulo": "Benchmark bonito não mostra, sozinho, o trabalho que a IA precisa fazer",
+      "tema": "90% do trabalho real ainda escapa dos benchmarks de IA",
+      "tipo": "ponte",
+      "case_id": "adocao",
+      "palavra": "ADOÇÃO",
+      "valor": "Lançar não é o mesmo que ser usado.",
+      "fontes": [
+        "https://www.mercor.com/research/labor-index/benchmark-map/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "IA EM ALTA · BENCHMARKS",
+          "headline": "90% do trabalho real ainda escapa dos benchmarks",
+          "sub": "Benchmark bonito não mostra, sozinho, o trabalho que a IA precisa fazer"
+        },
+        {
+          "type": "text",
+          "eyebrow": "O QUE ACONTECEU",
+          "headline": "Mercor cruzou benchmarks com tarefas reais da economia",
+          "body": "O estudo mapeou 29 benchmarks contra 923 ocupações e 18,797 tarefas do O*NET. A leitura central: a cobertura do trabalho economicamente valioso ainda é limitada, o que dificulta saber quão boa a IA é no trabalho real."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "O NÚMERO",
+          "stat": "90%",
+          "label": "das horas de trabalho têm pouca ou nenhuma cobertura",
+          "sub": "É a estimativa da fonte para tarefas com pouca ou nenhuma presença nos benchmarks"
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+          "headline": "O que eu vejo nas empresas quando avaliam IA",
+          "items": [
+            "Testam em benchmark, mas não no fluxo real do time",
+            "Lançam sem garantir valor antes da integração pesada",
+            "Não medem adoção e impacto depois que sobe em produção"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "EU JÁ RESOLVI ISSO",
+          "headline": "AskMoses.AI, o SaaS que construí de ponta a ponta e opero como contractor",
+          "items": [
+            "17 organizações nos EUA assinaram e 6 usam de verdade",
+            "11 de 17 nunca ativaram: onboarding pedia CRM e rubrica antes do valor",
+            "Script Intelligence gera script semanal com frases reais, com mínimo de 3 calls"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MINHA LEITURA",
+          "headline": "Lançar não é o mesmo que ser usado.",
+          "body": "Se o benchmark não cobre o trabalho real do usuário, a empresa pode confundir capacidade técnica com adoção. Na prática, ROI depende menos do score de teste e mais de encaixar a IA no fluxo, entregar valor cedo e medir uso e impacto depois do launch."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "QUER VER COMO EU FIZ?",
+          "headline": "Comenta ADOÇÃO.",
+          "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+          "button": "Comenta ADOÇÃO · vssolutions.io"
+        }
+      ],
+      "legenda": "A Mercor publicou um mapa que cruza benchmarks de IA com trabalho real da economia americana. O dado que mais importa aqui: a fonte estima que 90% das horas de trabalho estão em tarefas com pouca ou nenhuma cobertura nos benchmarks atuais.\n\nIsso muda a conversa. Benchmark serve para comparar capacidade em tarefas específicas. Mas não basta para dizer se a IA vai funcionar no fluxo real de uma empresa.\n\nO que eu vejo na prática: time escolhe modelo por benchmark, sobe piloto e descobre depois que a tarefa crítica do usuário não estava representada no teste. A IA até lança. Mas não vira hábito. E sem hábito, não tem resultado medido.\n\nFoi exatamente essa lição no AskMoses.AI, o SaaS que construí de ponta a ponta e opero como contractor. 17 organizações nos EUA assinaram e 6 usam de verdade. 11 de 17 nunca ativaram: o onboarding exigia CRM e rubrica antes de entregar valor. Quando a IA não cobre o trabalho real do usuário, o problema não é só modelo. É adoção.\n\nPor isso eu insisto: lançar não é o mesmo que ser usado.\n\nComenta ADOÇÃO que eu te mando no direct como fiz.\n\nFontes: mercor.com\n\n#inteligenciaartificial #ia #aiops #produtodeia #adocaoia #transformacaodigital",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-17-benchmark-vs-trabalho-real/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-17-benchmark-vs-trabalho-real/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-17-benchmark-vs-trabalho-real/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-17-benchmark-vs-trabalho-real/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-17-benchmark-vs-trabalho-real/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-17-benchmark-vs-trabalho-real/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-17-benchmark-vs-trabalho-real/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-17-benchmark-vs-trabalho-real/1.jpg",
+      "gerado_em": "2026-10-17T12:02:33.341Z",
+      "traducoes": {
+        "en": {
+          "titulo": "90% of real work still escapes benchmarks",
+          "subtitulo": "A polished benchmark alone does not show the work AI actually needs to do",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI IS HOT · BENCHMARKS",
+              "headline": "90% of real work still escapes benchmarks",
+              "sub": "A polished benchmark alone does not show the work AI actually needs to do"
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Mercor matched benchmarks against real tasks in the economy",
+              "body": "The study mapped 29 benchmarks against 923 occupations and 18,797 tasks from O*NET. The main takeaway: coverage of economically valuable work is still limited, which makes it hard to know how good AI is at real work."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "90%",
+              "label": "of working hours have little or no coverage",
+              "sub": "That is the source’s estimate for tasks with little or no presence in benchmarks"
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies when they evaluate AI",
+              "items": [
+                "They test on a benchmark, but not in the team’s real workflow",
+                "They launch without proving value before heavy integration",
+                "They do not measure adoption and impact after it goes live"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I HAVE ALREADY SOLVED THIS",
+              "headline": "AskMoses.AI, the SaaS I built end to end and operate as a contractor",
+              "items": [
+                "17 organizations in the US signed, and 6 actually use it",
+                "11 of 17 never activated: onboarding asked for CRM and rubric before value",
+                "Script Intelligence generates a weekly script with real phrases, with a minimum of 3 calls"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Launching is not the same as being used.",
+              "body": "If the benchmark does not cover the user’s real work, the company can confuse technical capability with adoption. In practice, ROI depends less on a test score and more on fitting AI into the workflow, delivering value early, and measuring usage and impact after launch."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment ADOÇÃO.",
+              "body": "I will send you the case step by step by DM. I take AI off the whiteboard and put it into production, with measured results.",
+              "button": "Comment ADOÇÃO · vssolutions.io"
+            }
+          ],
+          "legenda": "Mercor published a map that matches AI benchmarks with real work in the American economy. The number that matters most here: the source estimates that 90% of working hours are in tasks with little or no coverage in current benchmarks.\n\nThat changes the conversation. A benchmark helps compare capability on specific tasks. But it is not enough to say whether AI will work in a company’s real workflow.\n\nWhat I see in practice: a team picks a model based on benchmark results, launches a pilot, and only later discovers that the user’s critical task was not represented in the test. The AI even gets launched. But it does not become a habit. And without habit, there are no measured results.\n\nThat was exactly the lesson in AskMoses.AI, the SaaS I built end to end and operate as a contractor. 17 organizations in the US signed and 6 actually use it. 11 of 17 never activated: onboarding required CRM and rubric before delivering value. When AI does not cover the user’s real work, the problem is not just the model. It is adoption.\n\nThat is why I keep insisting: launching is not the same as being used.\n\nComment ADOÇÃO and I will send you by DM how I did it.\n\nSources: mercor.com\n\n#inteligenciaartificial #ia #aiops #produtodeia #adocaoia #transformacaodigital"
+        },
+        "ru": {
+          "titulo": "90% реальной работы всё ещё ускользает от бенчмарков",
+          "subtitulo": "Красивый бенчмарк сам по себе не показывает, какую работу ИИ действительно должен делать",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · БЕНЧМАРКИ",
+              "headline": "90% реальной работы всё ещё ускользает от бенчмарков",
+              "sub": "Красивый бенчмарк сам по себе не показывает, какую работу ИИ действительно должен делать"
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Mercor сопоставил бенчмарки с реальными задачами экономики",
+              "body": "В исследовании сопоставили 29 бенчмарков с 923 профессиями и 18 797 задачами из O*NET. Главный вывод: охват экономически ценной работы по-прежнему ограничен, и из-за этого трудно понять, насколько ИИ хорош в реальной работе."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "90%",
+              "label": "рабочих часов почти не охвачены или совсем не охвачены",
+              "sub": "Это оценка источника для задач, которые почти не представлены или совсем не представлены в бенчмарках"
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, когда они оценивают ИИ",
+              "items": [
+                "Тестируют на бенчмарке, но не в реальном рабочем процессе команды",
+                "Запускают без подтверждённой ценности до тяжёлой интеграции",
+                "Не измеряют внедрение и эффект после выхода в прод"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ ЭТО РЕШАЛ",
+              "headline": "AskMoses.AI — SaaS, который я построил с нуля и веду как contractor",
+              "items": [
+                "17 организаций в США подписались, и 6 реально используют продукт",
+                "11 из 17 так и не активировались: онбординг требовал CRM и rubric до получения ценности",
+                "Script Intelligence каждую неделю генерирует скрипт с реальными фразами, минимум по 3 calls"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЙ ВЫВОД",
+              "headline": "Запустить — не значит, что будут пользоваться.",
+              "body": "Если бенчмарк не покрывает реальную работу пользователя, компания может перепутать технические возможности с внедрением. На практике ROI меньше зависит от тестового score и больше — от того, насколько ИИ встроен в рабочий процесс, как рано он даёт ценность и измеряются ли использование и эффект после launch."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОЧЕШЬ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напиши ADOÇÃO.",
+              "body": "Отправлю в direct пошаговый разбор кейса. Я вывожу ИИ из идеи в прод, с измеримым результатом.",
+              "button": "Напиши ADOÇÃO · vssolutions.io"
+            }
+          ],
+          "legenda": "Mercor опубликовал карту, которая сопоставляет бенчмарки ИИ с реальной работой в американской экономике. Самая важная цифра здесь: по оценке источника, 90% рабочих часов приходятся на задачи, которые почти не охвачены или совсем не охвачены текущими бенчмарками.\n\nЭто меняет сам разговор. Бенчмарк полезен, чтобы сравнивать возможности на конкретных задачах. Но его недостаточно, чтобы понять, сработает ли ИИ в реальном процессе компании.\n\nЧто я вижу на практике: команда выбирает модель по бенчмарку, запускает пилот, а потом выясняется, что критически важная задача пользователя вообще не была представлена в тесте. ИИ даже запускают. Но в привычку это не входит. А без привычки нет и измеримого результата.\n\nИменно такой урок был у меня с AskMoses.AI — SaaS, который я построил с нуля и веду как contractor. 17 организаций в США подписались, и 6 реально используют продукт. 11 из 17 так и не активировались: онбординг требовал CRM и rubric ещё до того, как пользователь получал ценность. Когда ИИ не покрывает реальную работу пользователя, проблема не только в модели. Проблема во внедрении.\n\nПоэтому я и повторяю: запустить — не значит, что будут пользоваться.\n\nНапиши ADOÇÃO, и я отправлю в direct, как я это сделал.\n\nИсточник: mercor.com\n\n#inteligenciaartificial #ia #aiops #produtodeia #adocaoia #transformacaodigital"
         }
       }
     },

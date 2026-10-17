@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-17-benchmark-vs-trabalho-real",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A Mercor publicou um mapa que cruza benchmarks de IA com trabalho real da economia americana. O dado que mais importa aqui: a fonte estima que 90% das horas de trabalho estão em tarefas com pouca ou nenhuma cobertura nos benchmarks atuais.\n\nIsso muda a conversa. Benchmark serve para comparar capacidade em tarefas específicas. Mas não basta para dizer se a IA vai funcionar no fluxo real de uma empresa.\n\nO que eu vejo na prática: time escolhe modelo por benchmark, sobe piloto e descobre depois que a tarefa crítica do usuário não estava representada no teste. A IA até lança. Mas não vira hábito. E sem hábito, não tem resultado medido.\n\nFoi exatamente essa lição no AskMoses.AI, o SaaS que construí de ponta a ponta e opero como contractor. 17 organizações nos EUA assinaram e 6 usam de verdade. 11 de 17 nunca ativaram: o onboarding exigia CRM e rubrica antes de entregar valor. Quando a IA não cobre o trabalho real do usuário, o problema não é só modelo. É adoção.\n\nPor isso eu insisto: lançar não é o mesmo que ser usado.\n\nComenta ADOÇÃO que eu te mando no direct como fiz.\n\nFontes: mercor.com\n\n#inteligenciaartificial #ia #aiops #produtodeia #adocaoia #transformacaodigital",
+  "first_comment": "Fontes: https://www.mercor.com/research/labor-index/benchmark-map/\n\nvssolutions.io"
+}
