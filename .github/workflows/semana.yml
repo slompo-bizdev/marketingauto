@@ -1,0 +1,81 @@
+name: Montar Reels da semana
+
+on:
+  push:
+    branches: [main]
+    paths: ["semana/*.json"]
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Slug do Reels da semana"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: semana
+  cancel-in-progress: false
+
+jobs:
+  semana:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Descobrir specs
+        id: specs
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            files="semana/${{ inputs.slug }}.json"
+          else
+            files=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'semana/*.json' 2>/dev/null)
+          fi
+          echo "files=$(echo $files | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-python@v5
+        if: steps.specs.outputs.files != ''
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: actions/setup-node@v4
+        if: steps.specs.outputs.files != ''
+        with:
+          node-version: "22"
+
+      - name: Cache do modelo de transcrição
+        if: steps.specs.outputs.files != ''
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-small-v1
+
+      - name: Instalar dependências
+        if: steps.specs.outputs.files != ''
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -r requirements.txt numpy faster-whisper
+          python -m playwright install --with-deps chromium
+          npm install --no-audit --no-fund
+
+      - name: Montar vídeo (posts em cima, avatar embaixo, legenda e trilha)
+        if: steps.specs.outputs.files != ''
+        run: python reel/semana.py ${{ steps.specs.outputs.files }}
+
+      - name: Publicar vídeo no repositório
+        if: steps.specs.outputs.files != ''
+        run: |
+          git config user.name "marketingauto-bot"
+          git config user.email "actions@users.noreply.github.com"
+          for f in ${{ steps.specs.outputs.files }}; do
+            raw=$(python -c "import json,sys;print(json.load(open('$f'))['video'])")
+            git rm -q --ignore-unmatch "$raw"   # o vídeo bruto do HeyGen não fica no repositório
+          done
+          git add docs/reels/semana/
+          git diff --cached --quiet && exit 0
+          git commit -m "Reels da semana montado: ${{ steps.specs.outputs.files }}"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
