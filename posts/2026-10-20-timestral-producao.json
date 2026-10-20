@@ -1,0 +1,188 @@
+{
+  "slug": "2026-10-20-timestral-producao",
+  "lang": "pt",
+  "palette": [
+    "tiffany",
+    "yellow",
+    "red",
+    "black"
+  ],
+  "accent": "tiffany",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis · GMT-3",
+  "story_eyebrow": "PERGUNTA DO DIA",
+  "story_pergunta": "Na sua empresa, previsão hoje influencia decisão real ou fica no dashboard?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "IA EM ALTA · SÉRIE TEMPORAL",
+      "headline": "Prever bem não adianta se a operação não usa",
+      "sub": "Modelo de série temporal só vira valor quando entra no processo"
+    },
+    {
+      "type": "text",
+      "eyebrow": "O QUE ACONTECEU",
+      "headline": "Mistral lançou a família Timestral para séries temporais",
+      "body": "A empresa apresentou modelos de 5M a 209M parâmetros para previsões probabilísticas e multivariadas, com suporte a covariáveis passadas e futuras. Segundo a fonte, rodam em CPU e lideram benchmarks públicos da área."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "O NÚMERO",
+      "stat": "209M",
+      "label": "Parâmetros no maior modelo da família Timestral",
+      "sub": "A fonte diz que ele ficou em 1º nos três benchmarks públicos citados"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+      "headline": "O que eu vejo nas empresas com previsão operacional",
+      "items": [
+        "A previsão fica numa demo e não entra no fluxo de decisão",
+        "Dados de contexto existem, mas não chegam no modelo certo",
+        "Ninguém liga a acurácia ao impacto em estoque, risco ou operação"
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "ONDE ISSO QUEBRA NA PRÁTICA",
+      "headline": "Bom forecast isolado não resolve o problema inteiro",
+      "body": "A própria fonte aponta o salto de modelo para sistema: pipeline contínuo, dados do domínio, covariáveis conhecidas e adaptação ao ambiente real. Sem isso, a previsão acerta em benchmark e falha quando mercado, demanda ou equipamento mudam."
+    },
+    {
+      "type": "text",
+      "eyebrow": "MINHA LEITURA",
+      "headline": "Medir em vez de assumir.",
+      "body": "Série temporal importa porque mexe com demanda, capacidade, risco e manutenção. Mas eu só considero valor quando a previsão entra no processo e tem métrica de negócio acompanhando. Lançar modelo sem medir decisão tomada é só experimento caro."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "VS SOLUTIONS · SOFTWARE COM IA",
+      "headline": "Quer isso funcionando na sua empresa?",
+      "body": "Comenta PROJETO e me conta o que você quer resolver. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+      "button": "Comenta PROJETO · vssolutions.io"
+    }
+  ],
+  "caption": "A Mistral lançou o Timestral, uma família de modelos de série temporal com 5M a 209M parâmetros. Segundo a fonte, o maior modelo ficou em 1º nos três benchmarks públicos citados, roda em CPU e trabalha com previsões probabilísticas, multivariadas e covariáveis conhecidas no futuro.\n\nIsso é relevante porque série temporal está no centro de muita operação real: demanda, manutenção, risco, capacidade, sensores, fluxo financeiro.\n\nMas na prática o gargalo raramente é só “ter um modelo melhor”. O que eu vejo nas empresas é outra coisa: previsão fora do processo, contexto operacional que não entra no modelo, e nenhum vínculo claro entre erro de forecast e impacto de negócio.\n\nA própria fonte toca no ponto certo: ir de modelo para sistema. É aí que o projeto vive ou morre.\n\nMinha leitura é simples: série temporal só vira valor quando entra na rotina da empresa, com dados confiáveis, previsão operacional e métrica de negócio. Se não mede decisão, custo evitado, risco reduzido ou ganho operacional, ainda não virou produção.\n\nComenta PROJETO que eu te respondo no direct como aplicar isso na sua empresa.\n\nFontes: mistral.ai\n\n#inteligenciaartificial #forecasting #seriestemporais #iaaplicada #transformacaodigital",
+  "first_comment": "Fontes: https://mistral.ai/news/timestral/\n\nvssolutions.io",
+  "meta": {
+    "tema": "Timestral e o uso real de modelos de série temporal nas empresas",
+    "tipo": "radar",
+    "case_id": null,
+    "palavra": "PROJETO",
+    "valor": "Medir em vez de assumir.",
+    "angulo": "Série temporal só vira valor quando entra no processo com dados, previsão operacional e métrica de negócio, não como demo isolada de modelo.",
+    "fontes": [
+      "https://mistral.ai/news/timestral/"
+    ],
+    "roteiro_reels": "[0-3s] Forecast melhor não resolve nada se a operação não usa.\n[3-20s] A Mistral lançou o Timestral para séries temporais. A proposta é previsão probabilística, multivariada e com covariáveis futuras. O ponto pra mim não é o benchmark. É colocar isso no processo que decide demanda, risco, manutenção ou capacidade.\n[20-30s] Quando a previsão fica isolada, vira demo. Quando entra na rotina e tem métrica de negócio, vira valor. Comenta PROJETO que eu te mando como aplicar isso na sua empresa.",
+    "gerado_em": "2026-10-20T00:43:38.810Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · TIME SERIES",
+          "headline": "Accurate forecasts are useless if operations don't use them",
+          "sub": "A time series model only creates value when it becomes part of the process"
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Mistral launched the Timestral family for time series",
+          "body": "The company introduced models from 5M to 209M parameters for probabilistic and multivariate forecasting, with support for past and future covariates. According to the source, they run on CPU and lead public benchmarks in the field."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "209M",
+          "label": "Parameters in the largest model of the Timestral family",
+          "sub": "The source says it ranked 1st in the three public benchmarks mentioned"
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies doing operational forecasting",
+          "items": [
+            "Forecasting stays in a demo and never enters the decision flow",
+            "Context data exists, but it doesn't reach the right model",
+            "No one connects accuracy to impact on inventory, risk, or operations"
+          ]
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHERE THIS BREAKS IN PRACTICE",
+          "headline": "A good forecast on its own doesn't solve the whole problem",
+          "body": "The source itself points to the shift from model to system: continuous pipeline, domain data, known covariates, and adaptation to the real environment. Without that, the forecast performs well on benchmarks and fails when the market, demand, or equipment changes."
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assume.",
+          "body": "Time series matters because it affects demand, capacity, risk, and maintenance. But I only consider it valuable when the forecast enters the process and has a business metric being tracked alongside it. Launching a model without measuring the decision made is just an expensive experiment."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "VS SOLUTIONS · AI SOFTWARE",
+          "headline": "Want this working in your company?",
+          "body": "Comment PROJETO and tell me what you want to solve. I take AI off the slide deck and put it into production, with measured results.",
+          "button": "Comment PROJETO · vssolutions.io"
+        }
+      ],
+      "caption": "Mistral launched Timestral, a family of time series models with 5M to 209M parameters. According to the source, the largest model ranked 1st in the three public benchmarks mentioned, runs on CPU, and works with probabilistic, multivariate forecasting and covariates known in the future.\n\nThis matters because time series sits at the center of a lot of real operations: demand, maintenance, risk, capacity, sensors, financial flow.\n\nBut in practice, the bottleneck is rarely just “having a better model.” What I see in companies is something else: forecasting outside the process, operational context that never reaches the model, and no clear link between forecast error and business impact.\n\nThe source itself touches the right point: moving from model to system. That's where the project lives or dies.\n\nMy take is simple: time series only creates value when it becomes part of the company's routine, with reliable data, operational forecasting, and a business metric attached. If you're not measuring decisions, avoided cost, reduced risk, or operational gain, it still hasn't reached production.\n\nComment PROJETO and I'll reply in DM with how to apply this in your company.\n\nSources: mistral.ai\n\n#inteligenciaartificial #forecasting #seriestemporais #iaaplicada #transformacaodigital"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЁМЕ · ВРЕМЕННЫЕ РЯДЫ",
+          "headline": "Точный прогноз бесполезен, если им не пользуется операционка",
+          "sub": "Модель временных рядов даёт ценность только тогда, когда встроена в процесс"
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Mistral запустила семейство Timestral для временных рядов",
+          "body": "Компания представила модели от 5M до 209M параметров для вероятностного и многомерного прогнозирования, с поддержкой прошлых и будущих ковариат. По данным источника, они работают на CPU и лидируют в публичных бенчмарках в этой области."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЧИСЛО",
+          "stat": "209M",
+          "label": "Параметров в самой большой модели семейства Timestral",
+          "sub": "Источник утверждает, что она заняла 1-е место в трёх упомянутых публичных бенчмарках"
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях с операционным прогнозированием",
+          "items": [
+            "Прогноз остаётся в демо и не попадает в контур принятия решений",
+            "Контекстные данные есть, но они не доходят до нужной модели",
+            "Никто не связывает точность с влиянием на запасы, риск или операционку"
+          ]
+        },
+        {
+          "type": "text",
+          "eyebrow": "ГДЕ ЭТО ЛОМАЕТСЯ НА ПРАКТИКЕ",
+          "headline": "Хороший прогноз сам по себе не решает всю задачу",
+          "body": "Сам источник указывает на переход от модели к системе: непрерывный pipeline, данные предметной области, известные ковариаты и адаптация к реальной среде. Без этого прогноз показывает хороший результат в бенчмарках и проваливается, когда меняются рынок, спрос или оборудование."
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЙ ВЗГЛЯД",
+          "headline": "Измерять, а не предполагать.",
+          "body": "Временные ряды важны, потому что влияют на спрос, мощности, риск и обслуживание. Но я считаю это ценностью только тогда, когда прогноз встроен в процесс и рядом с ним отслеживается бизнес-метрика. Запустить модель и не измерять принятое решение — это просто дорогой эксперимент."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "VS SOLUTIONS · ПО С ИИ",
+          "headline": "Хотите, чтобы это работало в вашей компании?",
+          "body": "Напишите PROJETO в комментариях и расскажите, какую задачу хотите решить. Я вывожу ИИ из презентаций в продакшн, с измеримым результатом.",
+          "button": "Напишите PROJETO · vssolutions.io"
+        }
+      ],
+      "caption": "Mistral запустила Timestral — семейство моделей временных рядов с 5M до 209M параметров. По данным источника, самая большая модель заняла 1-е место в трёх упомянутых публичных бенчмарках, работает на CPU и поддерживает вероятностное, многомерное прогнозирование и ковариаты, известные в будущем.\n\nЭто важно, потому что временные ряды находятся в центре многих реальных операционных процессов: спрос, обслуживание, риск, мощности, сенсоры, финансовый поток.\n\nНо на практике узкое место редко в том, чтобы просто «иметь модель получше». В компаниях я вижу другое: прогноз вне процесса, операционный контекст не попадает в модель, и нет ясной связи между ошибкой прогноза и влиянием на бизнес.\n\nСам источник попадает в правильную точку: переход от модели к системе. Именно здесь проект либо взлетает, либо умирает.\n\nМой вывод простой: временные ряды начинают приносить ценность только тогда, когда входят в рутину компании, с надёжными данными, операционным прогнозированием и бизнес-метрикой. Если вы не измеряете принятое решение, предотвращённые затраты, сниженный риск или операционный выигрыш, это ещё не продакшн.\n\nНапишите PROJETO в комментариях, и я отвечу вам в директ, как применить это в вашей компании.\n\nИсточники: mistral.ai\n\n#inteligenciaartificial #forecasting #seriestemporais #iaaplicada #transformacaodigital"
+    }
+  }
+}
