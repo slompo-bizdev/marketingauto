@@ -56,7 +56,11 @@ def transcrever(video, tmp):
     RL.run(["ffmpeg", "-y", "-v", "error", "-i", str(video), "-vn", "-ac", "1", "-ar", "16000", str(wav)])
     from faster_whisper import WhisperModel
     m = WhisperModel(os.environ.get("WHISPER_MODEL", "small"), device="cpu", compute_type="int8")
-    segs, _ = m.transcribe(str(wav), language="pt", word_timestamps=True, vad_filter=True)
+    # lê o wav aqui mesmo: o decode_audio do faster-whisper quebra com versões novas do PyAV
+    import numpy as np
+    with wave.open(str(wav)) as w:
+        audio = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+    segs, _ = m.transcribe(audio, language="pt", word_timestamps=True, vad_filter=True)
     out = []
     for s in segs:
         for w in (s.words or []):
