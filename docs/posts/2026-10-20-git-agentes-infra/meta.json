@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-20-git-agentes-infra",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Um repositório chamado git-ai propõe um ponto importante: o problema dos agentes de código não é só gerar código. É controlar contexto, revisão, concorrência e rastreabilidade quando vários agentes trabalham na mesma base.\n\nA fonte descreve exatamente isso. Git tradicional foi pensado para humanos que clonam, trabalham por horas e fazem push depois. Agentes operam diferente: tarefas curtas, muitos fluxos ao mesmo tempo, mudanças pequenas e necessidade de entregar rápido.\n\nNa prática, é aí que muita empresa trava. Coloca IA para programar, mas não cria a camada de operação. Aí o agente escreve, outro altera, ninguém sabe o contexto, a revisão fica frouxa e o humano passa a apagar incêndio técnico.\n\nEu olho para isso como problema de engenharia, não de hype.\n\nNo time de desenvolvimento do AskMoses.AI, isso já está resolvido com uma operação 100% agentic: cada dev trabalha com Claude Code no projeto, outro Claude revisa o pull request, o humano decide pelo negócio, não pela técnica, e o deploy na Vercel tem rollback em 1 clique e backup diário.\n\nO ganho não vem só do modelo. Vem da infra que controla o trabalho dele.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: github.com\n\n#InteligenciaArtificial #AgentesDeIA #DesenvolvimentoDeSoftware #EngenhariaDeSoftware #IAEmProducao",
+  "first_comment": "Fontes: https://github.com/feder-cr/git-ai\n\nvssolutions.io"
+}
