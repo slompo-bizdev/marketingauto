@@ -1,0 +1,233 @@
+{
+  "slug": "2026-10-20-git-agentes-infra",
+  "lang": "pt",
+  "palette": [
+    "tiffany",
+    "yellow",
+    "red",
+    "black"
+  ],
+  "accent": "tiffany",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis · GMT-3",
+  "story_eyebrow": "PERGUNTA DO DIA",
+  "story_pergunta": "Na sua empresa, quem controla contexto e revisão quando a IA escreve código?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "IA EM ALTA · GIT PARA AGENTES",
+      "headline": "Sem contexto e rastreio, agente de código vira gargalo",
+      "sub": "O ganho não vem só do modelo.\nVem da operação por trás."
+    },
+    {
+      "type": "text",
+      "eyebrow": "O QUE ACONTECEU",
+      "headline": "Criaram um Git pensado para agentes de IA",
+      "body": "O repositório git-ai se descreve como “Git designed for AI agents”. A proposta é trocar o fluxo clássico, feito para humanos, por uma camada server-centric para muitos agentes lendo, escrevendo e entregando código ao mesmo tempo."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "O NÚMERO",
+      "stat": "50",
+      "label": "agentes no benchmark do projeto",
+      "sub": "No teste descrito na fonte, eram 50 agentes e 250 changes em uma branch."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+      "headline": "O que eu vejo nas empresas quando entram agentes no código",
+      "items": [
+        "Cada agente produz algo, mas sem contexto compartilhado o handoff quebra",
+        "Tem revisão solta, sem trilha clara de quem mudou o quê e por quê",
+        "O humano vira suporte técnico da IA, em vez de decidir pelo negócio"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "EU JÁ RESOLVI ISSO",
+      "headline": "No time de desenvolvimento do AskMoses.AI",
+      "items": [
+        "Time de desenvolvimento 100% agentic",
+        "Cada dev trabalha com Claude Code no projeto",
+        "Outro Claude revisa o pull request"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MINHA LEITURA",
+      "headline": "Simples que funciona vale mais que complexo que impressiona.",
+      "body": "Na prática, agente de código sem camada de operação só aumenta o volume de mudança. O que sustenta produção é contexto, revisão, handoff e rollback. Se isso está claro, a IA ajuda. Se não está, só acelera o caos."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "QUER VER COMO EU FIZ?",
+      "headline": "Comenta CLAUDE.",
+      "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+      "button": "Comenta CLAUDE · vssolutions.io"
+    }
+  ],
+  "caption": "Um repositório chamado git-ai propõe um ponto importante: o problema dos agentes de código não é só gerar código. É controlar contexto, revisão, concorrência e rastreabilidade quando vários agentes trabalham na mesma base.\n\nA fonte descreve exatamente isso. Git tradicional foi pensado para humanos que clonam, trabalham por horas e fazem push depois. Agentes operam diferente: tarefas curtas, muitos fluxos ao mesmo tempo, mudanças pequenas e necessidade de entregar rápido.\n\nNa prática, é aí que muita empresa trava. Coloca IA para programar, mas não cria a camada de operação. Aí o agente escreve, outro altera, ninguém sabe o contexto, a revisão fica frouxa e o humano passa a apagar incêndio técnico.\n\nEu olho para isso como problema de engenharia, não de hype.\n\nNo time de desenvolvimento do AskMoses.AI, isso já está resolvido com uma operação 100% agentic: cada dev trabalha com Claude Code no projeto, outro Claude revisa o pull request, o humano decide pelo negócio, não pela técnica, e o deploy na Vercel tem rollback em 1 clique e backup diário.\n\nO ganho não vem só do modelo. Vem da infra que controla o trabalho dele.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: github.com\n\n#InteligenciaArtificial #AgentesDeIA #DesenvolvimentoDeSoftware #EngenhariaDeSoftware #IAEmProducao",
+  "first_comment": "Fontes: https://github.com/feder-cr/git-ai\n\nvssolutions.io",
+  "meta": {
+    "tema": "Git para agentes: controle de contexto vira infra de engenharia",
+    "tipo": "ponte",
+    "case_id": "agentic",
+    "palavra": "CLAUDE",
+    "valor": "Simples que funciona vale mais que complexo que impressiona.",
+    "angulo": "O ganho com agentes de código não vem só do modelo; vem da camada de operação que controla contexto, revisão e handoff entre agentes e humanos.",
+    "fontes": [
+      "https://github.com/feder-cr/git-ai"
+    ],
+    "roteiro_reels": "[0-3s] Muita gente acha que agente de código resolve com modelo melhor. Não resolve.\n[3-20s] O ponto é operação. Sem contexto compartilhado, o agente entrega trecho solto. Sem revisão e rastreabilidade, o time perde controle. Sem handoff claro entre agente e humano, o humano vira suporte técnico da IA.\n[20-30s] No time de desenvolvimento do AskMoses.AI, a camada que sustenta isso já existe: cada dev trabalha com Claude Code, outro Claude revisa o pull request, e o humano decide pelo negócio. Comenta CLAUDE que eu te mando como fiz.",
+    "gerado_em": "2026-10-20T09:30:55.126Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI IS HOT · GIT FOR AGENTS",
+          "headline": "Without context and traceability, a coding agent becomes a bottleneck",
+          "sub": "The gain does not come only from the model.\nIt comes from the operation behind it."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "They created a Git built for AI agents",
+          "body": "The git-ai repository describes itself as “Git designed for AI agents”. The idea is to replace the classic flow, built for humans, with a server-centric layer for many agents reading, writing, and delivering code at the same time."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "50",
+          "label": "agents in the project's benchmark",
+          "sub": "In the test described in the source, there were 50 agents and 250 changes in one branch."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies when agents enter the codebase",
+          "items": [
+            "Each agent produces something, but without shared context the handoff breaks",
+            "Review becomes loose, with no clear trail of who changed what and why",
+            "The human becomes AI tech support instead of making business decisions"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I HAVE ALREADY SOLVED THIS",
+          "headline": "In the AskMoses.AI development team",
+          "items": [
+            "100% agentic development team",
+            "Each dev works with Claude Code on the project",
+            "Another Claude reviews the pull request"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works is worth more than complex that impresses.",
+          "body": "In practice, a coding agent without an operations layer only increases the volume of change. What sustains production is context, review, handoff, and rollback. If that is clear, AI helps. If not, it only speeds up the chaos."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment CLAUDE.",
+          "body": "I will send you the case step by step by DM. I take AI out of theory and put it into production, with measured results.",
+          "button": "Comment CLAUDE · vssolutions.io"
+        }
+      ],
+      "caption": "A repository called git-ai makes an important point: the problem with coding agents is not only generating code. It is controlling context, review, concurrency, and traceability when multiple agents work on the same codebase.\n\nThe source describes exactly that. Traditional Git was built for humans who clone, work for hours, and push later. Agents operate differently: short tasks, many flows at the same time, small changes, and a need to deliver fast.\n\nIn practice, this is where many companies get stuck. They use AI to code, but they do not create the operations layer. Then one agent writes, another changes it, nobody knows the context, review gets loose, and the human ends up putting out technical fires.\n\nI look at this as an engineering problem, not hype.\n\nIn the AskMoses.AI development team, this is already solved with a 100% agentic operation: each dev works with Claude Code on the project, another Claude reviews the pull request, the human decides for the business, not the technical details, and deployment on Vercel has 1-click rollback and daily backup.\n\nThe gain does not come only from the model. It comes from the infrastructure that controls its work.\n\nComment CLAUDE and I will send you by DM how I did it.\n\nSources: github.com\n\n#InteligenciaArtificial #AgentesDeIA #DesenvolvimentoDeSoftware #EngenhariaDeSoftware #IAEmProducao",
+      "reel": [
+        {
+          "slide": 1,
+          "say": "When a coding agent has no context and no traceability, it turns into a bottleneck. The gain does not come only from the model. It comes from the operation behind it."
+        },
+        {
+          "slide": 2,
+          "say": "A repository called git-ai calls itself Git designed for AI agents. The idea is a server-centric layer for many agents reading, writing, and delivering code at the same time."
+        },
+        {
+          "slide": 3,
+          "say": "In the benchmark described in the source, there were 50 agents and 250 changes in one branch."
+        },
+        {
+          "slide": 4,
+          "say": "What I see in companies is simple. Without shared context, handoffs break. Review gets loose. And the human becomes AI tech support instead of deciding for the business."
+        },
+        {
+          "slide": 5,
+          "say": "In the AskMoses.AI development team, this is already solved. The team is 100% agentic. Each dev works with Claude Code. Another Claude reviews the pull request."
+        },
+        {
+          "slide": 6,
+          "say": "What keeps production stable is context, review, handoff, and rollback. If that is clear, AI helps. If not, it just speeds up the chaos."
+        },
+        {
+          "slide": 7,
+          "say": "Comment CLAUDE and I will send you the details by DM."
+        }
+      ]
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЁМЕ · GIT ДЛЯ АГЕНТОВ",
+          "headline": "Без контекста и отслеживаемости агент для кода становится узким местом",
+          "sub": "Результат даёт не только модель.\nЕго даёт и операционный слой за ней."
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Они создали Git, продуманный для ИИ-агентов",
+          "body": "Репозиторий git-ai описывает себя как “Git designed for AI agents”. Идея в том, чтобы заменить классический поток, созданный для людей, на server-centric слой для множества агентов, которые одновременно читают, пишут и отдают код."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЦИФРА",
+          "stat": "50",
+          "label": "агентов в бенчмарке проекта",
+          "sub": "В тесте, описанном в источнике, было 50 агентов и 250 changes в одной branch."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях, когда агентов пускают в код",
+          "items": [
+            "Каждый агент что-то делает, но без общего контекста handoff ломается",
+            "Ревью становится разрозненным, без чёткого следа, кто что изменил и зачем",
+            "Человек становится техподдержкой для ИИ вместо того, чтобы принимать решения для бизнеса"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ ЭТО РЕШИЛ",
+          "headline": "В команде разработки AskMoses.AI",
+          "items": [
+            "Команда разработки на 100% agentic",
+            "Каждый dev работает с Claude Code в проекте",
+            "Другой Claude проверяет pull request"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЙ ВЫВОД",
+          "headline": "Простое, которое работает, ценнее сложного, которое впечатляет.",
+          "body": "На практике агент для кода без операционного слоя только увеличивает объём изменений. Производство держится на контексте, ревью, handoff и rollback. Если это выстроено, ИИ помогает. Если нет, он только ускоряет хаос."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напишите CLAUDE.",
+          "body": "Я отправлю вам в direct пошаговый разбор кейса. Я перевожу ИИ из теории в продакшен с измеримым результатом.",
+          "button": "Напишите CLAUDE · vssolutions.io"
+        }
+      ],
+      "caption": "Репозиторий под названием git-ai поднимает важный вопрос: проблема агентов для кода не только в генерации кода. Она в том, как контролировать контекст, ревью, параллельную работу и отслеживаемость, когда несколько агентов работают в одной кодовой базе.\n\nИсточник описывает именно это. Традиционный Git создавался для людей: клонировать, работать часами, потом делать push. Агенты работают иначе: короткие задачи, много потоков одновременно, небольшие изменения и необходимость быстро доставлять результат.\n\nНа практике именно здесь у многих компаний всё стопорится. Они подключают ИИ к разработке, но не создают операционный слой. В итоге один агент пишет, другой меняет, никто не понимает контекст, ревью становится рыхлым, а человек начинает тушить технические пожары.\n\nЯ смотрю на это как на инженерную задачу, а не как на хайп.\n\nВ команде разработки AskMoses.AI это уже решено через операцию на 100% agentic: каждый dev работает с Claude Code в проекте, другой Claude проверяет pull request, человек принимает решения для бизнеса, а не по технике, а деплой в Vercel даёт rollback в 1 клик и ежедневный backup.\n\nРезультат даёт не только модель. Его даёт инфраструктура, которая управляет её работой.\n\nНапишите CLAUDE, и я отправлю вам в direct, как я это сделал.\n\nИсточник: github.com\n\n#InteligenciaArtificial #AgentesDeIA #DesenvolvimentoDeSoftware #EngenhariaDeSoftware #IAEmProducao"
+    }
+  }
+}
