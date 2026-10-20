@@ -64,7 +64,20 @@ jobs:
 
       - name: Montar vídeo (posts em cima, avatar embaixo, legenda e trilha)
         if: steps.specs.outputs.files != ''
-        run: python reel/semana.py ${{ steps.specs.outputs.files }}
+        run: |
+          set -o pipefail
+          python reel/semana.py ${{ steps.specs.outputs.files }} 2>&1 | tee semana-log.txt
+
+      - name: Guardar log do erro
+        if: failure() && steps.specs.outputs.files != ''
+        run: |
+          mkdir -p semana/logs
+          for f in ${{ steps.specs.outputs.files }}; do cp semana-log.txt "semana/logs/$(basename "$f" .json).txt"; done
+          git config user.name "marketingauto-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add semana/logs/
+          git commit -m "Log do erro na montagem: ${{ steps.specs.outputs.files }}"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
 
       - name: Publicar vídeo no repositório
         if: steps.specs.outputs.files != ''
