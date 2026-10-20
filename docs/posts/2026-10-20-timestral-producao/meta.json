@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-20-timestral-producao",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A Mistral lançou o Timestral, uma família de modelos de série temporal com 5M a 209M parâmetros. Segundo a fonte, o maior modelo ficou em 1º nos três benchmarks públicos citados, roda em CPU e trabalha com previsões probabilísticas, multivariadas e covariáveis conhecidas no futuro.\n\nIsso é relevante porque série temporal está no centro de muita operação real: demanda, manutenção, risco, capacidade, sensores, fluxo financeiro.\n\nMas na prática o gargalo raramente é só “ter um modelo melhor”. O que eu vejo nas empresas é outra coisa: previsão fora do processo, contexto operacional que não entra no modelo, e nenhum vínculo claro entre erro de forecast e impacto de negócio.\n\nA própria fonte toca no ponto certo: ir de modelo para sistema. É aí que o projeto vive ou morre.\n\nMinha leitura é simples: série temporal só vira valor quando entra na rotina da empresa, com dados confiáveis, previsão operacional e métrica de negócio. Se não mede decisão, custo evitado, risco reduzido ou ganho operacional, ainda não virou produção.\n\nComenta PROJETO que eu te respondo no direct como aplicar isso na sua empresa.\n\nFontes: mistral.ai\n\n#inteligenciaartificial #forecasting #seriestemporais #iaaplicada #transformacaodigital",
+  "first_comment": "Fontes: https://mistral.ai/news/timestral/\n\nvssolutions.io"
+}
