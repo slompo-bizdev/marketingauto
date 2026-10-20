@@ -3,5 +3,5 @@
   "video": "semana/teste-2026-10-20-raw.mp4",
   "roteiro": "Essa semana deixou claro um ponto: IA na empresa só começa de verdade quando entra em produção com controle.\n\nAs falhas de agentes expuseram o básico que muita operação ainda ignora: não basta colocar no ar. Antes de escalar, precisa sandbox, limite de ação, trilha de auditoria e métrica de erro.\n\nO movimento de contêineres para isolar agentes reforça a mesma direção. Produção não pode depender de sandbox improvisada; contenção, permissão e auditoria precisam nascer no stack.\n\nE a discussão sobre voice AI mostra outro erro comum. Colocar voz na operação sem resolver contexto, integração e medição só troca um chatbot frágil por um callbot frágil.\n\nMinha leitura da semana é simples: o gargalo não é acessar IA. É colocar para funcionar no processo real, com governança e resultado medido. É isso que eu resolvo. Comenta PROJETO e me conta o que você quer resolver. Os posts completos estão no Radar, em vssolutions.io.",
   "posts": ["2026-10-10-governanca-agentes-producao", "2026-10-11-microsoft-conteineres-agentes", "2026-10-12-voice-ai-contexto-escala", "2026-10-13-ia-blueprint-gargalo-engenharia", "2026-10-14-versionamento-agentes", "2026-10-15-opencode-2-agentes-dev", "2026-10-16-meta-muse-local-mac"],
-  "legenda": "teste"
+  "legenda": "teste 2"
 }
