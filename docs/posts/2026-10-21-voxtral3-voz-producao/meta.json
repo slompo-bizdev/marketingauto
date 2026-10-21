@@ -1,0 +1,25 @@
+{
+  "slug": "2026-10-21-voxtral3-voz-producao",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A Mistral lançou o Voxtral 3 com uma proposta bem clara: juntar escuta, raciocínio, tool calling e fala em tempo real. A fonte fala de uso em contact centers, assistentes virtuais e fluxos com múltiplas etapas, além de suporte a 50+ idiomas na transcrição.\n\nMinha leitura é simples: quando a voz melhora, o problema deixa de ser “dá para fazer?” e vira “como isso entra no atendimento real?”.\n\nPorque empresa não precisa de uma conversa solta. Precisa de um fluxo que consulte sistema, respeite regra comercial, recupere contexto certo e permita medir resultado.\n\nFoi exatamente esse tipo de problema que eu já resolvi para uma loja de materiais de construção do Sul do Brasil. O cenário tinha 13.312 produtos no ERP, 136 jeitos diferentes de escrever unidade e 245 sinônimos de balcão mapeados. A IA nunca vê o catálogo inteiro: uma busca simples responde em milissegundos e entrega 8 resultados para o modelo. No teste com 65 de 65 perguntas reais de clientes, o produto certo foi encontrado.\n\nVoz só gera ROI quando entra nesse tipo de operação.\n\nComenta SDR que eu te mando no direct como fiz.\n\nFontes: mistral.ai\n\n#inteligenciaartificial #voiceai #automacao #whatsappbusiness #atendimentodigital",
+  "first_comment": "Fontes: https://mistral.ai/news/voxtral-3/\n\nvssolutions.io"
+}
