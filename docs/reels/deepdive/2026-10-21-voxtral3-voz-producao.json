@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-21-voxtral3-voz-producao",
+  "video": "2026-10-21-voxtral3-voz-producao.mp4",
+  "duration": 50.95,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning: Voxtral 3 made the case that voice is getting better, and the real production bottleneck is the workflow around it.\n\nThree extra numbers: independent ranking shows 2.1% WER and a #3 spot. Live transcription is $0.006 per minute, level with OpenAI and below Gemini’s published blended rate. One recent developer comparison lists 13 streaming languages for Voxtral Realtime versus 85+ for Gemini.\n\nMy take: better voice is useful, but workflow still decides whether this becomes an operation or stays a demo.\n\nComment SDR and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] OrcaRouter — Voxtral 3 speech family release — https://www.orcarouter.ai/blog/voxtral-3-speech-family-release\n[2] Micdrop — GPT-4o Transcribe vs Gemini vs Voxtral — https://micdrop.dev/blog/gpt-4o-transcribe-vs-gemini-vs-voxtral\n[3] Google Cloud — Gemini 3.5 Transcribe pricing — https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing\n\nvssolutions.io",
+  "keyword": "SDR",
+  "check_dm": "",
+  "scenes": [
+    "This morning was about Voxtral 3 pushing voice closer to production with one real-time pipeline for listening, reasoning, tools, and speech. I went back in to check the numbers that matter around that launch.",
+    "First, the independent score is 2.1% word error rate, which puts Voxtral Small 3 in third place, not alone at the top.",
+    "Second, on live transcription price, Voxtral sits at $0.006 a minute, level with OpenAI and below Gemini’s published blended rate.",
+    "Third, one recent developer comparison lists Voxtral Realtime at 13 streaming languages versus 85 plus for Gemini, so language coverage is still a selection filter.",
+    "My take: better voice helps, but production wins when the model, tools, rules, and measurement all hold together."
+  ]
+}
