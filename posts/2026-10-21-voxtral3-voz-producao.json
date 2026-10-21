@@ -1,0 +1,201 @@
+{
+  "slug": "2026-10-21-voxtral3-voz-producao",
+  "lang": "pt",
+  "palette": [
+    "red",
+    "black"
+  ],
+  "accent": "red",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis · GMT-3",
+  "story_eyebrow": "PERGUNTA DO DIA",
+  "story_pergunta": "Na sua empresa, a IA de voz já consulta sistema e mede conversão?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "IA EM ALTA · VOZ EM PRODUÇÃO",
+      "headline": "A voz melhorou. O gargalo agora é o fluxo.",
+      "sub": "Quando o modelo acerta mais, integrar o atendimento vira o problema real."
+    },
+    {
+      "type": "text",
+      "eyebrow": "O QUE ACONTECEU",
+      "headline": "A Mistral lançou a família Voxtral 3 com SDK de voice agent",
+      "body": "A proposta junta escuta, raciocínio, tool calling e fala em um pipeline em tempo real. Segundo a fonte, o foco é conversas em múltiplas etapas, com integração a sistemas e dados da empresa."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "O NÚMERO",
+      "stat": "50+",
+      "label": "idiomas com suporte em transcrição",
+      "sub": "A fonte também cita 35+ idiomas em TTS e 50+ dialetos."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+      "headline": "O que eu vejo nas empresas quando entram em voz",
+      "items": [
+        "A conversa até funciona, mas não acessa catálogo e contexto certos.",
+        "A IA fala bem, mas não segue regra comercial nem limite operacional.",
+        "Sem medir conversão e handoff, voz vira só uma demo bonita."
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "EU JÁ RESOLVI ISSO",
+      "headline": "Foi isso que eu implementei para uma loja de materiais de construção do Sul do Brasil",
+      "items": [
+        "13.312 produtos no ERP e 136 jeitos diferentes de escrever a unidade.",
+        "245 sinônimos de balcão mapeados para traduzir gíria em catálogo.",
+        "65 de 65 perguntas reais de clientes encontraram o produto certo."
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MINHA LEITURA",
+      "headline": "Medir em vez de assumir.",
+      "body": "Na prática, voz não gera resultado só porque transcreve melhor ou responde mais natural. O que importa é entrar num fluxo confiável, com ferramenta certa, memória certa e métrica de negócio. Sem isso, a empresa ouve uma demo. Não uma operação."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "QUER VER COMO EU FIZ?",
+      "headline": "Comenta SDR.",
+      "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+      "button": "Comenta SDR · vssolutions.io"
+    }
+  ],
+  "caption": "A Mistral lançou o Voxtral 3 com uma proposta bem clara: juntar escuta, raciocínio, tool calling e fala em tempo real. A fonte fala de uso em contact centers, assistentes virtuais e fluxos com múltiplas etapas, além de suporte a 50+ idiomas na transcrição.\n\nMinha leitura é simples: quando a voz melhora, o problema deixa de ser “dá para fazer?” e vira “como isso entra no atendimento real?”.\n\nPorque empresa não precisa de uma conversa solta. Precisa de um fluxo que consulte sistema, respeite regra comercial, recupere contexto certo e permita medir resultado.\n\nFoi exatamente esse tipo de problema que eu já resolvi para uma loja de materiais de construção do Sul do Brasil. O cenário tinha 13.312 produtos no ERP, 136 jeitos diferentes de escrever unidade e 245 sinônimos de balcão mapeados. A IA nunca vê o catálogo inteiro: uma busca simples responde em milissegundos e entrega 8 resultados para o modelo. No teste com 65 de 65 perguntas reais de clientes, o produto certo foi encontrado.\n\nVoz só gera ROI quando entra nesse tipo de operação.\n\nComenta SDR que eu te mando no direct como fiz.\n\nFontes: mistral.ai\n\n#inteligenciaartificial #voiceai #automacao #whatsappbusiness #atendimentodigital",
+  "first_comment": "Fontes: https://mistral.ai/news/voxtral-3/\n\nvssolutions.io",
+  "meta": {
+    "tema": "Voxtral 3 reacende a corrida por voz que funcione em produção",
+    "tipo": "ponte",
+    "case_id": "sdr",
+    "palavra": "SDR",
+    "valor": "Medir em vez de assumir.",
+    "angulo": "Voz só gera ROI na empresa quando entra em um fluxo confiável, com ferramentas, memória certa e medição de conversão — não como conversa solta.",
+    "fontes": [
+      "https://mistral.ai/news/voxtral-3/"
+    ],
+    "roteiro_reels": "[0-3s] Voz melhorando não resolve o principal problema da empresa.\n[3-20s] A Mistral lançou o Voxtral 3 com foco em voice agents em tempo real. Isso inclui escuta, raciocínio, tool calling e fala no mesmo fluxo. Na prática, quando o modelo melhora, o gargalo vira integração com catálogo, contexto e regra de negócio.\n[20-30s] Foi isso que eu resolvi numa loja de materiais de construção no WhatsApp: a IA não improvisa, usa ferramentas e o resultado é medido. Comenta SDR que eu te mando como fiz.",
+    "gerado_em": "2026-10-21T09:30:59.518Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · VOICE IN PRODUCTION",
+          "headline": "Voice got better. The bottleneck now is the workflow.",
+          "sub": "When the model gets more right, integrating service becomes the real problem."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Mistral launched the Voxtral 3 family with a voice agent SDK",
+          "body": "The proposal combines listening, reasoning, tool calling, and speech in a real-time pipeline. According to the source, the focus is on multi-step conversations, with integration into company systems and data."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "50+",
+          "label": "languages supported for transcription",
+          "sub": "The source also mentions 35+ languages in TTS and 50+ dialects."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies when they move into voice",
+          "items": [
+            "The conversation works, but it doesn’t access the right catalog and context.",
+            "The AI speaks well, but it doesn’t follow commercial rules or operational limits.",
+            "Without measuring conversion and handoff, voice becomes just a nice demo."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I’VE ALREADY SOLVED THIS",
+          "headline": "This is what I implemented for a building materials store in southern Brazil",
+          "items": [
+            "13,312 products in the ERP and 136 different ways of writing the unit.",
+            "245 counter synonyms mapped to translate slang into catalog terms.",
+            "65 out of 65 real customer questions found the right product."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "In practice, voice does not generate results just because it transcribes better or sounds more natural. What matters is entering a reliable workflow, with the right tool, the right memory, and a business metric. Without that, the company hears a demo. Not an operation."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I’ll send you the step-by-step of the case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "caption": "Mistral launched Voxtral 3 with a very clear proposal: combine listening, reasoning, tool calling, and speech in real time. The source mentions use in contact centers, virtual assistants, and multi-step flows, plus support for 50+ languages in transcription.\n\nMy take is simple: when voice gets better, the problem stops being “can this be done?” and becomes “how does this fit into real customer service?”\n\nBecause companies do not need a loose conversation. They need a workflow that queries systems, respects commercial rules, retrieves the right context, and makes it possible to measure results.\n\nThat is exactly the kind of problem I have already solved for a building materials store in southern Brazil. The setup had 13,312 products in the ERP, 136 different ways of writing the unit, and 245 counter synonyms mapped. The AI never sees the full catalog: a simple search responds in milliseconds and delivers 8 results to the model. In the test with 65 out of 65 real customer questions, the right product was found.\n\nVoice only generates ROI when it enters this kind of operation.\n\nComment SDR and I’ll send you by DM how I did it.\n\nSources: mistral.ai\n\n#inteligenciaartificial #voiceai #automacao #whatsappbusiness #atendimentodigital"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЁМЕ · ГОЛОС В ПРОДАКШЕНЕ",
+          "headline": "Голос стал лучше. Теперь узкое место — это поток.",
+          "sub": "Когда модель ошибается реже, настоящей проблемой становится интеграция в обслуживание."
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Mistral запустила семейство Voxtral 3 с SDK для voice agent",
+          "body": "Идея в том, чтобы объединить распознавание, рассуждение, tool calling и речь в один пайплайн реального времени. По данным источника, акцент сделан на многошаговых диалогах с интеграцией в системы и данные компании."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЧИСЛО",
+          "stat": "50+",
+          "label": "языков с поддержкой транскрибации",
+          "sub": "Источник также упоминает 35+ языков в TTS и 50+ диалектов."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях, когда они внедряют голос",
+          "items": [
+            "Диалог вроде работает, но не получает доступ к нужному каталогу и контексту.",
+            "ИИ говорит хорошо, но не соблюдает коммерческие правила и операционные ограничения.",
+            "Если не измерять конверсию и handoff, голос остаётся просто красивой демо-версией."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ РЕШАЛ ЭТО",
+          "headline": "Именно это я внедрил для магазина стройматериалов на юге Бразилии",
+          "items": [
+            "13 312 товаров в ERP и 136 разных способов записать единицу измерения.",
+            "245 синонимов balcão были сопоставлены, чтобы переводить сленг в термины каталога.",
+            "В 65 из 65 реальных вопросов клиентов был найден нужный товар."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЙ ВЫВОД",
+          "headline": "Измерять, а не предполагать.",
+          "body": "На практике голос не даёт результат только потому, что лучше транскрибирует или звучит естественнее. Важно встроить его в надёжный поток: с правильным инструментом, правильной памятью и бизнес-метрикой. Без этого компания слышит демо. А не операцию."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОТИТЕ ПОСМОТРЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напишите SDR.",
+          "body": "Я отправлю в direct пошаговый разбор кейса. Я вывожу ИИ из стадии идеи в продакшен, с измеримым результатом.",
+          "button": "Напишите SDR · vssolutions.io"
+        }
+      ],
+      "caption": "Mistral запустила Voxtral 3 с очень понятной идеей: объединить распознавание, рассуждение, tool calling и речь в реальном времени. Источник говорит об использовании в contact centers, виртуальных ассистентах и многошаговых сценариях, а также о поддержке 50+ языков в транскрибации.\n\nМой вывод простой: когда голос становится лучше, вопрос перестаёт быть «это вообще можно сделать?» и становится «как это встроить в реальное обслуживание?»\n\nПотому что бизнесу не нужен разговор сам по себе. Нужен поток, который обращается к системе, соблюдает коммерческие правила, достаёт правильный контекст и позволяет измерять результат.\n\nИменно такую задачу я уже решал для магазина стройматериалов на юге Бразилии. В контуре было 13 312 товаров в ERP, 136 разных способов записать единицу измерения и 245 сопоставленных синонимов balcão. ИИ никогда не видит весь каталог: простой поиск отвечает за миллисекунды и отдаёт модели 8 результатов. В тесте с 65 из 65 реальных вопросов клиентов был найден нужный товар.\n\nГолос даёт ROI только когда входит в такой тип операции.\n\nНапишите SDR, и я отправлю в direct, как именно я это сделал.\n\nИсточники: mistral.ai\n\n#inteligenciaartificial #voiceai #automacao #whatsappbusiness #atendimentodigital"
+    }
+  }
+}
