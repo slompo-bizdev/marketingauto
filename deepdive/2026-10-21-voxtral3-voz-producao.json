@@ -1,0 +1,120 @@
+{
+  "slug": "2026-10-21-voxtral3-voz-producao",
+  "topic": "VOXTRAL 3",
+  "keyword": "SDR",
+  "hook": {
+    "claim": "\"50+ languages.\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning was about Voxtral 3 pushing voice closer to production with one real-time pipeline for listening, reasoning, tools, and speech. I went back in to check the numbers that matter around that launch."
+  },
+  "findings": [
+    {
+      "label": "RANK",
+      "big": "2.1%",
+      "headline": "Independent board puts Voxtral Small 3 at 2.1% WER",
+      "detail": "OrcaRouter cites Artificial Analysis and places it third, behind Alibaba at 1.7% and Microsoft at 2.0%.",
+      "bars": [
+        {
+          "label": "Voxtral Small 3",
+          "value": 2.1,
+          "display": "2.1%",
+          "kind": "accent"
+        },
+        {
+          "label": "Fun-Realtime",
+          "value": 1.7,
+          "display": "1.7%",
+          "kind": "solid"
+        },
+        {
+          "label": "MAI-Transcribe-2",
+          "value": 2,
+          "display": "2.0%",
+          "kind": "solid"
+        }
+      ],
+      "source": 1,
+      "evidence": "Voxtral Small Transcribe 3, which puts Mistral's new recogniser third... behind... 1.7% and... 2.0%.",
+      "say": "First, the independent score is 2.1% word error rate, which puts Voxtral Small 3 in third place, not alone at the top.",
+      "status": "confirmed"
+    },
+    {
+      "label": "COST",
+      "big": "$0.006",
+      "headline": "Realtime transcription is priced at 0.6 cents a minute",
+      "detail": "That matches OpenAI gpt-4o-transcribe and sits below Gemini 3.5 Transcribe Live.",
+      "bars": [
+        {
+          "label": "Voxtral Realtime",
+          "value": 0.006,
+          "display": "$0.006",
+          "kind": "accent"
+        },
+        {
+          "label": "GPT-4o Transcribe",
+          "value": 0.006,
+          "display": "$0.006",
+          "kind": "solid"
+        },
+        {
+          "label": "Gemini 3.5 Live",
+          "value": 0.008925,
+          "display": "$0.008925",
+          "kind": "solid"
+        }
+      ],
+      "source": 2,
+      "evidence": "gpt-4o-transcribe and Voxtral Realtime cost $0.006, Gemini 3.5 Transcribe about $0.009.",
+      "say": "Second, on live transcription price, Voxtral sits at $0.006 a minute, level with OpenAI and below Gemini’s published blended rate.",
+      "status": "confirmed"
+    },
+    {
+      "label": "LIMIT",
+      "big": "13",
+      "headline": "A recent developer comparison lists only 13 streaming languages",
+      "detail": "The same comparison gives Gemini 85+ languages and highlights Voxtral for teams that may self-host later.",
+      "bars": [
+        {
+          "label": "Voxtral Realtime",
+          "value": 13,
+          "display": "13",
+          "kind": "accent"
+        },
+        {
+          "label": "Gemini 3.5 Live",
+          "value": 85,
+          "display": "85+",
+          "kind": "solid"
+        }
+      ],
+      "source": 2,
+      "evidence": "Voxtral Realtime | $0.006 | 13 ... Gemini 3.5 Transcribe live | About $0.009 | 85+",
+      "say": "Third, one recent developer comparison lists Voxtral Realtime at 13 streaming languages versus 85 plus for Gemini, so language coverage is still a selection filter.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "Good model, but workflow still decides",
+    "say": "My take: better voice helps, but production wins when the model, tools, rules, and measurement all hold together."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "OrcaRouter — Voxtral 3 speech family release",
+      "url": "https://www.orcarouter.ai/blog/voxtral-3-speech-family-release"
+    },
+    {
+      "n": 2,
+      "title": "Micdrop — GPT-4o Transcribe vs Gemini vs Voxtral",
+      "url": "https://micdrop.dev/blog/gpt-4o-transcribe-vs-gemini-vs-voxtral"
+    },
+    {
+      "n": 3,
+      "title": "Google Cloud — Gemini 3.5 Transcribe pricing",
+      "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+    }
+  ],
+  "caption": "This morning: Voxtral 3 made the case that voice is getting better, and the real production bottleneck is the workflow around it.\n\nThree extra numbers: independent ranking shows 2.1% WER and a #3 spot. Live transcription is $0.006 per minute, level with OpenAI and below Gemini’s published blended rate. One recent developer comparison lists 13 streaming languages for Voxtral Realtime versus 85+ for Gemini.\n\nMy take: better voice is useful, but workflow still decides whether this becomes an operation or stays a demo.\n\nComment SDR and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] OrcaRouter — Voxtral 3 speech family release — https://www.orcarouter.ai/blog/voxtral-3-speech-family-release\n[2] Micdrop — GPT-4o Transcribe vs Gemini vs Voxtral — https://micdrop.dev/blog/gpt-4o-transcribe-vs-gemini-vs-voxtral\n[3] Google Cloud — Gemini 3.5 Transcribe pricing — https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing\n\nvssolutions.io",
+  "gerado_em": "2026-10-21T13:00:32.035Z"
+}
