@@ -46,7 +46,9 @@ def norm(t):
 
 
 STOP = set("a o e de da do das dos que em no na nos nas um uma para por com como mais menos se sem ao aos isso essa esse "
-           "este esta nao sobre ja agora ainda entre pra pelo pela tambem so muito ter tem foi ser sao vai ou".split())
+           "este esta nao sobre ja agora ainda entre pra pelo pela tambem so muito ter tem foi ser sao vai ou "
+           "the an and of to in on for with is are was it this that at by from as be or not but what how my your our "
+           "we you they its into about just more most can will now week ai".split())
 
 
 # ---------- transcrição ----------
@@ -60,7 +62,7 @@ def transcrever(video, tmp):
     import numpy as np
     with wave.open(str(wav)) as w:
         audio = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
-    segs, _ = m.transcribe(audio, language="pt", word_timestamps=True, vad_filter=True)
+    segs, _ = m.transcribe(audio, language=os.environ.get("WHISPER_LANG", "en"), word_timestamps=True, vad_filter=True)
     out = []
     for s in segs:
         for w in (s.words or []):
@@ -121,7 +123,10 @@ def card(eyebrow, title, extra=""):
 
 
 def slide_png(slug, n, path):
-    src = ROOT / "docs" / "posts" / slug / f"{n}.png"
+    # versão em inglês do post quando existir (docs/posts/<slug>/en/), senão a original
+    src = ROOT / "docs" / "posts" / slug / "en" / f"{n}.png"
+    if not src.exists():
+        src = ROOT / "docs" / "posts" / slug / f"{n}.png"
     if not src.exists():
         return False
     RL.run(["ffmpeg", "-y", "-v", "error", "-i", str(src), "-vf",
@@ -225,7 +230,9 @@ def build(spec_path, usar_whisper, browser):
             f = ROOT / "posts" / f"{s}.json"
             if f.exists():
                 d = json.loads(f.read_text())
-                posts.append({"slug": s, "tema": d.get("meta", {}).get("tema", ""), "headline": d["slides"][0].get("headline", "")})
+                en = ((d.get("traducoes") or {}).get("en") or {}).get("slides") or d["slides"]
+                posts.append({"slug": s, "tema": d.get("meta", {}).get("tema", ""),
+                              "headline": d["slides"][0].get("headline", "") + " " + en[0].get("headline", "") + " " + en[0].get("sub", "")})
 
         # um visual por bloco: abertura, posts citados (2 slides cada), leitura e chamada final
         cenas = []
@@ -234,11 +241,11 @@ def build(spec_path, usar_whisper, browser):
             z = starts[i + 1] if i + 1 < len(blocos) else total
             nb = norm(b)
             if i == 0:
-                img = tmp / "c0.png"; RL.html_png(browser, card("A SEMANA EM IA · @victorslompo", sp.get("titulo") or "IA nas empresas, na prática"), img, W, TOP_H)
+                img = tmp / "c0.png"; RL.html_png(browser, card("THE WEEK IN AI · @victorslompo", sp.get("titulo") or "AI in business, in practice"), img, W, TOP_H)
                 cenas.append((img, a, z)); continue
-            if nb[:1] == ["comenta"] or " ".join(nb).find("comenta projeto") >= 0:
+            if nb[:1] in (["comenta"], ["comment"]) or " ".join(nb).find("comenta projeto") >= 0 or " ".join(nb).find("comment project") >= 0:
                 img = tmp / f"c{i}.png"
-                RL.html_png(browser, card("QUER RESOLVER ISSO?", "Comenta PROJETO", f"<div><span class='b'>vssolutions.io →</span></div>"), img, W, TOP_H)
+                RL.html_png(browser, card("WANT TO SOLVE THIS?", "Comment PROJECT", f"<div><span class='b'>vssolutions.io →</span></div>"), img, W, TOP_H)
                 cenas.append((img, a, z)); continue
             p = escolher_post(b, posts)
             if p:
@@ -251,7 +258,7 @@ def build(spec_path, usar_whisper, browser):
                 if ok1:
                     cenas.append((s1, a, z)); continue
             img = tmp / f"c{i}.png"
-            RL.html_png(browser, card("MINHA LEITURA", re.split(r"(?<=[.!?:])\s", b)[0][:110]), img, W, TOP_H)
+            RL.html_png(browser, card("MY TAKE", re.split(r"(?<=[.!?:])\s", b)[0][:110]), img, W, TOP_H)
             cenas.append((img, a, z))
 
         lista = tmp / "top.txt"

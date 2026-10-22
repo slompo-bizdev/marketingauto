@@ -130,6 +130,8 @@ def chunk_words(words, max_words=4):
 
 def en_spec(spec):
     tr = (spec.get("traducoes") or {}).get("en") or {}
+    if spec.get("lang") == "en":  # post já escrito em inglês: os slides originais são a versão em inglês
+        tr = {"slides": spec["slides"], "caption": spec.get("caption", ""), "reel": spec.get("reel") or tr.get("reel")}
     if len(tr.get("slides", [])) != len(spec["slides"]):
         raise SystemExit(f"{spec['slug']}: sem tradução em inglês com o mesmo número de slides")
     s = copy.deepcopy(spec)
@@ -279,7 +281,7 @@ def main():
         b = p.chromium.launch(executable_path=a.chrome) if a.chrome else p.chromium.launch()
         for sp in a.specs:
             spec = json.loads(pathlib.Path(sp).read_text())
-            if len(((spec.get("traducoes") or {}).get("en") or {}).get("slides", [])) != len(spec.get("slides", [])):
+            if spec.get("lang") != "en" and len(((spec.get("traducoes") or {}).get("en") or {}).get("slides", [])) != len(spec.get("slides", [])):
                 print(f"pulado {sp}: sem tradução em inglês")
                 continue
             build(sp, a.tts, b)

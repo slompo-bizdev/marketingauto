@@ -211,14 +211,24 @@ def render(spec_path, browser):
             names.append(f"{i}.png")
         return names
 
-    files = render_slides(slides, out)
+    en_main = spec.get("lang") == "en"
+    files = render_slides(slides, out, swipe="Swipe →" if en_main else None)
 
     # Versão em inglês para o LinkedIn: mesmos slides traduzidos pelo motor (traducoes.en),
     # mesmas cores, em docs/posts/<slug>/en/, mais um PDF (o LinkedIn publica carrossel como documento).
     en = (spec.get("traducoes") or {}).get("en") or {}
     en_slides = en.get("slides") or []
     en_files, en_pdf = [], ""
-    if len(en_slides) == n and all(es.get("type") == s.get("type") for es, s in zip(en_slides, slides)):
+    if spec.get("lang") == "en":
+        # post já escrito em inglês (padrão desde 22/out/2026): o PDF do LinkedIn sai dos próprios slides
+        try:
+            from PIL import Image
+            imgs = [Image.open(out / f).convert("RGB") for f in files]
+            imgs[0].save(out / "carousel-en.pdf", save_all=True, append_images=imgs[1:], resolution=150)
+            en, en_slides, en_files, en_pdf = {"caption": spec.get("caption", "")}, slides, list(files), "carousel-en.pdf"
+        except Exception as e:
+            print(f"aviso {spec['slug']}: PDF não gerado ({e})")
+    elif len(en_slides) == n and all(es.get("type") == s.get("type") for es, s in zip(en_slides, slides)):
         try:
             merged = [dict(s, **es) for s, es in zip(slides, en_slides)]
             en_files = render_slides(merged, out / "en", swipe="Swipe →")
@@ -235,17 +245,17 @@ def render(spec_path, browser):
     th0 = Theme(bg0, col(s0.get("accent", accent)))
     if spec.get("story_pergunta"):
         # story de conversa: pergunta grande + espaço livre para a enquete/caixinha (adicionada no app)
-        body = (pill(spec.get("story_eyebrow", "PERGUNTA DO DIA"), th0)
+        body = (pill(spec.get("story_eyebrow", "QUESTION OF THE DAY" if en_main else "PERGUNTA DO DIA"), th0)
                 + box(96, 230, 888, 560, spec["story_pergunta"], 96, 900, th0.text, lh=1.04, ls=-2.5, fit=True, minsize=48)
-                + box(96, 1290, 888, 150, "Post novo no feed: " + s0["headline"].replace("\n", " "), 34, 600,
+                + box(96, 1290, 888, 150, ("New post on my feed: " if en_main else "Post novo no feed: ") + s0["headline"].replace("\n", " "), 34, 600,
                       th0.accent if th0.dark else th0.text, lh=1.25, fit=True, minsize=24)
                 + box(96, 1460, 888, 60, spec.get("footer", "Victor Slompo · vssolutions.io"), 26, 500, th0.body))
         # a área "in" começa em y=200 para fugir do cabeçalho do Instagram; 800-1250 fica livre para o sticker
         shoot(page(bg0, body, height=1920, top=200), out / "story.png", height=1920)
     else:
         # story 1080x1920 a partir da capa
-        s0["eyebrow"] = spec.get("story_eyebrow", "NOVO POST · " + s0["eyebrow"].split("·")[-1].strip())
-        s0["swipe"] = spec.get("story_cta", "No meu feed")
+        s0["eyebrow"] = spec.get("story_eyebrow", ("NEW POST · " if en_main else "NOVO POST · ") + s0["eyebrow"].split("·")[-1].strip())
+        s0["swipe"] = spec.get("story_cta", "On my feed" if en_main else "No meu feed")
         shoot(page(bg0, TYPES[s0["type"]](s0, th0, spec, 1, n), height=1920, top=285), out / "story.png", height=1920)
     pg.close()
 
@@ -253,7 +263,8 @@ def render(spec_path, browser):
             "story": "story.png", "story_jpg": "story.jpg",
             "caption": spec.get("caption", ""), "first_comment": spec.get("first_comment", "")}
     if en_pdf:
-        meta["en"] = {"slides_jpg": ["en/" + f.replace(".png", ".jpg") for f in en_files], "pdf": en_pdf,
+        prefix = "" if spec.get("lang") == "en" else "en/"
+        meta["en"] = {"slides_jpg": [prefix + f.replace(".png", ".jpg") for f in en_files], "pdf": en_pdf,
                       "title": en_slides[0].get("headline", "").replace("\n", " "), "caption": en.get("caption", "")}
     (out / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2))
     print(f"ok  {spec['slug']}: {n} slides + story" + (" + EN/PDF" if en_pdf else "") + f" -> {out.relative_to(ROOT)}")
