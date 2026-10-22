@@ -1,6 +1,210 @@
 {
-  "atualizado_em": "2026-10-22T09:18:32.059133Z",
+  "atualizado_em": "2026-10-22T09:32:38.980081Z",
   "posts": [
+    {
+      "slug": "2026-10-22-chatgpt-ads-chega-a-26-paises",
+      "data": "2026-10-22",
+      "titulo": "Anúncio no ChatGPT não compra lugar dentro da resposta",
+      "subtitulo": "A OpenAI diz que anúncio não influencia a resposta. Então o que influencia?",
+      "tema": "ChatGPT Ads chega a 26 países e muda a disputa por visibilidade em IA",
+      "tipo": "ponte",
+      "case_id": "geo",
+      "palavra": "GEO",
+      "valor": "Medir em vez de assumir.",
+      "fontes": [
+        "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+        "https://openai.com/index/building-chatgpt-ad-stack"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "IA EM ALTA · CHATGPT ADS",
+          "headline": "Anúncio no ChatGPT não compra lugar dentro da resposta",
+          "sub": "A OpenAI diz que anúncio não influencia a resposta. Então o que influencia?"
+        },
+        {
+          "type": "text",
+          "eyebrow": "O QUE ACONTECEU",
+          "headline": "ChatGPT Ads chega a mais 26 países e soma 89",
+          "body": "A OpenAI expandiu o ChatGPT Ads para 26 países, chegando a 89. Mais de 100 mil anunciantes já rodaram campanhas em pouco mais de oito meses. Os anúncios aparecem só nos planos Free e Go."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "O NÚMERO",
+          "stat": "100 mil",
+          "label": "Mais de 100 mil anunciantes já rodaram campanhas no ChatGPT",
+          "sub": "Em pouco mais de oito meses desde o lançamento, segundo a OpenAI."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "O PROBLEMA REAL NAS EMPRESAS",
+          "headline": "O que eu vejo: decidem mídia sem saber se a IA já cita a marca",
+          "items": [
+            "Falam em verba de anúncio antes de saber se a IA cita a empresa na resposta.",
+            "O conteúdo é escrito para pessoas e pode ficar ilegível para o robô de IA.",
+            "Ninguém separa varredura de robô, pergunta real e clique vindo de citação."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "EU JÁ RESOLVI ISSO",
+          "headline": "Eu refiz o relatório anual de uma das maiores empresas de cosméticos do Brasil",
+          "items": [
+            "Refeito para ChatGPT, Claude e Perplexity lerem e citarem, com medição própria.",
+            "Em 15 dias: 1.427 leituras por robôs de IA, de 8 motores, e 553 buscas de perguntas reais.",
+            "60 pessoas chegaram ao site clicando numa citação de IA, medidas por coletor de logs próprio."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MINHA LEITURA",
+          "headline": "Medir em vez de assumir.",
+          "body": "A OpenAI diz que anúncio não influencia a resposta. Na prática, quem quer aparecer dentro dela depende de conteúdo que a IA consegue ler e citar. Meça sua citação primeiro. Aí você decide quanto gastar em mídia, com número e não com palpite."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "QUER VER COMO EU FIZ?",
+          "headline": "Comenta GEO.",
+          "body": "Te mando no direct o passo a passo do case. Eu tiro IA do papel e coloco em produção, com resultado medido.",
+          "button": "Comenta GEO · vssolutions.io"
+        }
+      ],
+      "legenda": "A OpenAI levou o ChatGPT Ads a mais 26 países e agora são 89. Mais de 100 mil anunciantes já rodaram campanhas em pouco mais de oito meses. A própria OpenAI diz que anúncio não influencia a resposta.\n\nNa prática, anúncio compra espaço ao lado da resposta. Aparecer dentro dela depende de conteúdo que a IA consegue ler e citar.\n\nO que eu vejo nas empresas: decidem verba de mídia sem saber se a IA já cita a marca.\n\nPara uma das maiores empresas de cosméticos do Brasil, refiz o relatório anual para ser lido e citado por ChatGPT, Claude e Perplexity, com coletor de logs próprio. Em 15 dias: 1.427 leituras de robôs de IA, 553 buscas de perguntas reais e 60 pessoas chegando ao site por clique em citação de IA.\n\nMedir em vez de assumir. Primeiro veja se a IA te cita. Depois decida quanto gastar em mídia.\n\nComenta GEO que eu te mando no direct como fiz.\n\nFontes: openai.com\n\n#ChatGPTAds #GEO #IAemProducao #InteligenciaArtificial #MarketingDigital",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-22-chatgpt-ads-chega-a-26-paises/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-22-chatgpt-ads-chega-a-26-paises/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-22-chatgpt-ads-chega-a-26-paises/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-22-chatgpt-ads-chega-a-26-paises/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-22-chatgpt-ads-chega-a-26-paises/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-22-chatgpt-ads-chega-a-26-paises/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-22-chatgpt-ads-chega-a-26-paises/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-22-chatgpt-ads-chega-a-26-paises/1.jpg",
+      "gerado_em": "2026-10-22T09:31:27.648Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Ads in ChatGPT don't buy a spot inside the answer",
+          "subtitulo": "OpenAI says ads don't influence the answer. So what does?",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI TRENDING · CHATGPT ADS",
+              "headline": "Ads in ChatGPT don't buy a spot inside the answer",
+              "sub": "OpenAI says ads don't influence the answer. So what does?"
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "ChatGPT Ads expands to 26 more countries, reaching 89",
+              "body": "OpenAI expanded ChatGPT Ads to 26 more countries, bringing the total to 89. Over 100,000 advertisers have already run campaigns in just over eight months. Ads only appear on the Free and Go plans."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "100,000",
+              "label": "Over 100,000 advertisers have already run campaigns in ChatGPT",
+              "sub": "In just over eight months since launch, according to OpenAI."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see: they decide media spend without knowing if AI already cites the brand",
+              "items": [
+                "They talk about ad budget before knowing whether AI cites the company in its answers.",
+                "Content is written for people and can be unreadable for AI bots.",
+                "Nobody separates bot crawls, real questions, and clicks that come from citations."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I ALREADY SOLVED THIS",
+              "headline": "I redid the annual report of one of Brazil's biggest cosmetics companies",
+              "items": [
+                "Rebuilt so ChatGPT, Claude and Perplexity can read and cite it, with my own measurement.",
+                "In 15 days: 1,427 reads by AI bots from 8 engines, and 553 searches for real questions.",
+                "60 people reached the site by clicking an AI citation, measured by my own log collector."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assuming.",
+              "body": "OpenAI says ads don't influence the answer. In practice, showing up inside it depends on content AI can read and cite. Measure your citation first. Then decide how much to spend on media, with numbers instead of guesses."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment GEO.",
+              "body": "I'll send you the step-by-step of the case by DM. I take AI out of the paper and put it into production, with measured results.",
+              "button": "Comment GEO · vssolutions.io"
+            }
+          ],
+          "legenda": "OpenAI just took ChatGPT Ads to 26 more countries, bringing the total to 89. Over 100,000 advertisers have already run campaigns in just over eight months. OpenAI itself says ads don't influence the answer.\n\nIn practice, ads buy space next to the answer. Showing up inside it depends on content AI can read and cite.\n\nWhat I see in companies: they decide media budget without knowing if AI already cites the brand.\n\nFor one of Brazil's biggest cosmetics companies, I redid the annual report so ChatGPT, Claude and Perplexity can read and cite it, with my own log collector. In 15 days: 1,427 reads by AI bots, 553 searches for real questions and 60 people reaching the site by clicking an AI citation.\n\nMeasure instead of assuming. First check if AI cites you. Then decide how much to spend on media.\n\nComment GEO and I'll send you how I did it by DM.\n\nSources: openai.com\n\n#ChatGPTAds #GEO #IAemProducao #InteligenciaArtificial #MarketingDigital"
+        },
+        "ru": {
+          "titulo": "Реклама в ChatGPT не покупает место внутри ответа",
+          "subtitulo": "OpenAI говорит, что реклама не влияет на ответ. Так что же влияет?",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ В ТРЕНДЕ · CHATGPT ADS",
+              "headline": "Реклама в ChatGPT не покупает место внутри ответа",
+              "sub": "OpenAI говорит, что реклама не влияет на ответ. Так что же влияет?"
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "ChatGPT Ads выходит еще в 26 стран, и их становится 89",
+              "body": "OpenAI расширила ChatGPT Ads еще на 26 стран, теперь их 89. Более 100 000 рекламодателей уже запустили кампании чуть больше чем за восемь месяцев. Реклама показывается только на тарифах Free и Go."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "100 000",
+              "label": "Более 100 000 рекламодателей уже запускали кампании в ChatGPT",
+              "sub": "Чуть больше восьми месяцев с момента запуска, по данным OpenAI."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу: бюджет на медиа решают, не зная, цитирует ли ИИ бренд",
+              "items": [
+                "Говорят о рекламном бюджете, не выяснив, упоминает ли ИИ компанию в своих ответах.",
+                "Контент пишут для людей, и он может быть нечитаем для ботов ИИ.",
+                "Никто не отделяет обходы ботов, реальные вопросы и переходы, пришедшие из цитат."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ РЕШАЛ ЭТО",
+              "headline": "Я переделал годовой отчет одной из крупнейших косметических компаний Бразилии",
+              "items": [
+                "Переделан так, чтобы ChatGPT, Claude и Perplexity могли его прочитать и процитировать, с моей собственной системой измерения.",
+                "За 15 дней: 1 427 чтений ботами ИИ с 8 движков и 553 поиска реальных вопросов.",
+                "60 человек пришли на сайт, кликнув по цитате ИИ, по данным моего собственного сборщика логов."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЯ ПОЗИЦИЯ",
+              "headline": "Измеряй, а не предполагай.",
+              "body": "OpenAI говорит, что реклама не влияет на ответ. На практике попасть внутрь него зависит от контента, который ИИ может прочитать и процитировать. Сначала измерь, цитирует ли тебя ИИ. Потом решай, сколько тратить на медиа, опираясь на цифры, а не на догадки."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОЧЕШЬ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напиши GEO.",
+              "body": "Пришлю в директ пошаговый разбор кейса. Я довожу ИИ до продакшена, с измеренным результатом.",
+              "button": "Напиши GEO · vssolutions.io"
+            }
+          ],
+          "legenda": "OpenAI вывела ChatGPT Ads еще в 26 стран, теперь их 89. Более 100 000 рекламодателей уже запустили кампании чуть больше чем за восемь месяцев. Сама OpenAI говорит, что реклама не влияет на ответ.\n\nНа практике реклама покупает место рядом с ответом. Попасть внутрь него зависит от контента, который ИИ может прочитать и процитировать.\n\nЧто я вижу в компаниях: бюджет на медиа решают, не зная, цитирует ли ИИ бренд.\n\nДля одной из крупнейших косметических компаний Бразилии я переделал годовой отчет, чтобы его читали и цитировали ChatGPT, Claude и Perplexity, с моим собственным сборщиком логов. За 15 дней: 1 427 чтений ботами ИИ, 553 поиска реальных вопросов и 60 человек, пришедших на сайт по клику на цитату ИИ.\n\nИзмеряй, а не предполагай. Сначала проверь, цитирует ли тебя ИИ. Потом решай, сколько тратить на медиа.\n\nНапиши GEO в комментариях, и я пришлю в директ, как я это сделал.\n\nИсточники: openai.com\n\n#ChatGPTAds #GEO #IAemProducao #InteligenciaArtificial #MarketingDigital"
+        }
+      }
+    },
     {
       "slug": "2026-10-21-voxtral3-voz-producao",
       "data": "2026-10-21",
