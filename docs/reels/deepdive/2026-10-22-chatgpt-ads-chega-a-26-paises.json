@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-22-chatgpt-ads-chega-a-26-paises",
+  "video": "2026-10-22-chatgpt-ads-chega-a-26-paises.mp4",
+  "duration": 54.23,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning: ChatGPT Ads expanded to 89 countries, with over 100,000 advertisers. OpenAI says ads don't change the answer.\n\nThe deeper numbers: one tester saw CPMs above $65 after nearly $70,000 spent. Click-through is 0.91% versus 6.4% on Google Search. Median cost per click across 15 campaigns is $4.41.\n\nMy take: measure whether AI cites you before you decide how much to spend on media.\n\nComment GEO and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Search Engine Journal – 6 Months Into ChatGPT Ads — https://www.searchenginejournal.com/6-months-into-chatgpt-ads-advertisers-still-dont-know-what-good-looks-like/587583/\n[2] The Keyword – ChatGPT Ads: How They Work and What They Cost — https://www.thekeyword.co/news/chatgpt-ads-pricing\n[3] PPC One – International ChatGPT Ads results — https://ppcone.cz/en/blog/chatgpt-ads-results/\n\nvssolutions.io",
+  "keyword": "GEO",
+  "check_dm": "",
+  "scenes": [
+    "This morning: ChatGPT Ads reached 89 countries, and over 100,000 advertisers have run campaigns. I went back in to check what those advertisers actually pay and get.",
+    "First, one advertiser spent nearly $70,000 testing ChatGPT Ads and saw CPMs above $65. His bigger worry was low click-through.",
+    "Second, Adthena data puts ChatGPT ad click-through at 0.91%. Google Search sits at 6.4%, so people click far less often.",
+    "Third, a review of 15 published campaigns found a median click costs $4.41. The spread is wide, from $0.76 to $14.80.",
+    "My take: clicks cost real money and results vary widely. Measure whether AI already cites you before paying to be seen."
+  ]
+}
