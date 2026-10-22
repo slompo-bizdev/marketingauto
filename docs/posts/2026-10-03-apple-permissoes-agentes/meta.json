@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "A Apple anunciou controles adicionais para o Full Disk Access no macOS. O motivo está no texto oficial: esse nível de permissão pode expor arquivos, e-mails, mensagens e histórico, e o risco cresce à medida que agentes de IA ficam mais capazes e autônomos.\n\nPra mim, o ponto importante não é só segurança no desktop. É o recado para qualquer empresa tentando escalar agentes: quando a IA sai do demo e ganha acesso a sistemas reais, permissões, auditoria e limites operacionais deixam de ser detalhe técnico. Viram pré-requisito de produção.\n\nÉ exatamente aí que muita iniciativa trava. O piloto funciona, mas ninguém desenhou direito quem acessa o quê, como auditar defeitos e quais limites o agente precisa respeitar.\n\nEu já resolvi isso com plataforma multiagente em produção numa conta enterprise: conta de US$ 5,5 milhões, cerca de 60% de ganho de eficiência e exigência de log de defeitos auditado.\n\nLançar agente é fácil. Colocar em produção com controle e resultado medido é outra conversa.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: developer.apple.com, techcrunch.com\n\n#IA #AgentesDeIA #EnterpriseAI #GovernancaDeIA #SegurancaDaInformacao",
-  "first_comment": "Fontes: https://developer.apple.com/news/?id=p6zjojqw · https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/\n\nvssolutions.io"
+  "first_comment": "Fontes: https://developer.apple.com/news/?id=p6zjojqw · https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "When the agent gets real access, the risk moves to another level",
+    "caption": "Apple announced additional controls for Full Disk Access in macOS. The reason is in the official text: this level of permission can expose files, emails, messages, and browsing history, and the risk grows as AI agents become more capable and autonomous.\n\nFor me, the important point isn't just desktop security. It's the message for any company trying to scale agents: when AI moves past the demo and gets access to real systems, permissions, auditing, and operational limits stop being technical details. They become production prerequisites.\n\nThat's exactly where a lot of initiatives get stuck. The pilot works, but nobody properly designed who can access what, how to audit defects, and which limits the agent needs to respect.\n\nI've already solved this with a multi-agent platform in production in an enterprise account: a US$ 5.5 million account, about 60% efficiency gain, and a requirement for an audited defect log.\n\nLaunching an agent is easy. Putting it into production with control and measured results is a different conversation.\n\nComment AGENTES and I'll send you in DM how I did it.\n\nSources: developer.apple.com, techcrunch.com\n\n#IA #AgentesDeIA #EnterpriseAI #GovernancaDeIA #SegurancaDaInformacao"
+  }
 }

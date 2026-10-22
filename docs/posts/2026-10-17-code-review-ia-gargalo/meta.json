@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "A Anthropic publicou como o time do Claude Code faz code review quando agentes já produzem código em alto volume. O ponto central não é “tirar humanos do processo”. É redesenhar o review para usar atenção humana onde o risco é maior.\n\nNa fonte, o fluxo tem camadas: verificação antes do PR, review por agentes, revisão de segurança, CI obrigatória, aprovação humana por risco, merge queue, flags e rollback rápido. De junho a setembro, os merged pull requests mais que dobraram, enquanto a fatia de PRs revertidos caiu mais de 40%.\n\nNa prática, isso expõe um problema que eu vejo direto nas empresas: a IA entra para escrever mais rápido, mas o code review continua do mesmo jeito. A produção sobe. A confiança não. E o gargalo muda de lugar.\n\nFoi exatamente essa ponte que eu já tratei no time de desenvolvimento do AskMoses.AI: cada dev trabalha com Claude Code no projeto, outro Claude revisa o pull request, o humano decide pelo negócio, não pela técnica, e o deploy na Vercel tem rollback em 1 clique e backup diário.\n\nO ponto não é ter IA escrevendo código. É ter revisão confiável e integrada ao fluxo.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: claude.dev\n\n#inteligenciaartificial #engenhariadesoftware #codereview #automacao #aiops",
-  "first_comment": "Fontes: https://claude.dev/blog/solving-code-review-at-anthropic/\n\nvssolutions.io"
+  "first_comment": "Fontes: https://claude.dev/blog/solving-code-review-at-anthropic/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "AI writing code isn’t the bottleneck. Review is.",
+    "caption": "Anthropic shared how the Claude Code team handles code review when agents are already producing code at high volume. The main point is not “removing humans from the process.” It’s redesigning review so human attention is used where risk is highest.\n\nIn the original source, the flow has layers: checks before the PR, review by agents, security review, mandatory CI, human approval based on risk, merge queue, flags, and fast rollback. From June to September, merged pull requests more than doubled, while the share of reverted PRs dropped by more than 40%.\n\nIn practice, this exposes a problem I see all the time in companies: AI comes in to write faster, but code review stays the same. Output goes up. Confidence doesn’t. And the bottleneck just moves.\n\nThat’s exactly the gap I already addressed on the AskMoses.AI development team: each dev works with Claude Code on the project, another Claude reviews the pull request, the human decides based on the business, not the technical details, and deploys on Vercel have 1-click rollback and daily backup.\n\nThe point is not having AI write code. It’s having review that is reliable and integrated into the workflow.\n\nComment CLAUDE and I’ll send you by DM how I did it.\n\nSources: claude.dev\n\n#inteligenciaartificial #engenhariadesoftware #codereview #automacao #aiops"
+  }
 }

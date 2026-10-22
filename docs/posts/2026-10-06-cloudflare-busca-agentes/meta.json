@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "A Cloudflare lançou uma Web Search API em beta para agentes e apps com IA. A proposta é simples: buscar informação ao vivo na internet pelo AI Gateway, em vez de depender só do que o modelo já sabe. No lançamento, são 3 provedores: Ceramic.ai, Exa e Linkup.\n\nMinha leitura: isso reforça um ponto importante. Busca não resolve sozinha. Plugar uma API no agente não faz ele executar melhor uma tarefa real. O valor aparece quando busca, contexto, regras e medição trabalham juntos.\n\nÉ aí que muita empresa trava. O agente até consulta fontes externas, mas ninguém define quando buscar, o que trazer de volta, o que ele pode afirmar e como medir acerto.\n\nEu já resolvi isso em uma loja de materiais de construção do Sul do Brasil. Eram 13.312 produtos no ERP, 136 jeitos diferentes de escrever unidade e 245 sinônimos de balcão mapeados. A IA nunca vê o catálogo: uma busca simples responde em milissegundos e entrega 8 resultados para o modelo. Com esse desenho, 65 de 65 perguntas reais de clientes encontraram o produto certo.\n\nInfraestrutura ajuda. Orquestração e métrica fazem funcionar.\n\nComenta SDR que eu te mando no direct como fiz.\n\nFontes: developers.cloudflare.com, techcrunch.com\n\n#inteligenciaartificial #agentesdeia #automacao #whatsappbusiness #iaparanaempresas",
-  "first_comment": "Fontes: https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/ · https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/\n\nvssolutions.io"
+  "first_comment": "Fontes: https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/ · https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Plugging search into the agent doesn’t solve the problem",
+    "caption": "Cloudflare launched a Web Search API in beta for agents and AI apps. The idea is simple: search live information on the internet through AI Gateway, instead of relying only on what the model already knows. At launch, there are 3 providers: Ceramic.ai, Exa and Linkup.\n\nMy take: this reinforces an important point. Search doesn’t solve things on its own. Plugging an API into the agent doesn’t make it execute a real task better. The value shows up when search, context, rules and measurement work together.\n\nThat’s where many companies get stuck. The agent may query external sources, but no one defines when to search, what to bring back, what it is allowed to state and how to measure accuracy.\n\nI already solved this in a building materials store in Southern Brazil. There were 13,312 products in the ERP, 136 ways to write the unit and 245 mapped synonyms for countertop. The AI never sees the catalog: a simple search answers in milliseconds and returns 8 results to the model. With this setup, 65 out of 65 real customer questions found the right product.\n\nInfrastructure helps. Orchestration and metrics make it work.\n\nComment SDR and I’ll send you in DM how I did it.\n\nSources: developers.cloudflare.com, techcrunch.com\n\n#inteligenciaartificial #agentesdeia #automacao #whatsappbusiness #iaparanaempresas"
+  }
 }

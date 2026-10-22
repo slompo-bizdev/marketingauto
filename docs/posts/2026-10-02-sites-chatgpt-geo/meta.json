@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "A OpenAI lançou o recurso Sites no ChatGPT: dá para criar, hospedar e compartilhar sites, apps e jogos dentro da própria interface. Na mesma direção, o guia de produção da OpenAI reforça um ponto menos glamouroso e mais importante: produção exige medição, monitoramento e workflow preparado.\n\nMinha leitura é simples: se conteúdo e navegação passam a acontecer em interfaces de IA, não basta aparecer no Google. A empresa precisa ser legível para modelos, entendida por eles e, principalmente, citada.\n\nÉ aí que muita operação trava. O conteúdo foi feito para humano e crawler tradicional, mas não para buscadores de IA. E quase ninguém mede direito o que acontece: leitura de robô, pergunta real e clique vindo de citação acabam misturados.\n\nEu já resolvi isso para uma das maiores empresas de cosméticos do Brasil. Refizemos o relatório anual para ser lido e citado por ChatGPT, Claude e Perplexity, com medição própria. Em 15 dias, foram 1.427 leituras por robôs de IA, de 8 motores diferentes, e 60 pessoas chegaram ao site clicando numa citação de IA.\n\nIA só vira canal quando sai do discurso e entra na medição.\n\nComenta GEO que eu te mando no direct como fiz.\n\nFontes: chatgpt.com, openai.com\n\n#IA #ChatGPT #SEO #GEO #InteligenciaArtificial #MarketingDigital",
-  "first_comment": "Fontes: https://chatgpt.com/features/sites/ · https://openai.com/index/practical-guide-building-gpt-6\n\nvssolutions.io"
+  "first_comment": "Fontes: https://chatgpt.com/features/sites/ · https://openai.com/index/practical-guide-building-gpt-6\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "If content is consumed inside AI, SEO alone isn't enough",
+    "caption": "OpenAI launched the Sites feature in ChatGPT: you can create, host and share websites, apps and games right inside the interface. Along the same lines, OpenAI's production guide stresses a less glamorous and more important point: production requires measurement, monitoring and a prepared workflow.\n\nMy take is simple: if content and browsing start happening inside AI interfaces, showing up on Google isn't enough. A company needs to be readable by models, understood by them and, above all, cited.\n\nThat's where a lot of operations get stuck. The content was made for humans and traditional crawlers, not for AI search engines. And almost nobody measures what actually happens: bot reads, real questions and clicks from citations all get mixed together.\n\nI've already solved this for one of Brazil's largest cosmetics companies. We rebuilt their annual report to be read and cited by ChatGPT, Claude and Perplexity, with our own measurement. In 15 days there were 1,427 reads by AI crawlers from 8 different engines, and 60 people reached the site by clicking an AI citation.\n\nAI only becomes a channel when it moves from talk to measurement.\n\nComment GEO and I'll send you how I did it by DM.\n\nSources: chatgpt.com, openai.com\n\n#IA #ChatGPT #SEO #GEO #InteligenciaArtificial #MarketingDigital"
+  }
 }

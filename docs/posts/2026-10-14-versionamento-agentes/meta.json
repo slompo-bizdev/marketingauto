@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "A Anthropic publicou um ponto importante: quando o volume de código cresce com agentes, o gargalo pode sair da escrita e ir para o controle de versão, revisão e operação. No caso deles, o número foi de cerca de 2.500 merges por dia em maio de 2026 para mais de 30.000 em setembro. A resposta foi redesenhar a infraestrutura de source control.\n\nMinha leitura é simples: vibe coding sem operação de engenharia não escala. Quando a empresa quer usar agentes de código de verdade, ela precisa redesenhar fluxo, revisão e governança. Senão, o time produz mais mudança do que consegue absorver com segurança.\n\nFoi exatamente essa lógica no time de desenvolvimento do AskMoses.AI: cada dev trabalha com Claude Code no projeto, outro Claude revisa o pull request, o humano decide pelo negócio, não pela técnica, e o deploy na Vercel tem rollback em 1 clique e backup diário.\n\nAgente sem processo aumenta throughput. Processo bom transforma throughput em produção confiável.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: anthropic.com\n\n#inteligenciaartificial #engenhariadesoftware #aiagents #devops #gestaodeproduto",
-  "first_comment": "Fontes: https://www.anthropic.com/engineering/redesigning-source-control\n\nvssolutions.io"
+  "first_comment": "Fontes: https://www.anthropic.com/engineering/redesigning-source-control\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "When agents scale, git can become a bottleneck",
+    "caption": "Anthropic published an important point: when code volume grows with agents, the bottleneck can move from writing to version control, review, and operations. In their case, the number went from around 2,500 merges per day in May 2026 to more than 30,000 in September. The response was to redesign the source control infrastructure.\n\nMy take is simple: vibe coding without engineering operations does not scale. When a company wants to use coding agents for real, it needs to redesign workflow, review, and governance. Otherwise, the team produces more change than it can absorb safely.\n\nThat was exactly the logic with the AskMoses.AI development team: each dev works with Claude Code on the project, another Claude reviews the pull request, the human decides based on the business, not the technical side, and deployment on Vercel has 1-click rollback and daily backup.\n\nAgent without process increases throughput. Good process turns throughput into reliable production.\n\nComment CLAUDE and I’ll send you in DM how I did it.\n\nSources: anthropic.com\n\n#inteligenciaartificial #engenhariadesoftware #aiagents #devops #gestaodeproduto"
+  }
 }

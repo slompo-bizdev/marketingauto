@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "A Google anunciou um agente unificado do Gemini com foco inicial em empresas. Segundo a TechCrunch, ele recebe objetivos, planeja tarefas, usa ferramentas, conecta sistemas internos, delega a subagentes e opera com conta própria, permissões e trilha de auditoria.\n\nPra mim, esse é o ponto importante da notícia.\n\nNão é sobre “agente fazer mais coisas”. É sobre o padrão que começa a ficar explícito no mercado corporativo: agente empresarial não pode nascer só como interface boa. Precisa nascer com identidade, permissão, integração, rastreabilidade e controle.\n\nÉ exatamente aí que muita empresa trava. O agente funciona no demo, mas não entra de verdade na operação. Ou entra sem governança e sem medição clara de resultado.\n\nEsse é o tipo de problema que eu já resolvi em uma conta enterprise: plataforma multiagente em produção, numa conta de US$ 5,5 milhões, com cerca de 60% de ganho de eficiência. E com uma exigência que eu considero básica nesse nível: log de defeitos auditado.\n\nNa prática, 2026 está deixando claro uma coisa: lançar agente não basta. Tem que operar direito e medir.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: techcrunch.com, openai.com\n\n#inteligenciaartificial #agentesdeia #iaempresarial #automacao #governancadeia",
-  "first_comment": "Fontes: https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/ · https://openai.com/index/oracle\n\nvssolutions.io"
+  "first_comment": "Fontes: https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/ · https://openai.com/index/oracle\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Google brings agents to Gemini with a focus on businesses",
+    "caption": "Google announced a unified Gemini agent with an initial focus on businesses. According to TechCrunch, it receives goals, plans tasks, uses tools, connects internal systems, delegates to subagents, and operates with its own account, permissions, and audit trail.\n\nTo me, that is the important part of the news.\n\nThis is not about an “agent doing more things.” It is about the standard that is starting to become explicit in the corporate market: an enterprise agent cannot be born as just a good interface. It needs to be built with identity, permission, integration, traceability, and control.\n\nThat is exactly where many companies get stuck. The agent works in the demo, but does not really enter operations. Or it does enter, but without governance and without clear measurement of results.\n\nThis is the kind of problem I have already solved in an enterprise account: a multi-agent platform in production, in a US$ 5.5 million account, with about 60% efficiency gain. And with one requirement that I consider basic at this level: an audited defect log.\n\nIn practice, 2026 is making one thing clear: launching an agent is not enough. You have to run it properly and measure it.\n\nComment AGENTES and I will send you by DM how I did it.\n\nSources: techcrunch.com, openai.com\n\n#inteligenciaartificial #agentesdeia #iaempresarial #automacao #governancadeia"
+  }
 }

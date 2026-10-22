@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "A Mercor publicou um mapa que cruza benchmarks de IA com trabalho real da economia americana. O dado que mais importa aqui: a fonte estima que 90% das horas de trabalho estão em tarefas com pouca ou nenhuma cobertura nos benchmarks atuais.\n\nIsso muda a conversa. Benchmark serve para comparar capacidade em tarefas específicas. Mas não basta para dizer se a IA vai funcionar no fluxo real de uma empresa.\n\nO que eu vejo na prática: time escolhe modelo por benchmark, sobe piloto e descobre depois que a tarefa crítica do usuário não estava representada no teste. A IA até lança. Mas não vira hábito. E sem hábito, não tem resultado medido.\n\nFoi exatamente essa lição no AskMoses.AI, o SaaS que construí de ponta a ponta e opero como contractor. 17 organizações nos EUA assinaram e 6 usam de verdade. 11 de 17 nunca ativaram: o onboarding exigia CRM e rubrica antes de entregar valor. Quando a IA não cobre o trabalho real do usuário, o problema não é só modelo. É adoção.\n\nPor isso eu insisto: lançar não é o mesmo que ser usado.\n\nComenta ADOÇÃO que eu te mando no direct como fiz.\n\nFontes: mercor.com\n\n#inteligenciaartificial #ia #aiops #produtodeia #adocaoia #transformacaodigital",
-  "first_comment": "Fontes: https://www.mercor.com/research/labor-index/benchmark-map/\n\nvssolutions.io"
+  "first_comment": "Fontes: https://www.mercor.com/research/labor-index/benchmark-map/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "90% of real work still escapes benchmarks",
+    "caption": "Mercor published a map that matches AI benchmarks with real work in the American economy. The number that matters most here: the source estimates that 90% of working hours are in tasks with little or no coverage in current benchmarks.\n\nThat changes the conversation. A benchmark helps compare capability on specific tasks. But it is not enough to say whether AI will work in a company’s real workflow.\n\nWhat I see in practice: a team picks a model based on benchmark results, launches a pilot, and only later discovers that the user’s critical task was not represented in the test. The AI even gets launched. But it does not become a habit. And without habit, there are no measured results.\n\nThat was exactly the lesson in AskMoses.AI, the SaaS I built end to end and operate as a contractor. 17 organizations in the US signed and 6 actually use it. 11 of 17 never activated: onboarding required CRM and rubric before delivering value. When AI does not cover the user’s real work, the problem is not just the model. It is adoption.\n\nThat is why I keep insisting: launching is not the same as being used.\n\nComment ADOÇÃO and I will send you by DM how I did it.\n\nSources: mercor.com\n\n#inteligenciaartificial #ia #aiops #produtodeia #adocaoia #transformacaodigital"
+  }
 }

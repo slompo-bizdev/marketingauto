@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "A Microsoft lançou o Microsoft Execution Containers, uma camada de execução com políticas para agentes de IA. A ideia é simples e importante: o agente não deve ser a própria autoridade de segurança. Arquivos, rede, interface e processo passam a operar dentro de limites definidos fora dele.\n\nIsso se conecta com um problema real de empresa. Muita gente até consegue testar agente em ambiente controlado. O travamento vem quando esse agente precisa operar sistema, dado e fluxo real. Aí aparecem três lacunas: acesso amplo demais, permissão mal definida e nenhuma auditoria confiável quando algo falha.\n\nMinha leitura é direta: a era da sandbox improvisada acabou. Se o agente vai para produção, o stack precisa nascer com contenção, permissão e auditoria embutidas.\n\nEu já vi isso na prática em uma conta enterprise. Colocamos uma plataforma multiagente em produção numa conta de US$ 5,5 milhões, com cerca de 60% de ganho de eficiência. E, para isso funcionar com confiabilidade, o log de defeitos auditado não era detalhe. Era parte da operação.\n\nComenta AGENTES que eu te mando no direct como fiz.\n\nFontes: blogs.windows.com, techcrunch.com\n\n#InteligenciaArtificial #AgentesDeIA #IAEnterprise #GovernancaDeIA #AutomacaoInteligente",
-  "first_comment": "Fontes: https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/ · https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/\n\nvssolutions.io"
+  "first_comment": "Fontes: https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/ · https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Without isolation, an agent in production becomes an operational risk",
+    "caption": "Microsoft launched Microsoft Execution Containers, a policy-based execution layer for AI agents. The idea is simple and important: the agent should not be its own security authority. Files, network, interface, and process now operate within limits defined outside of it.\n\nThis connects to a real company problem. A lot of people can test an agent in a controlled environment. The bottleneck comes when that agent needs to operate a real system, real data, and a real workflow. That is when three gaps show up: access that is too broad, poorly defined permissions, and no reliable audit trail when something fails.\n\nMy take is direct: the era of the improvised sandbox is over. If the agent is going into production, the stack has to start with built-in containment, permission, and auditability.\n\nI’ve already seen this in practice in an enterprise account. We put a multi-agent platform into production in a US$ 5.5 million account, with about 60% efficiency gain. And for that to work reliably, the audited defect log was not a detail. It was part of the operation.\n\nComment AGENTES and I’ll send you by DM how I did it.\n\nSources: blogs.windows.com, techcrunch.com\n\n#InteligenciaArtificial #AgentesDeIA #IAEnterprise #GovernancaDeIA #AutomacaoInteligente"
+  }
 }

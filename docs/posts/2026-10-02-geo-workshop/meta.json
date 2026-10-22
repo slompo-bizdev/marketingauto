@@ -23,5 +23,20 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "Todo mundo fala de GEO. Eu medi.\n\nSEO, GEO, AEO: a sigla muda toda semana, a promessa é sempre a mesma. E quase ninguém mostra resultado, até porque nem OpenAI nem Google entregam relatório de quanto sua marca aparece nas respostas.\n\nEntão eu construí a medição junto com o projeto. O relatório anual de uma das maiores empresas de cosméticos do Brasil, refeito para a IA ler, com um coletor de logs ligado do primeiro dia:\n\n→ 1.427 leituras por robôs de IA, de 8 motores diferentes\n→ 553 buscas disparadas por uma pergunta real de alguém\n→ 60 pessoas que chegaram ao site clicando numa citação de IA\n\nEm 15 dias.\n\nÉ esse método que eu ensino nos treinamentos e workshops: conteúdo, camada técnica e, principalmente, como medir.\n\nGEO com prova, não com promessa. Me chama na DM.\n\n#GEO #SEO #AEO #marketingdigital #inteligenciaartificial #ChatGPT",
-  "first_comment": "vssolutions.io"
+  "first_comment": "vssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg",
+      "en/8.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Everyone talks about GEO. I measured it.",
+    "caption": "Everyone talks about GEO. I measured it.\n\nSEO, GEO, AEO: the acronym changes every week, the promise is always the same. And almost nobody shows results, partly because neither OpenAI nor Google reports how often your brand appears in their answers.\n\nSo I built the measurement into the project. The annual report of one of Brazil's largest cosmetics companies, rebuilt for AI to read, with a log collector running from day one:\n\n→ 1,427 reads by AI crawlers, from 8 different engines\n→ 553 fetches triggered by someone's real question\n→ 60 people who reached the site by clicking an AI citation\n\nIn 15 days.\n\nThat's the method I teach in my training sessions and workshops: content, the technical layer and, above all, how to measure.\n\nGEO with proof, not promises. Send me a DM.\n\n#GEO #SEO #AEO #marketingdigital #inteligenciaartificial #ChatGPT"
+  }
 }

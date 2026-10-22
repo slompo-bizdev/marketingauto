@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "Um repositório chamado git-ai propõe um ponto importante: o problema dos agentes de código não é só gerar código. É controlar contexto, revisão, concorrência e rastreabilidade quando vários agentes trabalham na mesma base.\n\nA fonte descreve exatamente isso. Git tradicional foi pensado para humanos que clonam, trabalham por horas e fazem push depois. Agentes operam diferente: tarefas curtas, muitos fluxos ao mesmo tempo, mudanças pequenas e necessidade de entregar rápido.\n\nNa prática, é aí que muita empresa trava. Coloca IA para programar, mas não cria a camada de operação. Aí o agente escreve, outro altera, ninguém sabe o contexto, a revisão fica frouxa e o humano passa a apagar incêndio técnico.\n\nEu olho para isso como problema de engenharia, não de hype.\n\nNo time de desenvolvimento do AskMoses.AI, isso já está resolvido com uma operação 100% agentic: cada dev trabalha com Claude Code no projeto, outro Claude revisa o pull request, o humano decide pelo negócio, não pela técnica, e o deploy na Vercel tem rollback em 1 clique e backup diário.\n\nO ganho não vem só do modelo. Vem da infra que controla o trabalho dele.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: github.com\n\n#InteligenciaArtificial #AgentesDeIA #DesenvolvimentoDeSoftware #EngenhariaDeSoftware #IAEmProducao",
-  "first_comment": "Fontes: https://github.com/feder-cr/git-ai\n\nvssolutions.io"
+  "first_comment": "Fontes: https://github.com/feder-cr/git-ai\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Without context and traceability, a coding agent becomes a bottleneck",
+    "caption": "A repository called git-ai makes an important point: the problem with coding agents is not only generating code. It is controlling context, review, concurrency, and traceability when multiple agents work on the same codebase.\n\nThe source describes exactly that. Traditional Git was built for humans who clone, work for hours, and push later. Agents operate differently: short tasks, many flows at the same time, small changes, and a need to deliver fast.\n\nIn practice, this is where many companies get stuck. They use AI to code, but they do not create the operations layer. Then one agent writes, another changes it, nobody knows the context, review gets loose, and the human ends up putting out technical fires.\n\nI look at this as an engineering problem, not hype.\n\nIn the AskMoses.AI development team, this is already solved with a 100% agentic operation: each dev works with Claude Code on the project, another Claude reviews the pull request, the human decides for the business, not the technical details, and deployment on Vercel has 1-click rollback and daily backup.\n\nThe gain does not come only from the model. It comes from the infrastructure that controls its work.\n\nComment CLAUDE and I will send you by DM how I did it.\n\nSources: github.com\n\n#InteligenciaArtificial #AgentesDeIA #DesenvolvimentoDeSoftware #EngenhariaDeSoftware #IAEmProducao"
+  }
 }

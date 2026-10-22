@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "A Mistral lançou o Voxtral 3 com uma proposta bem clara: juntar escuta, raciocínio, tool calling e fala em tempo real. A fonte fala de uso em contact centers, assistentes virtuais e fluxos com múltiplas etapas, além de suporte a 50+ idiomas na transcrição.\n\nMinha leitura é simples: quando a voz melhora, o problema deixa de ser “dá para fazer?” e vira “como isso entra no atendimento real?”.\n\nPorque empresa não precisa de uma conversa solta. Precisa de um fluxo que consulte sistema, respeite regra comercial, recupere contexto certo e permita medir resultado.\n\nFoi exatamente esse tipo de problema que eu já resolvi para uma loja de materiais de construção do Sul do Brasil. O cenário tinha 13.312 produtos no ERP, 136 jeitos diferentes de escrever unidade e 245 sinônimos de balcão mapeados. A IA nunca vê o catálogo inteiro: uma busca simples responde em milissegundos e entrega 8 resultados para o modelo. No teste com 65 de 65 perguntas reais de clientes, o produto certo foi encontrado.\n\nVoz só gera ROI quando entra nesse tipo de operação.\n\nComenta SDR que eu te mando no direct como fiz.\n\nFontes: mistral.ai\n\n#inteligenciaartificial #voiceai #automacao #whatsappbusiness #atendimentodigital",
-  "first_comment": "Fontes: https://mistral.ai/news/voxtral-3/\n\nvssolutions.io"
+  "first_comment": "Fontes: https://mistral.ai/news/voxtral-3/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Voice got better. The bottleneck now is the workflow.",
+    "caption": "Mistral launched Voxtral 3 with a very clear proposal: combine listening, reasoning, tool calling, and speech in real time. The source mentions use in contact centers, virtual assistants, and multi-step flows, plus support for 50+ languages in transcription.\n\nMy take is simple: when voice gets better, the problem stops being “can this be done?” and becomes “how does this fit into real customer service?”\n\nBecause companies do not need a loose conversation. They need a workflow that queries systems, respects commercial rules, retrieves the right context, and makes it possible to measure results.\n\nThat is exactly the kind of problem I have already solved for a building materials store in southern Brazil. The setup had 13,312 products in the ERP, 136 different ways of writing the unit, and 245 counter synonyms mapped. The AI never sees the full catalog: a simple search responds in milliseconds and delivers 8 results to the model. In the test with 65 out of 65 real customer questions, the right product was found.\n\nVoice only generates ROI when it enters this kind of operation.\n\nComment SDR and I’ll send you by DM how I did it.\n\nSources: mistral.ai\n\n#inteligenciaartificial #voiceai #automacao #whatsappbusiness #atendimentodigital"
+  }
 }

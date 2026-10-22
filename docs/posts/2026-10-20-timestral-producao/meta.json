@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "A Mistral lançou o Timestral, uma família de modelos de série temporal com 5M a 209M parâmetros. Segundo a fonte, o maior modelo ficou em 1º nos três benchmarks públicos citados, roda em CPU e trabalha com previsões probabilísticas, multivariadas e covariáveis conhecidas no futuro.\n\nIsso é relevante porque série temporal está no centro de muita operação real: demanda, manutenção, risco, capacidade, sensores, fluxo financeiro.\n\nMas na prática o gargalo raramente é só “ter um modelo melhor”. O que eu vejo nas empresas é outra coisa: previsão fora do processo, contexto operacional que não entra no modelo, e nenhum vínculo claro entre erro de forecast e impacto de negócio.\n\nA própria fonte toca no ponto certo: ir de modelo para sistema. É aí que o projeto vive ou morre.\n\nMinha leitura é simples: série temporal só vira valor quando entra na rotina da empresa, com dados confiáveis, previsão operacional e métrica de negócio. Se não mede decisão, custo evitado, risco reduzido ou ganho operacional, ainda não virou produção.\n\nComenta PROJETO que eu te respondo no direct como aplicar isso na sua empresa.\n\nFontes: mistral.ai\n\n#inteligenciaartificial #forecasting #seriestemporais #iaaplicada #transformacaodigital",
-  "first_comment": "Fontes: https://mistral.ai/news/timestral/\n\nvssolutions.io"
+  "first_comment": "Fontes: https://mistral.ai/news/timestral/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Accurate forecasts are useless if operations don't use them",
+    "caption": "Mistral launched Timestral, a family of time series models with 5M to 209M parameters. According to the source, the largest model ranked 1st in the three public benchmarks mentioned, runs on CPU, and works with probabilistic, multivariate forecasting and covariates known in the future.\n\nThis matters because time series sits at the center of a lot of real operations: demand, maintenance, risk, capacity, sensors, financial flow.\n\nBut in practice, the bottleneck is rarely just “having a better model.” What I see in companies is something else: forecasting outside the process, operational context that never reaches the model, and no clear link between forecast error and business impact.\n\nThe source itself touches the right point: moving from model to system. That's where the project lives or dies.\n\nMy take is simple: time series only creates value when it becomes part of the company's routine, with reliable data, operational forecasting, and a business metric attached. If you're not measuring decisions, avoided cost, reduced risk, or operational gain, it still hasn't reached production.\n\nComment PROJETO and I'll reply in DM with how to apply this in your company.\n\nSources: mistral.ai\n\n#inteligenciaartificial #forecasting #seriestemporais #iaaplicada #transformacaodigital"
+  }
 }

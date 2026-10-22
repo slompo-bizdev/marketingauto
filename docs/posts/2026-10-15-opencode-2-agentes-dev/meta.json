@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "OpenCode 2.0 aponta para uma direção clara: agente de programação não é só autocomplete melhorado. A proposta agora inclui serviço central, API pensada para automação, subagentes em background e integração com mais ferramentas. Do outro lado, o AI-DLC organiza isso em workflow: 5 fases, 33 estágios, agentes especializados, gates de aprovação e trilha de auditoria.\n\nMinha leitura é simples: o ganho real não vem de testar mais um copiloto. Vem de redesenhar o fluxo de engenharia para usar agentes com qualidade, rastreabilidade e entrega em produção.\n\nÉ exatamente esse ponto que eu já apliquei no time de desenvolvimento do AskMoses.AI. Cada dev trabalha com Claude Code no projeto. Outro Claude revisa o pull request. O humano decide pelo negócio, não pela técnica. E o deploy roda na Vercel com rollback em 1 clique e backup diário.\n\nFerramenta nova ajuda. Processo certo é o que sustenta resultado.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: anoma.ly, github.com\n\n#inteligenciaartificial #engenhariadesoftware #devtools #aiagents #softwaredelivery #produtividade",
-  "first_comment": "Fontes: https://anoma.ly/notes/opencode-2-0/ · https://github.com/awslabs/aidlc-workflows\n\nvssolutions.io"
+  "first_comment": "Fontes: https://anoma.ly/notes/opencode-2-0/ · https://github.com/awslabs/aidlc-workflows\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "The gain does not come from the agent alone",
+    "caption": "OpenCode 2.0 points in a clear direction: a programming agent is not just improved autocomplete. The proposal now includes a central service, an API designed for automation, background subagents, and integration with more tools. On the other side, AI-DLC organizes this into a workflow: 5 phases, 33 stages, specialized agents, approval gates, and an audit trail.\n\nMy take is simple: the real gain does not come from testing one more copilot. It comes from redesigning the engineering workflow to use agents with quality, traceability, and production delivery.\n\nThat is exactly the point I have already applied on the AskMoses.AI development team. Each dev works with Claude Code in the project. Another Claude reviews the pull request. The human decides based on the business, not the technical side. And deployment runs on Vercel with 1-click rollback and daily backup.\n\nA new tool helps. The right process is what sustains results.\n\nComment CLAUDE and I will send you by DM how I did it.\n\nSources: anoma.ly, github.com\n\n#inteligenciaartificial #engenhariadesoftware #devtools #aiagents #softwaredelivery #produtividade"
+  }
 }

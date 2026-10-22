@@ -21,5 +21,19 @@
   "story": "story.png",
   "story_jpg": "story.jpg",
   "caption": "A Meta abriu o Muse Spark Open com uma proposta bem objetiva: levar capacidades agentic para o desktop, com execução local em Macs usando dois Mac Studio M5 Ultra via MLX. Na fonte primária, a empresa destaca 1M de contexto, 816B parâmetros totais e foco em coding e trabalho agentic. A reportagem do TechCrunch adiciona a leitura prática: quando modelos open-weight passam a rodar localmente, eles podem trazer mais eficiência de custo, transparência e flexibilidade do que depender só de modelos fechados.\n\nPra mim, esse é o ponto central da notícia. Não é só benchmark. É o que muda quando a IA entra no fluxo real de engenharia com mais controle de infraestrutura e governança.\n\nO que eu vejo nas empresas é o contrário: muita experimentação solta e pouca produção. O agente escreve algo, mas não revisa PR, não encaixa no deploy e não fecha o ciclo com decisão humana clara.\n\nNo time de desenvolvimento do AskMoses.AI, eu já operei esse modelo de trabalho: time de desenvolvimento 100% agentic, cada dev com Claude Code no projeto, outro Claude revisando o pull request, e o humano decidindo pelo negócio, não pela técnica. O deploy é na Vercel com rollback em 1 clique e backup diário.\n\nComenta CLAUDE que eu te mando no direct como fiz.\n\nFontes: research.meta.ai, techcrunch.com\n\n#InteligenciaArtificial #IAgenerativa #EngenhariaDeSoftware #AIinProduction #OpenWeight",
-  "first_comment": "Fontes: https://research.meta.ai/blog/muse-spark-open · https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/\n\nvssolutions.io"
+  "first_comment": "Fontes: https://research.meta.ai/blog/muse-spark-open · https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "en/1.jpg",
+      "en/2.jpg",
+      "en/3.jpg",
+      "en/4.jpg",
+      "en/5.jpg",
+      "en/6.jpg",
+      "en/7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Open-weight AI on the desktop changes more than a benchmark",
+    "caption": "Meta released Muse Spark Open with a very objective proposal: bring agentic capabilities to the desktop, with local execution on Macs using two Mac Studio M5 Ultra machines via MLX. In the primary source, the company highlights 1M context, 816B total parameters, and a focus on coding and agentic work. The TechCrunch report adds the practical angle: when open-weight models start running locally, they can bring more cost efficiency, transparency, and flexibility than relying only on closed models.\n\nFor me, that is the central point of the news. It is not just benchmark. It is what changes when AI enters the real engineering workflow with more control over infrastructure and governance.\n\nWhat I see in companies is the opposite: a lot of loose experimentation and very little production. The agent writes something, but it does not review PRs, does not fit into deploy, and does not close the loop with a clear human decision.\n\nIn the AskMoses.AI development team, I have already run this way of working: a 100% agentic development team, each dev with Claude Code on the project, another Claude reviewing the pull request, and the human deciding based on the business, not the technical side. Deployment is on Vercel with 1-click rollback and daily backup.\n\nComment CLAUDE and I’ll send you by DM how I did it.\n\nSources: research.meta.ai, techcrunch.com\n\n#InteligenciaArtificial #IAgenerativa #EngenhariaDeSoftware #AIinProduction #OpenWeight"
+  }
 }
