@@ -195,15 +195,40 @@ def render(spec_path, browser):
         from PIL import Image
         Image.open(path).convert("RGB").save(str(path).replace(".png", ".jpg"), quality=92, optimize=True)
 
-    files = []
-    for i, s in enumerate(slides, 1):
-        bg = col(s.get("bg", palette[(i - 1) % len(palette)]))
-        th = Theme(bg, col(s.get("accent", accent)))
-        body = TYPES[s["type"]](s, th, spec, i, n)
-        if spec.get("decor") == "hazard":
-            body += hazard()
-        shoot(page(bg, body), out / f"{i}.png")
-        files.append(f"{i}.png")
+    def render_slides(slide_list, folder, swipe=None):
+        folder.mkdir(parents=True, exist_ok=True)
+        names = []
+        for i, s in enumerate(slide_list, 1):
+            s = dict(s)
+            if swipe and s["type"] == "hook":
+                s.setdefault("swipe", swipe)
+            bg = col(s.get("bg", palette[(i - 1) % len(palette)]))
+            th = Theme(bg, col(s.get("accent", accent)))
+            body = TYPES[s["type"]](s, th, spec, i, n)
+            if spec.get("decor") == "hazard":
+                body += hazard()
+            shoot(page(bg, body), folder / f"{i}.png")
+            names.append(f"{i}.png")
+        return names
+
+    files = render_slides(slides, out)
+
+    # Versão em inglês para o LinkedIn: mesmos slides traduzidos pelo motor (traducoes.en),
+    # mesmas cores, em docs/posts/<slug>/en/, mais um PDF (o LinkedIn publica carrossel como documento).
+    en = (spec.get("traducoes") or {}).get("en") or {}
+    en_slides = en.get("slides") or []
+    en_files, en_pdf = [], ""
+    if len(en_slides) == n and all(es.get("type") == s.get("type") for es, s in zip(en_slides, slides)):
+        try:
+            merged = [dict(s, **es) for s, es in zip(slides, en_slides)]
+            en_files = render_slides(merged, out / "en", swipe="Swipe →")
+            from PIL import Image
+            imgs = [Image.open(out / "en" / f).convert("RGB") for f in en_files]
+            imgs[0].save(out / "carousel-en.pdf", save_all=True, append_images=imgs[1:], resolution=150)
+            en_pdf = "carousel-en.pdf"
+        except Exception as e:  # a versão em inglês nunca pode derrubar o carrossel do Instagram
+            print(f"aviso {spec['slug']}: versão EN não gerada ({e})")
+            en_files, en_pdf = [], ""
 
     s0 = dict(slides[0])
     bg0 = col(s0.get("bg", palette[0]))
@@ -227,8 +252,11 @@ def render(spec_path, browser):
     meta = {"slug": spec["slug"], "slides": files, "slides_jpg": [f.replace(".png", ".jpg") for f in files],
             "story": "story.png", "story_jpg": "story.jpg",
             "caption": spec.get("caption", ""), "first_comment": spec.get("first_comment", "")}
+    if en_pdf:
+        meta["en"] = {"slides_jpg": ["en/" + f.replace(".png", ".jpg") for f in en_files], "pdf": en_pdf,
+                      "title": en_slides[0].get("headline", "").replace("\n", " "), "caption": en.get("caption", "")}
     (out / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2))
-    print(f"ok  {spec['slug']}: {n} slides + story -> {out.relative_to(ROOT)}")
+    print(f"ok  {spec['slug']}: {n} slides + story" + (" + EN/PDF" if en_pdf else "") + f" -> {out.relative_to(ROOT)}")
 
 
 def main():
