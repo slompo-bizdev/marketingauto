@@ -1,0 +1,82 @@
+{
+  "slug": "2026-10-22-chatgpt-ads-chega-a-26-paises",
+  "topic": "CHATGPT ADS",
+  "keyword": "GEO",
+  "hook": {
+    "claim": "\"100,000 advertisers.\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning: ChatGPT Ads reached 89 countries, and over 100,000 advertisers have run campaigns. I went back in to check what those advertisers actually pay and get."
+  },
+  "findings": [
+    {
+      "label": "CPM",
+      "big": "$65+",
+      "headline": "One advertiser's CPM after nearly $70,000 of testing",
+      "detail": "Hostinger's tester said click-through rate worried him more than price. Broad messaging struggled.",
+      "bars": [],
+      "source": 1,
+      "evidence": "After nearly $70,000 in testing, Ograk reported CPMs above $65 but said CTR was a bigger concern.",
+      "say": "First, one advertiser spent nearly $70,000 testing ChatGPT Ads and saw CPMs above $65. His bigger worry was low click-through.",
+      "status": "confirmed"
+    },
+    {
+      "label": "CTR",
+      "big": "0.91%",
+      "headline": "ChatGPT ad click-through rate versus Google Search",
+      "detail": "Adthena data, as reported by The Keyword.",
+      "bars": [
+        {
+          "label": "ChatGPT Ads CTR (%)",
+          "value": 0.91,
+          "display": "0.91%",
+          "kind": "accent"
+        },
+        {
+          "label": "Google Search CTR (%)",
+          "value": 6.4,
+          "display": "6.4%",
+          "kind": "solid"
+        }
+      ],
+      "source": 2,
+      "evidence": "Data from Adthena put ChatGPT's click-through rate at 0.91%, against 6.4% on Google Search.",
+      "say": "Second, Adthena data puts ChatGPT ad click-through at 0.91%. Google Search sits at 6.4%, so people click far less often.",
+      "status": "confirmed"
+    },
+    {
+      "label": "CPC",
+      "big": "$4.41",
+      "headline": "Median cost per click across 15 published campaigns",
+      "detail": "Range ran from $0.76 to $14.80, mostly US campaigns.",
+      "bars": [],
+      "source": 3,
+      "evidence": "CPC ranged from USD 0.76 to 14.8, and half were below USD 4.41.",
+      "say": "Third, a review of 15 published campaigns found a median click costs $4.41. The spread is wide, from $0.76 to $14.80.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "Check your citations before your budget.",
+    "say": "My take: clicks cost real money and results vary widely. Measure whether AI already cites you before paying to be seen."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "Search Engine Journal – 6 Months Into ChatGPT Ads",
+      "url": "https://www.searchenginejournal.com/6-months-into-chatgpt-ads-advertisers-still-dont-know-what-good-looks-like/587583/"
+    },
+    {
+      "n": 2,
+      "title": "The Keyword – ChatGPT Ads: How They Work and What They Cost",
+      "url": "https://www.thekeyword.co/news/chatgpt-ads-pricing"
+    },
+    {
+      "n": 3,
+      "title": "PPC One – International ChatGPT Ads results",
+      "url": "https://ppcone.cz/en/blog/chatgpt-ads-results/"
+    }
+  ],
+  "caption": "This morning: ChatGPT Ads expanded to 89 countries, with over 100,000 advertisers. OpenAI says ads don't change the answer.\n\nThe deeper numbers: one tester saw CPMs above $65 after nearly $70,000 spent. Click-through is 0.91% versus 6.4% on Google Search. Median cost per click across 15 campaigns is $4.41.\n\nMy take: measure whether AI cites you before you decide how much to spend on media.\n\nComment GEO and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Search Engine Journal – 6 Months Into ChatGPT Ads — https://www.searchenginejournal.com/6-months-into-chatgpt-ads-advertisers-still-dont-know-what-good-looks-like/587583/\n[2] The Keyword – ChatGPT Ads: How They Work and What They Cost — https://www.thekeyword.co/news/chatgpt-ads-pricing\n[3] PPC One – International ChatGPT Ads results — https://ppcone.cz/en/blog/chatgpt-ads-results/\n\nvssolutions.io",
+  "gerado_em": "2026-10-22T13:00:19.574Z"
+}
