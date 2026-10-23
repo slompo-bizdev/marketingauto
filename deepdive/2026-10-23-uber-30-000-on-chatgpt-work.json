@@ -1,0 +1,95 @@
+{
+  "slug": "2026-10-23-uber-30-000-on-chatgpt-work",
+  "topic": "UBER CHATGPT WORK",
+  "keyword": "PROJECT",
+  "hook": {
+    "claim": "\"30,000 seats.\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning I covered Uber giving ChatGPT Work to all 30,000 employees after a 1,000-person pilot. Then I went back in to check the numbers around it."
+  },
+  "findings": [
+    {
+      "label": "MODEL COST",
+      "big": "$10",
+      "headline": "Per million output tokens on Work's default model",
+      "detail": "GPT-6.1 Sol is the default in ChatGPT Work. Astra, the top model, charges $50 for the same output.",
+      "bars": [
+        {
+          "label": "GPT-6.1 Sol, $ per M output tokens",
+          "value": 10,
+          "display": "$10",
+          "kind": "accent"
+        },
+        {
+          "label": "GPT-6 Astra, $ per M output tokens",
+          "value": 50,
+          "display": "$50",
+          "kind": "solid"
+        }
+      ],
+      "source": 1,
+      "evidence": "GPT-6.1 Sol costs $2/$10 per million tokens with cached input cut to $0.10.",
+      "say": "First, the default model, GPT-6.1 Sol, charges ten dollars per million output tokens. Astra charges fifty, so the cost per task drops sharply.",
+      "status": "confirmed"
+    },
+    {
+      "label": "SEAT PRICE",
+      "big": "$60",
+      "headline": "Reported monthly Enterprise seat, with no list price",
+      "detail": "OpenAI does not publish Enterprise pricing. Business seats list at $20 on annual billing.",
+      "bars": [
+        {
+          "label": "ChatGPT Business, $ per seat per month",
+          "value": 20,
+          "display": "$20",
+          "kind": "solid"
+        },
+        {
+          "label": "ChatGPT Enterprise reported typical, $ per seat per month",
+          "value": 60,
+          "display": "$60",
+          "kind": "accent"
+        }
+      ],
+      "source": 2,
+      "evidence": "Widely reported 2026 figures cluster around $60 per user per month, a typical range of $45 to $75, and a 150-seat minimum.",
+      "say": "Second, Enterprise seats have no list price, but buyers report around sixty dollars a month, against twenty for Business.",
+      "status": "confirmed"
+    },
+    {
+      "label": "REACTIONS",
+      "big": "40%",
+      "headline": "Of developer reactions to the rollout are skeptical",
+      "detail": "Only 15% were positive and 45% mixed. Doubts focus on permissions, data access and long-term adoption.",
+      "bars": [],
+      "source": 3,
+      "evidence": "15% positive 45% mixed 40% skeptical",
+      "say": "Third, early developer reactions to the rollout are split: forty percent skeptical, forty-five mixed, fifteen positive.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "Cost is easy. Impact is the hard part.",
+    "say": "My take: the model cost is the small part. Pay for seats and tokens, then measure which workflows actually changed."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "AI Catchup, GPT-6.1 Sol pricing, benchmarks and effort costs",
+      "url": "https://aicatchup.com/news/openai-gpt-6-1-sol"
+    },
+    {
+      "n": 2,
+      "title": "CloudZero, ChatGPT Enterprise pricing in 2026",
+      "url": "https://www.cloudzero.com/blog/chatgpt-enterprise-pricing/"
+    },
+    {
+      "n": 3,
+      "title": "daily.dev, Uber rolls out ChatGPT Work to 30,000 employees",
+      "url": "https://daily.dev/posts/uber-rolls-out-openai-s-chatgpt-work-to-more-than-30-000-employees-3irssqfzt"
+    }
+  ],
+  "caption": "This morning: Uber is giving ChatGPT Work to all 30,000 employees, up from a 1,000-person pilot. No results have been reported yet.\n\nThe deep dive: the default model costs $10 per million output tokens against $50 for Astra. Enterprise seats are reportedly around $60 a month, with no list price. And 40% of developer reactions are skeptical.\n\nMy take: the model cost is the small part. Measure which workflows actually changed.\n\nComment PROJECT and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] AI Catchup, GPT-6.1 Sol pricing, benchmarks and effort costs — https://aicatchup.com/news/openai-gpt-6-1-sol\n[2] CloudZero, ChatGPT Enterprise pricing in 2026 — https://www.cloudzero.com/blog/chatgpt-enterprise-pricing/\n[3] daily.dev, Uber rolls out ChatGPT Work to 30,000 employees — https://daily.dev/posts/uber-rolls-out-openai-s-chatgpt-work-to-more-than-30-000-employees-3irssqfzt\n\nvssolutions.io",
+  "gerado_em": "2026-10-23T13:00:37.446Z"
+}
