@@ -1,0 +1,14 @@
+{
+  "slug": "reels-2026-10-23-mvl9khl3",
+  "video": "semana/reels-2026-10-23-mvl9khl3-raw.mp4",
+  "roteiro": "This week showed the same thing again: AI wins or loses inside the real workflow, not on the slide.\n\nFirst, a new report says 90% of real work still escapes AI benchmarks. A pretty benchmark won't put AI into production. Fit it into the actual workflow, then measure adoption and impact after launch.\n\nSecond, Uber is putting all 30,000 employees on ChatGPT Work. Rolling out seats is the easy part. Measure which workflows actually changed, not just how many people were activated.\n\nThird, ChatGPT Ads is now in 26 countries. Ads buy space next to the answer, but the recommendation inside it comes from content AI can read and cite. Measure your citation before you decide how much to spend on media.\n\nMy read of the week: the model is rarely the bottleneck. The gap is between a demo and a workflow with a metric attached. That is the gap I work on at VS Solutions: taking AI off the drawing board and into production, with results you can measure.\n\nComment PROJECT and tell me what you want to solve. The full posts are on the Radar, at vssolutions.io.",
+  "posts": [
+    "2026-10-17-benchmark-vs-trabalho-real",
+    "2026-10-20-timestral-producao",
+    "2026-10-20-git-agentes-infra",
+    "2026-10-21-voxtral3-voz-producao",
+    "2026-10-22-chatgpt-ads-chega-a-26-paises",
+    "2026-10-23-uber-30-000-on-chatgpt-work"
+  ],
+  "legenda": "This week made one thing clear: AI creates value inside real workflows, and only if you measure it afterward.\n\n→ 90% of real work still escapes AI benchmarks. Fit AI into the workflow, then measure adoption and impact.\n→ Uber puts 30,000 employees on ChatGPT Work. Track which workflows changed, not just active seats.\n→ ChatGPT Ads reaches 26 countries. Measure your AI citation before deciding how much to spend on media.\n\nComment PROJECT and I'll reply by DM.\n\n#AI #ArtificialIntelligence #AIinBusiness #GenerativeAI #AIStrategy"
+}
