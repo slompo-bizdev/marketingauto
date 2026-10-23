@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-23-uber-30-000-on-chatgpt-work",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Uber is putting its entire global workforce, some 30,000 people, on ChatGPT Work. It began as a pilot of 1,000 employees earlier this year. According to TechCrunch, 80% of those early adopters were non-engineers.\n\nThe rollout itself is the easy part to announce. What I see in companies is that access gets handed out, but nobody decides which workflow is supposed to change. Usage ends up counted in logins, and each team learns on its own.\n\nTo be fair, Uber says it will look at how employees use the tool, the workflows they build and how it helps them work more effectively. It also has not settled exactly how people will use it, and it did not disclose the cost. OpenAI says the companies plan to share outcomes as the rollout progresses.\n\nMy take: measure instead of assuming. Seats activated is a vanity number. The useful question is which workflows changed, and by how much, compared with before. That is how AI goes from the drawing board into production with a result you can defend.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: openai.com, techcrunch.com\n\n#AI #EnterpriseAI #ChatGPT #AIStrategy #Automation",
+  "first_comment": "Sources: https://openai.com/index/uber-chatgpt-work-rollout · https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "30,000 seats is not the same as 30,000 changed workflows",
+    "caption": "Uber is putting its entire global workforce, some 30,000 people, on ChatGPT Work. It began as a pilot of 1,000 employees earlier this year. According to TechCrunch, 80% of those early adopters were non-engineers.\n\nThe rollout itself is the easy part to announce. What I see in companies is that access gets handed out, but nobody decides which workflow is supposed to change. Usage ends up counted in logins, and each team learns on its own.\n\nTo be fair, Uber says it will look at how employees use the tool, the workflows they build and how it helps them work more effectively. It also has not settled exactly how people will use it, and it did not disclose the cost. OpenAI says the companies plan to share outcomes as the rollout progresses.\n\nMy take: measure instead of assuming. Seats activated is a vanity number. The useful question is which workflows changed, and by how much, compared with before. That is how AI goes from the drawing board into production with a result you can defend.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: openai.com, techcrunch.com\n\n#AI #EnterpriseAI #ChatGPT #AIStrategy #Automation"
+  }
+}

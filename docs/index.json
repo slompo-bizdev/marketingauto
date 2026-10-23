@@ -1,6 +1,195 @@
 {
-  "atualizado_em": "2026-10-22T09:37:54.509912Z",
+  "atualizado_em": "2026-10-23T09:31:54.062453Z",
   "posts": [
+    {
+      "slug": "2026-10-23-uber-30-000-on-chatgpt-work",
+      "data": "2026-10-23",
+      "titulo": "30,000 seats is not the same as 30,000 changed workflows",
+      "subtitulo": "Uber went company-wide. The hard part starts now.",
+      "tema": "Uber puts all 30,000 employees on ChatGPT Work",
+      "tipo": "radar",
+      "case_id": null,
+      "palavra": "PROJECT",
+      "valor": "Measure instead of assuming.",
+      "fontes": [
+        "https://openai.com/index/uber-chatgpt-work-rollout",
+        "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · UBER CHATGPT WORK",
+          "headline": "30,000 seats is not the same as 30,000 changed workflows",
+          "sub": "Uber went company-wide. The hard part starts now."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Uber moves ChatGPT Work from a pilot to its whole workforce",
+          "body": "Uber is rolling out ChatGPT Work, an enterprise AI agent, to more than 30,000 employees. It started as a pilot of 1,000 people earlier this year. Uber says it will track how employees use it and evaluate the outcomes."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "80%",
+          "label": "of the early pilot adopters were non-engineers",
+          "sub": "Finance, operations and product were among the teams in the pilot."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies after an AI rollout",
+          "items": [
+            "Access gets announced, but nobody defines which workflow should change",
+            "Usage gets counted in logins, not in work that actually got done",
+            "Each team experiments alone, and the learning never reaches the others"
+          ]
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHERE THIS BREAKS IN PRACTICE",
+          "headline": "Uber has not settled how employees will use it",
+          "body": "Uber's VP of engineering says the approach is to give teams room to experiment. Uber did not disclose what the rollout costs. OpenAI says the companies plan to share outcomes as the rollout progresses. Those outcomes are not public yet."
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "Seats activated is an easy number to report. It says little about the work. In practice, the companies that win will name the workflows that changed and compare them before and after. Uber says it plans to evaluate outcomes. That is the part worth watching."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "VS SOLUTIONS · AI SOFTWARE",
+          "headline": "Want this working at your company?",
+          "body": "Comment PROJECT and tell me what you want to solve. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment PROJECT · vssolutions.io"
+        }
+      ],
+      "legenda": "Uber is putting its entire global workforce, some 30,000 people, on ChatGPT Work. It began as a pilot of 1,000 employees earlier this year. According to TechCrunch, 80% of those early adopters were non-engineers.\n\nThe rollout itself is the easy part to announce. What I see in companies is that access gets handed out, but nobody decides which workflow is supposed to change. Usage ends up counted in logins, and each team learns on its own.\n\nTo be fair, Uber says it will look at how employees use the tool, the workflows they build and how it helps them work more effectively. It also has not settled exactly how people will use it, and it did not disclose the cost. OpenAI says the companies plan to share outcomes as the rollout progresses.\n\nMy take: measure instead of assuming. Seats activated is a vanity number. The useful question is which workflows changed, and by how much, compared with before. That is how AI goes from the drawing board into production with a result you can defend.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: openai.com, techcrunch.com\n\n#AI #EnterpriseAI #ChatGPT #AIStrategy #Automation",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-23-uber-30-000-on-chatgpt-work/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-23-uber-30-000-on-chatgpt-work/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-23-uber-30-000-on-chatgpt-work/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-23-uber-30-000-on-chatgpt-work/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-23-uber-30-000-on-chatgpt-work/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-23-uber-30-000-on-chatgpt-work/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-23-uber-30-000-on-chatgpt-work/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-23-uber-30-000-on-chatgpt-work/1.jpg",
+      "gerado_em": "2026-10-23T09:30:51.601Z",
+      "traducoes": {
+        "en": {
+          "titulo": "30,000 seats is not the same as 30,000 changed workflows",
+          "subtitulo": "Uber went company-wide. The hard part starts now.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · UBER CHATGPT WORK",
+              "headline": "30,000 seats is not the same as 30,000 changed workflows",
+              "sub": "Uber went company-wide. The hard part starts now."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Uber moves ChatGPT Work from a pilot to its whole workforce",
+              "body": "Uber is rolling out ChatGPT Work, an enterprise AI agent, to more than 30,000 employees. It started as a pilot of 1,000 people earlier this year. Uber says it will track how employees use it and evaluate the outcomes."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "80%",
+              "label": "of the early pilot adopters were non-engineers",
+              "sub": "Finance, operations and product were among the teams in the pilot."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies after an AI rollout",
+              "items": [
+                "Access gets announced, but nobody defines which workflow should change",
+                "Usage gets counted in logins, not in work that actually got done",
+                "Each team experiments alone, and the learning never reaches the others"
+              ]
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHERE THIS BREAKS IN PRACTICE",
+              "headline": "Uber has not settled how employees will use it",
+              "body": "Uber's VP of engineering says the approach is to give teams room to experiment. Uber did not disclose what the rollout costs. OpenAI says the companies plan to share outcomes as the rollout progresses. Those outcomes are not public yet."
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assuming.",
+              "body": "Seats activated is an easy number to report. It says little about the work. In practice, the companies that win will name the workflows that changed and compare them before and after. Uber says it plans to evaluate outcomes. That is the part worth watching."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "VS SOLUTIONS · AI SOFTWARE",
+              "headline": "Want this working at your company?",
+              "body": "Comment PROJECT and tell me what you want to solve. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment PROJECT · vssolutions.io"
+            }
+          ],
+          "legenda": "Uber is putting its entire global workforce, some 30,000 people, on ChatGPT Work. It began as a pilot of 1,000 employees earlier this year. According to TechCrunch, 80% of those early adopters were non-engineers.\n\nThe rollout itself is the easy part to announce. What I see in companies is that access gets handed out, but nobody decides which workflow is supposed to change. Usage ends up counted in logins, and each team learns on its own.\n\nTo be fair, Uber says it will look at how employees use the tool, the workflows they build and how it helps them work more effectively. It also has not settled exactly how people will use it, and it did not disclose the cost. OpenAI says the companies plan to share outcomes as the rollout progresses.\n\nMy take: measure instead of assuming. Seats activated is a vanity number. The useful question is which workflows changed, and by how much, compared with before. That is how AI goes from the drawing board into production with a result you can defend.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: openai.com, techcrunch.com\n\n#AI #EnterpriseAI #ChatGPT #AIStrategy #Automation"
+        },
+        "ru": {
+          "titulo": "30 000 мест — это не то же самое, что 30 000 изменённых рабочих процессов",
+          "subtitulo": "Uber выводит инструмент на всю компанию. Сложная часть начинается сейчас.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НАБИРАЕТ ОБОРОТЫ · UBER И CHATGPT WORK",
+              "headline": "30 000 мест — это не то же самое, что 30 000 изменённых рабочих процессов",
+              "sub": "Uber выводит инструмент на всю компанию. Сложная часть начинается сейчас."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Uber переводит ChatGPT Work из пилота на всех сотрудников",
+              "body": "Uber внедряет ChatGPT Work, корпоративного ИИ-агента, для более чем 30 000 сотрудников. Начиналось всё как пилот на 1 000 человек в начале этого года. Uber заявляет, что будет отслеживать, как сотрудники используют инструмент, и оценивать результаты."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "80%",
+              "label": "ранних участников пилота не были инженерами",
+              "sub": "Среди команд пилота были финансы, операционный отдел и продукт."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях после внедрения ИИ",
+              "items": [
+                "Доступ объявляют, но никто не определяет, какой рабочий процесс должен измениться",
+                "Использование считают по входам в систему, а не по сделанной работе",
+                "Каждая команда экспериментирует сама по себе, и знания не доходят до остальных"
+              ]
+            },
+            {
+              "type": "text",
+              "eyebrow": "ГДЕ ЭТО ЛОМАЕТСЯ НА ПРАКТИКЕ",
+              "headline": "Uber пока не определил, как сотрудники будут его использовать",
+              "body": "Вице-президент Uber по инженерии говорит, что подход состоит в том, чтобы дать командам свободу экспериментировать. Стоимость внедрения Uber не раскрыл. OpenAI заявляет, что компании планируют делиться результатами по мере развёртывания. Самих результатов пока нет в открытом доступе."
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Измеряйте, а не предполагайте.",
+              "body": "Количество активированных мест легко отчитать. Но о работе оно говорит мало. На практике выиграют те компании, которые назовут изменившиеся процессы и сравнят их до и после. Uber говорит, что будет оценивать результаты. Вот за чем стоит следить."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "VS SOLUTIONS · ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ С ИИ",
+              "headline": "Хотите, чтобы это работало в вашей компании?",
+              "body": "Напишите PROJECT и расскажите, что хотите решить. Я перевожу ИИ из идеи в работающий продукт с измеримым результатом.",
+              "button": "Напишите PROJECT · vssolutions.io"
+            }
+          ],
+          "legenda": "Uber переводит на ChatGPT Work всех сотрудников по всему миру, примерно 30 000 человек. Всё началось с пилота на 1 000 сотрудников в начале этого года. По данным TechCrunch, 80% ранних участников не были инженерами.\n\nСам запуск объявить легче всего. Но в компаниях я вижу, что доступ выдают, а никто не решает, какой рабочий процесс должен измениться. Использование в итоге считают по входам в систему, и каждая команда учится сама по себе.\n\nЧестно говоря, Uber заявляет, что будет смотреть, как сотрудники используют инструмент, какие процессы строят и как он помогает работать эффективнее. Также компания пока не определила, как именно люди будут его использовать, и не раскрыла стоимость. OpenAI говорит, что компании планируют делиться результатами по мере развёртывания.\n\nМоё мнение: измеряйте, а не предполагайте. Количество активированных мест — показатель для красоты. Полезный вопрос: какие процессы изменились и насколько по сравнению с тем, что было раньше. Так ИИ переходит из идеи в продакшн с результатом, который можно защитить.\n\nНапишите PROJECT, и я пришлю в личные сообщения, как применить это в вашей компании.\n\nИсточники: openai.com, techcrunch.com\n\n#ИИ #корпоративныйИИ #ChatGPT #стратегияИИ #автоматизация"
+        }
+      }
+    },
     {
       "slug": "2026-10-22-chatgpt-ads-chega-a-26-paises",
       "data": "2026-10-22",
