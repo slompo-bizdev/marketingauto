@@ -1,0 +1,204 @@
+{
+  "slug": "2026-10-24-naive-rag-vs-complex-agent-memory",
+  "lang": "en",
+  "palette": [
+    "black",
+    "offwhite"
+  ],
+  "accent": "green",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, did anyone test a simple baseline before adding complexity?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · NAIVE RAG",
+      "headline": "Your agent's memory layer may be losing to plain retrieval",
+      "sub": "A new paper tested naive RAG against agentic memory systems."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "A paper put naive RAG against complex agentic memory",
+      "body": "The paper's baseline, Raw-RAG, uses dense retrieval and reranking over raw history. Across four benchmarks, it ranked first among the compared memory systems in six of seven benchmark-model settings.",
+      "highlight_last": false
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "6 of 7",
+      "label": "settings where plain retrieval ranked first",
+      "sub": "Raw-RAG vs the compared memory systems, across four benchmarks."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: complexity gets added before it is tested",
+      "items": [
+        "The team builds a memory layer first and never tests a plain baseline",
+        "Nobody measures whether the extra layer improves the answers",
+        "Summarizing or restructuring data can drop details the answer depends on"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "A building materials store in southern Brazil runs on simple retrieval",
+      "items": [
+        "13,312 products in the ERP, 136 ways of writing the unit of measure",
+        "The AI never sees the catalog: a simple search hands 8 results to the model",
+        "65 out of 65 real customer questions found the right product"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Simple that works beats complex that impresses.",
+      "body": "Before you add a complex layer, test a plain retrieval baseline and measure it. In production, the simplest retrieval that answers correctly is usually the one worth keeping. This paper points the same way."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment SDR.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment SDR · vssolutions.io"
+    }
+  ],
+  "caption": "A new paper on Hugging Face Papers asks a question many teams skip: is complex agentic memory always needed? The authors tested Raw-RAG, a naive baseline with dense retrieval and reranking over raw history. It ranked first among the compared memory systems in six of seven benchmark-model settings across four benchmarks.\n\nWhat I see in companies is the same pattern. The team adds a memory layer, an orchestration layer, another abstraction. Nobody tests a plain baseline first, and nobody measures whether the added complexity helps.\n\nI faced this in production. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 different ways of writing the unit of measure. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model. The whole flow has 9 nodes. 65 out of 65 real customer questions found the right product.\n\nMy rule: test the plain baseline, measure it, and only then add complexity.\n\nComment SDR and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AI #RAG #AIAgents #LLM #AIEngineering",
+  "first_comment": "Sources: https://huggingface.co/papers/2610.30755\n\nvssolutions.io",
+  "meta": {
+    "tema": "Is naive RAG enough? Simple retrieval beats complex agent memory",
+    "tipo": "ponte",
+    "case_id": "sdr",
+    "palavra": "SDR",
+    "valor": "Simple that works beats complex that impresses.",
+    "angulo": "Before adding a complex memory layer to your agent, test a plain RAG baseline against it and measure the result, because in production the simplest retrieval that answers correctly is usually the one worth keeping.",
+    "fontes": [
+      "https://huggingface.co/papers/2610.30755"
+    ],
+    "roteiro_reels": "[0-3s] Your AI agent might not need a complex memory layer. [3-20s] A new paper tested plain retrieval against agentic memory systems. It ranked first in six of seven settings. In my WhatsApp sales agent for a building materials store, a simple search hands 8 results to the model, and 65 out of 65 real questions found the right product. [20-30s] Test the simple baseline first, then measure. Comment SDR and I'll send you how I did it.",
+    "gerado_em": "2026-10-24T09:30:49.705Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · NAIVE RAG",
+          "headline": "Your agent's memory layer may be losing to plain retrieval",
+          "sub": "A new paper tested naive RAG against agentic memory systems."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A paper put naive RAG against complex agentic memory",
+          "body": "The paper's baseline, Raw-RAG, uses dense retrieval and reranking over raw history. Across four benchmarks, it ranked first among the compared memory systems in six of seven benchmark-model settings.",
+          "highlight_last": false
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "6 of 7",
+          "label": "settings where plain retrieval ranked first",
+          "sub": "Raw-RAG vs the compared memory systems, across four benchmarks."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: complexity gets added before it is tested",
+          "items": [
+            "The team builds a memory layer first and never tests a plain baseline",
+            "Nobody measures whether the extra layer improves the answers",
+            "Summarizing or restructuring data can drop details the answer depends on"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil runs on simple retrieval",
+          "items": [
+            "13,312 products in the ERP, 136 ways of writing the unit of measure",
+            "The AI never sees the catalog: a simple search hands 8 results to the model",
+            "65 out of 65 real customer questions found the right product"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works beats complex that impresses.",
+          "body": "Before you add a complex layer, test a plain retrieval baseline and measure it. In production, the simplest retrieval that answers correctly is usually the one worth keeping. This paper points the same way."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "caption": "A new paper on Hugging Face Papers asks a question many teams skip: is complex agentic memory always needed? The authors tested Raw-RAG, a naive baseline with dense retrieval and reranking over raw history. It ranked first among the compared memory systems in six of seven benchmark-model settings across four benchmarks.\n\nWhat I see in companies is the same pattern. The team adds a memory layer, an orchestration layer, another abstraction. Nobody tests a plain baseline first, and nobody measures whether the added complexity helps.\n\nI faced this in production. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 different ways of writing the unit of measure. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model. The whole flow has 9 nodes. 65 out of 65 real customer questions found the right product.\n\nMy rule: test the plain baseline, measure it, and only then add complexity.\n\nComment SDR and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AI #RAG #AIAgents #LLM #AIEngineering"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI НАБИРАЕТ ОБОРОТЫ · NAIVE RAG",
+          "headline": "Возможно, ваш слой памяти агента проигрывает обычному поиску",
+          "sub": "Новая статья сравнила naive RAG с агентными системами памяти."
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Статья сравнила простой RAG со сложной агентной памятью",
+          "body": "Базовый вариант из статьи, Raw-RAG, использует плотный поиск и переранжирование по исходной истории. На четырёх бенчмарках он занял первое место среди сравниваемых систем памяти в шести из семи комбинаций «бенчмарк — модель».",
+          "highlight_last": false
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЦИФРА",
+          "stat": "6 из 7",
+          "label": "комбинаций, где простой поиск занял первое место",
+          "sub": "Raw-RAG против сравниваемых систем памяти, на четырёх бенчмарках."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях: сложность добавляют раньше, чем её проверяют",
+          "items": [
+            "Команда сначала строит слой памяти и никогда не тестирует простую базовую линию",
+            "Никто не измеряет, улучшает ли дополнительный слой ответы",
+            "Суммаризация или перестройка данных может потерять детали, от которых зависит ответ"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ РЕШАЛ ЭТУ ЗАДАЧУ",
+          "headline": "Магазин стройматериалов на юге Бразилии работает на простом поиске",
+          "items": [
+            "13 312 товаров в ERP, 136 способов записать единицу измерения",
+            "ИИ никогда не видит каталог: простой поиск передаёт модели 8 результатов",
+            "65 из 65 реальных вопросов клиентов нашли правильный товар"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЁ МНЕНИЕ",
+          "headline": "Простое, что работает, важнее сложного, что впечатляет.",
+          "body": "Прежде чем добавлять сложный слой, протестируйте простую базовую линию поиска и измерьте её. В продакшене обычно стоит оставить самый простой поиск, который отвечает правильно. Эта статья указывает на то же самое."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напишите SDR в комментариях.",
+          "body": "Пришлю пошаговый разбор этого кейса в личные сообщения. Я перевожу ИИ из чертежей в продакшен и показываю измеренные результаты.",
+          "button": "Напишите SDR · vssolutions.io"
+        }
+      ],
+      "caption": "Новая статья на Hugging Face Papers задаёт вопрос, который многие команды пропускают: нужна ли всегда сложная агентная память? Авторы протестировали Raw-RAG, простую базовую линию с плотным поиском и переранжированием по исходной истории. На четырёх бенчмарках она заняла первое место среди сравниваемых систем памяти в шести из семи комбинаций «бенчмарк — модель».\n\nВ компаниях я вижу тот же паттерн. Команда добавляет слой памяти, слой оркестрации, ещё одну абстракцию. Никто не тестирует простую базовую линию, и никто не измеряет, помогает ли добавленная сложность.\n\nЯ сталкивался с этим в продакшене. Для магазина стройматериалов на юге Бразилии я сделал ИИ-продавца в WhatsApp. В ERP 13 312 товаров и 136 способов записать единицу измерения. ИИ никогда не видит каталог. Простой поиск отвечает за миллисекунды и передаёт модели 8 результатов. Весь процесс состоит из 9 узлов. 65 из 65 реальных вопросов клиентов нашли правильный товар.\n\nМоё правило: протестируйте простую базовую линию, измерьте её, и только потом добавляйте сложность.\n\nНапишите SDR в комментариях, и я пришлю в личные сообщения, как я это сделал.\n\nИсточники: huggingface.co\n\n#AI #RAG #AIAgents #LLM #AIEngineering"
+    }
+  }
+}
