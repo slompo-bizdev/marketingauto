@@ -1,0 +1,204 @@
+{
+  "slug": "2026-10-25-ai-payoff-gap-outside-tech",
+  "lang": "en",
+  "palette": [
+    "tiffany",
+    "yellow",
+    "red",
+    "black"
+  ],
+  "accent": "tiffany",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who checks whether the AI is actually used?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · PAYOFF GAP",
+      "headline": "Billions in AI spend. Flat margins outside tech.",
+      "sub": "The gap is not the model. It is what happens after launch."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "An economist finds no AI payoff outside the tech sector",
+      "body": "Apollo's chief economist says revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493. No signs of AI boosting productivity growth. Mainstream companies now see token spending as a cost center."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "42%",
+      "label": "of AI initiatives are ultimately abandoned by their corporate parents",
+      "sub": "S&P Global Market Intelligence, as cited by TechCrunch."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: the pilot works, the workflow doesn't change",
+      "items": [
+        "The pilot runs in a demo, not inside the daily workflow of the team",
+        "Nobody owns the result, so nobody checks whether the AI is used",
+        "Success is defined as launched, not as measured impact on revenue or margin"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "AskMoses.AI, the SaaS I built end to end and run as a contractor",
+      "items": [
+        "17 organizations in the US signed up. Only 6 actually use it.",
+        "11 of 17 never activated: onboarding required a CRM and a rubric before any value",
+        "Script Intelligence mines winning CRM calls into a weekly script, minimum 3 calls per org"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Launching is not the same as being used.",
+      "body": "The source says payoff is missing outside tech. In practice, this suggests the issue is adoption, not model quality. AI pays off when it lands in a real workflow and someone tracks the result. Otherwise it is just a cost line."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment ADOPTION.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment ADOPTION · vssolutions.io"
+    }
+  ],
+  "caption": "A chief economist at Apollo says AI has shown no financial payoff outside the tech sector. Revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493. Mainstream companies are starting to treat token spending as a cost center.\n\nTechCrunch's AI graveyard list adds another data point: about 42% of AI initiatives are ultimately abandoned by their corporate parents, according to S&P Global Market Intelligence.\n\nWhat I see in companies is rarely a model problem. The pilot works in a demo, but it never lands in the daily workflow. Nobody owns the result, and nobody measures it.\n\nI lived this with AskMoses.AI, the AI sales-coaching SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nLaunching is not the same as being used. AI only pays off when it lands in a real workflow and someone tracks the result.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: apollo.com, techcrunch.com\n\n#AI #AIAdoption #ArtificialIntelligence #SaaS #BusinessStrategy",
+  "first_comment": "Sources: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector · https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/\n\nvssolutions.io",
+  "meta": {
+    "tema": "No signs of AI payoff outside tech: why pilots never reach production",
+    "tipo": "ponte",
+    "case_id": "adocao",
+    "palavra": "ADOPTION",
+    "valor": "Launching is not the same as being used.",
+    "angulo": "The payoff gap is not about model quality, it is about adoption and measurement: AI only pays off when it lands in a real workflow and someone tracks the result.",
+    "fontes": [
+      "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+    ],
+    "roteiro_reels": "[0-3s] Billions spent on AI, and margins outside tech are flat. [3-20s] Apollo's chief economist found no payoff outside the tech sector. In my own SaaS, 17 organizations signed up and only 6 use it. The gap is not the model, it is adoption and measurement. [20-30s] Launching is not the same as being used. Comment ADOPTION and I'll send you how I did it.",
+    "gerado_em": "2026-10-25T09:30:51.150Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · PAYOFF GAP",
+          "headline": "Billions in AI spend. Flat margins outside tech.",
+          "sub": "The gap is not the model. It is what happens after launch."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "An economist finds no AI payoff outside the tech sector",
+          "body": "Apollo's chief economist says revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493. No signs of AI boosting productivity growth. Mainstream companies now see token spending as a cost center."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "42%",
+          "label": "of AI initiatives are ultimately abandoned by their corporate parents",
+          "sub": "S&P Global Market Intelligence, as cited by TechCrunch."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: the pilot works, the workflow doesn't change",
+          "items": [
+            "The pilot runs in a demo, not inside the daily workflow of the team",
+            "Nobody owns the result, so nobody checks whether the AI is used",
+            "Success is defined as launched, not as measured impact on revenue or margin"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "AskMoses.AI, the SaaS I built end to end and run as a contractor",
+          "items": [
+            "17 organizations in the US signed up. Only 6 actually use it.",
+            "11 of 17 never activated: onboarding required a CRM and a rubric before any value",
+            "Script Intelligence mines winning CRM calls into a weekly script, minimum 3 calls per org"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Launching is not the same as being used.",
+          "body": "The source says payoff is missing outside tech. In practice, this suggests the issue is adoption, not model quality. AI pays off when it lands in a real workflow and someone tracks the result. Otherwise it is just a cost line."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment ADOPTION.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment ADOPTION · vssolutions.io"
+        }
+      ],
+      "caption": "A chief economist at Apollo says AI has shown no financial payoff outside the tech sector. Revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493. Mainstream companies are starting to treat token spending as a cost center.\n\nTechCrunch's AI graveyard list adds another data point: about 42% of AI initiatives are ultimately abandoned by their corporate parents, according to S&P Global Market Intelligence.\n\nWhat I see in companies is rarely a model problem. The pilot works in a demo, but it never lands in the daily workflow. Nobody owns the result, and nobody measures it.\n\nI lived this with AskMoses.AI, the AI sales-coaching SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nLaunching is not the same as being used. AI only pays off when it lands in a real workflow and someone tracks the result.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: apollo.com, techcrunch.com\n\n#AI #AIAdoption #ArtificialIntelligence #SaaS #BusinessStrategy"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЕМЕ · РАЗРЫВ ОКУПАЕМОСТИ",
+          "headline": "Миллиарды на ИИ. Маржа вне техсектора не растет.",
+          "sub": "Дело не в модели. Дело в том, что происходит после запуска."
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Экономист находит отдачу от ИИ только в техсекторе",
+          "body": "Главный экономист Apollo говорит, что выручка на сотрудника и маржа растут у Mag 7, но стоят на месте у S&P 493. Признаков того, что ИИ ускоряет рост производительности, нет. Обычные компании теперь видят расходы на токены как статью затрат."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЦИФРА",
+          "stat": "42%",
+          "label": "инициатив в области ИИ в итоге бросают их корпоративные владельцы",
+          "sub": "S&P Global Market Intelligence, по данным TechCrunch."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях: пилот работает, а процесс не меняется",
+          "items": [
+            "Пилот работает в демо, а не в ежедневном процессе команды",
+            "Никто не отвечает за результат, поэтому никто не проверяет, используется ли ИИ",
+            "Успехом считается запуск, а не измеримый эффект на выручку или маржу"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ РЕШИЛ ЭТУ ЗАДАЧУ",
+          "headline": "AskMoses.AI: SaaS, который я создал от начала до конца и веду как подрядчик",
+          "items": [
+            "17 организаций в США зарегистрировались. Реально пользуются только 6.",
+            "11 из 17 так и не активировались: для начала нужны были CRM и рубрика, прежде чем появлялась хоть какая-то польза",
+            "Script Intelligence извлекает из выигранных звонков CRM еженедельный скрипт, минимум 3 звонка на организацию"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЁ МНЕНИЕ",
+          "headline": "Запуск — это не то же самое, что использование.",
+          "body": "Источник говорит, что вне техсектора отдачи нет. На практике это указывает на проблему внедрения, а не качества модели. ИИ окупается, когда попадает в реальный процесс и кто-то отслеживает результат. Иначе это просто статья расходов."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напишите ADOPTION в комментариях.",
+          "body": "Пришлю пошаговый разбор этого кейса в личные сообщения. Я перевожу ИИ из чертежей в продакшен, с измеримыми результатами.",
+          "button": "Напишите ADOPTION · vssolutions.io"
+        }
+      ],
+      "caption": "Главный экономист Apollo говорит, что ИИ не принес финансовой отдачи вне техсектора. Выручка на сотрудника и маржа растут у Mag 7, но стоят на месте у S&P 493. Обычные компании начинают считать расходы на токены статьей затрат.\n\nСписок «кладбища ИИ» от TechCrunch добавляет еще одну цифру: по данным S&P Global Market Intelligence, около 42% инициатив в области ИИ в итоге бросают их корпоративные владельцы.\n\nТо, что я вижу в компаниях, редко связано с моделью. Пилот работает в демо, но никогда не попадает в ежедневный процесс. Никто не отвечает за результат, и никто его не измеряет.\n\nЯ прошел через это с AskMoses.AI, SaaS для обучения продажам на основе ИИ, который я создал от начала до конца и веду как подрядчик. 17 организаций в США зарегистрировались, а пользуются 6. 11 из 17 так и не активировались, потому что для начала нужны были CRM и рубрика, прежде чем появлялась хоть какая-то польза.\n\nЗапуск — это не то же самое, что использование. ИИ окупается только тогда, когда попадает в реальный процесс и кто-то отслеживает результат.\n\nНапишите ADOPTION, и я пришлю в личные сообщения, как я это сделал.\n\nИсточники: apollo.com, techcrunch.com\n\n#ИИ #ВнедрениеИИ #ИскусственныйИнтеллект #SaaS #БизнесСтратегия"
+    }
+  }
+}
