@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-25-ai-payoff-gap-outside-tech",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A chief economist at Apollo says AI has shown no financial payoff outside the tech sector. Revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493. Mainstream companies are starting to treat token spending as a cost center.\n\nTechCrunch's AI graveyard list adds another data point: about 42% of AI initiatives are ultimately abandoned by their corporate parents, according to S&P Global Market Intelligence.\n\nWhat I see in companies is rarely a model problem. The pilot works in a demo, but it never lands in the daily workflow. Nobody owns the result, and nobody measures it.\n\nI lived this with AskMoses.AI, the AI sales-coaching SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nLaunching is not the same as being used. AI only pays off when it lands in a real workflow and someone tracks the result.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: apollo.com, techcrunch.com\n\n#AI #AIAdoption #ArtificialIntelligence #SaaS #BusinessStrategy",
+  "first_comment": "Sources: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector · https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Billions in AI spend. Flat margins outside tech.",
+    "caption": "A chief economist at Apollo says AI has shown no financial payoff outside the tech sector. Revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493. Mainstream companies are starting to treat token spending as a cost center.\n\nTechCrunch's AI graveyard list adds another data point: about 42% of AI initiatives are ultimately abandoned by their corporate parents, according to S&P Global Market Intelligence.\n\nWhat I see in companies is rarely a model problem. The pilot works in a demo, but it never lands in the daily workflow. Nobody owns the result, and nobody measures it.\n\nI lived this with AskMoses.AI, the AI sales-coaching SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nLaunching is not the same as being used. AI only pays off when it lands in a real workflow and someone tracks the result.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: apollo.com, techcrunch.com\n\n#AI #AIAdoption #ArtificialIntelligence #SaaS #BusinessStrategy"
+  }
+}

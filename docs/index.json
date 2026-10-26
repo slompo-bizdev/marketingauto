@@ -1,6 +1,604 @@
 {
-  "atualizado_em": "2026-10-23T10:32:21.764689Z",
+  "atualizado_em": "2026-10-26T11:26:05.266133Z",
   "posts": [
+    {
+      "slug": "2026-10-26-old-cnn-beats-frontier-llms",
+      "data": "2026-10-26",
+      "titulo": "A 10-year-old model beat two frontier LLMs. Same task.",
+      "subtitulo": "Skin cancer diagnosis. 200 biopsy-proven lesions.",
+      "tema": "A 10-year-old CNN beats frontier LLMs at skin cancer diagnosis",
+      "tipo": "radar",
+      "case_id": null,
+      "palavra": "PROJECT",
+      "valor": "Measure instead of assuming.",
+      "fontes": [
+        "https://lynchlab.net/llm-skin-cancer"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · SMALL VS FRONTIER",
+          "headline": "A 10-year-old model beat two frontier LLMs. Same task.",
+          "sub": "Skin cancer diagnosis. 200 biopsy-proven lesions."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A dermatologist tested two frontier LLMs against an old CNN",
+          "body": "Dr Magnus Lynch gave 200 biopsy-proven lesions to two frontier LLMs and to Inception v3, a CNN from 2015. The CNN was fine-tuned for about twenty minutes on public dermatology images. All three picked from the same six diagnoses."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "62%",
+          "label": "CNN accuracy on 200 lesions. Both LLMs: 42%.",
+          "sub": "CNN got 125 right. The LLMs got 84 and 85."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: the biggest model is the default",
+          "items": [
+            "Teams pick a frontier LLM first because it is the famous option.",
+            "Nobody tests a small, purpose-built model against the same task.",
+            "Without a shared baseline, no one can say which option is better."
+          ]
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHERE THIS BREAKS IN PRACTICE",
+          "headline": "The result has limits, and the author says so",
+          "body": "Only 200 lesions, and 30 melanomas, so close results can't be ranked. Each LLM case ran once. The CNN is a baseline, not state of the art. The LLMs may have seen the public dataset in training. The CNN had not."
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "The study didn't assume the newest model would win. It put three models on the same cases and scored them against the truth. Before you buy a frontier LLM, test a small model on your task. Compare both on the same baseline."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "VS SOLUTIONS · AI SOFTWARE",
+          "headline": "Want this working at your company?",
+          "body": "Comment PROJECT and tell me what you want to solve. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment PROJECT · vssolutions.io"
+        }
+      ],
+      "legenda": "A dermatologist tested two frontier LLMs against a CNN first published in 2015. The task: diagnose skin cancer from 200 biopsy-proven lesions, choosing from six diagnoses.\n\nThe CNN, Inception v3, was fine-tuned on public dermatology images for about twenty minutes. It named the right diagnosis for 125 of 200 lesions (62%). The two LLMs got 84 and 85 (42%).\n\nThe real problem in companies is not skin cancer. It's the default. Teams reach for the biggest model because it is the famous one. Nobody checks whether a small, purpose-built model already does the job better, and nobody sets one baseline for both.\n\nThe caveats matter. 200 lesions is a small sample, 30 melanomas give wide uncertainty, each LLM case ran once, and the CNN is a baseline, not state of the art.\n\nMy take: measure instead of assuming. Before choosing a frontier LLM, test a small model on your own task. Score both against the same truth, then decide.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: lynchlab.net\n\n#AI #MachineLearning #LLM #AIinProduction #AIStrategy",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-26-old-cnn-beats-frontier-llms/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-26-old-cnn-beats-frontier-llms/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-26-old-cnn-beats-frontier-llms/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-26-old-cnn-beats-frontier-llms/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-26-old-cnn-beats-frontier-llms/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-26-old-cnn-beats-frontier-llms/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-26-old-cnn-beats-frontier-llms/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-26-old-cnn-beats-frontier-llms/1.jpg",
+      "gerado_em": "2026-10-26T09:30:49.137Z",
+      "traducoes": {
+        "en": {
+          "titulo": "A 10-year-old model beat two frontier LLMs. Same task.",
+          "subtitulo": "Skin cancer diagnosis. 200 biopsy-proven lesions.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · SMALL VS FRONTIER",
+              "headline": "A 10-year-old model beat two frontier LLMs. Same task.",
+              "sub": "Skin cancer diagnosis. 200 biopsy-proven lesions."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "A dermatologist tested two frontier LLMs against an old CNN",
+              "body": "Dr Magnus Lynch gave 200 biopsy-proven lesions to two frontier LLMs and to Inception v3, a CNN from 2015. The CNN was fine-tuned for about twenty minutes on public dermatology images. All three picked from the same six diagnoses."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "62%",
+              "label": "CNN accuracy on 200 lesions. Both LLMs: 42%.",
+              "sub": "CNN got 125 right. The LLMs got 84 and 85."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: the biggest model is the default",
+              "items": [
+                "Teams pick a frontier LLM first because it is the famous option.",
+                "Nobody tests a small, purpose-built model against the same task.",
+                "Without a shared baseline, no one can say which option is better."
+              ]
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHERE THIS BREAKS IN PRACTICE",
+              "headline": "The result has limits, and the author says so",
+              "body": "Only 200 lesions, and 30 melanomas, so close results can't be ranked. Each LLM case ran once. The CNN is a baseline, not state of the art. The LLMs may have seen the public dataset in training. The CNN had not."
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assuming.",
+              "body": "The study didn't assume the newest model would win. It put three models on the same cases and scored them against the truth. Before you buy a frontier LLM, test a small model on your task. Compare both on the same baseline."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "VS SOLUTIONS · AI SOFTWARE",
+              "headline": "Want this working at your company?",
+              "body": "Comment PROJECT and tell me what you want to solve. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment PROJECT · vssolutions.io"
+            }
+          ],
+          "legenda": "A dermatologist tested two frontier LLMs against a CNN first published in 2015. The task: diagnose skin cancer from 200 biopsy-proven lesions, choosing from six diagnoses.\n\nThe CNN, Inception v3, was fine-tuned on public dermatology images for about twenty minutes. It named the right diagnosis for 125 of 200 lesions (62%). The two LLMs got 84 and 85 (42%).\n\nThe real problem in companies is not skin cancer. It's the default. Teams reach for the biggest model because it is the famous one. Nobody checks whether a small, purpose-built model already does the job better, and nobody sets one baseline for both.\n\nThe caveats matter. 200 lesions is a small sample, 30 melanomas give wide uncertainty, each LLM case ran once, and the CNN is a baseline, not state of the art.\n\nMy take: measure instead of assuming. Before choosing a frontier LLM, test a small model on your own task. Score both against the same truth, then decide.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: lynchlab.net\n\n#AI #MachineLearning #LLM #AIinProduction #AIStrategy"
+        },
+        "ru": {
+          "titulo": "10-летняя модель обошла две фронтирные LLM. Та же задача.",
+          "subtitulo": "Диагностика рака кожи. 200 очагов, подтверждённых биопсией.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · МАЛЕНЬКИЕ ПРОТИВ ФРОНТИРНЫХ",
+              "headline": "10-летняя модель обошла две фронтирные LLM. Та же задача.",
+              "sub": "Диагностика рака кожи. 200 очагов, подтверждённых биопсией."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Дерматолог проверил две фронтирные LLM против старой CNN",
+              "body": "Доктор Магнус Линч дал 200 очагов, подтверждённых биопсией, двум фронтирным LLM и Inception v3, свёрточной сети 2015 года. CNN дообучили примерно за двадцать минут на открытых дерматологических изображениях. Все три выбирали из одних и тех же шести диагнозов."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ГЛАВНОЕ ЧИСЛО",
+              "stat": "62%",
+              "label": "Точность CNN на 200 очагах. У обеих LLM: 42%.",
+              "sub": "CNN угадала 125. LLM — 84 и 85."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях: самая большая модель — это выбор по умолчанию",
+              "items": [
+                "Команды сначала выбирают фронтирную LLM, потому что это известный вариант.",
+                "Никто не проверяет маленькую, специально обученную модель на той же задаче.",
+                "Без общей точки отсчёта нельзя сказать, какой вариант лучше."
+              ]
+            },
+            {
+              "type": "text",
+              "eyebrow": "ГДЕ ЭТО ЛОМАЕТСЯ НА ПРАКТИКЕ",
+              "headline": "У результата есть ограничения, и автор это признаёт",
+              "body": "Всего 200 очагов и 30 меланом, поэтому близкие результаты нельзя ранжировать. Каждый случай LLM запускали один раз. CNN — это базовая линия, а не state of the art. LLM могли видеть открытый датасет в обучении. CNN — нет."
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Измеряйте, а не предполагайте.",
+              "body": "Исследование не исходило из того, что новейшая модель победит. Три модели получили одни и те же случаи, и их результаты сравнили с истиной. Прежде чем покупать фронтирную LLM, проверьте маленькую модель на своей задаче. Сравните обе на одной базовой линии."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "VS SOLUTIONS · ПО НА ОСНОВЕ ИИ",
+              "headline": "Хотите, чтобы это работало в вашей компании?",
+              "body": "Напишите PROJECT в комментариях и расскажите, что хотите решить. Я перевожу ИИ из проекта в продакшн с измеряемыми результатами.",
+              "button": "Напишите PROJECT · vssolutions.io"
+            }
+          ],
+          "legenda": "Дерматолог проверил две фронтирные LLM против CNN, впервые опубликованной в 2015 году. Задача: диагностировать рак кожи по 200 очагам, подтверждённым биопсией, выбирая из шести диагнозов.\n\nCNN, Inception v3, дообучили на открытых дерматологических изображениях примерно за двадцать минут. Она правильно определила диагноз в 125 из 200 очагов (62%). Две LLM получили 84 и 85 (42%).\n\nНастоящая проблема в компаниях — не рак кожи. Это выбор по умолчанию. Команды тянутся к самой большой модели, потому что она известная. Никто не проверяет, не справляется ли маленькая, специально обученная модель лучше, и никто не задаёт одну общую точку отсчёта для обеих.\n\nОграничения важны. 200 очагов — небольшая выборка, 30 меланом дают большую неопределённость, каждый случай LLM запускали один раз, а CNN — базовая линия, а не state of the art.\n\nМоё мнение: измеряйте, а не предполагайте. Прежде чем выбирать фронтирную LLM, проверьте маленькую модель на своей задаче. Сравните обе с одной и той же истиной, а потом решайте.\n\nНапишите PROJECT в комментариях, и я в личные сообщения пришлю, как применить это в вашей компании.\n\nИсточники: lynchlab.net\n\n#AI #MachineLearning #LLM #AIinProduction #AIStrategy"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-25-ai-payoff-gap-outside-tech",
+      "data": "2026-10-25",
+      "titulo": "Billions in AI spend. Flat margins outside tech.",
+      "subtitulo": "The gap is not the model. It is what happens after launch.",
+      "tema": "No signs of AI payoff outside tech: why pilots never reach production",
+      "tipo": "ponte",
+      "case_id": "adocao",
+      "palavra": "ADOPTION",
+      "valor": "Launching is not the same as being used.",
+      "fontes": [
+        "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+        "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · PAYOFF GAP",
+          "headline": "Billions in AI spend. Flat margins outside tech.",
+          "sub": "The gap is not the model. It is what happens after launch."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "An economist finds no AI payoff outside the tech sector",
+          "body": "Apollo's chief economist says revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493. No signs of AI boosting productivity growth. Mainstream companies now see token spending as a cost center."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "42%",
+          "label": "of AI initiatives are ultimately abandoned by their corporate parents",
+          "sub": "S&P Global Market Intelligence, as cited by TechCrunch."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: the pilot works, the workflow doesn't change",
+          "items": [
+            "The pilot runs in a demo, not inside the daily workflow of the team",
+            "Nobody owns the result, so nobody checks whether the AI is used",
+            "Success is defined as launched, not as measured impact on revenue or margin"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "AskMoses.AI, the SaaS I built end to end and run as a contractor",
+          "items": [
+            "17 organizations in the US signed up. Only 6 actually use it.",
+            "11 of 17 never activated: onboarding required a CRM and a rubric before any value",
+            "Script Intelligence mines winning CRM calls into a weekly script, minimum 3 calls per org"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Launching is not the same as being used.",
+          "body": "The source says payoff is missing outside tech. In practice, this suggests the issue is adoption, not model quality. AI pays off when it lands in a real workflow and someone tracks the result. Otherwise it is just a cost line."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment ADOPTION.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment ADOPTION · vssolutions.io"
+        }
+      ],
+      "legenda": "A chief economist at Apollo says AI has shown no financial payoff outside the tech sector. Revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493. Mainstream companies are starting to treat token spending as a cost center.\n\nTechCrunch's AI graveyard list adds another data point: about 42% of AI initiatives are ultimately abandoned by their corporate parents, according to S&P Global Market Intelligence.\n\nWhat I see in companies is rarely a model problem. The pilot works in a demo, but it never lands in the daily workflow. Nobody owns the result, and nobody measures it.\n\nI lived this with AskMoses.AI, the AI sales-coaching SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nLaunching is not the same as being used. AI only pays off when it lands in a real workflow and someone tracks the result.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: apollo.com, techcrunch.com\n\n#AI #AIAdoption #ArtificialIntelligence #SaaS #BusinessStrategy",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-25-ai-payoff-gap-outside-tech/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-25-ai-payoff-gap-outside-tech/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-25-ai-payoff-gap-outside-tech/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-25-ai-payoff-gap-outside-tech/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-25-ai-payoff-gap-outside-tech/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-25-ai-payoff-gap-outside-tech/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-25-ai-payoff-gap-outside-tech/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-25-ai-payoff-gap-outside-tech/1.jpg",
+      "gerado_em": "2026-10-25T09:30:51.150Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Billions in AI spend. Flat margins outside tech.",
+          "subtitulo": "The gap is not the model. It is what happens after launch.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · PAYOFF GAP",
+              "headline": "Billions in AI spend. Flat margins outside tech.",
+              "sub": "The gap is not the model. It is what happens after launch."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "An economist finds no AI payoff outside the tech sector",
+              "body": "Apollo's chief economist says revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493. No signs of AI boosting productivity growth. Mainstream companies now see token spending as a cost center."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "42%",
+              "label": "of AI initiatives are ultimately abandoned by their corporate parents",
+              "sub": "S&P Global Market Intelligence, as cited by TechCrunch."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: the pilot works, the workflow doesn't change",
+              "items": [
+                "The pilot runs in a demo, not inside the daily workflow of the team",
+                "Nobody owns the result, so nobody checks whether the AI is used",
+                "Success is defined as launched, not as measured impact on revenue or margin"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "AskMoses.AI, the SaaS I built end to end and run as a contractor",
+              "items": [
+                "17 organizations in the US signed up. Only 6 actually use it.",
+                "11 of 17 never activated: onboarding required a CRM and a rubric before any value",
+                "Script Intelligence mines winning CRM calls into a weekly script, minimum 3 calls per org"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Launching is not the same as being used.",
+              "body": "The source says payoff is missing outside tech. In practice, this suggests the issue is adoption, not model quality. AI pays off when it lands in a real workflow and someone tracks the result. Otherwise it is just a cost line."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment ADOPTION.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment ADOPTION · vssolutions.io"
+            }
+          ],
+          "legenda": "A chief economist at Apollo says AI has shown no financial payoff outside the tech sector. Revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493. Mainstream companies are starting to treat token spending as a cost center.\n\nTechCrunch's AI graveyard list adds another data point: about 42% of AI initiatives are ultimately abandoned by their corporate parents, according to S&P Global Market Intelligence.\n\nWhat I see in companies is rarely a model problem. The pilot works in a demo, but it never lands in the daily workflow. Nobody owns the result, and nobody measures it.\n\nI lived this with AskMoses.AI, the AI sales-coaching SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nLaunching is not the same as being used. AI only pays off when it lands in a real workflow and someone tracks the result.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: apollo.com, techcrunch.com\n\n#AI #AIAdoption #ArtificialIntelligence #SaaS #BusinessStrategy"
+        },
+        "ru": {
+          "titulo": "Миллиарды на ИИ. Маржа вне техсектора не растет.",
+          "subtitulo": "Дело не в модели. Дело в том, что происходит после запуска.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЕМЕ · РАЗРЫВ ОКУПАЕМОСТИ",
+              "headline": "Миллиарды на ИИ. Маржа вне техсектора не растет.",
+              "sub": "Дело не в модели. Дело в том, что происходит после запуска."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Экономист находит отдачу от ИИ только в техсекторе",
+              "body": "Главный экономист Apollo говорит, что выручка на сотрудника и маржа растут у Mag 7, но стоят на месте у S&P 493. Признаков того, что ИИ ускоряет рост производительности, нет. Обычные компании теперь видят расходы на токены как статью затрат."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "42%",
+              "label": "инициатив в области ИИ в итоге бросают их корпоративные владельцы",
+              "sub": "S&P Global Market Intelligence, по данным TechCrunch."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях: пилот работает, а процесс не меняется",
+              "items": [
+                "Пилот работает в демо, а не в ежедневном процессе команды",
+                "Никто не отвечает за результат, поэтому никто не проверяет, используется ли ИИ",
+                "Успехом считается запуск, а не измеримый эффект на выручку или маржу"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ РЕШИЛ ЭТУ ЗАДАЧУ",
+              "headline": "AskMoses.AI: SaaS, который я создал от начала до конца и веду как подрядчик",
+              "items": [
+                "17 организаций в США зарегистрировались. Реально пользуются только 6.",
+                "11 из 17 так и не активировались: для начала нужны были CRM и рубрика, прежде чем появлялась хоть какая-то польза",
+                "Script Intelligence извлекает из выигранных звонков CRM еженедельный скрипт, минимум 3 звонка на организацию"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Запуск — это не то же самое, что использование.",
+              "body": "Источник говорит, что вне техсектора отдачи нет. На практике это указывает на проблему внедрения, а не качества модели. ИИ окупается, когда попадает в реальный процесс и кто-то отслеживает результат. Иначе это просто статья расходов."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите ADOPTION в комментариях.",
+              "body": "Пришлю пошаговый разбор этого кейса в личные сообщения. Я перевожу ИИ из чертежей в продакшен, с измеримыми результатами.",
+              "button": "Напишите ADOPTION · vssolutions.io"
+            }
+          ],
+          "legenda": "Главный экономист Apollo говорит, что ИИ не принес финансовой отдачи вне техсектора. Выручка на сотрудника и маржа растут у Mag 7, но стоят на месте у S&P 493. Обычные компании начинают считать расходы на токены статьей затрат.\n\nСписок «кладбища ИИ» от TechCrunch добавляет еще одну цифру: по данным S&P Global Market Intelligence, около 42% инициатив в области ИИ в итоге бросают их корпоративные владельцы.\n\nТо, что я вижу в компаниях, редко связано с моделью. Пилот работает в демо, но никогда не попадает в ежедневный процесс. Никто не отвечает за результат, и никто его не измеряет.\n\nЯ прошел через это с AskMoses.AI, SaaS для обучения продажам на основе ИИ, который я создал от начала до конца и веду как подрядчик. 17 организаций в США зарегистрировались, а пользуются 6. 11 из 17 так и не активировались, потому что для начала нужны были CRM и рубрика, прежде чем появлялась хоть какая-то польза.\n\nЗапуск — это не то же самое, что использование. ИИ окупается только тогда, когда попадает в реальный процесс и кто-то отслеживает результат.\n\nНапишите ADOPTION, и я пришлю в личные сообщения, как я это сделал.\n\nИсточники: apollo.com, techcrunch.com\n\n#ИИ #ВнедрениеИИ #ИскусственныйИнтеллект #SaaS #БизнесСтратегия"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-24-naive-rag-vs-complex-agent-memory",
+      "data": "2026-10-24",
+      "titulo": "Your agent's memory layer may be losing to plain retrieval",
+      "subtitulo": "A new paper tested naive RAG against agentic memory systems.",
+      "tema": "Is naive RAG enough? Simple retrieval beats complex agent memory",
+      "tipo": "ponte",
+      "case_id": "sdr",
+      "palavra": "SDR",
+      "valor": "Simple that works beats complex that impresses.",
+      "fontes": [
+        "https://huggingface.co/papers/2610.30755"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · NAIVE RAG",
+          "headline": "Your agent's memory layer may be losing to plain retrieval",
+          "sub": "A new paper tested naive RAG against agentic memory systems."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A paper put naive RAG against complex agentic memory",
+          "body": "The paper's baseline, Raw-RAG, uses dense retrieval and reranking over raw history. Across four benchmarks, it ranked first among the compared memory systems in six of seven benchmark-model settings.",
+          "highlight_last": false
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "6 of 7",
+          "label": "settings where plain retrieval ranked first",
+          "sub": "Raw-RAG vs the compared memory systems, across four benchmarks."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: complexity gets added before it is tested",
+          "items": [
+            "The team builds a memory layer first and never tests a plain baseline",
+            "Nobody measures whether the extra layer improves the answers",
+            "Summarizing or restructuring data can drop details the answer depends on"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil runs on simple retrieval",
+          "items": [
+            "13,312 products in the ERP, 136 ways of writing the unit of measure",
+            "The AI never sees the catalog: a simple search hands 8 results to the model",
+            "65 out of 65 real customer questions found the right product"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works beats complex that impresses.",
+          "body": "Before you add a complex layer, test a plain retrieval baseline and measure it. In production, the simplest retrieval that answers correctly is usually the one worth keeping. This paper points the same way."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "legenda": "A new paper on Hugging Face Papers asks a question many teams skip: is complex agentic memory always needed? The authors tested Raw-RAG, a naive baseline with dense retrieval and reranking over raw history. It ranked first among the compared memory systems in six of seven benchmark-model settings across four benchmarks.\n\nWhat I see in companies is the same pattern. The team adds a memory layer, an orchestration layer, another abstraction. Nobody tests a plain baseline first, and nobody measures whether the added complexity helps.\n\nI faced this in production. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 different ways of writing the unit of measure. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model. The whole flow has 9 nodes. 65 out of 65 real customer questions found the right product.\n\nMy rule: test the plain baseline, measure it, and only then add complexity.\n\nComment SDR and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AI #RAG #AIAgents #LLM #AIEngineering",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-24-naive-rag-vs-complex-agent-memory/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-24-naive-rag-vs-complex-agent-memory/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-24-naive-rag-vs-complex-agent-memory/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-24-naive-rag-vs-complex-agent-memory/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-24-naive-rag-vs-complex-agent-memory/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-24-naive-rag-vs-complex-agent-memory/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-24-naive-rag-vs-complex-agent-memory/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-24-naive-rag-vs-complex-agent-memory/1.jpg",
+      "gerado_em": "2026-10-24T09:30:49.705Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Your agent's memory layer may be losing to plain retrieval",
+          "subtitulo": "A new paper tested naive RAG against agentic memory systems.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · NAIVE RAG",
+              "headline": "Your agent's memory layer may be losing to plain retrieval",
+              "sub": "A new paper tested naive RAG against agentic memory systems."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "A paper put naive RAG against complex agentic memory",
+              "body": "The paper's baseline, Raw-RAG, uses dense retrieval and reranking over raw history. Across four benchmarks, it ranked first among the compared memory systems in six of seven benchmark-model settings.",
+              "highlight_last": false
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "6 of 7",
+              "label": "settings where plain retrieval ranked first",
+              "sub": "Raw-RAG vs the compared memory systems, across four benchmarks."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: complexity gets added before it is tested",
+              "items": [
+                "The team builds a memory layer first and never tests a plain baseline",
+                "Nobody measures whether the extra layer improves the answers",
+                "Summarizing or restructuring data can drop details the answer depends on"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "A building materials store in southern Brazil runs on simple retrieval",
+              "items": [
+                "13,312 products in the ERP, 136 ways of writing the unit of measure",
+                "The AI never sees the catalog: a simple search hands 8 results to the model",
+                "65 out of 65 real customer questions found the right product"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Simple that works beats complex that impresses.",
+              "body": "Before you add a complex layer, test a plain retrieval baseline and measure it. In production, the simplest retrieval that answers correctly is usually the one worth keeping. This paper points the same way."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment SDR.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "A new paper on Hugging Face Papers asks a question many teams skip: is complex agentic memory always needed? The authors tested Raw-RAG, a naive baseline with dense retrieval and reranking over raw history. It ranked first among the compared memory systems in six of seven benchmark-model settings across four benchmarks.\n\nWhat I see in companies is the same pattern. The team adds a memory layer, an orchestration layer, another abstraction. Nobody tests a plain baseline first, and nobody measures whether the added complexity helps.\n\nI faced this in production. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 different ways of writing the unit of measure. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model. The whole flow has 9 nodes. 65 out of 65 real customer questions found the right product.\n\nMy rule: test the plain baseline, measure it, and only then add complexity.\n\nComment SDR and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AI #RAG #AIAgents #LLM #AIEngineering"
+        },
+        "ru": {
+          "titulo": "Возможно, ваш слой памяти агента проигрывает обычному поиску",
+          "subtitulo": "Новая статья сравнила naive RAG с агентными системами памяти.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI НАБИРАЕТ ОБОРОТЫ · NAIVE RAG",
+              "headline": "Возможно, ваш слой памяти агента проигрывает обычному поиску",
+              "sub": "Новая статья сравнила naive RAG с агентными системами памяти."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Статья сравнила простой RAG со сложной агентной памятью",
+              "body": "Базовый вариант из статьи, Raw-RAG, использует плотный поиск и переранжирование по исходной истории. На четырёх бенчмарках он занял первое место среди сравниваемых систем памяти в шести из семи комбинаций «бенчмарк — модель».",
+              "highlight_last": false
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "6 из 7",
+              "label": "комбинаций, где простой поиск занял первое место",
+              "sub": "Raw-RAG против сравниваемых систем памяти, на четырёх бенчмарках."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях: сложность добавляют раньше, чем её проверяют",
+              "items": [
+                "Команда сначала строит слой памяти и никогда не тестирует простую базовую линию",
+                "Никто не измеряет, улучшает ли дополнительный слой ответы",
+                "Суммаризация или перестройка данных может потерять детали, от которых зависит ответ"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ РЕШАЛ ЭТУ ЗАДАЧУ",
+              "headline": "Магазин стройматериалов на юге Бразилии работает на простом поиске",
+              "items": [
+                "13 312 товаров в ERP, 136 способов записать единицу измерения",
+                "ИИ никогда не видит каталог: простой поиск передаёт модели 8 результатов",
+                "65 из 65 реальных вопросов клиентов нашли правильный товар"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Простое, что работает, важнее сложного, что впечатляет.",
+              "body": "Прежде чем добавлять сложный слой, протестируйте простую базовую линию поиска и измерьте её. В продакшене обычно стоит оставить самый простой поиск, который отвечает правильно. Эта статья указывает на то же самое."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите SDR в комментариях.",
+              "body": "Пришлю пошаговый разбор этого кейса в личные сообщения. Я перевожу ИИ из чертежей в продакшен и показываю измеренные результаты.",
+              "button": "Напишите SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "Новая статья на Hugging Face Papers задаёт вопрос, который многие команды пропускают: нужна ли всегда сложная агентная память? Авторы протестировали Raw-RAG, простую базовую линию с плотным поиском и переранжированием по исходной истории. На четырёх бенчмарках она заняла первое место среди сравниваемых систем памяти в шести из семи комбинаций «бенчмарк — модель».\n\nВ компаниях я вижу тот же паттерн. Команда добавляет слой памяти, слой оркестрации, ещё одну абстракцию. Никто не тестирует простую базовую линию, и никто не измеряет, помогает ли добавленная сложность.\n\nЯ сталкивался с этим в продакшене. Для магазина стройматериалов на юге Бразилии я сделал ИИ-продавца в WhatsApp. В ERP 13 312 товаров и 136 способов записать единицу измерения. ИИ никогда не видит каталог. Простой поиск отвечает за миллисекунды и передаёт модели 8 результатов. Весь процесс состоит из 9 узлов. 65 из 65 реальных вопросов клиентов нашли правильный товар.\n\nМоё правило: протестируйте простую базовую линию, измерьте её, и только потом добавляйте сложность.\n\nНапишите SDR в комментариях, и я пришлю в личные сообщения, как я это сделал.\n\nИсточники: huggingface.co\n\n#AI #RAG #AIAgents #LLM #AIEngineering"
+        }
+      }
+    },
     {
       "slug": "2026-10-23-uber-30-000-on-chatgpt-work",
       "data": "2026-10-23",

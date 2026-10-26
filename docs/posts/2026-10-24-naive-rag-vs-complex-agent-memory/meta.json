@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-24-naive-rag-vs-complex-agent-memory",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A new paper on Hugging Face Papers asks a question many teams skip: is complex agentic memory always needed? The authors tested Raw-RAG, a naive baseline with dense retrieval and reranking over raw history. It ranked first among the compared memory systems in six of seven benchmark-model settings across four benchmarks.\n\nWhat I see in companies is the same pattern. The team adds a memory layer, an orchestration layer, another abstraction. Nobody tests a plain baseline first, and nobody measures whether the added complexity helps.\n\nI faced this in production. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 different ways of writing the unit of measure. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model. The whole flow has 9 nodes. 65 out of 65 real customer questions found the right product.\n\nMy rule: test the plain baseline, measure it, and only then add complexity.\n\nComment SDR and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AI #RAG #AIAgents #LLM #AIEngineering",
+  "first_comment": "Sources: https://huggingface.co/papers/2610.30755\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Your agent's memory layer may be losing to plain retrieval",
+    "caption": "A new paper on Hugging Face Papers asks a question many teams skip: is complex agentic memory always needed? The authors tested Raw-RAG, a naive baseline with dense retrieval and reranking over raw history. It ranked first among the compared memory systems in six of seven benchmark-model settings across four benchmarks.\n\nWhat I see in companies is the same pattern. The team adds a memory layer, an orchestration layer, another abstraction. Nobody tests a plain baseline first, and nobody measures whether the added complexity helps.\n\nI faced this in production. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 different ways of writing the unit of measure. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model. The whole flow has 9 nodes. 65 out of 65 real customer questions found the right product.\n\nMy rule: test the plain baseline, measure it, and only then add complexity.\n\nComment SDR and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AI #RAG #AIAgents #LLM #AIEngineering"
+  }
+}

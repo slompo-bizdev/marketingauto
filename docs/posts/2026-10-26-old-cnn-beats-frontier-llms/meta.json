@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-26-old-cnn-beats-frontier-llms",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A dermatologist tested two frontier LLMs against a CNN first published in 2015. The task: diagnose skin cancer from 200 biopsy-proven lesions, choosing from six diagnoses.\n\nThe CNN, Inception v3, was fine-tuned on public dermatology images for about twenty minutes. It named the right diagnosis for 125 of 200 lesions (62%). The two LLMs got 84 and 85 (42%).\n\nThe real problem in companies is not skin cancer. It's the default. Teams reach for the biggest model because it is the famous one. Nobody checks whether a small, purpose-built model already does the job better, and nobody sets one baseline for both.\n\nThe caveats matter. 200 lesions is a small sample, 30 melanomas give wide uncertainty, each LLM case ran once, and the CNN is a baseline, not state of the art.\n\nMy take: measure instead of assuming. Before choosing a frontier LLM, test a small model on your own task. Score both against the same truth, then decide.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: lynchlab.net\n\n#AI #MachineLearning #LLM #AIinProduction #AIStrategy",
+  "first_comment": "Sources: https://lynchlab.net/llm-skin-cancer\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "A 10-year-old model beat two frontier LLMs. Same task.",
+    "caption": "A dermatologist tested two frontier LLMs against a CNN first published in 2015. The task: diagnose skin cancer from 200 biopsy-proven lesions, choosing from six diagnoses.\n\nThe CNN, Inception v3, was fine-tuned on public dermatology images for about twenty minutes. It named the right diagnosis for 125 of 200 lesions (62%). The two LLMs got 84 and 85 (42%).\n\nThe real problem in companies is not skin cancer. It's the default. Teams reach for the biggest model because it is the famous one. Nobody checks whether a small, purpose-built model already does the job better, and nobody sets one baseline for both.\n\nThe caveats matter. 200 lesions is a small sample, 30 melanomas give wide uncertainty, each LLM case ran once, and the CNN is a baseline, not state of the art.\n\nMy take: measure instead of assuming. Before choosing a frontier LLM, test a small model on your own task. Score both against the same truth, then decide.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: lynchlab.net\n\n#AI #MachineLearning #LLM #AIinProduction #AIStrategy"
+  }
+}
