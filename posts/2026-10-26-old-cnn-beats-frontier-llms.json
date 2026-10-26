@@ -1,0 +1,186 @@
+{
+  "slug": "2026-10-26-old-cnn-beats-frontier-llms",
+  "lang": "en",
+  "palette": [
+    "red",
+    "black"
+  ],
+  "accent": "red",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who tests the AI against a simple baseline?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · SMALL VS FRONTIER",
+      "headline": "A 10-year-old model beat two frontier LLMs. Same task.",
+      "sub": "Skin cancer diagnosis. 200 biopsy-proven lesions."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "A dermatologist tested two frontier LLMs against an old CNN",
+      "body": "Dr Magnus Lynch gave 200 biopsy-proven lesions to two frontier LLMs and to Inception v3, a CNN from 2015. The CNN was fine-tuned for about twenty minutes on public dermatology images. All three picked from the same six diagnoses."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "62%",
+      "label": "CNN accuracy on 200 lesions. Both LLMs: 42%.",
+      "sub": "CNN got 125 right. The LLMs got 84 and 85."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: the biggest model is the default",
+      "items": [
+        "Teams pick a frontier LLM first because it is the famous option.",
+        "Nobody tests a small, purpose-built model against the same task.",
+        "Without a shared baseline, no one can say which option is better."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHERE THIS BREAKS IN PRACTICE",
+      "headline": "The result has limits, and the author says so",
+      "body": "Only 200 lesions, and 30 melanomas, so close results can't be ranked. Each LLM case ran once. The CNN is a baseline, not state of the art. The LLMs may have seen the public dataset in training. The CNN had not."
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Measure instead of assuming.",
+      "body": "The study didn't assume the newest model would win. It put three models on the same cases and scored them against the truth. Before you buy a frontier LLM, test a small model on your task. Compare both on the same baseline."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "VS SOLUTIONS · AI SOFTWARE",
+      "headline": "Want this working at your company?",
+      "body": "Comment PROJECT and tell me what you want to solve. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment PROJECT · vssolutions.io"
+    }
+  ],
+  "caption": "A dermatologist tested two frontier LLMs against a CNN first published in 2015. The task: diagnose skin cancer from 200 biopsy-proven lesions, choosing from six diagnoses.\n\nThe CNN, Inception v3, was fine-tuned on public dermatology images for about twenty minutes. It named the right diagnosis for 125 of 200 lesions (62%). The two LLMs got 84 and 85 (42%).\n\nThe real problem in companies is not skin cancer. It's the default. Teams reach for the biggest model because it is the famous one. Nobody checks whether a small, purpose-built model already does the job better, and nobody sets one baseline for both.\n\nThe caveats matter. 200 lesions is a small sample, 30 melanomas give wide uncertainty, each LLM case ran once, and the CNN is a baseline, not state of the art.\n\nMy take: measure instead of assuming. Before choosing a frontier LLM, test a small model on your own task. Score both against the same truth, then decide.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: lynchlab.net\n\n#AI #MachineLearning #LLM #AIinProduction #AIStrategy",
+  "first_comment": "Sources: https://lynchlab.net/llm-skin-cancer\n\nvssolutions.io",
+  "meta": {
+    "tema": "A 10-year-old CNN beats frontier LLMs at skin cancer diagnosis",
+    "tipo": "radar",
+    "case_id": null,
+    "palavra": "PROJECT",
+    "valor": "Measure instead of assuming.",
+    "angulo": "Before reaching for a frontier LLM, test whether a small, purpose-built model already beats it on your task, and measure both against the same baseline.",
+    "fontes": [
+      "https://lynchlab.net/llm-skin-cancer"
+    ],
+    "roteiro_reels": "[0-3s] A 10-year-old model just beat two frontier LLMs at diagnosing skin cancer.\n[3-20s] A dermatologist tested 200 biopsy-proven lesions. The old CNN got 62% right. Both LLMs got 42%. In practice, most companies never run this comparison. They just pick the biggest model.\n[20-30s] Before you pay for a frontier LLM, test a small model on your task and measure both on the same baseline. Comment PROJECT and I'll send you how to apply this to your company.",
+    "gerado_em": "2026-10-26T09:30:49.137Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · SMALL VS FRONTIER",
+          "headline": "A 10-year-old model beat two frontier LLMs. Same task.",
+          "sub": "Skin cancer diagnosis. 200 biopsy-proven lesions."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A dermatologist tested two frontier LLMs against an old CNN",
+          "body": "Dr Magnus Lynch gave 200 biopsy-proven lesions to two frontier LLMs and to Inception v3, a CNN from 2015. The CNN was fine-tuned for about twenty minutes on public dermatology images. All three picked from the same six diagnoses."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "62%",
+          "label": "CNN accuracy on 200 lesions. Both LLMs: 42%.",
+          "sub": "CNN got 125 right. The LLMs got 84 and 85."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: the biggest model is the default",
+          "items": [
+            "Teams pick a frontier LLM first because it is the famous option.",
+            "Nobody tests a small, purpose-built model against the same task.",
+            "Without a shared baseline, no one can say which option is better."
+          ]
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHERE THIS BREAKS IN PRACTICE",
+          "headline": "The result has limits, and the author says so",
+          "body": "Only 200 lesions, and 30 melanomas, so close results can't be ranked. Each LLM case ran once. The CNN is a baseline, not state of the art. The LLMs may have seen the public dataset in training. The CNN had not."
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "The study didn't assume the newest model would win. It put three models on the same cases and scored them against the truth. Before you buy a frontier LLM, test a small model on your task. Compare both on the same baseline."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "VS SOLUTIONS · AI SOFTWARE",
+          "headline": "Want this working at your company?",
+          "body": "Comment PROJECT and tell me what you want to solve. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment PROJECT · vssolutions.io"
+        }
+      ],
+      "caption": "A dermatologist tested two frontier LLMs against a CNN first published in 2015. The task: diagnose skin cancer from 200 biopsy-proven lesions, choosing from six diagnoses.\n\nThe CNN, Inception v3, was fine-tuned on public dermatology images for about twenty minutes. It named the right diagnosis for 125 of 200 lesions (62%). The two LLMs got 84 and 85 (42%).\n\nThe real problem in companies is not skin cancer. It's the default. Teams reach for the biggest model because it is the famous one. Nobody checks whether a small, purpose-built model already does the job better, and nobody sets one baseline for both.\n\nThe caveats matter. 200 lesions is a small sample, 30 melanomas give wide uncertainty, each LLM case ran once, and the CNN is a baseline, not state of the art.\n\nMy take: measure instead of assuming. Before choosing a frontier LLM, test a small model on your own task. Score both against the same truth, then decide.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: lynchlab.net\n\n#AI #MachineLearning #LLM #AIinProduction #AIStrategy"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЁМЕ · МАЛЕНЬКИЕ ПРОТИВ ФРОНТИРНЫХ",
+          "headline": "10-летняя модель обошла две фронтирные LLM. Та же задача.",
+          "sub": "Диагностика рака кожи. 200 очагов, подтверждённых биопсией."
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Дерматолог проверил две фронтирные LLM против старой CNN",
+          "body": "Доктор Магнус Линч дал 200 очагов, подтверждённых биопсией, двум фронтирным LLM и Inception v3, свёрточной сети 2015 года. CNN дообучили примерно за двадцать минут на открытых дерматологических изображениях. Все три выбирали из одних и тех же шести диагнозов."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ГЛАВНОЕ ЧИСЛО",
+          "stat": "62%",
+          "label": "Точность CNN на 200 очагах. У обеих LLM: 42%.",
+          "sub": "CNN угадала 125. LLM — 84 и 85."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях: самая большая модель — это выбор по умолчанию",
+          "items": [
+            "Команды сначала выбирают фронтирную LLM, потому что это известный вариант.",
+            "Никто не проверяет маленькую, специально обученную модель на той же задаче.",
+            "Без общей точки отсчёта нельзя сказать, какой вариант лучше."
+          ]
+        },
+        {
+          "type": "text",
+          "eyebrow": "ГДЕ ЭТО ЛОМАЕТСЯ НА ПРАКТИКЕ",
+          "headline": "У результата есть ограничения, и автор это признаёт",
+          "body": "Всего 200 очагов и 30 меланом, поэтому близкие результаты нельзя ранжировать. Каждый случай LLM запускали один раз. CNN — это базовая линия, а не state of the art. LLM могли видеть открытый датасет в обучении. CNN — нет."
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЁ МНЕНИЕ",
+          "headline": "Измеряйте, а не предполагайте.",
+          "body": "Исследование не исходило из того, что новейшая модель победит. Три модели получили одни и те же случаи, и их результаты сравнили с истиной. Прежде чем покупать фронтирную LLM, проверьте маленькую модель на своей задаче. Сравните обе на одной базовой линии."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "VS SOLUTIONS · ПО НА ОСНОВЕ ИИ",
+          "headline": "Хотите, чтобы это работало в вашей компании?",
+          "body": "Напишите PROJECT в комментариях и расскажите, что хотите решить. Я перевожу ИИ из проекта в продакшн с измеряемыми результатами.",
+          "button": "Напишите PROJECT · vssolutions.io"
+        }
+      ],
+      "caption": "Дерматолог проверил две фронтирные LLM против CNN, впервые опубликованной в 2015 году. Задача: диагностировать рак кожи по 200 очагам, подтверждённым биопсией, выбирая из шести диагнозов.\n\nCNN, Inception v3, дообучили на открытых дерматологических изображениях примерно за двадцать минут. Она правильно определила диагноз в 125 из 200 очагов (62%). Две LLM получили 84 и 85 (42%).\n\nНастоящая проблема в компаниях — не рак кожи. Это выбор по умолчанию. Команды тянутся к самой большой модели, потому что она известная. Никто не проверяет, не справляется ли маленькая, специально обученная модель лучше, и никто не задаёт одну общую точку отсчёта для обеих.\n\nОграничения важны. 200 очагов — небольшая выборка, 30 меланом дают большую неопределённость, каждый случай LLM запускали один раз, а CNN — базовая линия, а не state of the art.\n\nМоё мнение: измеряйте, а не предполагайте. Прежде чем выбирать фронтирную LLM, проверьте маленькую модель на своей задаче. Сравните обе с одной и той же истиной, а потом решайте.\n\nНапишите PROJECT в комментариях, и я в личные сообщения пришлю, как применить это в вашей компании.\n\nИсточники: lynchlab.net\n\n#AI #MachineLearning #LLM #AIinProduction #AIStrategy"
+    }
+  }
+}
