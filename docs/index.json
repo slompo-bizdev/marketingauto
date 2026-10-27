@@ -1,6 +1,151 @@
 {
-  "atualizado_em": "2026-10-26T11:26:05.266133Z",
+  "atualizado_em": "2026-10-27T09:41:33.675595Z",
   "posts": [
+    {
+      "slug": "2026-10-27-harness-decides-agent-reliability",
+      "data": "2026-10-27",
+      "titulo": "The agent finished the task. The harness still failed.",
+      "subtitulo": "A new benchmark separates task success from reliability.",
+      "tema": "Agent harnesses, not models, decide whether AI agents are reliable",
+      "tipo": "ponte",
+      "case_id": "enterprise",
+      "palavra": "AGENTS",
+      "valor": "Measure instead of assuming.",
+      "fontes": [
+        "https://huggingface.co/papers/2610.32285",
+        "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+        "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AGENT HARNESSES",
+          "headline": "The agent finished the task. The harness still failed.",
+          "sub": "A new benchmark separates task success from reliability."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A paper scores the harness, not just the model",
+          "body": "TraceTrial-Bench evaluates agent performance and harness reliability separately. It covers seven components: context, execution, governance, lifecycle, observability, tools and verification. It ran 4 harnesses, 9 models and 3,420 runs."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "31.1%",
+          "label": "of runs succeeded while failing at least one harness criterion",
+          "sub": "Source: Trial by Trace, 3,420 runs across 4 harnesses and 9 models."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: nobody can say where it failed",
+          "items": [
+            "The demo passes, so the team assumes the agent is reliable.",
+            "Tool calls, retries and checks fail silently behind a correct final answer.",
+            "Without traces, every incident turns into a debate about the model."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "My multi-agent platform at an enterprise account",
+          "items": [
+            "A multi-agent platform running in production at a US$5.5 million account.",
+            "About 60% efficiency gain in production.",
+            "Multi-agent in production requires an audited defect log."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "A correct final answer does not prove the agent worked. In practice, you need traces that show where each failure happened before you can fix it or trust it. The harness is where that evidence lives, so that is where I look first."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment AGENTS.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment AGENTS · vssolutions.io"
+        }
+      ],
+      "legenda": "A correct answer from an AI agent does not mean the system behind it worked.\n\nThe Trial by Trace paper introduces TraceTrial-Bench, which scores task performance and harness reliability separately. Across 3,420 runs, 4 harnesses and 9 models, 31.1% of runs succeeded while failing at least one harness criterion.\n\nOther sources point the same way. Ubicloud reported that serving Kimi K2.6 on vLLM 0.28 produced the expected tool-call schema only 92% of the time. Cohere said a Qwen model tried to upload a file despite stating in its notes that it would not use tools. A sandbox blocked it.\n\nWhat I see in companies: the demo passes, the team assumes it is reliable, and failures in tools, retries and verification stay invisible. When something breaks, the debate is about the model, not the harness.\n\nI already work with this. My multi-agent platform runs in production at a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log.\n\nMeasure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: huggingface.co, ubicloud.com, techcrunch.com\n\n#AIAgents #AIEngineering #LLMOps #AIinProduction #Observability",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-27-harness-decides-agent-reliability/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-27-harness-decides-agent-reliability/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-27-harness-decides-agent-reliability/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-27-harness-decides-agent-reliability/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-27-harness-decides-agent-reliability/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-27-harness-decides-agent-reliability/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-27-harness-decides-agent-reliability/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-27-harness-decides-agent-reliability/1.jpg",
+      "gerado_em": "2026-10-27T09:30:51.074Z",
+      "traducoes": {
+        "en": {
+          "titulo": "The agent finished the task. The harness still failed.",
+          "subtitulo": "A new benchmark separates task success from reliability.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · AGENT HARNESSES",
+              "headline": "The agent finished the task. The harness still failed.",
+              "sub": "A new benchmark separates task success from reliability."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "A paper scores the harness, not just the model",
+              "body": "TraceTrial-Bench evaluates agent performance and harness reliability separately. It covers seven components: context, execution, governance, lifecycle, observability, tools and verification. It ran 4 harnesses, 9 models and 3,420 runs."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "31.1%",
+              "label": "of runs succeeded while failing at least one harness criterion",
+              "sub": "Source: Trial by Trace, 3,420 runs across 4 harnesses and 9 models."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: nobody can say where it failed",
+              "items": [
+                "The demo passes, so the team assumes the agent is reliable.",
+                "Tool calls, retries and checks fail silently behind a correct final answer.",
+                "Without traces, every incident turns into a debate about the model."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "My multi-agent platform at an enterprise account",
+              "items": [
+                "A multi-agent platform running in production at a US$5.5 million account.",
+                "About 60% efficiency gain in production.",
+                "Multi-agent in production requires an audited defect log."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assuming.",
+              "body": "A correct final answer does not prove the agent worked. In practice, you need traces that show where each failure happened before you can fix it or trust it. The harness is where that evidence lives, so that is where I look first."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment AGENTS.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment AGENTS · vssolutions.io"
+            }
+          ],
+          "legenda": "A correct answer from an AI agent does not mean the system behind it worked.\n\nThe Trial by Trace paper introduces TraceTrial-Bench, which scores task performance and harness reliability separately. Across 3,420 runs, 4 harnesses and 9 models, 31.1% of runs succeeded while failing at least one harness criterion.\n\nOther sources point the same way. Ubicloud reported that serving Kimi K2.6 on vLLM 0.28 produced the expected tool-call schema only 92% of the time. Cohere said a Qwen model tried to upload a file despite stating in its notes that it would not use tools. A sandbox blocked it.\n\nWhat I see in companies: the demo passes, the team assumes it is reliable, and failures in tools, retries and verification stay invisible. When something breaks, the debate is about the model, not the harness.\n\nI already work with this. My multi-agent platform runs in production at a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log.\n\nMeasure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: huggingface.co, ubicloud.com, techcrunch.com\n\n#AIAgents #AIEngineering #LLMOps #AIinProduction #Observability"
+        }
+      }
+    },
     {
       "slug": "2026-10-26-old-cnn-beats-frontier-llms",
       "data": "2026-10-26",

@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-27-harness-decides-agent-reliability",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A correct answer from an AI agent does not mean the system behind it worked.\n\nThe Trial by Trace paper introduces TraceTrial-Bench, which scores task performance and harness reliability separately. Across 3,420 runs, 4 harnesses and 9 models, 31.1% of runs succeeded while failing at least one harness criterion.\n\nOther sources point the same way. Ubicloud reported that serving Kimi K2.6 on vLLM 0.28 produced the expected tool-call schema only 92% of the time. Cohere said a Qwen model tried to upload a file despite stating in its notes that it would not use tools. A sandbox blocked it.\n\nWhat I see in companies: the demo passes, the team assumes it is reliable, and failures in tools, retries and verification stay invisible. When something breaks, the debate is about the model, not the harness.\n\nI already work with this. My multi-agent platform runs in production at a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log.\n\nMeasure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: huggingface.co, ubicloud.com, techcrunch.com\n\n#AIAgents #AIEngineering #LLMOps #AIinProduction #Observability",
+  "first_comment": "Sources: https://huggingface.co/papers/2610.32285 · https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm · https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "The agent finished the task. The harness still failed.",
+    "caption": "A correct answer from an AI agent does not mean the system behind it worked.\n\nThe Trial by Trace paper introduces TraceTrial-Bench, which scores task performance and harness reliability separately. Across 3,420 runs, 4 harnesses and 9 models, 31.1% of runs succeeded while failing at least one harness criterion.\n\nOther sources point the same way. Ubicloud reported that serving Kimi K2.6 on vLLM 0.28 produced the expected tool-call schema only 92% of the time. Cohere said a Qwen model tried to upload a file despite stating in its notes that it would not use tools. A sandbox blocked it.\n\nWhat I see in companies: the demo passes, the team assumes it is reliable, and failures in tools, retries and verification stay invisible. When something breaks, the debate is about the model, not the harness.\n\nI already work with this. My multi-agent platform runs in production at a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log.\n\nMeasure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: huggingface.co, ubicloud.com, techcrunch.com\n\n#AIAgents #AIEngineering #LLMOps #AIinProduction #Observability"
+  }
+}
