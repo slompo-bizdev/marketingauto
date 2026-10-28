@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-28-crm-agent-saying-vs-doing",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "An AI that says it did the task is not the same as an AI that did it.\n\nA new paper, CRM-Agent-Bench, tests agents on multi-turn business tasks in CRM environments where records change and rules matter. Success is strict: every check declared for the task has to pass. Across sixteen systems, strict success ranges from 64.32% to 83.60%. The leading systems are close on success but diverge sharply in cost and per-domain reliability.\n\nWhat I see in companies: the demo works in chat, so the team assumes it works in the system. Nobody tests it against the real rules, and errors show up later in front of the customer.\n\nI built this kind of system for Freedom Marine, a yacht dealer in Canada. A quoting system (CPQ) replaced the sales team's spreadsheet: 8 boat models, compatibility rules between options, quotes from CAD 334,000 to CAD 1.87 million, exchange rates updated every hour, and the quote goes straight into HubSpot. The sales team maintains it on its own.\n\nWhen the numbers have to be exact, you measure instead of assuming.\n\nComment CPQ and I'll DM you how I did it.\n\nSources: huggingface.co, techcrunch.com\n\n#AIAgents #CRM #CPQ #HubSpot #AIinProduction",
+  "first_comment": "Sources: https://huggingface.co/papers/2610.32004 · https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "The AI said it updated the quote. Did it?",
+    "caption": "An AI that says it did the task is not the same as an AI that did it.\n\nA new paper, CRM-Agent-Bench, tests agents on multi-turn business tasks in CRM environments where records change and rules matter. Success is strict: every check declared for the task has to pass. Across sixteen systems, strict success ranges from 64.32% to 83.60%. The leading systems are close on success but diverge sharply in cost and per-domain reliability.\n\nWhat I see in companies: the demo works in chat, so the team assumes it works in the system. Nobody tests it against the real rules, and errors show up later in front of the customer.\n\nI built this kind of system for Freedom Marine, a yacht dealer in Canada. A quoting system (CPQ) replaced the sales team's spreadsheet: 8 boat models, compatibility rules between options, quotes from CAD 334,000 to CAD 1.87 million, exchange rates updated every hour, and the quote goes straight into HubSpot. The sales team maintains it on its own.\n\nWhen the numbers have to be exact, you measure instead of assuming.\n\nComment CPQ and I'll DM you how I did it.\n\nSources: huggingface.co, techcrunch.com\n\n#AIAgents #CRM #CPQ #HubSpot #AIinProduction"
+  }
+}
