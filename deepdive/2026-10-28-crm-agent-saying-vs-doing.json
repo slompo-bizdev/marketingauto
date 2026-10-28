@@ -1,0 +1,101 @@
+{
+  "slug": "2026-10-28-crm-agent-saying-vs-doing",
+  "topic": "CRM AGENT BENCH",
+  "keyword": "CPQ",
+  "hook": {
+    "claim": "\"64-84% strict success.\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning: sixteen agents score 64 to 84 percent on strict CRM checks. I went back in to see what sits around that number."
+  },
+  "findings": [
+    {
+      "label": "OVERSTATED",
+      "big": "11 pts",
+      "headline": "Grading only the reply overstates strict success",
+      "detail": "Response-only grading overestimates by 10.5 to 11.0 points versus checking the final record state.",
+      "bars": [],
+      "source": 1,
+      "evidence": "Response only grading overestimates strict success by 10.5 to 11.0 percentage points.",
+      "say": "First, grading only the reply overstates strict success by 10.5 to 11 points, according to the paper itself. Saying is not doing.",
+      "status": "confirmed"
+    },
+    {
+      "label": "EARLIER DATA",
+      "big": "35%",
+      "headline": "CRMArena-Pro: multi-turn CRM success, down from 58%",
+      "detail": "Salesforce's earlier CRM benchmark, top agents, single-turn versus multi-turn tasks.",
+      "bars": [
+        {
+          "label": "Single-turn success %",
+          "value": 58,
+          "display": "58%",
+          "kind": "solid"
+        },
+        {
+          "label": "Multi-turn success %",
+          "value": 35,
+          "display": "35%",
+          "kind": "solid"
+        }
+      ],
+      "source": 2,
+      "evidence": "performance falls to just 35 percent.",
+      "say": "Second, on the earlier CRMArena-Pro, agents dropped from about 58 percent single-turn to 35 percent multi-turn, The Decoder reports.",
+      "status": "confirmed"
+    },
+    {
+      "label": "STRICT SCORE",
+      "big": "51.29%",
+      "headline": "Zapier's strict CRM-style test: best score is 51.29%",
+      "detail": "AutomationBench grades the end state; every scored assertion must pass. Top three scores shown.",
+      "bars": [
+        {
+          "label": "Gemini 4 Argon (High) score %",
+          "value": 51.29,
+          "display": "51.29%",
+          "kind": "solid"
+        },
+        {
+          "label": "Gemini 4 Argon (Medium) score %",
+          "value": 50.08,
+          "display": "50.08%",
+          "kind": "solid"
+        },
+        {
+          "label": "Claude Sonnet 5.5 score %",
+          "value": 44.75,
+          "display": "44.75%",
+          "kind": "solid"
+        }
+      ],
+      "source": 3,
+      "evidence": "Gemini 4 Argon (High) 51.29% $1.70*",
+      "say": "Third, Zapier's AutomationBench also grades the end state strictly, and its top score is 51.29 percent.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "A good reply proves very little.",
+    "say": "My take: a chat reply proves little. Count what changed in the record, against your own rules, before you trust the agent."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "arXiv, CRM-Agent-Bench paper",
+      "url": "https://arxiv.org/html/2610.32004"
+    },
+    {
+      "n": 2,
+      "title": "The Decoder, Salesforce's CRM benchmark finds AI agents struggle",
+      "url": "https://the-decoder.com/salesforces-crm-benchmark-finds-ai-agents-struggle-in-real-world-business-scenarios/"
+    },
+    {
+      "n": 3,
+      "title": "Zapier, AutomationBench leaderboard",
+      "url": "https://zapier.com/benchmarks"
+    }
+  ],
+  "caption": "This morning: a new benchmark shows sixteen AI agents succeed on 64 to 84 percent of strict CRM tasks. The gap between saying and doing is real.\n\nThree more data points: grading only the reply overstates success by about 11 points. The earlier CRMArena-Pro saw multi-turn success fall to 35 percent. Zapier's strict AutomationBench tops out at 51.29 percent.\n\nMy take: a good reply proves very little. Measure what changed in the record, against your own rules.\n\nComment CPQ and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] arXiv, CRM-Agent-Bench paper — https://arxiv.org/html/2610.32004\n[2] The Decoder, Salesforce's CRM benchmark finds AI agents struggle — https://the-decoder.com/salesforces-crm-benchmark-finds-ai-agents-struggle-in-real-world-business-scenarios/\n[3] Zapier, AutomationBench leaderboard — https://zapier.com/benchmarks\n\nvssolutions.io",
+  "gerado_em": "2026-10-28T13:00:39.464Z"
+}
