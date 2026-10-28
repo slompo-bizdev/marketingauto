@@ -1,0 +1,205 @@
+{
+  "slug": "2026-10-28-crm-agent-saying-vs-doing",
+  "lang": "en",
+  "palette": [
+    "offwhite",
+    "black"
+  ],
+  "accent": "green",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who checks what the AI actually did?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · CRM AGENT BENCHMARK",
+      "headline": "The AI said it updated the quote. Did it?",
+      "sub": "A new benchmark measures the gap between saying and doing."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "A new benchmark tests if agents actually do the work",
+      "body": "CRM-Agent-Bench is a paper on Hugging Face. It tests agents on multi-turn business tasks in CRM environments with changing records. Success is strict: every check declared for the task must pass, not just a plausible reply."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "64-84%",
+      "label": "Strict success across sixteen systems tested",
+      "sub": "From 64.32% to 83.60%. Leading systems diverge sharply in cost and reliability."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: nobody checks the doing",
+      "items": [
+        "The demo looks great in chat, so the team assumes it will execute correctly too",
+        "Business rules live in people's heads, so nobody can test the agent against them",
+        "When the record is wrong, it surfaces weeks later, in front of a customer"
+      ],
+      "highlight_last": false
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "Freedom Marine, a yacht dealer in Canada, needed exact quotes",
+      "items": [
+        "8 boat models in the configurator, with compatibility rules between options",
+        "Quotes from CAD 334,000 to CAD 1.87 million, exchange rates updated every hour",
+        "The quote goes straight into HubSpot, and the sales team maintains it on its own"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Measure instead of assuming.",
+      "body": "An agent that answers well is not one that executes correctly. The only way to trust it in production is to test it against your own rules and count the gap between what it says and what it does. This benchmark makes the same point."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment CPQ.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment CPQ · vssolutions.io"
+    }
+  ],
+  "caption": "An AI that says it did the task is not the same as an AI that did it.\n\nA new paper, CRM-Agent-Bench, tests agents on multi-turn business tasks in CRM environments where records change and rules matter. Success is strict: every check declared for the task has to pass. Across sixteen systems, strict success ranges from 64.32% to 83.60%. The leading systems are close on success but diverge sharply in cost and per-domain reliability.\n\nWhat I see in companies: the demo works in chat, so the team assumes it works in the system. Nobody tests it against the real rules, and errors show up later in front of the customer.\n\nI built this kind of system for Freedom Marine, a yacht dealer in Canada. A quoting system (CPQ) replaced the sales team's spreadsheet: 8 boat models, compatibility rules between options, quotes from CAD 334,000 to CAD 1.87 million, exchange rates updated every hour, and the quote goes straight into HubSpot. The sales team maintains it on its own.\n\nWhen the numbers have to be exact, you measure instead of assuming.\n\nComment CPQ and I'll DM you how I did it.\n\nSources: huggingface.co, techcrunch.com\n\n#AIAgents #CRM #CPQ #HubSpot #AIinProduction",
+  "first_comment": "Sources: https://huggingface.co/papers/2610.32004 · https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/\n\nvssolutions.io",
+  "meta": {
+    "tema": "CRM agent benchmark: AI that says it did the task vs AI that actually did it",
+    "tipo": "ponte",
+    "case_id": "cpq",
+    "palavra": "CPQ",
+    "valor": "Measure instead of assuming.",
+    "angulo": "An agent that answers well in chat is not the same as one that executes a quote or CRM update correctly, so the only way to trust it in production is to measure the gap between saying and doing against your own business rules.",
+    "fontes": [
+      "https://huggingface.co/papers/2610.32004",
+      "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/"
+    ],
+    "roteiro_reels": "[0-3s] Your AI says it updated the quote. Did it actually do it?\n[3-20s] A new benchmark tests agents on real CRM tasks. Success means every check passes, not just a good answer. Across sixteen systems, strict success ran from 64 to 84 percent.\n[20-30s] For Freedom Marine, a yacht dealer in Canada, I built a quoting system where rules and prices must be exact. Measure the gap between saying and doing. Comment CPQ and I'll send you how I did it.",
+    "gerado_em": "2026-10-28T09:30:51.135Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · CRM AGENT BENCHMARK",
+          "headline": "The AI said it updated the quote. Did it?",
+          "sub": "A new benchmark measures the gap between saying and doing."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A new benchmark tests if agents actually do the work",
+          "body": "CRM-Agent-Bench is a paper on Hugging Face. It tests agents on multi-turn business tasks in CRM environments with changing records. Success is strict: every check declared for the task must pass, not just a plausible reply."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "64-84%",
+          "label": "Strict success across sixteen systems tested",
+          "sub": "From 64.32% to 83.60%. Leading systems diverge sharply in cost and reliability."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: nobody checks the doing",
+          "items": [
+            "The demo looks great in chat, so the team assumes it will execute correctly too",
+            "Business rules live in people's heads, so nobody can test the agent against them",
+            "When the record is wrong, it surfaces weeks later, in front of a customer"
+          ],
+          "highlight_last": false
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "Freedom Marine, a yacht dealer in Canada, needed exact quotes",
+          "items": [
+            "8 boat models in the configurator, with compatibility rules between options",
+            "Quotes from CAD 334,000 to CAD 1.87 million, exchange rates updated every hour",
+            "The quote goes straight into HubSpot, and the sales team maintains it on its own"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "An agent that answers well is not one that executes correctly. The only way to trust it in production is to test it against your own rules and count the gap between what it says and what it does. This benchmark makes the same point."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment CPQ.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment CPQ · vssolutions.io"
+        }
+      ],
+      "caption": "An AI that says it did the task is not the same as an AI that did it.\n\nA new paper, CRM-Agent-Bench, tests agents on multi-turn business tasks in CRM environments where records change and rules matter. Success is strict: every check declared for the task has to pass. Across sixteen systems, strict success ranges from 64.32% to 83.60%. The leading systems are close on success but diverge sharply in cost and per-domain reliability.\n\nWhat I see in companies: the demo works in chat, so the team assumes it works in the system. Nobody tests it against the real rules, and errors show up later in front of the customer.\n\nI built this kind of system for Freedom Marine, a yacht dealer in Canada. A quoting system (CPQ) replaced the sales team's spreadsheet: 8 boat models, compatibility rules between options, quotes from CAD 334,000 to CAD 1.87 million, exchange rates updated every hour, and the quote goes straight into HubSpot. The sales team maintains it on its own.\n\nWhen the numbers have to be exact, you measure instead of assuming.\n\nComment CPQ and I'll DM you how I did it.\n\nSources: huggingface.co, techcrunch.com\n\n#AIAgents #CRM #CPQ #HubSpot #AIinProduction"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НАБИРАЕТ ОБОРОТЫ · БЕНЧМАРК CRM-АГЕНТОВ",
+          "headline": "ИИ сказал, что обновил коммерческое предложение. Так ли это?",
+          "sub": "Новый бенчмарк измеряет разрыв между тем, что ИИ говорит, и тем, что он делает."
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Новый бенчмарк проверяет, делают ли агенты работу на самом деле",
+          "body": "CRM-Agent-Bench — это статья на Hugging Face. Она тестирует агентов на многоходовых бизнес-задачах в CRM-средах, где записи меняются. Успех считается строго: должны пройти все проверки, объявленные для задачи, а не просто правдоподобный ответ."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЦИФРА",
+          "stat": "64-84%",
+          "label": "Строгий успех у шестнадцати протестированных систем",
+          "sub": "От 64,32% до 83,60%. Лидирующие системы заметно расходятся по стоимости и надёжности."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях: никто не проверяет действие",
+          "items": [
+            "Демо выглядит отлично в чате, поэтому команда считает, что система так же корректно всё выполнит",
+            "Бизнес-правила хранятся в головах людей, поэтому агента невозможно проверить по ним",
+            "Когда запись неверна, это всплывает через недели, перед клиентом"
+          ],
+          "highlight_last": false
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ РЕШАЛ ЭТУ ЗАДАЧУ",
+          "headline": "Freedom Marine, дилер яхт в Канаде, нуждался в точных расчётах",
+          "items": [
+            "8 моделей лодок в конфигураторе, с правилами совместимости между опциями",
+            "Предложения от 334 000 до 1,87 млн CAD, курсы валют обновляются каждый час",
+            "Предложение сразу попадает в HubSpot, и отдел продаж поддерживает его самостоятельно"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЁ МНЕНИЕ",
+          "headline": "Измеряйте, а не предполагайте.",
+          "body": "Агент, который хорошо отвечает, — это не тот, который корректно выполняет действия. Единственный способ доверить ему работу в продакшене — проверить его по вашим собственным правилам и посчитать разрыв между тем, что он говорит, и тем, что он делает. Этот бенчмарк подтверждает то же самое."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напишите CPQ.",
+          "body": "Пришлю пошаговое описание этого кейса в личные сообщения. Я перевожу ИИ из чертежей в продакшен, с измеренными результатами.",
+          "button": "Напишите CPQ · vssolutions.io"
+        }
+      ],
+      "caption": "ИИ, который говорит, что выполнил задачу, — это не то же самое, что ИИ, который её выполнил.\n\nНовая статья, CRM-Agent-Bench, проверяет агентов на многоходовых бизнес-задачах в CRM-средах, где записи меняются и правила важны. Успех считается строго: должны пройти все проверки, объявленные для задачи. По шестнадцати системам строгий успех составляет от 64,32% до 83,60%. Лидирующие системы близки по успеху, но заметно расходятся по стоимости и надёжности в отдельных областях.\n\nЧто я вижу в компаниях: демо работает в чате, поэтому команда считает, что оно работает и в системе. Никто не проверяет его по реальным правилам, а ошибки всплывают позже, перед клиентом.\n\nЯ создавал такую систему для Freedom Marine, дилера яхт в Канаде. Система коммерческих предложений (CPQ) заменила таблицу отдела продаж: 8 моделей лодок, правила совместимости между опциями, предложения от 334 000 до 1,87 млн CAD, курсы валют обновляются каждый час, а предложение сразу попадает в HubSpot. Отдел продаж поддерживает её самостоятельно.\n\nКогда цифры должны быть точными, вы измеряете, а не предполагаете.\n\nНапишите CPQ, и я пришлю вам в личные сообщения, как я это сделал.\n\nИсточники: huggingface.co, techcrunch.com\n\n#AIAgents #CRM #CPQ #HubSpot #AIinProduction"
+    }
+  }
+}
