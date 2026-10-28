@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-28-crm-agent-saying-vs-doing",
+  "video": "2026-10-28-crm-agent-saying-vs-doing.mp4",
+  "duration": 45.0,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning: a new benchmark shows sixteen AI agents succeed on 64 to 84 percent of strict CRM tasks. The gap between saying and doing is real.\n\nThree more data points: grading only the reply overstates success by about 11 points. The earlier CRMArena-Pro saw multi-turn success fall to 35 percent. Zapier's strict AutomationBench tops out at 51.29 percent.\n\nMy take: a good reply proves very little. Measure what changed in the record, against your own rules.\n\nComment CPQ and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] arXiv, CRM-Agent-Bench paper — https://arxiv.org/html/2610.32004\n[2] The Decoder, Salesforce's CRM benchmark finds AI agents struggle — https://the-decoder.com/salesforces-crm-benchmark-finds-ai-agents-struggle-in-real-world-business-scenarios/\n[3] Zapier, AutomationBench leaderboard — https://zapier.com/benchmarks\n\nvssolutions.io",
+  "keyword": "CPQ",
+  "check_dm": "",
+  "scenes": [
+    "This morning: sixteen agents score 64 to 84 percent on strict CRM checks. I went back in to see what sits around that number.",
+    "First, grading only the reply overstates strict success by 10.5 to 11 points, according to the paper itself. Saying is not doing.",
+    "Second, on the earlier CRMArena-Pro, agents dropped from about 58 percent single-turn to 35 percent multi-turn, The Decoder reports.",
+    "Third, Zapier's AutomationBench also grades the end state strictly, and its top score is 51.29 percent.",
+    "My take: a chat reply proves little. Count what changed in the record, against your own rules, before you trust the agent."
+  ]
+}
