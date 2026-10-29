@@ -1,0 +1,82 @@
+{
+  "slug": "2026-10-29-anthropic-spend-visibility-tools",
+  "topic": "SPEND REPORTS",
+  "keyword": "ADOPTION",
+  "hook": {
+    "claim": "\"What token spend buys.\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning: Anthropic's new tools show what token spend actually delivers. I went back in and checked what other sources are measuring."
+  },
+  "findings": [
+    {
+      "label": "RETENTION",
+      "big": "900%",
+      "headline": "Net revenue retention Anthropic shared with investors",
+      "detail": "Same customers spent nine times more in Q3 2026 than in Q3 2025, per TechCrunch.",
+      "bars": [],
+      "source": 1,
+      "evidence": "900% net revenue retention — that is, spending from the same customers in Q3 2025 grew nine times in Q3 2026",
+      "say": "First, Anthropic told investors that the same customers now spend nine times more than a year ago. That is 900% net revenue retention, per TechCrunch.",
+      "status": "confirmed"
+    },
+    {
+      "label": "MARKET SHARE",
+      "big": "60.5%",
+      "headline": "Anthropic's share of token spend in Ramp's AI Index",
+      "detail": "Up from 51.3% four weeks earlier, among businesses tracked by Ramp.",
+      "bars": [
+        {
+          "label": "Share of token spend, Sep 25 (%)",
+          "value": 51.3,
+          "display": "51.3%",
+          "kind": "solid"
+        },
+        {
+          "label": "Share of token spend, Oct 23 (%)",
+          "value": 60.5,
+          "display": "60.5%",
+          "kind": "accent"
+        }
+      ],
+      "source": 2,
+      "evidence": "Anthropic’s share of token spending rose from 51.3% on September 25 to 60.5% on October 23.",
+      "say": "Second, among businesses in Ramp's AI Index, Anthropic's share of token spending rose from 51.3% to 60.5% in four weeks.",
+      "status": "confirmed"
+    },
+    {
+      "label": "BUDGET ALERTS",
+      "big": "4",
+      "headline": "Alert levels on a pooled team budget",
+      "detail": "Admins are alerted at 50%, 75%, 95% and 100% of the shared monthly limit.",
+      "bars": [],
+      "source": 2,
+      "evidence": "alerts at 50%, 75%, 95%, and 100%",
+      "say": "Third, pooled team budgets send alerts at four points: 50%, 75%, 95% and 100% of the shared monthly limit.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "A bigger bill is not proof of value.",
+    "say": "My take: rising spend proves people use it, not that it paid off. Measure output per dollar on one workflow before you scale."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "TechCrunch: Anthropic just launched tools to show companies what their AI spending is buying",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+    },
+    {
+      "n": 2,
+      "title": "Cryptopolitan: Anthropic ships Claude Enterprise cost tools as AI ROI doubts persist",
+      "url": "https://www.cryptopolitan.com/anthropic-claude-enterprise-cost-tools-ai/"
+    },
+    {
+      "n": 3,
+      "title": "Aiera: Claude Enterprise Cost Tools: Track AI Spend and ROI",
+      "url": "https://aiera.blog/claude-enterprise-cost-tools-ai-spend-roi/"
+    }
+  ],
+  "caption": "This morning I covered Anthropic's new reporting tools that show what a team's token spend produced, what it cost and where workflows broke down.\n\nI went back in for three more data points. 900% net revenue retention for Anthropic, per TechCrunch. Anthropic's share of token spend in Ramp's index rose from 51.3% to 60.5%. Pooled team budgets alert admins at 4 levels, from 50% to 100%.\n\nMy take: rising spend proves usage, not value. Measure output per dollar before you scale.\n\nComment ADOPTION and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] TechCrunch: Anthropic just launched tools to show companies what their AI spending is buying — https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/\n[2] Cryptopolitan: Anthropic ships Claude Enterprise cost tools as AI ROI doubts persist — https://www.cryptopolitan.com/anthropic-claude-enterprise-cost-tools-ai/\n[3] Aiera: Claude Enterprise Cost Tools: Track AI Spend and ROI — https://aiera.blog/claude-enterprise-cost-tools-ai-spend-roi/\n\nvssolutions.io",
+  "gerado_em": "2026-10-29T13:00:36.791Z"
+}
