@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-29-anthropic-spend-visibility-tools",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Anthropic just launched reporting tools that show companies what their token spend is buying. Managers can see what a team produced, what it cost, and where workflows broke down. Anthropic is also adding pooled group budgets.\n\nPer Jellyfish, spend on agentic coding tools grew 10x since the start of the year. As one of their people put it, most CFOs didn't plan for that.\n\nWhat I see in companies: the bill is visible, the result is not. Nobody owns the question of what each AI workflow actually delivers.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up. 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nSo my view: spend dashboards only matter if you tie tokens to a business outcome. Measure what each workflow delivers per dollar before you scale it. Launching is not the same as being used.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: techcrunch.com, openai.com\n\n#AIadoption #AIROI #EnterpriseAI #AIstrategy #Anthropic",
+  "first_comment": "Sources: https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/ · https://openai.com/index/the-future-of-the-firm\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Spending on AI is easy. Knowing what it bought is not.",
+    "caption": "Anthropic just launched reporting tools that show companies what their token spend is buying. Managers can see what a team produced, what it cost, and where workflows broke down. Anthropic is also adding pooled group budgets.\n\nPer Jellyfish, spend on agentic coding tools grew 10x since the start of the year. As one of their people put it, most CFOs didn't plan for that.\n\nWhat I see in companies: the bill is visible, the result is not. Nobody owns the question of what each AI workflow actually delivers.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up. 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nSo my view: spend dashboards only matter if you tie tokens to a business outcome. Measure what each workflow delivers per dollar before you scale it. Launching is not the same as being used.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: techcrunch.com, openai.com\n\n#AIadoption #AIROI #EnterpriseAI #AIstrategy #Anthropic"
+  }
+}
