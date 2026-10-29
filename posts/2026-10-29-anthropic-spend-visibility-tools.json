@@ -1,0 +1,202 @@
+{
+  "slug": "2026-10-29-anthropic-spend-visibility-tools",
+  "lang": "en",
+  "palette": [
+    "black",
+    "offwhite"
+  ],
+  "accent": "green",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who owns the result of the AI spend?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · AI SPEND VISIBILITY",
+      "headline": "Spending on AI is easy. Knowing what it bought is not.",
+      "sub": "Anthropic now ships tools to show what token spend delivers."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "Anthropic launched reporting tools for token spend",
+      "body": "Managers can see what a team produced over a date range, what it cost, and where workflows broke down. The reports also recommend improvements. Anthropic is adding pooled group budgets too. TechCrunch calls it a clear attempt to show ROI."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "10x",
+      "label": "Spend growth on agentic coding tools since the start of the year",
+      "sub": "Jellyfish: now about 2% of total engineering cost. Most CFOs didn't plan for it."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: spend is tracked, outcomes are not",
+      "items": [
+        "The bill shows up in finance. The result never shows up anywhere.",
+        "Teams adopt a tool, but nobody owns the question of what it delivered.",
+        "Scaling starts before anyone knows if the first workflow paid off."
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "AskMoses.AI, the SaaS I built end to end and run as a contractor",
+      "items": [
+        "17 organizations in the US signed up. Only 6 actually use it.",
+        "11 of 17 never activated: onboarding needed a CRM and a rubric before any value.",
+        "Script Intelligence mines winning CRM calls into a weekly script. 88% gross margin."
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Launching is not the same as being used.",
+      "body": "A dashboard of tokens spent tells you activity, not value. Tie each AI workflow to a business outcome and measure what it delivers per dollar before you scale it. That is how you tell real adoption from shelfware."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment ADOPTION.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment ADOPTION · vssolutions.io"
+    }
+  ],
+  "caption": "Anthropic just launched reporting tools that show companies what their token spend is buying. Managers can see what a team produced, what it cost, and where workflows broke down. Anthropic is also adding pooled group budgets.\n\nPer Jellyfish, spend on agentic coding tools grew 10x since the start of the year. As one of their people put it, most CFOs didn't plan for that.\n\nWhat I see in companies: the bill is visible, the result is not. Nobody owns the question of what each AI workflow actually delivers.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up. 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nSo my view: spend dashboards only matter if you tie tokens to a business outcome. Measure what each workflow delivers per dollar before you scale it. Launching is not the same as being used.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: techcrunch.com, openai.com\n\n#AIadoption #AIROI #EnterpriseAI #AIstrategy #Anthropic",
+  "first_comment": "Sources: https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/ · https://openai.com/index/the-future-of-the-firm\n\nvssolutions.io",
+  "meta": {
+    "tema": "Anthropic launches tools showing companies what their AI spend is buying",
+    "tipo": "ponte",
+    "case_id": "adocao",
+    "palavra": "ADOPTION",
+    "valor": "Launching is not the same as being used.",
+    "angulo": "Spend dashboards only matter if you tie tokens to a business outcome: measure what each AI workflow actually delivers per dollar before you scale it.",
+    "fontes": [
+      "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "https://openai.com/index/the-future-of-the-firm"
+    ],
+    "roteiro_reels": "[0-3s] Anthropic just built a tool to show what your AI spend is buying. Why did that need building?\n[3-20s] Spend is easy to see. Results are not. At AskMoses.AI, 17 organizations signed up and only 6 actually use it. Launching is not the same as being used, and a token count won't tell you that.\n[20-30s] Tie every AI workflow to an outcome and measure what it delivers per dollar before you scale it. Comment ADOPTION and I'll send you how I did it.",
+    "gerado_em": "2026-10-29T09:30:51.586Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AI SPEND VISIBILITY",
+          "headline": "Spending on AI is easy. Knowing what it bought is not.",
+          "sub": "Anthropic now ships tools to show what token spend delivers."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Anthropic launched reporting tools for token spend",
+          "body": "Managers can see what a team produced over a date range, what it cost, and where workflows broke down. The reports also recommend improvements. Anthropic is adding pooled group budgets too. TechCrunch calls it a clear attempt to show ROI."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "10x",
+          "label": "Spend growth on agentic coding tools since the start of the year",
+          "sub": "Jellyfish: now about 2% of total engineering cost. Most CFOs didn't plan for it."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: spend is tracked, outcomes are not",
+          "items": [
+            "The bill shows up in finance. The result never shows up anywhere.",
+            "Teams adopt a tool, but nobody owns the question of what it delivered.",
+            "Scaling starts before anyone knows if the first workflow paid off."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "AskMoses.AI, the SaaS I built end to end and run as a contractor",
+          "items": [
+            "17 organizations in the US signed up. Only 6 actually use it.",
+            "11 of 17 never activated: onboarding needed a CRM and a rubric before any value.",
+            "Script Intelligence mines winning CRM calls into a weekly script. 88% gross margin."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Launching is not the same as being used.",
+          "body": "A dashboard of tokens spent tells you activity, not value. Tie each AI workflow to a business outcome and measure what it delivers per dollar before you scale it. That is how you tell real adoption from shelfware."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment ADOPTION.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment ADOPTION · vssolutions.io"
+        }
+      ],
+      "caption": "Anthropic just launched reporting tools that show companies what their token spend is buying. Managers can see what a team produced, what it cost, and where workflows broke down. Anthropic is also adding pooled group budgets.\n\nPer Jellyfish, spend on agentic coding tools grew 10x since the start of the year. As one of their people put it, most CFOs didn't plan for that.\n\nWhat I see in companies: the bill is visible, the result is not. Nobody owns the question of what each AI workflow actually delivers.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up. 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nSo my view: spend dashboards only matter if you tie tokens to a business outcome. Measure what each workflow delivers per dollar before you scale it. Launching is not the same as being used.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: techcrunch.com, openai.com\n\n#AIadoption #AIROI #EnterpriseAI #AIstrategy #Anthropic"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЕМЕ · ВИДИМОСТЬ РАСХОДОВ НА ИИ",
+          "headline": "Тратить на ИИ легко. Понять, что он принес, — нет.",
+          "sub": "Anthropic выпускает инструменты, которые показывают, что дают расходы на токены."
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Anthropic запустила отчеты по расходам на токены",
+          "body": "Руководители видят, что создала команда за выбранный период, сколько это стоило и где рабочие процессы дали сбой. Отчеты также предлагают улучшения. Кроме того, Anthropic добавляет общие групповые бюджеты. TechCrunch называет это явной попыткой показать ROI."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЦИФРА",
+          "stat": "10x",
+          "label": "Рост расходов на инструменты агентного программирования с начала года",
+          "sub": "Jellyfish: сейчас это около 2% от общих затрат на разработку. Большинство финдиректоров этого не закладывали в бюджет."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях: расходы учитываются, результаты — нет",
+          "items": [
+            "Счет попадает в финансовый отдел. Результат нигде не появляется.",
+            "Команды внедряют инструмент, но никто не отвечает за вопрос, что он дал.",
+            "Масштабирование начинается раньше, чем кто-либо понимает, окупился ли первый процесс."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ РЕШАЛ ЭТУ ЗАДАЧУ",
+          "headline": "AskMoses.AI, SaaS, который я создал с нуля и веду как подрядчик",
+          "items": [
+            "17 организаций в США зарегистрировались. Пользуются только 6.",
+            "11 из 17 так и не активировались: для онбординга нужны были CRM и рубрикатор до того, как появлялась какая-либо польза.",
+            "Script Intelligence извлекает из успешных звонков CRM еженедельный скрипт. Валовая маржа 88%."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЕ МНЕНИЕ",
+          "headline": "Запуск — это не то же самое, что использование.",
+          "body": "Дашборд потраченных токенов показывает активность, а не ценность. Привяжите каждый процесс с ИИ к бизнес-результату и измеряйте, что он дает на каждый доллар, прежде чем масштабировать. Так отличаешь реальное внедрение от инструментов, которыми никто не пользуется."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напишите ADOPTION в комментариях.",
+          "body": "Пришлю пошаговый разбор этого кейса в личные сообщения. Я перевожу ИИ из чертежей в продакшен с измеримыми результатами.",
+          "button": "Напишите ADOPTION · vssolutions.io"
+        }
+      ],
+      "caption": "Anthropic только что запустила инструменты отчетности, которые показывают компаниям, что дают их расходы на токены. Руководители видят, что создала команда, сколько это стоило и где рабочие процессы дали сбой. Anthropic также добавляет общие групповые бюджеты.\n\nПо данным Jellyfish, расходы на инструменты агентного программирования выросли в 10 раз с начала года. Как сказал один из их сотрудников, большинство финдиректоров к этому не готовились.\n\nЧто я вижу в компаниях: счет виден, результат — нет. Никто не отвечает за вопрос, что каждый процесс с ИИ на самом деле дает.\n\nЯ прошел через это с AskMoses.AI, SaaS, который я создал с нуля и веду как подрядчик. 17 организаций в США зарегистрировались. 6 реально им пользуются. 11 из 17 так и не активировались, потому что для онбординга требовались CRM и рубрикатор еще до того, как появлялась польза.\n\nМой вывод: дашборды расходов имеют смысл, только если вы привязываете токены к бизнес-результату. Измеряйте, что каждый процесс дает на каждый доллар, прежде чем масштабировать. Запуск — это не то же самое, что использование.\n\nНапишите ADOPTION, и я пришлю вам в личные сообщения, как я это сделал.\n\nИсточники: techcrunch.com, openai.com\n\n#AIadoption #AIROI #EnterpriseAI #AIstrategy #Anthropic"
+    }
+  }
+}
