@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-29-anthropic-spend-visibility-tools",
+  "video": "2026-10-29-anthropic-spend-visibility-tools.mp4",
+  "duration": 48.65,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning I covered Anthropic's new reporting tools that show what a team's token spend produced, what it cost and where workflows broke down.\n\nI went back in for three more data points. 900% net revenue retention for Anthropic, per TechCrunch. Anthropic's share of token spend in Ramp's index rose from 51.3% to 60.5%. Pooled team budgets alert admins at 4 levels, from 50% to 100%.\n\nMy take: rising spend proves usage, not value. Measure output per dollar before you scale.\n\nComment ADOPTION and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] TechCrunch: Anthropic just launched tools to show companies what their AI spending is buying — https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/\n[2] Cryptopolitan: Anthropic ships Claude Enterprise cost tools as AI ROI doubts persist — https://www.cryptopolitan.com/anthropic-claude-enterprise-cost-tools-ai/\n[3] Aiera: Claude Enterprise Cost Tools: Track AI Spend and ROI — https://aiera.blog/claude-enterprise-cost-tools-ai-spend-roi/\n\nvssolutions.io",
+  "keyword": "ADOPTION",
+  "check_dm": "",
+  "scenes": [
+    "This morning: Anthropic's new tools show what token spend actually delivers. I went back in and checked what other sources are measuring.",
+    "First, Anthropic told investors that the same customers now spend nine times more than a year ago. That is 900% net revenue retention, per TechCrunch.",
+    "Second, among businesses in Ramp's AI Index, Anthropic's share of token spending rose from 51.3% to 60.5% in four weeks.",
+    "Third, pooled team budgets send alerts at four points: 50%, 75%, 95% and 100% of the shared monthly limit.",
+    "My take: rising spend proves people use it, not that it paid off. Measure output per dollar on one workflow before you scale."
+  ]
+}
