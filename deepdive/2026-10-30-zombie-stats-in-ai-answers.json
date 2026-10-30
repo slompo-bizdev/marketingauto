@@ -1,0 +1,95 @@
+{
+  "slug": "2026-10-30-zombie-stats-in-ai-answers",
+  "topic": "ZOMBIE STATS",
+  "keyword": "GEO",
+  "hook": {
+    "claim": "\"Fewer than half.\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning: fewer than half of the stats AI assistants quote reach a study that says the same. I went back in to check."
+  },
+  "findings": [
+    {
+      "label": "COPIED",
+      "big": "82%",
+      "headline": "of cited pages contained the exact figure AI quoted",
+      "detail": "So the assistants mostly did not invent numbers. They repeated pages that already had them.",
+      "bars": [],
+      "source": 2,
+      "evidence": "The numbers cited by the AI were present in 82% of the pages it cited.",
+      "say": "First, the assistants rarely invent numbers. The page they cited contained the figure 82% of the time. The problem is which page.",
+      "status": "confirmed"
+    },
+    {
+      "label": "BLOGS",
+      "big": "37%",
+      "headline": "of company-blog citations led to a real study",
+      "detail": "Company blogs were 54% of first citations. Government pages did far better.",
+      "bars": [
+        {
+          "label": "Company blog, % sourced",
+          "value": 37,
+          "display": "37%",
+          "kind": "accent"
+        },
+        {
+          "label": "Government page, % sourced",
+          "value": 61,
+          "display": "61%",
+          "kind": "solid"
+        }
+      ],
+      "source": 2,
+      "evidence": "Company blog: 54% of first citations, 37% of them sourced.",
+      "say": "Second, more than half of first citations were company blogs, and only 37% of those led to a real study.",
+      "status": "confirmed"
+    },
+    {
+      "label": "VOLUME",
+      "big": "6.8",
+      "headline": "numbers per answer from Claude, versus 1.3 for ChatGPT",
+      "detail": "The more numbers an assistant quotes, the more there is to verify.",
+      "bars": [
+        {
+          "label": "ChatGPT, numbers per answer",
+          "value": 1.3,
+          "display": "1.3",
+          "kind": "solid"
+        },
+        {
+          "label": "Claude, numbers per answer",
+          "value": 6.8,
+          "display": "6.8",
+          "kind": "accent"
+        }
+      ],
+      "source": 3,
+      "evidence": "ChatGPT quoted the fewest numbers per answer (1.3); Claude quoted the most (6.8).",
+      "say": "Third, volume differs a lot. ChatGPT quoted 1.3 numbers per answer, Claude quoted 6.8, so more numbers means more to check.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "A quoted number is not a source.",
+    "say": "My take: a quoted number is not a source. Trace it, and publish your own primary data so AI can trace it too."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "GIGAZINE: 40% of AI statistics are zombie statistics",
+      "url": "https://gigazine.net/gsc_news/en/20261030-ai-assistants-statistics-not-find-study/"
+    },
+    {
+      "n": 2,
+      "title": "Trakkr Research: Zombie Stats",
+      "url": "https://trakkr.ai/trakkr-research/zombie-stats"
+    },
+    {
+      "n": 3,
+      "title": "daily.dev: Zombie stats, where the numbers AI quotes come from",
+      "url": "https://daily.dev/posts/zombie-stats-where-the-numbers-ai-quotes-come-from-xuj9hsgrl"
+    }
+  ],
+  "caption": "This morning: fewer than half of the stats AI assistants quote lead to a study that says the same. I went back in to check.\n\nThe page AI cited had the figure 82% of the time. Only 37% of company-blog citations led to a real study. Claude quoted 6.8 numbers per answer, ChatGPT 1.3.\n\nMy take: a quoted number is not a source. Trace it, and publish your own primary data so AI can trace it too.\n\nComment GEO and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] GIGAZINE: 40% of AI statistics are zombie statistics — https://gigazine.net/gsc_news/en/20261030-ai-assistants-statistics-not-find-study/\n[2] Trakkr Research: Zombie Stats — https://trakkr.ai/trakkr-research/zombie-stats\n[3] daily.dev: Zombie stats, where the numbers AI quotes come from — https://daily.dev/posts/zombie-stats-where-the-numbers-ai-quotes-come-from-xuj9hsgrl\n\nvssolutions.io",
+  "gerado_em": "2026-10-30T13:00:35.548Z"
+}
