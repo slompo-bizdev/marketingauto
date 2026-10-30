@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-30-zombie-stats-in-ai-answers",
+  "video": "2026-10-30-zombie-stats-in-ai-answers.mp4",
+  "duration": 42.6,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning: fewer than half of the stats AI assistants quote lead to a study that says the same. I went back in to check.\n\nThe page AI cited had the figure 82% of the time. Only 37% of company-blog citations led to a real study. Claude quoted 6.8 numbers per answer, ChatGPT 1.3.\n\nMy take: a quoted number is not a source. Trace it, and publish your own primary data so AI can trace it too.\n\nComment GEO and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] GIGAZINE: 40% of AI statistics are zombie statistics — https://gigazine.net/gsc_news/en/20261030-ai-assistants-statistics-not-find-study/\n[2] Trakkr Research: Zombie Stats — https://trakkr.ai/trakkr-research/zombie-stats\n[3] daily.dev: Zombie stats, where the numbers AI quotes come from — https://daily.dev/posts/zombie-stats-where-the-numbers-ai-quotes-come-from-xuj9hsgrl\n\nvssolutions.io",
+  "keyword": "GEO",
+  "check_dm": "",
+  "scenes": [
+    "This morning: fewer than half of the stats AI assistants quote reach a study that says the same. I went back in to check.",
+    "First, the assistants rarely invent numbers. The page they cited contained the figure 82% of the time. The problem is which page.",
+    "Second, more than half of first citations were company blogs, and only 37% of those led to a real study.",
+    "Third, volume differs a lot. ChatGPT quoted 1.3 numbers per answer, Claude quoted 6.8, so more numbers means more to check.",
+    "My take: a quoted number is not a source. Trace it, and publish your own primary data so AI can trace it too."
+  ]
+}
