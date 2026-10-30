@@ -1,6 +1,150 @@
 {
-  "atualizado_em": "2026-10-29T09:31:55.157348Z",
+  "atualizado_em": "2026-10-30T09:31:53.839103Z",
   "posts": [
+    {
+      "slug": "2026-10-30-zombie-stats-in-ai-answers",
+      "data": "2026-10-30",
+      "titulo": "AI quotes your market's numbers. Who checks the source?",
+      "subtitulo": "Fewer than half of the stats AI cited led to a study that says the same.",
+      "tema": "Zombie stats: where the numbers AI assistants quote actually come from",
+      "tipo": "ponte",
+      "case_id": "geo",
+      "palavra": "GEO",
+      "valor": "Measure instead of assuming.",
+      "fontes": [
+        "https://trakkr.ai/trakkr-research/zombie-stats",
+        "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · ZOMBIE STATS",
+          "headline": "AI quotes your market's numbers. Who checks the source?",
+          "sub": "Fewer than half of the stats AI cited led to a study that says the same."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Trakkr traced 1,285 stats from five AI assistants",
+          "body": "Trakkr asked ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews for numbers, then followed each citation back, up to five pages deep. One stat, 44% of salespeople give up after one follow-up, had no study behind it. All five assistants said it."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "40%",
+          "label": "of traced stats reached a study that says the same thing",
+          "sub": "Another 8% reached the study, but the number or context had changed."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: nobody owns the number AI quotes",
+          "items": [
+            "Old figures about your market sit on blogs and roundups, and AI repeats them.",
+            "The real data is buried in a PDF or behind a form that crawlers can't read.",
+            "Nobody checks what AI says about the company, so wrong numbers go unseen."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "One of Brazil's largest cosmetics companies: a report AI can cite",
+          "items": [
+            "Annual report rebuilt: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt",
+            "17 AI crawlers allowed by name, with an in-house log collector measuring everything",
+            "15 days: 1,427 AI reads from 8 engines, 553 real questions, 60 citation clicks"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "If AI repeats a stale number about your market, you only find out by checking. Publish clear, dated, machine-readable primary data. Then measure how often AI reads it, answers with it and sends people to it. Without that, you are guessing."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment GEO.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment GEO · vssolutions.io"
+        }
+      ],
+      "legenda": "Trakkr Research followed 1,285 statistics quoted by five AI assistants back to their origin. Only 40% reached a study that says the same thing. Another 8% reached the study, but the number or its context had changed. The AI mostly cited pages that really contained the number. The problem is that most of those pages were company blogs and roundups repeating figures from somewhere else.\n\nIn practice, this is what I see in companies: nobody owns the number AI quotes about their market. The original data is locked in a PDF, or buried where crawlers can't read it, so the stale version wins.\n\nThat is the problem I worked on with one of Brazil's largest cosmetics companies. We rebuilt an annual report so ChatGPT, Claude and Perplexity can read and cite it: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt and 17 AI crawlers allowed by name. An in-house log collector separates crawling, real questions and citation clicks. In 15 days: 1,427 reads from 8 engines, 553 searches triggered by a real person's question, and 60 people who clicked an AI citation to the site.\n\nMeasure instead of assuming.\n\nComment GEO and I'll DM you how I did it.\n\nSources: trakkr.ai, techcrunch.com\n\n#AI #GEO #AISearch #DataQuality #AIEngineering",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-30-zombie-stats-in-ai-answers/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-30-zombie-stats-in-ai-answers/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-30-zombie-stats-in-ai-answers/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-30-zombie-stats-in-ai-answers/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-30-zombie-stats-in-ai-answers/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-30-zombie-stats-in-ai-answers/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-30-zombie-stats-in-ai-answers/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-10-30-zombie-stats-in-ai-answers/1.jpg",
+      "gerado_em": "2026-10-30T09:30:52.818Z",
+      "traducoes": {
+        "en": {
+          "titulo": "AI quotes your market's numbers. Who checks the source?",
+          "subtitulo": "Fewer than half of the stats AI cited led to a study that says the same.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · ZOMBIE STATS",
+              "headline": "AI quotes your market's numbers. Who checks the source?",
+              "sub": "Fewer than half of the stats AI cited led to a study that says the same."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Trakkr traced 1,285 stats from five AI assistants",
+              "body": "Trakkr asked ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews for numbers, then followed each citation back, up to five pages deep. One stat, 44% of salespeople give up after one follow-up, had no study behind it. All five assistants said it."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "40%",
+              "label": "of traced stats reached a study that says the same thing",
+              "sub": "Another 8% reached the study, but the number or context had changed."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: nobody owns the number AI quotes",
+              "items": [
+                "Old figures about your market sit on blogs and roundups, and AI repeats them.",
+                "The real data is buried in a PDF or behind a form that crawlers can't read.",
+                "Nobody checks what AI says about the company, so wrong numbers go unseen."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "One of Brazil's largest cosmetics companies: a report AI can cite",
+              "items": [
+                "Annual report rebuilt: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt",
+                "17 AI crawlers allowed by name, with an in-house log collector measuring everything",
+                "15 days: 1,427 AI reads from 8 engines, 553 real questions, 60 citation clicks"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assuming.",
+              "body": "If AI repeats a stale number about your market, you only find out by checking. Publish clear, dated, machine-readable primary data. Then measure how often AI reads it, answers with it and sends people to it. Without that, you are guessing."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment GEO.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment GEO · vssolutions.io"
+            }
+          ],
+          "legenda": "Trakkr Research followed 1,285 statistics quoted by five AI assistants back to their origin. Only 40% reached a study that says the same thing. Another 8% reached the study, but the number or its context had changed. The AI mostly cited pages that really contained the number. The problem is that most of those pages were company blogs and roundups repeating figures from somewhere else.\n\nIn practice, this is what I see in companies: nobody owns the number AI quotes about their market. The original data is locked in a PDF, or buried where crawlers can't read it, so the stale version wins.\n\nThat is the problem I worked on with one of Brazil's largest cosmetics companies. We rebuilt an annual report so ChatGPT, Claude and Perplexity can read and cite it: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt and 17 AI crawlers allowed by name. An in-house log collector separates crawling, real questions and citation clicks. In 15 days: 1,427 reads from 8 engines, 553 searches triggered by a real person's question, and 60 people who clicked an AI citation to the site.\n\nMeasure instead of assuming.\n\nComment GEO and I'll DM you how I did it.\n\nSources: trakkr.ai, techcrunch.com\n\n#AI #GEO #AISearch #DataQuality #AIEngineering"
+        }
+      }
+    },
     {
       "slug": "2026-10-29-anthropic-spend-visibility-tools",
       "data": "2026-10-29",

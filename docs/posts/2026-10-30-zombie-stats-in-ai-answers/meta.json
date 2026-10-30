@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-30-zombie-stats-in-ai-answers",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Trakkr Research followed 1,285 statistics quoted by five AI assistants back to their origin. Only 40% reached a study that says the same thing. Another 8% reached the study, but the number or its context had changed. The AI mostly cited pages that really contained the number. The problem is that most of those pages were company blogs and roundups repeating figures from somewhere else.\n\nIn practice, this is what I see in companies: nobody owns the number AI quotes about their market. The original data is locked in a PDF, or buried where crawlers can't read it, so the stale version wins.\n\nThat is the problem I worked on with one of Brazil's largest cosmetics companies. We rebuilt an annual report so ChatGPT, Claude and Perplexity can read and cite it: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt and 17 AI crawlers allowed by name. An in-house log collector separates crawling, real questions and citation clicks. In 15 days: 1,427 reads from 8 engines, 553 searches triggered by a real person's question, and 60 people who clicked an AI citation to the site.\n\nMeasure instead of assuming.\n\nComment GEO and I'll DM you how I did it.\n\nSources: trakkr.ai, techcrunch.com\n\n#AI #GEO #AISearch #DataQuality #AIEngineering",
+  "first_comment": "Sources: https://trakkr.ai/trakkr-research/zombie-stats · https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "AI quotes your market's numbers. Who checks the source?",
+    "caption": "Trakkr Research followed 1,285 statistics quoted by five AI assistants back to their origin. Only 40% reached a study that says the same thing. Another 8% reached the study, but the number or its context had changed. The AI mostly cited pages that really contained the number. The problem is that most of those pages were company blogs and roundups repeating figures from somewhere else.\n\nIn practice, this is what I see in companies: nobody owns the number AI quotes about their market. The original data is locked in a PDF, or buried where crawlers can't read it, so the stale version wins.\n\nThat is the problem I worked on with one of Brazil's largest cosmetics companies. We rebuilt an annual report so ChatGPT, Claude and Perplexity can read and cite it: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt and 17 AI crawlers allowed by name. An in-house log collector separates crawling, real questions and citation clicks. In 15 days: 1,427 reads from 8 engines, 553 searches triggered by a real person's question, and 60 people who clicked an AI citation to the site.\n\nMeasure instead of assuming.\n\nComment GEO and I'll DM you how I did it.\n\nSources: trakkr.ai, techcrunch.com\n\n#AI #GEO #AISearch #DataQuality #AIEngineering"
+  }
+}
