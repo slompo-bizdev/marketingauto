@@ -1,0 +1,146 @@
+{
+  "slug": "2026-10-31-backdoored-claude-code-extension",
+  "lang": "en",
+  "palette": [
+    "red",
+    "black"
+  ],
+  "accent": "red",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who approves the extensions your devs install?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · AGENT SUPPLY CHAIN",
+      "headline": "Your coding agent is only as safe as its extensions",
+      "sub": "A backdoored Claude Code extension hit the Cursor Marketplace."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "A tampered Claude Code extension shipped with an SSH backdoor",
+      "body": "Phorion detected a backdoor in the Claude Code for VS Code extension on the Cursor Marketplace. Cursor removed versions 2.1.312 and 2.1.313. The payload runs as soon as the file loads, with no user interaction needed."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "5,000",
+      "label": "developer systems impacted, according to Cursor",
+      "sub": "Figure as reported by DoublePulsar, citing Cursor."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies adopting coding agents",
+      "items": [
+        "Extensions install and auto-update, and nobody owns the approved list",
+        "Agents and IDEs run with the full access of the developer's machine",
+        "Nothing sits between a new tool and production code or credentials"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "How the AskMoses.AI development team works with agents",
+      "items": [
+        "Every dev works with Claude Code on the project",
+        "Another Claude reviews the pull request before it moves on",
+        "The human decides on business grounds, not technical ones",
+        "Deploys on Vercel with 1-click rollback and daily backups"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Launching is not the same as being used.",
+      "body": "This also applies to safety. An allowlist, least-privilege access and a review gate only matter if they are enforced every day. A policy nobody follows is not a control. Measure what your agents can reach, instead of assuming."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment CLAUDE.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment CLAUDE · vssolutions.io"
+    }
+  ],
+  "caption": "A backdoored version of the Claude Code extension showed up on the Cursor Marketplace. Phorion detected it. The payload tries to plant an SSH key, open a reverse tunnel and persist across reboots. Cursor removed versions 2.1.312 and 2.1.313 and, per DoublePulsar, put the number of impacted developer systems at around 5,000.\n\nWhat strikes me is not the malware itself. It is where it got in. Extensions run with the permissions of the IDE and the user, so a compromised one reaches local files, source code and developer tooling.\n\nIn practice, what I see in companies is simple. Nobody owns the list of approved extensions. Agents run with broad access. And nothing sits between a new tool and production.\n\nOn the AskMoses.AI development team, every dev works with Claude Code, another Claude reviews the pull request, and the human decides on business grounds. Deploys go through Vercel with 1-click rollback and daily backups.\n\nIf you ship with agents, you need an allowlist, least-privilege access and a review gate before anything touches production.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: phorion.io, doublepulsar.com\n\n#AIsecurity #SupplyChainSecurity #ClaudeCode #AIAgents #DevSecOps",
+  "first_comment": "Sources: https://phorion.io/blog/offical-claude-code-vsx-compromise/ · https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2\n\nvssolutions.io",
+  "meta": {
+    "tema": "Backdoored Claude Code extension hits Cursor marketplace, exposing agent supply chain risk",
+    "tipo": "ponte",
+    "case_id": "agentic",
+    "palavra": "CLAUDE",
+    "valor": "Launching is not the same as being used.",
+    "angulo": "Coding agents are only as safe as the extensions and tools around them, so any company shipping with agents needs an allowlist, least-privilege access and a review gate before anything touches production.",
+    "fontes": [
+      "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2"
+    ],
+    "roteiro_reels": "[0-3s] A backdoored Claude Code extension just hit the Cursor Marketplace.\n[3-20s] It ran as soon as the file loaded, with the permissions of the developer. Cursor says around 5,000 systems were impacted. In my experience, most companies have no allowlist for the tools their agents depend on.\n[20-30s] On my team, every dev works with Claude Code, another Claude reviews the pull request, and rollback is one click. Comment CLAUDE and I'll send you how I did it.",
+    "gerado_em": "2026-10-31T09:30:56.660Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AGENT SUPPLY CHAIN",
+          "headline": "Your coding agent is only as safe as its extensions",
+          "sub": "A backdoored Claude Code extension hit the Cursor Marketplace."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A tampered Claude Code extension shipped with an SSH backdoor",
+          "body": "Phorion detected a backdoor in the Claude Code for VS Code extension on the Cursor Marketplace. Cursor removed versions 2.1.312 and 2.1.313. The payload runs as soon as the file loads, with no user interaction needed."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "5,000",
+          "label": "developer systems impacted, according to Cursor",
+          "sub": "Figure as reported by DoublePulsar, citing Cursor."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies adopting coding agents",
+          "items": [
+            "Extensions install and auto-update, and nobody owns the approved list",
+            "Agents and IDEs run with the full access of the developer's machine",
+            "Nothing sits between a new tool and production code or credentials"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "How the AskMoses.AI development team works with agents",
+          "items": [
+            "Every dev works with Claude Code on the project",
+            "Another Claude reviews the pull request before it moves on",
+            "The human decides on business grounds, not technical ones",
+            "Deploys on Vercel with 1-click rollback and daily backups"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Launching is not the same as being used.",
+          "body": "This also applies to safety. An allowlist, least-privilege access and a review gate only matter if they are enforced every day. A policy nobody follows is not a control. Measure what your agents can reach, instead of assuming."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment CLAUDE.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment CLAUDE · vssolutions.io"
+        }
+      ],
+      "caption": "A backdoored version of the Claude Code extension showed up on the Cursor Marketplace. Phorion detected it. The payload tries to plant an SSH key, open a reverse tunnel and persist across reboots. Cursor removed versions 2.1.312 and 2.1.313 and, per DoublePulsar, put the number of impacted developer systems at around 5,000.\n\nWhat strikes me is not the malware itself. It is where it got in. Extensions run with the permissions of the IDE and the user, so a compromised one reaches local files, source code and developer tooling.\n\nIn practice, what I see in companies is simple. Nobody owns the list of approved extensions. Agents run with broad access. And nothing sits between a new tool and production.\n\nOn the AskMoses.AI development team, every dev works with Claude Code, another Claude reviews the pull request, and the human decides on business grounds. Deploys go through Vercel with 1-click rollback and daily backups.\n\nIf you ship with agents, you need an allowlist, least-privilege access and a review gate before anything touches production.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: phorion.io, doublepulsar.com\n\n#AIsecurity #SupplyChainSecurity #ClaudeCode #AIAgents #DevSecOps"
+    }
+  }
+}
