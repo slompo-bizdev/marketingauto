@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-31-backdoored-claude-code-extension",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A backdoored version of the Claude Code extension showed up on the Cursor Marketplace. Phorion detected it. The payload tries to plant an SSH key, open a reverse tunnel and persist across reboots. Cursor removed versions 2.1.312 and 2.1.313 and, per DoublePulsar, put the number of impacted developer systems at around 5,000.\n\nWhat strikes me is not the malware itself. It is where it got in. Extensions run with the permissions of the IDE and the user, so a compromised one reaches local files, source code and developer tooling.\n\nIn practice, what I see in companies is simple. Nobody owns the list of approved extensions. Agents run with broad access. And nothing sits between a new tool and production.\n\nOn the AskMoses.AI development team, every dev works with Claude Code, another Claude reviews the pull request, and the human decides on business grounds. Deploys go through Vercel with 1-click rollback and daily backups.\n\nIf you ship with agents, you need an allowlist, least-privilege access and a review gate before anything touches production.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: phorion.io, doublepulsar.com\n\n#AIsecurity #SupplyChainSecurity #ClaudeCode #AIAgents #DevSecOps",
+  "first_comment": "Sources: https://phorion.io/blog/offical-claude-code-vsx-compromise/ · https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Your coding agent is only as safe as its extensions",
+    "caption": "A backdoored version of the Claude Code extension showed up on the Cursor Marketplace. Phorion detected it. The payload tries to plant an SSH key, open a reverse tunnel and persist across reboots. Cursor removed versions 2.1.312 and 2.1.313 and, per DoublePulsar, put the number of impacted developer systems at around 5,000.\n\nWhat strikes me is not the malware itself. It is where it got in. Extensions run with the permissions of the IDE and the user, so a compromised one reaches local files, source code and developer tooling.\n\nIn practice, what I see in companies is simple. Nobody owns the list of approved extensions. Agents run with broad access. And nothing sits between a new tool and production.\n\nOn the AskMoses.AI development team, every dev works with Claude Code, another Claude reviews the pull request, and the human decides on business grounds. Deploys go through Vercel with 1-click rollback and daily backups.\n\nIf you ship with agents, you need an allowlist, least-privilege access and a review gate before anything touches production.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: phorion.io, doublepulsar.com\n\n#AIsecurity #SupplyChainSecurity #ClaudeCode #AIAgents #DevSecOps"
+  }
+}
