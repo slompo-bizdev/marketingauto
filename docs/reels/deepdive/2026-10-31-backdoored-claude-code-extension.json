@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-31-backdoored-claude-code-extension",
+  "video": "2026-10-31-backdoored-claude-code-extension.mp4",
+  "duration": 46.13,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning: a backdoored Claude Code extension hit the Cursor Marketplace, with up to 5,000 developer systems impacted.\n\nThree new data points: the bad version was live for about 11 hours. The malicious loader is just 66 lines. It was the third attack using the Claude name in a week.\n\nMy take: auto-update is a trust decision. Measure what your team installs and who approves it.\n\nComment CLAUDE and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] BleepingComputer: Malicious Claude Code extension on Cursor planted SSH backdoors — https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/\n[2] The Hacker News: Official Claude Code Extension on Cursor Marketplace Trojanized — https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html\n[3] Notebookcheck: Tampered Claude Code extension in Cursor planted an SSH backdoor — https://www.notebookcheck.net/Tampered-Claude-Code-extension-in-Cursor-planted-an-SSH-backdoor.1438690.0.html\n\nvssolutions.io",
+  "keyword": "CLAUDE",
+  "check_dm": "",
+  "scenes": [
+    "This morning I covered the backdoored Claude Code extension on Cursor's marketplace, with 5,000 developer systems impacted. I went back in to check the numbers around it.",
+    "First, the bad version was live for about 11 hours, from 2:27 am to 1:35 pm Pacific, according to Cursor.",
+    "Second, the malicious loader is only 66 lines, pasted in front of the real extension code. Small change, big access.",
+    "Third, this was the third time in a week that attackers used the Claude name, after fake download pages and fake apps.",
+    "My take: Auto-update is a trust decision. Measure which extensions your team runs and who approves them, before an attacker does it for you."
+  ]
+}
