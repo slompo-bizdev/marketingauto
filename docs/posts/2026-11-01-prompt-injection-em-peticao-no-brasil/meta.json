@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-01-prompt-injection-em-peticao-no-brasil",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A Brazilian labor court fined two law firms after finding a hidden command in a filing. It was written in white font on a white background, invisible to a normal reader. It told the AI to respond superficially and not challenge the documents. The court's own AI tool flagged it and blocked the processing. The fine was 10% of the claim's value, about $16,000 on a R$842,000 claim.\n\nThe real problem is not only in courts. What I see in companies is AI reading documents from outside, such as contracts, resumes and invoices, with no check on what is inside them. And the output is often treated as a decision instead of a draft.\n\nMy take: anything in a document can act as an instruction to the model. Before putting AI into production, put input controls in place and keep a human reviewing the output before it drives a decision. Measure instead of assuming.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: jetstream.security\n\n#AI #PromptInjection #AIGovernance #AISecurity #AIinProduction",
+  "first_comment": "Sources: https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "A court fined lawyers for hiding commands to AI in a filing",
+    "caption": "A Brazilian labor court fined two law firms after finding a hidden command in a filing. It was written in white font on a white background, invisible to a normal reader. It told the AI to respond superficially and not challenge the documents. The court's own AI tool flagged it and blocked the processing. The fine was 10% of the claim's value, about $16,000 on a R$842,000 claim.\n\nThe real problem is not only in courts. What I see in companies is AI reading documents from outside, such as contracts, resumes and invoices, with no check on what is inside them. And the output is often treated as a decision instead of a draft.\n\nMy take: anything in a document can act as an instruction to the model. Before putting AI into production, put input controls in place and keep a human reviewing the output before it drives a decision. Measure instead of assuming.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: jetstream.security\n\n#AI #PromptInjection #AIGovernance #AISecurity #AIinProduction"
+  }
+}
