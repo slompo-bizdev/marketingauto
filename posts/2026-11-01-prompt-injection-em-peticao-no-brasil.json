@@ -1,0 +1,133 @@
+{
+  "slug": "2026-11-01-prompt-injection-em-peticao-no-brasil",
+  "lang": "en",
+  "palette": [
+    "yellow",
+    "black"
+  ],
+  "accent": "yellow",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who checks what the AI reads before it answers?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · PROMPT INJECTION",
+      "headline": "A court fined lawyers for hiding commands to AI in a filing",
+      "sub": "The risk has left the lab and reached a real courtroom."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "White text on white paper, written for the court's AI",
+      "body": "A Brazilian labor court found hidden text in a filing, in white font on a white background. It told the AI to respond superficially and not challenge the documents. The court censured and fined the two law firms involved."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "10%",
+      "label": "Fine, as a share of the claim's value",
+      "sub": "The claim was R$842,000, so the fine is about $16,000."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies that let AI read outside documents",
+      "items": [
+        "Contracts, resumes and invoices come from outside and go straight into the AI",
+        "Nobody checks whether a document contains instructions aimed at the model",
+        "The AI's output is treated as a decision, not as a draft to be reviewed"
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHERE THIS BREAKS IN PRACTICE",
+      "headline": "The human could not see it. The AI could.",
+      "body": "The text was invisible to anyone reading normally. It only showed up when the font color was changed. In this case the court's system flagged it and blocked the processing. That is a guardrail working. Many company pipelines have none."
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Measure instead of assuming.",
+      "body": "Don't assume the AI only reads content. In practice, anything in a document can act as an instruction. Before the output drives a decision, you need input controls, a check on what comes in, and a human reviewing what goes out."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "VS SOLUTIONS · AI SOFTWARE",
+      "headline": "Want this working at your company?",
+      "body": "Comment PROJECT and tell me what you want to solve. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment PROJECT · vssolutions.io"
+    }
+  ],
+  "caption": "A Brazilian labor court fined two law firms after finding a hidden command in a filing. It was written in white font on a white background, invisible to a normal reader. It told the AI to respond superficially and not challenge the documents. The court's own AI tool flagged it and blocked the processing. The fine was 10% of the claim's value, about $16,000 on a R$842,000 claim.\n\nThe real problem is not only in courts. What I see in companies is AI reading documents from outside, such as contracts, resumes and invoices, with no check on what is inside them. And the output is often treated as a decision instead of a draft.\n\nMy take: anything in a document can act as an instruction to the model. Before putting AI into production, put input controls in place and keep a human reviewing the output before it drives a decision. Measure instead of assuming.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: jetstream.security\n\n#AI #PromptInjection #AIGovernance #AISecurity #AIinProduction",
+  "first_comment": "Sources: https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\n\nvssolutions.io",
+  "meta": {
+    "tema": "Brazilian court sanctions lawyers for prompt injection hidden in a court filing",
+    "tipo": "radar",
+    "case_id": null,
+    "palavra": "PROJECT",
+    "valor": "Measure instead of assuming.",
+    "angulo": "When AI reads your documents, anything in them can act as an instruction, so any company putting AI into production needs input controls and human review before the output drives a decision.",
+    "fontes": [
+      "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/"
+    ],
+    "roteiro_reels": "[0-3s] A court just fined lawyers for hiding commands to an AI inside a filing.\n[3-20s] The text was white on white, invisible to people. It told the AI to respond superficially. The court's system caught it and blocked it. Most company pipelines that read outside documents have no such check.\n[20-30s] If AI reads your documents, anything in them can act as an instruction. Put input controls in place and keep a human reviewing before the output drives a decision. Comment PROJECT and I'll send you how to apply this to your company.",
+    "gerado_em": "2026-11-01T09:30:51.090Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · PROMPT INJECTION",
+          "headline": "A court fined lawyers for hiding commands to AI in a filing",
+          "sub": "The risk has left the lab and reached a real courtroom."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "White text on white paper, written for the court's AI",
+          "body": "A Brazilian labor court found hidden text in a filing, in white font on a white background. It told the AI to respond superficially and not challenge the documents. The court censured and fined the two law firms involved."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "10%",
+          "label": "Fine, as a share of the claim's value",
+          "sub": "The claim was R$842,000, so the fine is about $16,000."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies that let AI read outside documents",
+          "items": [
+            "Contracts, resumes and invoices come from outside and go straight into the AI",
+            "Nobody checks whether a document contains instructions aimed at the model",
+            "The AI's output is treated as a decision, not as a draft to be reviewed"
+          ]
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHERE THIS BREAKS IN PRACTICE",
+          "headline": "The human could not see it. The AI could.",
+          "body": "The text was invisible to anyone reading normally. It only showed up when the font color was changed. In this case the court's system flagged it and blocked the processing. That is a guardrail working. Many company pipelines have none."
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "Don't assume the AI only reads content. In practice, anything in a document can act as an instruction. Before the output drives a decision, you need input controls, a check on what comes in, and a human reviewing what goes out."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "VS SOLUTIONS · AI SOFTWARE",
+          "headline": "Want this working at your company?",
+          "body": "Comment PROJECT and tell me what you want to solve. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment PROJECT · vssolutions.io"
+        }
+      ],
+      "caption": "A Brazilian labor court fined two law firms after finding a hidden command in a filing. It was written in white font on a white background, invisible to a normal reader. It told the AI to respond superficially and not challenge the documents. The court's own AI tool flagged it and blocked the processing. The fine was 10% of the claim's value, about $16,000 on a R$842,000 claim.\n\nThe real problem is not only in courts. What I see in companies is AI reading documents from outside, such as contracts, resumes and invoices, with no check on what is inside them. And the output is often treated as a decision instead of a draft.\n\nMy take: anything in a document can act as an instruction to the model. Before putting AI into production, put input controls in place and keep a human reviewing the output before it drives a decision. Measure instead of assuming.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: jetstream.security\n\n#AI #PromptInjection #AIGovernance #AISecurity #AIinProduction"
+    }
+  }
+}
