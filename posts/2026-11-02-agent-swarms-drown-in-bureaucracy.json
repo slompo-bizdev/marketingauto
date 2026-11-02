@@ -1,0 +1,205 @@
+{
+  "slug": "2026-11-02-agent-swarms-drown-in-bureaucracy",
+  "lang": "en",
+  "palette": [
+    "offwhite",
+    "black"
+  ],
+  "accent": "green",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who owns the result when several AI agents work together?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · AGENT SWARMS",
+      "headline": "50 AI agents had 3 hours to build. They formed a committee.",
+      "sub": "More agents did not mean more output. It meant more process."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "In Minecraft, a 50-agent team never thrived",
+      "body": "Researchers asked 50 agents to build a thriving civilization in three hours. After the first night, many ambitious tasks were abandoned. Four agents spent 11 minutes appointing a \"sole fertilizer operator\" for one piece of bone meal.",
+      "highlight_last": false
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "11 min",
+      "label": "4 agents picking one operator for one piece of bone meal",
+      "sub": "Source: Tom's Hardware report on the Minecraft swarm test."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies adding agents to a workflow",
+      "items": [
+        "Every new agent adds hand-offs, and nobody owns the end result",
+        "Roles overlap, so agents debate who decides instead of doing the work",
+        "No one measures output per agent, so the overhead stays invisible"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "Multi-agent in production at an enterprise account",
+      "items": [
+        "A multi-agent platform running in production at a US$5.5 million account",
+        "About 60% efficiency gain from the platform",
+        "Multi-agent in production requires an audited defect log"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Simple that works beats complex that impresses.",
+      "body": "The Minecraft test is a game, but in my reading the failure mode is familiar. Agents without tight roles and limits produce process, not output. In production I start small, define who does what, and measure what comes out."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment AGENTS.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment AGENTS · vssolutions.io"
+    }
+  ],
+  "caption": "50 AI agents were given three hours to build a thriving civilization in Minecraft. According to Tom's Hardware, the team never really thrived. Many ambitious tasks were abandoned after the first night, and the colony drifted toward bureaucracy. In one example, four agents spent 11 minutes appointing a \"sole fertilizer operator\" for a single piece of bone meal.\n\nIt's a game, but in practice I see the same pattern in companies. Add more agents without tight roles, limits and measurement, and you get hand-offs and debate instead of output. Nobody owns the result, and the overhead stays invisible because nobody measures it.\n\nThis is the failure mode I design against. I built a multi-agent platform that runs in production at a US$5.5 million account, with about 60% efficiency gain. It also requires an audited defect log. My view: a deliberately small, well-governed design is what delivers. Simple that works beats complex that impresses.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: tomshardware.com, huggingface.co\n\n#AIAgents #MultiAgentSystems #AIinProduction #AIEngineering #Automation",
+  "first_comment": "Sources: https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy · https://huggingface.co/papers/2610.34722\n\nvssolutions.io",
+  "meta": {
+    "tema": "AI agent swarms in Minecraft drown in bureaucracy instead of building",
+    "tipo": "ponte",
+    "case_id": "enterprise",
+    "palavra": "AGENTS",
+    "valor": "Simple that works beats complex that impresses.",
+    "angulo": "Adding more agents without tight roles, limits and measurement creates bureaucracy, not output, so multi-agent systems need a deliberately small, well-governed design to deliver in production.",
+    "fontes": [
+      "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "https://huggingface.co/papers/2610.34722"
+    ],
+    "roteiro_reels": "[0-3s] 50 AI agents had three hours to build a civilization. They formed a committee.\n[3-20s] In a Minecraft test, four agents spent 11 minutes appointing one operator for a single piece of bone meal. I see the same thing in companies: more agents, more hand-offs, no owner. Without tight roles, limits and measurement, you get bureaucracy, not output.\n[20-30s] I run a multi-agent platform in production with an audited defect log, kept deliberately small and governed. Comment AGENTS and I'll send you how I did it.",
+    "gerado_em": "2026-11-02T09:30:50.904Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AGENT SWARMS",
+          "headline": "50 AI agents had 3 hours to build. They formed a committee.",
+          "sub": "More agents did not mean more output. It meant more process."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "In Minecraft, a 50-agent team never thrived",
+          "body": "Researchers asked 50 agents to build a thriving civilization in three hours. After the first night, many ambitious tasks were abandoned. Four agents spent 11 minutes appointing a \"sole fertilizer operator\" for one piece of bone meal.",
+          "highlight_last": false
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "11 min",
+          "label": "4 agents picking one operator for one piece of bone meal",
+          "sub": "Source: Tom's Hardware report on the Minecraft swarm test."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies adding agents to a workflow",
+          "items": [
+            "Every new agent adds hand-offs, and nobody owns the end result",
+            "Roles overlap, so agents debate who decides instead of doing the work",
+            "No one measures output per agent, so the overhead stays invisible"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "Multi-agent in production at an enterprise account",
+          "items": [
+            "A multi-agent platform running in production at a US$5.5 million account",
+            "About 60% efficiency gain from the platform",
+            "Multi-agent in production requires an audited defect log"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works beats complex that impresses.",
+          "body": "The Minecraft test is a game, but in my reading the failure mode is familiar. Agents without tight roles and limits produce process, not output. In production I start small, define who does what, and measure what comes out."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment AGENTS.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment AGENTS · vssolutions.io"
+        }
+      ],
+      "caption": "50 AI agents were given three hours to build a thriving civilization in Minecraft. According to Tom's Hardware, the team never really thrived. Many ambitious tasks were abandoned after the first night, and the colony drifted toward bureaucracy. In one example, four agents spent 11 minutes appointing a \"sole fertilizer operator\" for a single piece of bone meal.\n\nIt's a game, but in practice I see the same pattern in companies. Add more agents without tight roles, limits and measurement, and you get hand-offs and debate instead of output. Nobody owns the result, and the overhead stays invisible because nobody measures it.\n\nThis is the failure mode I design against. I built a multi-agent platform that runs in production at a US$5.5 million account, with about 60% efficiency gain. It also requires an audited defect log. My view: a deliberately small, well-governed design is what delivers. Simple that works beats complex that impresses.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: tomshardware.com, huggingface.co\n\n#AIAgents #MultiAgentSystems #AIinProduction #AIEngineering #Automation"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЁМЕ · РОИ ИИ-АГЕНТОВ",
+          "headline": "50 ИИ-агентов получили 3 часа на постройку. Они создали комитет.",
+          "sub": "Больше агентов не означало больше результата. Это означало больше процессов."
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "В Minecraft команда из 50 агентов так и не расцвела",
+          "body": "Исследователи попросили 50 агентов построить процветающую цивилизацию за три часа. После первой ночи многие амбициозные задачи были брошены. Четыре агента потратили 11 минут на назначение «единственного оператора удобрений» для одной порции костной муки.",
+          "highlight_last": false
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ГЛАВНАЯ ЦИФРА",
+          "stat": "11 мин",
+          "label": "4 агента выбирали одного оператора для одной порции костной муки",
+          "sub": "Источник: отчёт Tom's Hardware о тесте роя агентов в Minecraft."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях, которые добавляют агентов в рабочий процесс",
+          "items": [
+            "Каждый новый агент добавляет передачи задач, и никто не отвечает за итоговый результат",
+            "Роли пересекаются, поэтому агенты спорят, кто решает, вместо того чтобы работать",
+            "Никто не измеряет результат на каждого агента, поэтому накладные расходы остаются незаметными"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ РЕШАЛ ЭТУ ЗАДАЧУ",
+          "headline": "Мультиагентная система в продакшене у корпоративного клиента",
+          "items": [
+            "Мультиагентная платформа работает в продакшене у клиента на US$5,5 млн",
+            "Около 60% прироста эффективности от платформы",
+            "Мультиагентная система в продакшене требует проверенного журнала дефектов"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЁ МНЕНИЕ",
+          "headline": "Простое, что работает, важнее сложного, что впечатляет.",
+          "body": "Тест в Minecraft — это игра, но, на мой взгляд, механизм провала знакомый. Агенты без чётких ролей и ограничений производят процессы, а не результат. В продакшене я начинаю с малого, определяю, кто что делает, и измеряю, что получается на выходе."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напишите AGENTS в комментариях.",
+          "body": "Пришлю вам пошаговый разбор этого кейса в личные сообщения. Я перевожу ИИ из стадии чертежей в продакшен, с измеренными результатами.",
+          "button": "Напишите AGENTS · vssolutions.io"
+        }
+      ],
+      "caption": "50 ИИ-агентам дали три часа, чтобы построить процветающую цивилизацию в Minecraft. По данным Tom's Hardware, команда так и не расцвела. Многие амбициозные задачи были брошены после первой ночи, а колония скатилась к бюрократии. В одном из примеров четыре агента потратили 11 минут на назначение «единственного оператора удобрений» для одной порции костной муки.\n\nЭто игра, но на практике я вижу тот же паттерн в компаниях. Добавляете больше агентов без чётких ролей, ограничений и измерений, и получаете передачи задач и споры вместо результата. Никто не отвечает за итог, а накладные расходы остаются незаметными, потому что их никто не измеряет.\n\nЭто тот провал, против которого я проектирую. Я построил мультиагентную платформу, которая работает в продакшене у клиента на US$5,5 млн, с прирostом эффективности около 60%. Она также требует проверенного журнала дефектов. Моё мнение: решает намеренно небольшая, хорошо управляемая архитектура. Простое, что работает, важнее сложного, что впечатляет.\n\nНапишите AGENTS в комментариях, и я пришлю вам в личные сообщения, как я это сделал.\n\nИсточники: tomshardware.com, huggingface.co\n\n#AIAgents #MultiAgentSystems #AIinProduction #AIEngineering #Automation"
+    }
+  }
+}
