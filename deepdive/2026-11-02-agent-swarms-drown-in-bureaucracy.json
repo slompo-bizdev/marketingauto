@@ -1,0 +1,82 @@
+{
+  "slug": "2026-11-02-agent-swarms-drown-in-bureaucracy",
+  "topic": "AGENT SWARMS",
+  "keyword": "AGENTS",
+  "hook": {
+    "claim": "\"A committee, not output.\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning I covered 50 agents in Minecraft that formed a committee instead of building. I went back to check the data."
+  },
+  "findings": [
+    {
+      "label": "LEADER",
+      "big": "616",
+      "headline": "DMs sent to Ada, the first name on the roster",
+      "detail": "No vote was held. Most agents messaged the first name they saw, and that agent became the leader.",
+      "bars": [],
+      "source": 2,
+      "evidence": "She received 616 DMs and became the leader with no vote.",
+      "say": "First, most agents sent their first message to Ada, just the first name on the roster. She received 616 direct messages and became leader without a vote.",
+      "status": "confirmed"
+    },
+    {
+      "label": "DEATHS",
+      "big": "22",
+      "headline": "of 34 total deaths happened on the first night",
+      "detail": "Counts from the researchers' recorded activity in the 3-hour Civ50 run.",
+      "bars": [
+        {
+          "label": "Deaths on night one",
+          "value": 22,
+          "display": "22",
+          "kind": "accent"
+        },
+        {
+          "label": "Deaths in the whole run",
+          "value": 34,
+          "display": "34",
+          "kind": "solid"
+        }
+      ],
+      "source": 2,
+      "evidence": "22 of the experiment’s 34 agent deaths occurred during the first Minecraft night.",
+      "say": "Second, the first night did most of the damage. 22 of the 34 deaths in the whole run happened then, so ambitious plans got dropped.",
+      "status": "confirmed"
+    },
+    {
+      "label": "DUPLICATION",
+      "big": "11",
+      "headline": "agents each wrote their own fishing script",
+      "detail": "They worked independently on the same task. Within 90 seconds they had also cleared nearly every tree near spawn.",
+      "bars": [],
+      "source": 3,
+      "evidence": "Eleven different agents independently wrote fishing scripts.",
+      "say": "Third, duplicated work. Eleven different agents wrote their own fishing scripts, and nobody coordinated who should build it.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "Roles first, agents second.",
+    "say": "My take: Nobody assigned roles, so the swarm invented its own. Define who does what before you add agents, then measure the output."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "Dealroom.co – What YC learned running AI agent swarms in Minecraft and Mindustry",
+      "url": "https://app.dealroom.co/news/note/claudes-built-democracies-gpts-formed-hives-what-yc-learned-running-ai-agent-swarms-in-minecraft-and-mindustry"
+    },
+    {
+      "n": 2,
+      "title": "Techtroduce – 50 AI Agents Fail to Build Thriving Minecraft Civilization",
+      "url": "https://www.techtroduce.com/50-ai-agents-minecraft-civilization-experiment"
+    },
+    {
+      "n": 3,
+      "title": "AgentConn Blog – Agent Swarms Still Can't Coordinate",
+      "url": "https://agentconn.com/blog/agent-swarms-coordination-benchmarks/"
+    }
+  ],
+  "caption": "This morning I wrote about 50 AI agents in Minecraft that had three hours to build a civilization. They formed a committee instead.\n\nI went back in and found three more data points. One agent, Ada, received 616 DMs and became leader with no vote. 22 of the 34 deaths happened on night one. Eleven agents each wrote their own fishing script.\n\nMy take: simple that works beats complex that impresses. Define who does what, then measure the output.\n\nComment AGENTS and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Dealroom.co – What YC learned running AI agent swarms in Minecraft and Mindustry — https://app.dealroom.co/news/note/claudes-built-democracies-gpts-formed-hives-what-yc-learned-running-ai-agent-swarms-in-minecraft-and-mindustry\n[2] Techtroduce – 50 AI Agents Fail to Build Thriving Minecraft Civilization — https://www.techtroduce.com/50-ai-agents-minecraft-civilization-experiment\n[3] AgentConn Blog – Agent Swarms Still Can't Coordinate — https://agentconn.com/blog/agent-swarms-coordination-benchmarks/\n\nvssolutions.io",
+  "gerado_em": "2026-11-02T13:00:31.767Z"
+}
