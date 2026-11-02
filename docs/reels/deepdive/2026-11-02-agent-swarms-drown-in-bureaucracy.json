@@ -1,0 +1,18 @@
+{
+  "slug": "2026-11-02-agent-swarms-drown-in-bureaucracy",
+  "video": "2026-11-02-agent-swarms-drown-in-bureaucracy.mp4",
+  "duration": 44.23,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning I wrote about 50 AI agents in Minecraft that had three hours to build a civilization. They formed a committee instead.\n\nI went back in and found three more data points. One agent, Ada, received 616 DMs and became leader with no vote. 22 of the 34 deaths happened on night one. Eleven agents each wrote their own fishing script.\n\nMy take: simple that works beats complex that impresses. Define who does what, then measure the output.\n\nComment AGENTS and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Dealroom.co – What YC learned running AI agent swarms in Minecraft and Mindustry — https://app.dealroom.co/news/note/claudes-built-democracies-gpts-formed-hives-what-yc-learned-running-ai-agent-swarms-in-minecraft-and-mindustry\n[2] Techtroduce – 50 AI Agents Fail to Build Thriving Minecraft Civilization — https://www.techtroduce.com/50-ai-agents-minecraft-civilization-experiment\n[3] AgentConn Blog – Agent Swarms Still Can't Coordinate — https://agentconn.com/blog/agent-swarms-coordination-benchmarks/\n\nvssolutions.io",
+  "keyword": "AGENTS",
+  "check_dm": "",
+  "scenes": [
+    "This morning I covered 50 agents in Minecraft that formed a committee instead of building. I went back to check the data.",
+    "First, most agents sent their first message to Ada, just the first name on the roster. She received 616 direct messages and became leader without a vote.",
+    "Second, the first night did most of the damage. 22 of the 34 deaths in the whole run happened then, so ambitious plans got dropped.",
+    "Third, duplicated work. Eleven different agents wrote their own fishing scripts, and nobody coordinated who should build it.",
+    "My take: Nobody assigned roles, so the swarm invented its own. Define who does what before you add agents, then measure the output."
+  ]
+}
