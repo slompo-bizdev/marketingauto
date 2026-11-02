@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-02-agent-swarms-drown-in-bureaucracy",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "50 AI agents were given three hours to build a thriving civilization in Minecraft. According to Tom's Hardware, the team never really thrived. Many ambitious tasks were abandoned after the first night, and the colony drifted toward bureaucracy. In one example, four agents spent 11 minutes appointing a \"sole fertilizer operator\" for a single piece of bone meal.\n\nIt's a game, but in practice I see the same pattern in companies. Add more agents without tight roles, limits and measurement, and you get hand-offs and debate instead of output. Nobody owns the result, and the overhead stays invisible because nobody measures it.\n\nThis is the failure mode I design against. I built a multi-agent platform that runs in production at a US$5.5 million account, with about 60% efficiency gain. It also requires an audited defect log. My view: a deliberately small, well-governed design is what delivers. Simple that works beats complex that impresses.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: tomshardware.com, huggingface.co\n\n#AIAgents #MultiAgentSystems #AIinProduction #AIEngineering #Automation",
+  "first_comment": "Sources: https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy · https://huggingface.co/papers/2610.34722\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "50 AI agents had 3 hours to build. They formed a committee.",
+    "caption": "50 AI agents were given three hours to build a thriving civilization in Minecraft. According to Tom's Hardware, the team never really thrived. Many ambitious tasks were abandoned after the first night, and the colony drifted toward bureaucracy. In one example, four agents spent 11 minutes appointing a \"sole fertilizer operator\" for a single piece of bone meal.\n\nIt's a game, but in practice I see the same pattern in companies. Add more agents without tight roles, limits and measurement, and you get hand-offs and debate instead of output. Nobody owns the result, and the overhead stays invisible because nobody measures it.\n\nThis is the failure mode I design against. I built a multi-agent platform that runs in production at a US$5.5 million account, with about 60% efficiency gain. It also requires an audited defect log. My view: a deliberately small, well-governed design is what delivers. Simple that works beats complex that impresses.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: tomshardware.com, huggingface.co\n\n#AIAgents #MultiAgentSystems #AIinProduction #AIEngineering #Automation"
+  }
+}
