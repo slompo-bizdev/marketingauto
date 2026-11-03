@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-03-opus-5-5-draws-permit-level-plans",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "An architect tested 13 AI models on drafting a simple house from rough sketches. His conclusion: Claude Opus 5.5 produced a drawing set good enough for a building permit, with his feedback and two rounds of redlines. Models released before September couldn't draw the floor plans without significant errors.\n\nThe drawings are vector linework, not images, and the model wrote more than 15,000 lines of Python to produce them. That is a real step forward.\n\nBut here is what I see in companies. A drawing that looks right is not the same as a design engineers can use. It has to be editable. It has to follow the rules. It has to be checked against engineering constraints. Without that, someone redoes the work by hand.\n\nThis is the part I already work on. For Consult Eng, a Brazilian sanitation engineering firm, I built a Revit automation that generates sewage pumping station models. Revit runs headless in the cloud with APS Design Automation.\n\nSimple that works beats complex that impresses.\n\nComment REVIT and I'll DM you how I did it.\n\nSources: stephenjgallagher.substack.com\n\n#AIinEngineering #Revit #DesignAutomation #AEC #AIinProduction",
+  "first_comment": "Sources: https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "AI can draw a permit-level plan. Can you use it?",
+    "caption": "An architect tested 13 AI models on drafting a simple house from rough sketches. His conclusion: Claude Opus 5.5 produced a drawing set good enough for a building permit, with his feedback and two rounds of redlines. Models released before September couldn't draw the floor plans without significant errors.\n\nThe drawings are vector linework, not images, and the model wrote more than 15,000 lines of Python to produce them. That is a real step forward.\n\nBut here is what I see in companies. A drawing that looks right is not the same as a design engineers can use. It has to be editable. It has to follow the rules. It has to be checked against engineering constraints. Without that, someone redoes the work by hand.\n\nThis is the part I already work on. For Consult Eng, a Brazilian sanitation engineering firm, I built a Revit automation that generates sewage pumping station models. Revit runs headless in the cloud with APS Design Automation.\n\nSimple that works beats complex that impresses.\n\nComment REVIT and I'll DM you how I did it.\n\nSources: stephenjgallagher.substack.com\n\n#AIinEngineering #Revit #DesignAutomation #AEC #AIinProduction"
+  }
+}

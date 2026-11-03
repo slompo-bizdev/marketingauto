@@ -1,6 +1,209 @@
 {
-  "atualizado_em": "2026-11-02T09:32:02.540156Z",
+  "atualizado_em": "2026-11-03T09:31:49.933314Z",
   "posts": [
+    {
+      "slug": "2026-11-03-opus-5-5-draws-permit-level-plans",
+      "data": "2026-11-03",
+      "titulo": "AI can draw a permit-level plan. Can you use it?",
+      "subtitulo": "A drawing is a demo. An editable, checked design is the product.",
+      "tema": "Claude Opus 5.5 can draw permit-level architectural drawings",
+      "tipo": "ponte",
+      "case_id": "revit",
+      "palavra": "REVIT",
+      "valor": "Simple that works beats complex that impresses.",
+      "fontes": [
+        "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AI BLUEPRINTS",
+          "headline": "AI can draw a permit-level plan. Can you use it?",
+          "sub": "A drawing is a demo. An editable, checked design is the product."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "An architect tested 13 AI models on drafting a house",
+          "body": "Stephen Gallagher gave 13 models the same sketches. Claude Opus 5.5 produced a set he judges good enough for a building permit, with his feedback. Models released before September could not draw the floor plans without major errors."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "15,000",
+          "label": "lines of Python code behind Opus 5.5's drawing set",
+          "sub": "It took twelve hours and a few hundred dollars in compute, per the author."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies that try AI for technical design",
+          "items": [
+            "A good-looking output gets approved before anyone checks it against the rules",
+            "The drawing can't be edited, so engineers redo it by hand anyway",
+            "Nobody owns the review step between the AI output and the final design"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "Consult Eng, a Brazilian sanitation engineering firm, needed usable models, not demos",
+          "items": [
+            "I built a Revit automation that generates sewage pumping station models",
+            "Revit runs headless in the cloud through APS Design Automation",
+            "The output is a model engineers can open and work with in Revit"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works beats complex that impresses.",
+          "body": "A model that draws a permit-level plan is impressive. But the real work is making the output editable, rule-compliant and checked against engineering constraints. That is what holds up in production. A pretty drawing nobody can edit is still a demo."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment REVIT.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment REVIT · vssolutions.io"
+        }
+      ],
+      "legenda": "An architect tested 13 AI models on drafting a simple house from rough sketches. His conclusion: Claude Opus 5.5 produced a drawing set good enough for a building permit, with his feedback and two rounds of redlines. Models released before September couldn't draw the floor plans without significant errors.\n\nThe drawings are vector linework, not images, and the model wrote more than 15,000 lines of Python to produce them. That is a real step forward.\n\nBut here is what I see in companies. A drawing that looks right is not the same as a design engineers can use. It has to be editable. It has to follow the rules. It has to be checked against engineering constraints. Without that, someone redoes the work by hand.\n\nThis is the part I already work on. For Consult Eng, a Brazilian sanitation engineering firm, I built a Revit automation that generates sewage pumping station models. Revit runs headless in the cloud with APS Design Automation.\n\nSimple that works beats complex that impresses.\n\nComment REVIT and I'll DM you how I did it.\n\nSources: stephenjgallagher.substack.com\n\n#AIinEngineering #Revit #DesignAutomation #AEC #AIinProduction",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-03-opus-5-5-draws-permit-level-plans/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-03-opus-5-5-draws-permit-level-plans/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-03-opus-5-5-draws-permit-level-plans/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-03-opus-5-5-draws-permit-level-plans/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-03-opus-5-5-draws-permit-level-plans/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-03-opus-5-5-draws-permit-level-plans/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-03-opus-5-5-draws-permit-level-plans/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-03-opus-5-5-draws-permit-level-plans/1.jpg",
+      "gerado_em": "2026-11-03T09:30:51.136Z",
+      "traducoes": {
+        "en": {
+          "titulo": "AI can draw a permit-level plan. Can you use it?",
+          "subtitulo": "A drawing is a demo. An editable, checked design is the product.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · AI BLUEPRINTS",
+              "headline": "AI can draw a permit-level plan. Can you use it?",
+              "sub": "A drawing is a demo. An editable, checked design is the product."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "An architect tested 13 AI models on drafting a house",
+              "body": "Stephen Gallagher gave 13 models the same sketches. Claude Opus 5.5 produced a set he judges good enough for a building permit, with his feedback. Models released before September could not draw the floor plans without major errors."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "15,000",
+              "label": "lines of Python code behind Opus 5.5's drawing set",
+              "sub": "It took twelve hours and a few hundred dollars in compute, per the author."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies that try AI for technical design",
+              "items": [
+                "A good-looking output gets approved before anyone checks it against the rules",
+                "The drawing can't be edited, so engineers redo it by hand anyway",
+                "Nobody owns the review step between the AI output and the final design"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "Consult Eng, a Brazilian sanitation engineering firm, needed usable models, not demos",
+              "items": [
+                "I built a Revit automation that generates sewage pumping station models",
+                "Revit runs headless in the cloud through APS Design Automation",
+                "The output is a model engineers can open and work with in Revit"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Simple that works beats complex that impresses.",
+              "body": "A model that draws a permit-level plan is impressive. But the real work is making the output editable, rule-compliant and checked against engineering constraints. That is what holds up in production. A pretty drawing nobody can edit is still a demo."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment REVIT.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment REVIT · vssolutions.io"
+            }
+          ],
+          "legenda": "An architect tested 13 AI models on drafting a simple house from rough sketches. His conclusion: Claude Opus 5.5 produced a drawing set good enough for a building permit, with his feedback and two rounds of redlines. Models released before September couldn't draw the floor plans without significant errors.\n\nThe drawings are vector linework, not images, and the model wrote more than 15,000 lines of Python to produce them. That is a real step forward.\n\nBut here is what I see in companies. A drawing that looks right is not the same as a design engineers can use. It has to be editable. It has to follow the rules. It has to be checked against engineering constraints. Without that, someone redoes the work by hand.\n\nThis is the part I already work on. For Consult Eng, a Brazilian sanitation engineering firm, I built a Revit automation that generates sewage pumping station models. Revit runs headless in the cloud with APS Design Automation.\n\nSimple that works beats complex that impresses.\n\nComment REVIT and I'll DM you how I did it.\n\nSources: stephenjgallagher.substack.com\n\n#AIinEngineering #Revit #DesignAutomation #AEC #AIinProduction"
+        },
+        "ru": {
+          "titulo": "ИИ умеет нарисовать план уровня разрешения на строительство. Умеете ли вы им пользоваться?",
+          "subtitulo": "Чертёж — это демо. Редактируемый, проверенный проект — это продукт.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НАБИРАЕТ ОБОРОТЫ · AI BLUEPRINTS",
+              "headline": "ИИ умеет нарисовать план уровня разрешения на строительство. Умеете ли вы им пользоваться?",
+              "sub": "Чертёж — это демо. Редактируемый, проверенный проект — это продукт."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Архитектор протестировал 13 ИИ-моделей на черчении дома",
+              "body": "Стивен Галлахер дал 13 моделям одни и те же эскизы. Claude Opus 5.5 выдал комплект, который он считает достаточным для получения разрешения на строительство, и дал свои замечания. Модели, выпущенные до сентября, не смогли нарисовать планы этажей без серьёзных ошибок."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "15 000",
+              "label": "строк кода на Python за комплектом чертежей Opus 5.5",
+              "sub": "По словам автора, на это ушло двенадцать часов и несколько сотен долларов вычислительных ресурсов."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, которые пробуют ИИ для технического проектирования",
+              "items": [
+                "Красивый результат утверждают раньше, чем его проверяют по нормам",
+                "Чертёж нельзя редактировать, поэтому инженеры всё равно переделывают его вручную",
+                "Никто не отвечает за проверку между результатом ИИ и итоговым проектом"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ РЕШИЛ ЭТУ ЗАДАЧУ",
+              "headline": "Consult Eng, бразильской инжиниринговой компании в сфере водоотведения, нужны были рабочие модели, а не демо",
+              "items": [
+                "Я создал автоматизацию в Revit, которая генерирует модели насосных станций канализации",
+                "Revit работает без интерфейса в облаке через APS Design Automation",
+                "На выходе модель, которую инженеры открывают и дорабатывают в Revit"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Простое, что работает, важнее сложного, что впечатляет.",
+              "body": "Модель, которая рисует план уровня разрешения, впечатляет. Но настоящая работа в том, чтобы результат можно было редактировать, он соответствовал нормам и проверялся по инженерным ограничениям. Именно это выдерживает продуктивную эксплуатацию. Красивый чертёж, который никто не может отредактировать, — всё равно демо."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите REVIT.",
+              "body": "Пришлю пошаговое описание этого кейса в личные сообщения. Я перевожу ИИ из кульмана в продуктивную работу с измеримыми результатами.",
+              "button": "Напишите REVIT · vssolutions.io"
+            }
+          ],
+          "legenda": "Архитектор протестировал 13 ИИ-моделей на черчении простого дома по черновым эскизам. Его вывод: Claude Opus 5.5 выдал комплект чертежей, достаточный для получения разрешения на строительство, с его замечаниями и двумя раундами правок. Модели, выпущенные до сентября, не смогли нарисовать планы этажей без существенных ошибок.\n\nЧертежи выполнены векторной графикой, а не картинками, и для их создания модель написала более 15 000 строк кода на Python. Это реальный шаг вперёд.\n\nНо вот что я вижу в компаниях. Чертёж, который выглядит правильно, — это не то же самое, что проект, которым могут пользоваться инженеры. Он должен быть редактируемым. Он должен соответствовать нормам. Он должен проверяться по инженерным ограничениям. Без этого кто-то переделает работу вручную.\n\nЭтим я уже занимаюсь. Для Consult Eng, бразильской инжиниринговой компании в сфере водоотведения, я создал автоматизацию в Revit, которая генерирует модели насосных станций канализации. Revit работает без интерфейса в облаке через APS Design Automation.\n\nПростое, что работает, важнее сложного, что впечатляет.\n\nНапишите REVIT, и я пришлю в личные сообщения, как я это сделал.\n\nИсточники: stephenjgallagher.substack.com\n\n#AIinEngineering #Revit #DesignAutomation #AEC #AIinProduction"
+        }
+      }
+    },
     {
       "slug": "2026-11-02-agent-swarms-drown-in-bureaucracy",
       "data": "2026-11-02",
