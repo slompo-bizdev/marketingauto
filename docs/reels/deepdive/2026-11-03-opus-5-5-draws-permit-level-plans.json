@@ -1,0 +1,18 @@
+{
+  "slug": "2026-11-03-opus-5-5-draws-permit-level-plans",
+  "video": "2026-11-03-opus-5-5-draws-permit-level-plans.mp4",
+  "duration": 53.68,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning: an architect tested 13 AI models, and Claude Opus 5.5 produced a drawing set he judges good enough for a building permit.\n\nThe deep dive: Codersera lists $5.98 per completed task for Opus 5.5, vs $5.86 for Opus 5. NOT CONFIRMED: we could not find this figure on the cited page. Also listed: 5.4x GPT-6 Sol's cost per evaluation task, and 86.3 out of 100 on BenchLM, ranked #2 of 216.\n\nMy take: cheaper tokens are not a cheaper result. Measure cost per finished, checked task.\n\nComment CHECK and I will DM you what I find.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Codersera - Claude Opus 5.5: Specs, Pricing & Benchmarks — https://codersera.com/blog/claude-opus-5-5-complete-guide-2026/ (claim not confirmed on this page at check time)\n[2] MindStudio - GPT-6 Sol vs Claude Opus 5.5 pricing — https://www.mindstudio.ai/blog/gpt-6-soul-opus-5-5-pricing\n[3] BenchLM - Claude Opus 5.5 Benchmarks, Pricing & Speed — https://benchlm.ai/models/claude-opus-5-5\n\nvssolutions.io",
+  "keyword": "CHECK",
+  "check_dm": "Thanks for commenting! I could not confirm one claim: the $5.98 cost per completed task for Opus 5.5 (versus $5.86 for Opus 5), listed in the article \"Claude Opus 5.5: Specs, Pricing & Benchmarks\" by Codersera. It was not on the cited page when I checked. What do you see or pay in practice per finished task? I will reply here once I confirm it.",
+  "scenes": [
+    "The morning post said an architect tested 13 models, and Opus 5.5 produced a drawing set he judges permit-quality. I went back in to check the numbers around it.",
+    "First, Codersera lists $5.98 per completed task for Opus 5.5 against $5.86 for Opus 5, but we could not confirm it on their page.",
+    "Second, MindStudio's comparison puts Opus 5.5 at 5.4 times GPT-6 Sol's cost per evaluation task, with token prices double.",
+    "Third, BenchLM scores Opus 5.5 at 86.3 out of 100, second of 216 models. Strong, but a general score, not drafting.",
+    "Cheaper tokens may not mean a cheaper result. If you use Opus 5.5, what do you pay per finished task? Comment CHECK and tell me."
+  ]
+}
