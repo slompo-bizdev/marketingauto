@@ -1,0 +1,18 @@
+{
+  "slug": "2026-11-04-codex-in-cad-pcb-and-simulation",
+  "video": "2026-11-04-codex-in-cad-pcb-and-simulation.mp4",
+  "duration": 53.15,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning: OpenAI says Codex and ChatGPT now help design CAD models, PCBs and simulations, with hardware-team usage up 23x. Usage is not proof of results.\n\nI went back in. On OpenAI's BenchCAD 2.0, Astra scores 0.594. Output costs $50 per million tokens, versus $10 for GPT-6.1 Sol. In an outside CAD Arena test, Astra averaged 0.671 against 0.662 for Claude Fable 5.1.\n\nMy take: a benchmark score says little about your own drawings. Test the model on your real parts, and count the review rounds.\n\nComment REVIT and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] The Decoder, OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week — https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/\n[2] BenchLM, OpenAI API Pricing (November 2026) — https://benchlm.ai/openai/api-pricing\n[3] Adam, GPT-6 Astra for CAD: SolidWorks, Onshape, Fusion — https://adam.new/gpt-6-astra-cad\n\nvssolutions.io",
+  "keyword": "REVIT",
+  "check_dm": "",
+  "scenes": [
+    "The morning post said OpenAI now uses Codex for CAD, PCB and simulation, with model usage up 23x. I went back in to check the numbers around it.",
+    "First, on OpenAI's newer BenchCAD 2.0, GPT-6 Astra at top reasoning scores 0.594. The unreleased internal model scores 0.875.",
+    "Second, Astra's output costs $50 per million tokens. GPT-6.1 Sol costs $10, so heavy CAD iteration gets expensive fast.",
+    "Third, in an outside CAD Arena test across five platforms, Astra averaged 0.671. Claude Fable 5.1 was close at 0.662.",
+    "My take: a benchmark score says little about your own drawings. Test the model on your real parts, and count the review rounds."
+  ]
+}
