@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-04-codex-in-cad-pcb-and-simulation",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "OpenAI just described how Codex and ChatGPT are being used in CAD, PCB design and simulation. Its hardware teams use them to create and revise CAD models, prepare manufacturing drawings, set up simulations and review designs. Model usage across those teams has grown 23-fold since February, measured in tokens.\n\nOne detail stood out to me. OpenAI says a test device designed with its model still needed several rounds of review and iteration before it was ready for manufacturing. The model did not consistently account for production limits and tolerances.\n\nIn practice, this is what I see in companies. The tool lives outside the real design workflow. Nobody owns the review of the output. And nobody measured how long the drawing took before, so no one can say if anything improved.\n\nI've worked on this kind of problem with Consult Eng, a Brazilian sanitation engineering firm. I built a Revit automation that generates sewage pumping station models, with Revit running headless in the cloud through APS Design Automation.\n\nMy view: measure instead of assuming. Wire the AI into the workflow, then compare it against the time the drawing took before.\n\nComment REVIT and I'll DM you how I did it.\n\nSources: openai.com\n\n#AIinEngineering #Revit #BIM #Automation #EngineeringDesign",
+  "first_comment": "Sources: https://openai.com/index/accelerating-engineering-for-the-physical-world\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "AI is now drawing parts. Who checks the drawing?",
+    "caption": "OpenAI just described how Codex and ChatGPT are being used in CAD, PCB design and simulation. Its hardware teams use them to create and revise CAD models, prepare manufacturing drawings, set up simulations and review designs. Model usage across those teams has grown 23-fold since February, measured in tokens.\n\nOne detail stood out to me. OpenAI says a test device designed with its model still needed several rounds of review and iteration before it was ready for manufacturing. The model did not consistently account for production limits and tolerances.\n\nIn practice, this is what I see in companies. The tool lives outside the real design workflow. Nobody owns the review of the output. And nobody measured how long the drawing took before, so no one can say if anything improved.\n\nI've worked on this kind of problem with Consult Eng, a Brazilian sanitation engineering firm. I built a Revit automation that generates sewage pumping station models, with Revit running headless in the cloud through APS Design Automation.\n\nMy view: measure instead of assuming. Wire the AI into the workflow, then compare it against the time the drawing took before.\n\nComment REVIT and I'll DM you how I did it.\n\nSources: openai.com\n\n#AIinEngineering #Revit #BIM #Automation #EngineeringDesign"
+  }
+}
