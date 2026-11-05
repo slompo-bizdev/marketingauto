@@ -1,0 +1,202 @@
+{
+  "slug": "2026-11-05-agent-ready-rails-almost-no-riders",
+  "lang": "en",
+  "palette": [
+    "red",
+    "black"
+  ],
+  "accent": "red",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who checks if the AI you shipped is actually used?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · AI AGENTS",
+      "headline": "They built the AI rails. Almost nobody is riding them.",
+      "sub": "DoorDash and Uber report very low agent usage."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "DoorDash and Uber both say outside AI agents barely register",
+      "body": "DoorDash's CEO said AI agents generated \"several hundred orders\" so far, a \"very low use case.\" Uber said only four rides were booked through an AI agent in its busiest week in October. Both reported it on earnings calls."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "4",
+      "label": "rides booked by an AI agent in Uber's busiest week of October",
+      "sub": "Out of around 320 million trips and orders across Uber and Uber Eats that week."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: the channel ships, the habit doesn't",
+      "items": [
+        "The launch gets celebrated. Nobody checks who actually uses it a month later.",
+        "The demo shows what's possible, not what customers already do every day.",
+        "If the old way is faster, the new channel stays empty."
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "AskMoses.AI, the SaaS I built end to end and run as a contractor",
+      "items": [
+        "17 organizations in the US signed up and only 6 actually use it.",
+        "11 of 17 never activated: onboarding required a CRM and a rubric before any value.",
+        "Script Intelligence mines winning calls in the CRM and writes a weekly script, 3 calls minimum."
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Launching is not the same as being used.",
+      "body": "Uber noted that booking a ride takes 50 seconds in its app. In practice, an agent has to beat that, not just exist. I learned the same with my own product: adoption shows up in real usage data, not in the launch."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment ADOPTION.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment ADOPTION · vssolutions.io"
+    }
+  ],
+  "caption": "DoorDash and Uber both said the same thing on their earnings calls: outside AI agents are barely being used.\n\nDoorDash's CEO said agents generated \"several hundred orders\" so far. Uber said only four rides were booked through an AI agent in its busiest week of October, out of around 320 million trips and orders. Uber also pointed out that booking a ride in its app takes about 50 seconds. That suggests an agent isn't necessarily saving anyone time.\n\nWhat I see in companies is the same pattern. The channel ships, the launch gets celebrated, and nobody measures real usage. The demo promised one behavior. Customers keep doing what is already fast.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value. Launching is not the same as being used.\n\nMeasure real usage first. Then design around what people actually do.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: arstechnica.com, techcrunch.com\n\n#AIAgents #AIAdoption #ProductStrategy #SaaS #AIinProduction",
+  "first_comment": "Sources: https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/ · https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/\n\nvssolutions.io",
+  "meta": {
+    "tema": "Almost no one uses outside AI agents to order rides or food: DoorDash and Uber report",
+    "tipo": "ponte",
+    "case_id": "adocao",
+    "palavra": "ADOPTION",
+    "valor": "Launching is not the same as being used.",
+    "angulo": "Shipping an AI channel is the easy part; adoption only shows up when you measure real usage and design around what customers actually do, not what the demo promised.",
+    "fontes": [
+      "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+      "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/"
+    ],
+    "roteiro_reels": "[0-3s] DoorDash and Uber built the rails for AI agents. Almost nobody is using them.\n[3-20s] Uber had four agent-booked rides in its busiest week. DoorDash has several hundred orders. Shipping the channel is the easy part. The hard part is that customers keep doing what's already fast. In my own SaaS, 17 organizations signed up and 6 use it.\n[20-30s] Launching is not the same as being used. Measure real usage before you celebrate. Comment ADOPTION and I'll send you how I did it.",
+    "gerado_em": "2026-11-05T09:30:51.544Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AI AGENTS",
+          "headline": "They built the AI rails. Almost nobody is riding them.",
+          "sub": "DoorDash and Uber report very low agent usage."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "DoorDash and Uber both say outside AI agents barely register",
+          "body": "DoorDash's CEO said AI agents generated \"several hundred orders\" so far, a \"very low use case.\" Uber said only four rides were booked through an AI agent in its busiest week in October. Both reported it on earnings calls."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "4",
+          "label": "rides booked by an AI agent in Uber's busiest week of October",
+          "sub": "Out of around 320 million trips and orders across Uber and Uber Eats that week."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: the channel ships, the habit doesn't",
+          "items": [
+            "The launch gets celebrated. Nobody checks who actually uses it a month later.",
+            "The demo shows what's possible, not what customers already do every day.",
+            "If the old way is faster, the new channel stays empty."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "AskMoses.AI, the SaaS I built end to end and run as a contractor",
+          "items": [
+            "17 organizations in the US signed up and only 6 actually use it.",
+            "11 of 17 never activated: onboarding required a CRM and a rubric before any value.",
+            "Script Intelligence mines winning calls in the CRM and writes a weekly script, 3 calls minimum."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Launching is not the same as being used.",
+          "body": "Uber noted that booking a ride takes 50 seconds in its app. In practice, an agent has to beat that, not just exist. I learned the same with my own product: adoption shows up in real usage data, not in the launch."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment ADOPTION.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment ADOPTION · vssolutions.io"
+        }
+      ],
+      "caption": "DoorDash and Uber both said the same thing on their earnings calls: outside AI agents are barely being used.\n\nDoorDash's CEO said agents generated \"several hundred orders\" so far. Uber said only four rides were booked through an AI agent in its busiest week of October, out of around 320 million trips and orders. Uber also pointed out that booking a ride in its app takes about 50 seconds. That suggests an agent isn't necessarily saving anyone time.\n\nWhat I see in companies is the same pattern. The channel ships, the launch gets celebrated, and nobody measures real usage. The demo promised one behavior. Customers keep doing what is already fast.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value. Launching is not the same as being used.\n\nMeasure real usage first. Then design around what people actually do.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: arstechnica.com, techcrunch.com\n\n#AIAgents #AIAdoption #ProductStrategy #SaaS #AIinProduction"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НАБИРАЕТ ОБОРОТЫ · ИИ-АГЕНТЫ",
+          "headline": "Они построили рельсы для ИИ. Почти никто по ним не ездит.",
+          "sub": "DoorDash и Uber сообщают о очень низком использовании агентов."
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "DoorDash и Uber говорят, что внешние ИИ-агенты почти не заметны",
+          "body": "Гендиректор DoorDash сообщил, что ИИ-агенты пока сгенерировали «несколько сотен заказов», что является «очень низким сценарием использования». Uber заявил, что за самую загруженную неделю октября через ИИ-агента было забронировано всего четыре поездки. Обе компании сообщили это на звонках с инвесторами по итогам квартала."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ЦИФРА",
+          "stat": "4",
+          "label": "поездки, забронированные ИИ-агентом за самую загруженную неделю октября в Uber",
+          "sub": "Из примерно 320 миллионов поездок и заказов в Uber и Uber Eats за эту неделю."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях: канал запущен, привычки нет",
+          "items": [
+            "Запуск отмечают, но никто не проверяет через месяц, кто им реально пользуется.",
+            "Демо показывает, что возможно, а не то, что клиенты уже делают каждый день.",
+            "Если старый способ быстрее, новый канал остаётся пустым."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ РЕШАЛ ЭТУ ЗАДАЧУ",
+          "headline": "AskMoses.AI, SaaS, который я построил от начала до конца и веду как подрядчик",
+          "items": [
+            "17 организаций в США зарегистрировались, и только 6 реально пользуются продуктом.",
+            "11 из 17 так и не активировались: для онбординга требовались CRM и рубрикатор до того, как появлялась какая-либо польза.",
+            "Script Intelligence анализирует успешные звонки в CRM и каждую неделю пишет скрипт, минимум по 3 звонкам."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЁ МНЕНИЕ",
+          "headline": "Запуск — это не то же самое, что использование.",
+          "body": "Uber отметил, что заказ поездки в его приложении занимает 50 секунд. На практике агент должен быть быстрее этого, а не просто существовать. Я убедился в том же на своём продукте: adoption видно в данных реального использования, а не в самом запуске."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напишите ADOPTION в комментариях.",
+          "body": "Пришлю пошаговый разбор этого кейса в личные сообщения. Я перевожу ИИ из чертёжа в продакшн и показываю измеримые результаты.",
+          "button": "Напишите ADOPTION · vssolutions.io"
+        }
+      ],
+      "caption": "DoorDash и Uber сказали одно и то же на звонках с инвесторами: внешние ИИ-агенты почти не используются.\n\nГендиректор DoorDash сказал, что агенты пока сгенерировали «несколько сотен заказов». Uber сообщил, что за самую загруженную неделю октября через ИИ-агента было забронировано всего четыре поездки из примерно 320 миллионов поездок и заказов. Uber также отметил, что заказ поездки в его приложении занимает около 50 секунд. Значит, агент не обязательно экономит кому-то время.\n\nТо же самое я вижу и в компаниях. Канал запускают, запуск отмечают, а реальное использование никто не измеряет. Демо обещало одно поведение, а клиенты продолжают делать то, что и так быстро.\n\nЯ пережил это с AskMoses.AI, SaaS, который я построил от начала до конца и веду как подрядчик. 17 организаций в США зарегистрировались, 6 реально пользуются. 11 из 17 так и не активировались, потому что для онбординга требовались CRM и рубрикатор, прежде чем продукт приносил пользу. Запуск — это не то же самое, что использование.\n\nСначала измеряйте реальное использование. Потом проектируйте под то, что люди действительно делают.\n\nНапишите ADOPTION в комментариях, и я пришлю в личные сообщения, как я это сделал.\n\nИсточники: arstechnica.com, techcrunch.com\n\n#ИИагенты #AIадопшн #продуктовая_стратегия #SaaS #ИИвпродакшне"
+    }
+  }
+}
