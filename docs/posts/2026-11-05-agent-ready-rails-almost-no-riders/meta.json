@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-05-agent-ready-rails-almost-no-riders",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "DoorDash and Uber both said the same thing on their earnings calls: outside AI agents are barely being used.\n\nDoorDash's CEO said agents generated \"several hundred orders\" so far. Uber said only four rides were booked through an AI agent in its busiest week of October, out of around 320 million trips and orders. Uber also pointed out that booking a ride in its app takes about 50 seconds. That suggests an agent isn't necessarily saving anyone time.\n\nWhat I see in companies is the same pattern. The channel ships, the launch gets celebrated, and nobody measures real usage. The demo promised one behavior. Customers keep doing what is already fast.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value. Launching is not the same as being used.\n\nMeasure real usage first. Then design around what people actually do.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: arstechnica.com, techcrunch.com\n\n#AIAgents #AIAdoption #ProductStrategy #SaaS #AIinProduction",
+  "first_comment": "Sources: https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/ · https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "They built the AI rails. Almost nobody is riding them.",
+    "caption": "DoorDash and Uber both said the same thing on their earnings calls: outside AI agents are barely being used.\n\nDoorDash's CEO said agents generated \"several hundred orders\" so far. Uber said only four rides were booked through an AI agent in its busiest week of October, out of around 320 million trips and orders. Uber also pointed out that booking a ride in its app takes about 50 seconds. That suggests an agent isn't necessarily saving anyone time.\n\nWhat I see in companies is the same pattern. The channel ships, the launch gets celebrated, and nobody measures real usage. The demo promised one behavior. Customers keep doing what is already fast.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value. Launching is not the same as being used.\n\nMeasure real usage first. Then design around what people actually do.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: arstechnica.com, techcrunch.com\n\n#AIAgents #AIAdoption #ProductStrategy #SaaS #AIinProduction"
+  }
+}
