@@ -1,6 +1,210 @@
 {
-  "atualizado_em": "2026-11-05T09:32:00.462722Z",
+  "atualizado_em": "2026-11-06T09:44:06.453372Z",
   "posts": [
+    {
+      "slug": "2026-11-06-agent-retrieval-beats-agent-complexity",
+      "data": "2026-11-06",
+      "titulo": "Your agent isn't failing. Your retrieval is.",
+      "subtitulo": "Box and Nvidia are rebuilding search for agents.",
+      "tema": "Box and Nvidia build agent-first retrieval: 4x faster, 20% fewer errors, 90% fewer tokens",
+      "tipo": "ponte",
+      "case_id": "sdr",
+      "palavra": "SDR",
+      "valor": "Simple that works beats complex that impresses.",
+      "fontes": [
+        "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+        "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AGENT RETRIEVAL",
+          "headline": "Your agent isn't failing. Your retrieval is.",
+          "sub": "Box and Nvidia are rebuilding search for agents."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Box rebuilt content retrieval for agents on Nvidia Nemotron",
+          "body": "Box announced Box Content Retrieval at its developer conference. Instead of reading whole documents, agents get the most relevant chunks. Nvidia's Kari Briski expects faster, more accurate, cheaper queries. Rollout starts early next year."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "90%",
+          "label": "fewer tokens used per query, as Nvidia expects",
+          "sub": "Also expected: 4x faster answers and 20% fewer errors."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: the agent gets blamed for bad search",
+          "items": [
+            "The model reads too much, so every answer is slow and costs more",
+            "Nobody tracks answer errors or tokens per query before adding more agents",
+            "Customers use their own words, and the data uses the company's words"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil: retrieval first, agent second",
+          "items": [
+            "13,312 products in the ERP, 136 ways of writing the unit of measure",
+            "245 counter-slang synonyms mapped. The AI never sees the catalog: search hands it 8 results",
+            "65 out of 65 real customer questions found the right product"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works beats complex that impresses.",
+          "body": "Apple is reportedly cutting daily AI spending caps, so tokens are now a real cost. In my case, a simple search answers in milliseconds and the model only sees 8 results. Fix retrieval and measure it before you add agent complexity."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "legenda": "Box and Nvidia just showed an agent-first retrieval system. Instead of an agent reading whole documents, it gets the chunks that matter. Nvidia expects 4x faster queries, 20% fewer errors and 90% fewer tokens. Those are expectations, not my measurements.\n\nThe timing matters. Apple is reportedly cutting daily AI spending caps for its engineers. Tokens are a cost line now, not a free resource.\n\nWhat I see in companies: most agents fail on retrieval, not on the model. The model reads too much, customers use words the data doesn't, and nobody measures errors or tokens per query.\n\nI built this for a building materials store in southern Brazil. The AI sales rep on WhatsApp never sees the catalog. 13,312 products, 136 ways of writing the unit of measure, 245 slang synonyms mapped. A simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product.\n\nMeasure retrieval before you add agent complexity.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIagents #RAG #AIinProduction #Retrieval #WhatsAppAI",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-06-agent-retrieval-beats-agent-complexity/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-06-agent-retrieval-beats-agent-complexity/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-06-agent-retrieval-beats-agent-complexity/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-06-agent-retrieval-beats-agent-complexity/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-06-agent-retrieval-beats-agent-complexity/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-06-agent-retrieval-beats-agent-complexity/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-06-agent-retrieval-beats-agent-complexity/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-06-agent-retrieval-beats-agent-complexity/1.jpg",
+      "gerado_em": "2026-11-06T09:30:51.057Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Your agent isn't failing. Your retrieval is.",
+          "subtitulo": "Box and Nvidia are rebuilding search for agents.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · AGENT RETRIEVAL",
+              "headline": "Your agent isn't failing. Your retrieval is.",
+              "sub": "Box and Nvidia are rebuilding search for agents."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Box rebuilt content retrieval for agents on Nvidia Nemotron",
+              "body": "Box announced Box Content Retrieval at its developer conference. Instead of reading whole documents, agents get the most relevant chunks. Nvidia's Kari Briski expects faster, more accurate, cheaper queries. Rollout starts early next year."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "90%",
+              "label": "fewer tokens used per query, as Nvidia expects",
+              "sub": "Also expected: 4x faster answers and 20% fewer errors."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: the agent gets blamed for bad search",
+              "items": [
+                "The model reads too much, so every answer is slow and costs more",
+                "Nobody tracks answer errors or tokens per query before adding more agents",
+                "Customers use their own words, and the data uses the company's words"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "A building materials store in southern Brazil: retrieval first, agent second",
+              "items": [
+                "13,312 products in the ERP, 136 ways of writing the unit of measure",
+                "245 counter-slang synonyms mapped. The AI never sees the catalog: search hands it 8 results",
+                "65 out of 65 real customer questions found the right product"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Simple that works beats complex that impresses.",
+              "body": "Apple is reportedly cutting daily AI spending caps, so tokens are now a real cost. In my case, a simple search answers in milliseconds and the model only sees 8 results. Fix retrieval and measure it before you add agent complexity."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment SDR.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "Box and Nvidia just showed an agent-first retrieval system. Instead of an agent reading whole documents, it gets the chunks that matter. Nvidia expects 4x faster queries, 20% fewer errors and 90% fewer tokens. Those are expectations, not my measurements.\n\nThe timing matters. Apple is reportedly cutting daily AI spending caps for its engineers. Tokens are a cost line now, not a free resource.\n\nWhat I see in companies: most agents fail on retrieval, not on the model. The model reads too much, customers use words the data doesn't, and nobody measures errors or tokens per query.\n\nI built this for a building materials store in southern Brazil. The AI sales rep on WhatsApp never sees the catalog. 13,312 products, 136 ways of writing the unit of measure, 245 slang synonyms mapped. A simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product.\n\nMeasure retrieval before you add agent complexity.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIagents #RAG #AIinProduction #Retrieval #WhatsAppAI"
+        },
+        "ru": {
+          "titulo": "Ваш агент не провален. Провален ваш поиск.",
+          "subtitulo": "Box и Nvidia перестраивают поиск для агентов.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НАБИРАЕТ ОБОРОТЫ · ПОИСК ДЛЯ АГЕНТОВ",
+              "headline": "Ваш агент не провален. Провален ваш поиск.",
+              "sub": "Box и Nvidia перестраивают поиск для агентов."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Box перестроил поиск контента для агентов на Nvidia Nemotron",
+              "body": "Box анонсировал Box Content Retrieval на своей конференции для разработчиков. Вместо чтения целых документов агенты получают наиболее релевантные фрагменты. Кари Бриски из Nvidia ожидает более быстрых, точных и дешёвых запросов. Развёртывание начнётся в начале следующего года."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "90%",
+              "label": "меньше токенов на запрос, по ожиданиям Nvidia",
+              "sub": "Также ожидается: ответы в 4 раза быстрее и на 20% меньше ошибок."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях: агента винят за плохой поиск",
+              "items": [
+                "Модель читает слишком много, поэтому каждый ответ медленный и дорогой",
+                "Никто не отслеживает ошибки ответов и токены на запрос, прежде чем добавлять новых агентов",
+                "Клиенты используют свои слова, а в данных — слова компании"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ РЕШАЛ ЭТУ ЗАДАЧУ",
+              "headline": "Магазин стройматериалов на юге Бразилии: сначала поиск, потом агент",
+              "items": [
+                "13 312 товаров в ERP, 136 способов записать единицу измерения",
+                "Сопоставлено 245 разговорных синонимов. ИИ никогда не видит каталог: поиск передаёт ему 8 результатов",
+                "65 из 65 реальных вопросов клиентов нашли нужный товар"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Простое, что работает, важнее сложного, что впечатляет.",
+              "body": "По сообщениям, Apple сокращает ежедневные лимиты расходов на ИИ, так что токены теперь — реальная статья затрат. В моём случае простой поиск отвечает за миллисекунды, а модель видит только 8 результатов. Сначала почините поиск и измерьте его, а потом усложняйте агента."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите SDR в комментариях.",
+              "body": "Я пришлю пошаговый разбор этого кейса в личные сообщения. Я перевожу ИИ из чертежей в продакшн, с измеренными результатами.",
+              "button": "Напишите SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "Box и Nvidia только что показали систему поиска, ориентированную на агентов. Вместо чтения целых документов агент получает нужные фрагменты. Nvidia ожидает запросы в 4 раза быстрее, на 20% меньше ошибок и на 90% меньше токенов. Это ожидания, а не мои измерения.\n\nТайминг важен. По сообщениям, Apple сокращает ежедневные лимиты расходов на ИИ для своих инженеров. Токены теперь статья расходов, а не бесплатный ресурс.\n\nЧто я вижу в компаниях: большинство агентов проваливаются на поиске, а не на модели. Модель читает слишком много, клиенты используют слова, которых нет в данных, и никто не измеряет ошибки и токены на запрос.\n\nЯ построил это для магазина стройматериалов на юге Бразилии. ИИ-менеджер по продажам в WhatsApp никогда не видит каталог. 13 312 товаров, 136 способов записать единицу измерения, 245 разговорных синонимов. Простой поиск отвечает за миллисекунды и передаёт модели 8 результатов. В процессе 9 узлов: один агент и три инструмента. 65 из 65 реальных вопросов клиентов нашли нужный товар.\n\nИзмеряйте поиск, прежде чем добавлять сложность агента.\n\nНапишите SDR в комментариях, и я пришлю вам в личные сообщения, как я это сделал.\n\nИсточники: techcrunch.com\n\n#AIagents #RAG #AIinProduction #Retrieval #WhatsAppAI"
+        }
+      }
+    },
     {
       "slug": "2026-11-05-agent-ready-rails-almost-no-riders",
       "data": "2026-11-05",

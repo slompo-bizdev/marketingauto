@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-06-agent-retrieval-beats-agent-complexity",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Box and Nvidia just showed an agent-first retrieval system. Instead of an agent reading whole documents, it gets the chunks that matter. Nvidia expects 4x faster queries, 20% fewer errors and 90% fewer tokens. Those are expectations, not my measurements.\n\nThe timing matters. Apple is reportedly cutting daily AI spending caps for its engineers. Tokens are a cost line now, not a free resource.\n\nWhat I see in companies: most agents fail on retrieval, not on the model. The model reads too much, customers use words the data doesn't, and nobody measures errors or tokens per query.\n\nI built this for a building materials store in southern Brazil. The AI sales rep on WhatsApp never sees the catalog. 13,312 products, 136 ways of writing the unit of measure, 245 slang synonyms mapped. A simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product.\n\nMeasure retrieval before you add agent complexity.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIagents #RAG #AIinProduction #Retrieval #WhatsAppAI",
+  "first_comment": "Sources: https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/ · https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Your agent isn't failing. Your retrieval is.",
+    "caption": "Box and Nvidia just showed an agent-first retrieval system. Instead of an agent reading whole documents, it gets the chunks that matter. Nvidia expects 4x faster queries, 20% fewer errors and 90% fewer tokens. Those are expectations, not my measurements.\n\nThe timing matters. Apple is reportedly cutting daily AI spending caps for its engineers. Tokens are a cost line now, not a free resource.\n\nWhat I see in companies: most agents fail on retrieval, not on the model. The model reads too much, customers use words the data doesn't, and nobody measures errors or tokens per query.\n\nI built this for a building materials store in southern Brazil. The AI sales rep on WhatsApp never sees the catalog. 13,312 products, 136 ways of writing the unit of measure, 245 slang synonyms mapped. A simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product.\n\nMeasure retrieval before you add agent complexity.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIagents #RAG #AIinProduction #Retrieval #WhatsAppAI"
+  }
+}
