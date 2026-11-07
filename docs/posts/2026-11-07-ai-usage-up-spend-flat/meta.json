@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-07-ai-usage-up-spend-flat",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Ramp data shows AI token volumes rising while spending flatlined. According to the report, token spend grew only 1.5% across August and September, after growing 42% in July. Price cuts and more cost-aware customers are part of the explanation.\n\nIn practice, this suggests companies are getting better at controlling what AI costs. What I see is that many still struggle to say what AI delivers. Usage gets counted. Value often does not.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nLaunching is not the same as being used. Track adoption and results per use case before you scale the budget.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: techcrunch.com, bloomberg.com\n\n#AI #EnterpriseAI #AIStrategy #AIAdoption #Founders",
+  "first_comment": "Sources: https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/ · https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "AI usage keeps climbing. Company spend has stopped.",
+    "caption": "Ramp data shows AI token volumes rising while spending flatlined. According to the report, token spend grew only 1.5% across August and September, after growing 42% in July. Price cuts and more cost-aware customers are part of the explanation.\n\nIn practice, this suggests companies are getting better at controlling what AI costs. What I see is that many still struggle to say what AI delivers. Usage gets counted. Value often does not.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nLaunching is not the same as being used. Track adoption and results per use case before you scale the budget.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: techcrunch.com, bloomberg.com\n\n#AI #EnterpriseAI #AIStrategy #AIAdoption #Founders"
+  }
+}
