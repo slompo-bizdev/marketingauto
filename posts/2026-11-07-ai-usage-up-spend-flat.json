@@ -1,0 +1,202 @@
+{
+  "slug": "2026-11-07-ai-usage-up-spend-flat",
+  "lang": "en",
+  "palette": [
+    "offwhite",
+    "black"
+  ],
+  "accent": "green",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who checks what each AI use case delivers?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · AI SPEND",
+      "headline": "AI usage keeps climbing. Company spend has stopped.",
+      "sub": "Ramp data says more tokens, but not more budget."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "Ramp: token volumes rose while AI spend flatlined",
+      "body": "A new Ramp report shows AI spending flatlined over late summer even as token volumes rose. Price cuts from OpenAI and Anthropic, plus customers getting savvier about controlling costs, are part of the explanation."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "1.5%",
+      "label": "Token spend growth across August and September",
+      "sub": "In July, spend had grown 42% from the previous month."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: usage gets counted, value does not",
+      "items": [
+        "Teams track logins and tokens, not whether a workflow got better",
+        "Budget is approved for the tool, not for a specific use case",
+        "Nobody owns the question: is this use case worth what it costs?"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "AskMoses.AI, the SaaS I built end to end and run as a contractor",
+      "items": [
+        "17 organizations in the US signed up. Only 6 actually use it.",
+        "11 of 17 never activated: onboarding required a CRM and a rubric first.",
+        "88% gross margin, plus Script Intelligence: a weekly script from winning calls."
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Launching is not the same as being used.",
+      "body": "Rising usage with flat spend suggests some companies are measuring what AI delivers. In practice, that means tracking adoption and results per use case before scaling the budget. Usage alone is not value."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment ADOPTION.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment ADOPTION · vssolutions.io"
+    }
+  ],
+  "caption": "Ramp data shows AI token volumes rising while spending flatlined. According to the report, token spend grew only 1.5% across August and September, after growing 42% in July. Price cuts and more cost-aware customers are part of the explanation.\n\nIn practice, this suggests companies are getting better at controlling what AI costs. What I see is that many still struggle to say what AI delivers. Usage gets counted. Value often does not.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nLaunching is not the same as being used. Track adoption and results per use case before you scale the budget.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: techcrunch.com, bloomberg.com\n\n#AI #EnterpriseAI #AIStrategy #AIAdoption #Founders",
+  "first_comment": "Sources: https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/ · https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout\n\nvssolutions.io",
+  "meta": {
+    "tema": "Ramp data: AI usage keeps climbing but company spending has stalled",
+    "tipo": "ponte",
+    "case_id": "adocao",
+    "palavra": "ADOPTION",
+    "valor": "Launching is not the same as being used.",
+    "angulo": "Usage is not value: companies cutting costs while usage grows are the ones measuring what AI actually delivers, so track adoption and results per use case before scaling the budget.",
+    "fontes": [
+      "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+    ],
+    "roteiro_reels": "[0-3s] AI usage keeps rising. Company spend has stalled.\n[3-20s] Ramp data shows token spend grew just 1.5% across August and September. Usage is not value. In my own product, 17 organizations signed up and only 6 actually use it.\n[20-30s] Track adoption and results per use case before you scale the budget. Comment ADOPTION and I'll send you how I did it.",
+    "gerado_em": "2026-11-07T09:30:50.634Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AI SPEND",
+          "headline": "AI usage keeps climbing. Company spend has stopped.",
+          "sub": "Ramp data says more tokens, but not more budget."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Ramp: token volumes rose while AI spend flatlined",
+          "body": "A new Ramp report shows AI spending flatlined over late summer even as token volumes rose. Price cuts from OpenAI and Anthropic, plus customers getting savvier about controlling costs, are part of the explanation."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "1.5%",
+          "label": "Token spend growth across August and September",
+          "sub": "In July, spend had grown 42% from the previous month."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: usage gets counted, value does not",
+          "items": [
+            "Teams track logins and tokens, not whether a workflow got better",
+            "Budget is approved for the tool, not for a specific use case",
+            "Nobody owns the question: is this use case worth what it costs?"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "AskMoses.AI, the SaaS I built end to end and run as a contractor",
+          "items": [
+            "17 organizations in the US signed up. Only 6 actually use it.",
+            "11 of 17 never activated: onboarding required a CRM and a rubric first.",
+            "88% gross margin, plus Script Intelligence: a weekly script from winning calls."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Launching is not the same as being used.",
+          "body": "Rising usage with flat spend suggests some companies are measuring what AI delivers. In practice, that means tracking adoption and results per use case before scaling the budget. Usage alone is not value."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment ADOPTION.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment ADOPTION · vssolutions.io"
+        }
+      ],
+      "caption": "Ramp data shows AI token volumes rising while spending flatlined. According to the report, token spend grew only 1.5% across August and September, after growing 42% in July. Price cuts and more cost-aware customers are part of the explanation.\n\nIn practice, this suggests companies are getting better at controlling what AI costs. What I see is that many still struggle to say what AI delivers. Usage gets counted. Value often does not.\n\nI lived this with AskMoses.AI, the SaaS I built end to end and run as a contractor. 17 organizations in the US signed up and 6 actually use it. 11 of 17 never activated, because onboarding required a CRM and a rubric before delivering any value.\n\nLaunching is not the same as being used. Track adoption and results per use case before you scale the budget.\n\nComment ADOPTION and I'll DM you how I did it.\n\nSources: techcrunch.com, bloomberg.com\n\n#AI #EnterpriseAI #AIStrategy #AIAdoption #Founders"
+    },
+    "ru": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "ИИ НА ПОДЪЁМЕ · РАСХОДЫ НА ИИ",
+          "headline": "Использование ИИ продолжает расти. Траты компаний — нет.",
+          "sub": "Данные Ramp: токенов больше, а бюджета — нет."
+        },
+        {
+          "type": "text",
+          "eyebrow": "ЧТО ПРОИЗОШЛО",
+          "headline": "Ramp: объёмы токенов росли, а расходы на ИИ застыли",
+          "body": "Новый отчёт Ramp показывает: в конце лета расходы на ИИ почти не менялись, хотя объёмы токенов росли. Частично это объясняется снижением цен от OpenAI и Anthropic, а также тем, что клиенты стали аккуратнее контролировать расходы."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "ГЛАВНАЯ ЦИФРА",
+          "stat": "1,5%",
+          "label": "Рост расходов на токены за август и сентябрь",
+          "sub": "В июле расходы выросли на 42% по сравнению с предыдущим месяцем."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+          "headline": "Что я вижу в компаниях: считают использование, а не пользу",
+          "items": [
+            "Команды отслеживают входы и токены, а не то, стал ли процесс лучше",
+            "Бюджет утверждают на инструмент, а не на конкретный сценарий",
+            "Никто не отвечает за вопрос: стоит ли этот сценарий своих денег?"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "Я УЖЕ РЕШАЛ ЭТУ ЗАДАЧУ",
+          "headline": "AskMoses.AI: SaaS, который я построил от начала до конца и веду как подрядчик",
+          "items": [
+            "17 организаций в США зарегистрировались. Реально пользуются только 6.",
+            "11 из 17 так и не активировались: для начала нужны были CRM и рубрикатор.",
+            "Валовая маржа 88% и Script Intelligence: еженедельный скрипт на основе успешных звонков."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "МОЁ МНЕНИЕ",
+          "headline": "Запуск — это не то же самое, что использование.",
+          "body": "Рост использования при неизменных расходах говорит о том, что часть компаний начала измерять, что ИИ реально даёт. На практике это значит отслеживать внедрение и результаты по каждому сценарию до того, как увеличивать бюджет. Само использование — ещё не ценность."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "ХОЧЕШЬ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+          "headline": "Напиши ADOPTION.",
+          "body": "Пришлю пошаговый разбор этого кейса в личные сообщения. Я перевожу ИИ из стадии идеи в работающую систему с измеримым результатом.",
+          "button": "Напиши ADOPTION · vssolutions.io"
+        }
+      ],
+      "caption": "Данные Ramp показывают, что объёмы токенов ИИ растут, а расходы почти не меняются. По отчёту, траты на токены выросли всего на 1,5% за август и сентябрь, после роста на 42% в июле. Снижение цен и более внимательные к расходам клиенты — часть объяснения.\n\nНа практике это говорит о том, что компании учатся контролировать стоимость ИИ. Но я вижу, что многим всё ещё сложно сказать, что ИИ реально даёт. Использование считают. Пользу — часто нет.\n\nЯ проходил это на примере AskMoses.AI, SaaS, который я построил от начала до конца и веду как подрядчик. 17 организаций в США зарегистрировались, а пользуются 6. 11 из 17 так и не активировались, потому что для начала нужны были CRM и рубрикатор, прежде чем продукт приносил хоть какую-то пользу.\n\nЗапуск — это не то же самое, что использование. Отслеживайте внедрение и результаты по каждому сценарию, прежде чем наращивать бюджет.\n\nНапиши ADOPTION, и я пришлю в личные сообщения, как я это сделал.\n\nИсточники: techcrunch.com, bloomberg.com\n\n#AI #EnterpriseAI #AIStrategy #AIAdoption #Founders"
+    }
+  }
+}
