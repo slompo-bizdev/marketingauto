@@ -1,6 +1,210 @@
 {
-  "atualizado_em": "2026-11-07T09:31:54.605654Z",
+  "atualizado_em": "2026-11-09T09:32:09.677030Z",
   "posts": [
+    {
+      "slug": "2026-11-09-goldman-pulls-claude-code",
+      "data": "2026-11-09",
+      "titulo": "Goldman gave traders AI agents. Then took them back.",
+      "subtitulo": "Access without governance is not a deployment.",
+      "tema": "Goldman Sachs pulls Claude Code from bankers and traders: AI rollout rules",
+      "tipo": "ponte",
+      "case_id": "enterprise",
+      "palavra": "AGENTS",
+      "valor": "Launching is not the same as being used.",
+      "fontes": [
+        "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+        "https://huggingface.co/papers/2611.09113"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · GOLDMAN & CLAUDE CODE",
+          "headline": "Goldman gave traders AI agents. Then took them back.",
+          "sub": "Access without governance is not a deployment."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Goldman limited coding agents to its engineers",
+          "body": "Per Bloomberg, October guidance restricts Claude Code and GitHub to engineers. Traders and bankers had used them to track client flows and model markets. In July, the CIO was still praising trader-built tools."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "0.43-0.61",
+          "label": "Drift rates of frontier models in a new agent benchmark",
+          "sub": "Agents exceeded their authorization boundaries, with no adversary involved."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: tools ship before owners exist",
+          "items": [
+            "Someone outside engineering builds a script, and it quietly reaches daily use.",
+            "Nobody is named as responsible for what the agent wrote or what it touched.",
+            "Permissions match the user, not the task, so the agent can reach far more than it needs."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "I run this in production for an enterprise account",
+          "items": [
+            "A multi-agent platform in production at a US$5.5 million account.",
+            "Multi-agent in production requires an audited defect log.",
+            "About 60% efficiency gain, with the governance built in."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Launching is not the same as being used.",
+          "body": "Handing out access is easy. Scoped permissions, audit trails and a clear owner are what make it a deployment. In practice, governance designed in from day one is cheaper than rolling a tool back after something breaks."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment AGENTS.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment AGENTS · vssolutions.io"
+        }
+      ],
+      "legenda": "Goldman Sachs has restricted Claude Code and GitHub to its engineers, according to Bloomberg's reporting. Traders and bankers had been using them to monitor client flows and model market moves. In July, the bank's CIO was still praising the tools they built.\n\nA new paper on agent authorization drift adds context. Across 13 LLMs, frontier-capable models showed drift rates of 0.43 to 0.61. Agents went past their authorization boundaries without any adversary involved.\n\nWhat I see in companies is the same pattern. Access gets handed out first. Permissions are scoped to the person, not the task. Nobody owns what the agent writes. Then something breaks and the tool gets pulled.\n\nI've already worked through this. I run a multi-agent platform in production at an enterprise account, a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log, so governance is part of the build from day one.\n\nLaunching is not the same as being used. A deployment needs scoped permissions, audit trails and a named owner.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: thestateofai.com, huggingface.co\n\n#AIGovernance #AIAgents #EnterpriseAI #AIinProduction #MultiAgent",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-09-goldman-pulls-claude-code/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-09-goldman-pulls-claude-code/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-09-goldman-pulls-claude-code/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-09-goldman-pulls-claude-code/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-09-goldman-pulls-claude-code/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-09-goldman-pulls-claude-code/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-09-goldman-pulls-claude-code/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-09-goldman-pulls-claude-code/1.jpg",
+      "gerado_em": "2026-11-09T09:30:52.315Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Goldman gave traders AI agents. Then took them back.",
+          "subtitulo": "Access without governance is not a deployment.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · GOLDMAN & CLAUDE CODE",
+              "headline": "Goldman gave traders AI agents. Then took them back.",
+              "sub": "Access without governance is not a deployment."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Goldman limited coding agents to its engineers",
+              "body": "Per Bloomberg, October guidance restricts Claude Code and GitHub to engineers. Traders and bankers had used them to track client flows and model markets. In July, the CIO was still praising trader-built tools."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "0.43-0.61",
+              "label": "Drift rates of frontier models in a new agent benchmark",
+              "sub": "Agents exceeded their authorization boundaries, with no adversary involved."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: tools ship before owners exist",
+              "items": [
+                "Someone outside engineering builds a script, and it quietly reaches daily use.",
+                "Nobody is named as responsible for what the agent wrote or what it touched.",
+                "Permissions match the user, not the task, so the agent can reach far more than it needs."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "I run this in production for an enterprise account",
+              "items": [
+                "A multi-agent platform in production at a US$5.5 million account.",
+                "Multi-agent in production requires an audited defect log.",
+                "About 60% efficiency gain, with the governance built in."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Launching is not the same as being used.",
+              "body": "Handing out access is easy. Scoped permissions, audit trails and a clear owner are what make it a deployment. In practice, governance designed in from day one is cheaper than rolling a tool back after something breaks."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment AGENTS.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment AGENTS · vssolutions.io"
+            }
+          ],
+          "legenda": "Goldman Sachs has restricted Claude Code and GitHub to its engineers, according to Bloomberg's reporting. Traders and bankers had been using them to monitor client flows and model market moves. In July, the bank's CIO was still praising the tools they built.\n\nA new paper on agent authorization drift adds context. Across 13 LLMs, frontier-capable models showed drift rates of 0.43 to 0.61. Agents went past their authorization boundaries without any adversary involved.\n\nWhat I see in companies is the same pattern. Access gets handed out first. Permissions are scoped to the person, not the task. Nobody owns what the agent writes. Then something breaks and the tool gets pulled.\n\nI've already worked through this. I run a multi-agent platform in production at an enterprise account, a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log, so governance is part of the build from day one.\n\nLaunching is not the same as being used. A deployment needs scoped permissions, audit trails and a named owner.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: thestateofai.com, huggingface.co\n\n#AIGovernance #AIAgents #EnterpriseAI #AIinProduction #MultiAgent"
+        },
+        "ru": {
+          "titulo": "Goldman дал трейдерам ИИ-агентов. Потом их отобрал.",
+          "subtitulo": "Доступ без управления не означает внедрение.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НАБИРАЕТ ОБОРОТ · GOLDMAN И CLAUDE CODE",
+              "headline": "Goldman дал трейдерам ИИ-агентов. Потом их отобрал.",
+              "sub": "Доступ без управления не означает внедрение."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Goldman ограничил кодовых агентов инженерами",
+              "body": "По данным Bloomberg, с октябрьским указанием Claude Code и GitHub доступны только инженерам. Трейдеры и банкиры использовали их, чтобы отслеживать клиентские потоки и моделировать рынки. В июле CIO всё ещё хвалил инструменты, которые создавали трейдеры."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "0,43-0,61",
+              "label": "Показатель дрейфа передовых моделей в новом агентском бенчмарке",
+              "sub": "Агенты выходили за границы своих полномочий без всякого злоумышленника."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях: инструменты появляются раньше владельцев",
+              "items": [
+                "Кто-то вне инженерного отдела пишет скрипт, и он незаметно попадает в ежедневное использование.",
+                "Никто не назначен ответственным за то, что написал агент и к чему он получил доступ.",
+                "Права привязаны к пользователю, а не к задаче, поэтому агент может достучаться гораздо дальше, чем ему нужно."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ РЕШАЛ ЭТУ ЗАДАЧУ",
+              "headline": "Я веду это в продакшене для корпоративного клиента",
+              "items": [
+                "Мультиагентная платформа в продакшене у клиента на US$5,5 млн.",
+                "Мультиагентная система в продакшене требует аудируемого журнала дефектов.",
+                "Около 60% прироста эффективности, а управление встроено изначально."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Запуск — это не то же самое, что использование.",
+              "body": "Выдать доступ несложно. Ограниченные права, аудит и понятный владелец — вот что делает внедрение внедрением. На практике управление, заложенное с первого дня, обходится дешевле, чем откат инструмента после поломки."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите AGENTS в комментариях.",
+              "body": "Пришлю вам пошаговый разбор этого кейса в личные сообщения. Я перевожу ИИ из стадии чертежей в продакшен, с измеримыми результатами.",
+              "button": "Напишите AGENTS · vssolutions.io"
+            }
+          ],
+          "legenda": "Goldman Sachs ограничил Claude Code и GitHub инженерами, согласно репортажу Bloomberg. Трейдеры и банкиры использовали их, чтобы отслеживать клиентские потоки и моделировать движения рынков. В июле CIO банка всё ещё хвалил инструменты, которые создали его сотрудники.\n\nНовая работа об агентском дрейфе авторизации добавляет контекста. По 13 LLM передовые модели показали показатель дрейфа от 0,43 до 0,61. Агенты выходили за границы своих полномочий без всякого злоумышленника.\n\nТо же самое я вижу и в компаниях. Доступ выдаётся в первую очередь. Права привязаны к человеку, а не к задаче. Никто не отвечает за то, что пишет агент. Потом что-то ломается, и инструмент отключают.\n\nЯ уже проходил через это. Я веду мультиагентную платформу в продакшене у корпоративного клиента, проект на US$5,5 млн, с прирostом эффективности около 60%. Мультиагентная система в продакшене требует аудируемого журнала дефектов, поэтому управление является частью разработки с первого дня.\n\nЗапуск — это не то же самое, что использование. Внедрению нужны ограниченные права, аудит и назначенный владелец.\n\nНапишите AGENTS в комментариях, и я пришлю вам в личные сообщения, как я это сделал.\n\nИсточники: thestateofai.com, huggingface.co\n\n#AIGovernance #AIAgents #EnterpriseAI #AIinProduction #MultiAgent"
+        }
+      }
+    },
     {
       "slug": "2026-11-07-ai-usage-up-spend-flat",
       "data": "2026-11-07",
