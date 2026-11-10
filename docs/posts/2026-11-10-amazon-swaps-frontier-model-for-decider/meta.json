@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-10-amazon-swaps-frontier-model-for-decider",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Amazon engineers replaced Claude Sonnet 4.6 with Strands Decider to label tickets in an internal system. According to Amazon, it performed just as well at 98% less cost. They did not flip a switch and hope: they ran both models on the same tickets and judged every disagreement first. Meta also launched Muse Ember at 10 cents per million input tokens, built for routing and extraction. In practice, this suggests many agent steps are closed choices, not open writing. What I see in companies: the biggest model on every step, and no accuracy measured per step. I built an AI sales rep on WhatsApp for a building materials store in southern Brazil on that logic. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product. Simple that works beats complex that impresses.\n\nComment SDR and I'll DM you how I did it.\n\nSources: strandsagents.com, techcrunch.com\n\n#AIagents #AIinProduction #LLM #AIcosts #Automation",
+  "first_comment": "Sources: https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/ · https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Amazon cut 98% of a ticket-labeling bill. Same results.",
+    "caption": "Amazon engineers replaced Claude Sonnet 4.6 with Strands Decider to label tickets in an internal system. According to Amazon, it performed just as well at 98% less cost. They did not flip a switch and hope: they ran both models on the same tickets and judged every disagreement first. Meta also launched Muse Ember at 10 cents per million input tokens, built for routing and extraction. In practice, this suggests many agent steps are closed choices, not open writing. What I see in companies: the biggest model on every step, and no accuracy measured per step. I built an AI sales rep on WhatsApp for a building materials store in southern Brazil on that logic. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product. Simple that works beats complex that impresses.\n\nComment SDR and I'll DM you how I did it.\n\nSources: strandsagents.com, techcrunch.com\n\n#AIagents #AIinProduction #LLM #AIcosts #Automation"
+  }
+}
