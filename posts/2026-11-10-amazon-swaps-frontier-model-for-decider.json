@@ -1,0 +1,144 @@
+{
+  "slug": "2026-11-10-amazon-swaps-frontier-model-for-decider",
+  "lang": "en",
+  "palette": [
+    "red",
+    "black"
+  ],
+  "accent": "red",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, which AI step could be a simple decision?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · SMALL DECISION MODELS",
+      "headline": "Amazon cut 98% of a ticket-labeling bill. Same results.",
+      "sub": "The expensive model was doing a job a small one could do."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "Amazon replaced Sonnet 4.6 with a small decision model",
+      "body": "Two Amazon engineers swapped Sonnet 4.6 for Strands Decider to label internal tickets across 20 categories. Per Amazon, it performed just as well at 98% less cost. They ran both on real traffic first, then switched."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "98%",
+      "label": "less cost per ticket than Sonnet 4.6, per Amazon",
+      "sub": "About $500 per million tickets versus about $22,200."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: a giant model on every step",
+      "items": [
+        "Every step goes to the biggest model because it was the first one that worked.",
+        "Nobody separates the steps that decide from the steps that write.",
+        "The bill grows, and no one measures accuracy per step."
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "A building materials store in southern Brazil: small steps, not a giant model",
+      "items": [
+        "The AI never sees the catalog: a simple search hands 8 results to the model.",
+        "245 counter-slang synonyms mapped across 13,312 products and 136 unit spellings.",
+        "9 nodes, one agent, three tools. 65 out of 65 real questions found the right product."
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Measure instead of assuming.",
+      "body": "Amazon ran both models on the same tickets and judged every disagreement before switching. In practice, that is the point: most agent steps are routing and classification, and a small model with measured accuracy can fit. Not every step needs a frontier model."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment SDR.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment SDR · vssolutions.io"
+    }
+  ],
+  "caption": "Amazon engineers replaced Claude Sonnet 4.6 with Strands Decider to label tickets in an internal system. According to Amazon, it performed just as well at 98% less cost. They did not flip a switch and hope: they ran both models on the same tickets and judged every disagreement first. Meta also launched Muse Ember at 10 cents per million input tokens, built for routing and extraction. In practice, this suggests many agent steps are closed choices, not open writing. What I see in companies: the biggest model on every step, and no accuracy measured per step. I built an AI sales rep on WhatsApp for a building materials store in southern Brazil on that logic. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product. Simple that works beats complex that impresses.\n\nComment SDR and I'll DM you how I did it.\n\nSources: strandsagents.com, techcrunch.com\n\n#AIagents #AIinProduction #LLM #AIcosts #Automation",
+  "first_comment": "Sources: https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/ · https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/\n\nvssolutions.io",
+  "meta": {
+    "tema": "Amazon cuts millions in AI costs by swapping a frontier model for a small decider",
+    "tipo": "ponte",
+    "case_id": "sdr",
+    "palavra": "SDR",
+    "valor": "Measure instead of assuming.",
+    "angulo": "Most production agent steps are classification and routing decisions, so a small specialized model with measured accuracy beats a frontier model on both cost and reliability.",
+    "fontes": [
+      "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
+    ],
+    "roteiro_reels": "[0-3s] Amazon cut 98% of a ticket-labeling bill and kept the results.\n[3-20s] They swapped a frontier model for a small decision model. Most agent steps are routing, not writing. On my WhatsApp sales agent, a simple search finds the product and the model only sees 8 results.\n[20-30s] Measure each step before you pay for the biggest model. Comment SDR and I'll send you how I did it.",
+    "gerado_em": "2026-11-10T13:47:09.648Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · SMALL DECISION MODELS",
+          "headline": "Amazon cut 98% of a ticket-labeling bill. Same results.",
+          "sub": "The expensive model was doing a job a small one could do."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Amazon replaced Sonnet 4.6 with a small decision model",
+          "body": "Two Amazon engineers swapped Sonnet 4.6 for Strands Decider to label internal tickets across 20 categories. Per Amazon, it performed just as well at 98% less cost. They ran both on real traffic first, then switched."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "98%",
+          "label": "less cost per ticket than Sonnet 4.6, per Amazon",
+          "sub": "About $500 per million tickets versus about $22,200."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: a giant model on every step",
+          "items": [
+            "Every step goes to the biggest model because it was the first one that worked.",
+            "Nobody separates the steps that decide from the steps that write.",
+            "The bill grows, and no one measures accuracy per step."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil: small steps, not a giant model",
+          "items": [
+            "The AI never sees the catalog: a simple search hands 8 results to the model.",
+            "245 counter-slang synonyms mapped across 13,312 products and 136 unit spellings.",
+            "9 nodes, one agent, three tools. 65 out of 65 real questions found the right product."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "Amazon ran both models on the same tickets and judged every disagreement before switching. In practice, that is the point: most agent steps are routing and classification, and a small model with measured accuracy can fit. Not every step needs a frontier model."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "caption": "Amazon engineers replaced Claude Sonnet 4.6 with Strands Decider to label tickets in an internal system. According to Amazon, it performed just as well at 98% less cost. They did not flip a switch and hope: they ran both models on the same tickets and judged every disagreement first. Meta also launched Muse Ember at 10 cents per million input tokens, built for routing and extraction. In practice, this suggests many agent steps are closed choices, not open writing. What I see in companies: the biggest model on every step, and no accuracy measured per step. I built an AI sales rep on WhatsApp for a building materials store in southern Brazil on that logic. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product. Simple that works beats complex that impresses.\n\nComment SDR and I'll DM you how I did it.\n\nSources: strandsagents.com, techcrunch.com\n\n#AIagents #AIinProduction #LLM #AIcosts #Automation"
+    }
+  }
+}
