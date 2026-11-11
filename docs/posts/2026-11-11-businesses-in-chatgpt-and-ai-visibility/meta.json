@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-11-businesses-in-chatgpt-and-ai-visibility",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "OpenAI announced Businesses in ChatGPT today. In beta, Business Hub lets companies claim their business, keep information current and see insights like mentions and website clicks. TechCrunch framed it as ChatGPT moving closer to Google as a discovery engine.\n\nIn practice, I see a gap that a profile alone doesn't close. Being cited still depends on content AI can parse, and on knowing how you actually appear.\n\nThat is the problem I worked on with one of Brazil's largest cosmetics companies. We rebuilt an annual report to be read and cited by ChatGPT, Claude and Perplexity: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt and 17 AI crawlers allowed by name.\n\nThen we measured it with an in-house log collector that separates crawling, real questions and citation clicks. In 15 days: 1,427 reads by AI crawlers from 8 engines, 553 searches triggered by a real person asking a question, and 60 people who reached the site by clicking an AI citation.\n\nMeasure instead of assuming.\n\nComment GEO and I'll DM you how I did it.\n\nSources: openai.com, techcrunch.com\n\n#AISearch #GEO #ChatGPT #AIVisibility #GenerativeEngineOptimization",
+  "first_comment": "Sources: https://openai.com/index/introducing-businesses-chatgpt · https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "ChatGPT now has a storefront. Does your content get cited?",
+    "caption": "OpenAI announced Businesses in ChatGPT today. In beta, Business Hub lets companies claim their business, keep information current and see insights like mentions and website clicks. TechCrunch framed it as ChatGPT moving closer to Google as a discovery engine.\n\nIn practice, I see a gap that a profile alone doesn't close. Being cited still depends on content AI can parse, and on knowing how you actually appear.\n\nThat is the problem I worked on with one of Brazil's largest cosmetics companies. We rebuilt an annual report to be read and cited by ChatGPT, Claude and Perplexity: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt and 17 AI crawlers allowed by name.\n\nThen we measured it with an in-house log collector that separates crawling, real questions and citation clicks. In 15 days: 1,427 reads by AI crawlers from 8 engines, 553 searches triggered by a real person asking a question, and 60 people who reached the site by clicking an AI citation.\n\nMeasure instead of assuming.\n\nComment GEO and I'll DM you how I did it.\n\nSources: openai.com, techcrunch.com\n\n#AISearch #GEO #ChatGPT #AIVisibility #GenerativeEngineOptimization"
+  }
+}
