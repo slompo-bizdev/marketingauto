@@ -1,0 +1,74 @@
+{
+  "slug": "2026-11-12-united-bans-ai-agents-from-booking",
+  "topic": "AGENT BOOKINGS",
+  "keyword": "SDR",
+  "hook": {
+    "claim": "\"Two opposite policies.\"",
+    "line": "Now the numbers around it.",
+    "say": "This morning I covered United banning outside AI agents from booking flights, while Southwest opened its inventory to ChatGPT. I went back in to check the numbers."
+  },
+  "findings": [
+    {
+      "label": "INTERMEDIARY",
+      "big": "57%",
+      "headline": "Propellic reportedly puts agent bookings via a booking API at 57%",
+      "detail": "We could not find this figure on the cited page at check time.",
+      "bars": [],
+      "source": 1,
+      "evidence": "57% of flight bookings would go through an intermediary",
+      "say": "First, Propellic is said to have found 57% of agent flight bookings go through an intermediary, but we could not confirm that on the page cited.",
+      "status": "unconfirmed"
+    },
+    {
+      "label": "DIRECT VISITS",
+      "big": "5%",
+      "headline": "AI models sent users straight to airline sites",
+      "detail": "Bain test of three LLMs on schedule and price searches. Online travel agencies dominated the results.",
+      "bars": [],
+      "source": 2,
+      "evidence": "airline websites were accessed directly only about 5% of the time",
+      "say": "Second, Bain tested three AI models on flight searches. They went directly to an airline website only about 5% of the time.",
+      "status": "confirmed"
+    },
+    {
+      "label": "SEARCH LOAD",
+      "big": "200k:1",
+      "headline": "possible searches per booking from AI queries",
+      "detail": "PhocusWire analysis. United already fines agencies that generate more search traffic than bookings.",
+      "bars": [],
+      "source": 3,
+      "evidence": "look-to-book ratios for AI-generated queries could exceed 200,000:1",
+      "say": "Third, PhocusWire's analysis says AI queries could reach 200,000 searches for every booking, which shows why airlines worry about cost.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "Draw the line, then measure who crosses it.",
+    "say": "Drawing a line is a start, but who is really booking? If you use these agents, what do you see? Comment CHECK and tell me."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "Travel Daily News: Propellic study finds most agentic AI travel bookings go through intermediaries",
+      "url": "https://www.traveldailynews.com/statistics-trends/agentic-ai-travel-bookings-intermediaries/"
+    },
+    {
+      "n": 2,
+      "title": "Bain & Company: Is the Airline Industry Ready for Agent-Led Bookings?",
+      "url": "https://www.bain.com/insights/is-the-airline-industry-ready-for-agent-led-bookings/"
+    },
+    {
+      "n": 3,
+      "title": "Travelers Today: AI Travel Search Is Breaking Airline Systems",
+      "url": "https://www.travelerstoday.com/articles/60301/20260624/ai-travel-search-breaking-airline-systems-amadeus-bets-precomputed-fares.htm"
+    }
+  ],
+  "caption": "This morning: United banned outside AI agents from booking flights, while Southwest opened its inventory to ChatGPT. Two airlines, two opposite policies.\n\nThe data: Propellic is reported to say 57% of agent flight bookings go through an intermediary (NOT CONFIRMED: we could not find this figure on the cited Travel Daily News page). AI models went straight to airline sites only about 5% of the time (Bain). AI queries could hit 200,000 searches per booking (PhocusWire).\n\nMy take: drawing a line is the right start, but measure who is actually booking before you write the rule.\n\nComment CHECK and I will DM you what I find.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Travel Daily News: Propellic study finds most agentic AI travel bookings go through intermediaries — https://www.traveldailynews.com/statistics-trends/agentic-ai-travel-bookings-intermediaries/ (claim not confirmed on this page at check time)\n[2] Bain & Company: Is the Airline Industry Ready for Agent-Led Bookings? — https://www.bain.com/insights/is-the-airline-industry-ready-for-agent-led-bookings/\n[3] Travelers Today: AI Travel Search Is Breaking Airline Systems — https://www.travelerstoday.com/articles/60301/20260624/ai-travel-search-breaking-airline-systems-amadeus-bets-precomputed-fares.htm\n\nvssolutions.io",
+  "gerado_em": "2026-11-12T13:00:46.791Z",
+  "cta": {
+    "keyword": "CHECK",
+    "line": "I'll DM you what I find"
+  },
+  "check_dm": "Thanks for asking! I could not confirm one claim: that 57% of agent flight bookings go through an intermediary. It was attributed to a Propellic audit in the article \"Travel Daily News: Propellic study finds most agentic AI travel bookings go through intermediaries\", but I could not find it on that page. What do you see or pay in practice when an agent books for you? I will reply here as soon as I confirm it."
+}
