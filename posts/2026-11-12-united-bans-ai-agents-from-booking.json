@@ -1,0 +1,149 @@
+{
+  "slug": "2026-11-12-united-bans-ai-agents-from-booking",
+  "lang": "en",
+  "palette": [
+    "offwhite",
+    "black"
+  ],
+  "accent": "green",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who decides what an AI agent is allowed to do?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · UNITED AIRLINES",
+      "headline": "United bans AI agents from booking flights for travelers",
+      "sub": "The agent was not the problem. The missing rules were."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "United is blocking outside AI agents from making reservations",
+      "body": "United says sharing credentials with third-party AI assistants can expose sensitive information and cause unintended purchases. It is restricting access on its own platforms and through agencies and aggregators. Southwest took the opposite tack and opened its inventory to ChatGPT users."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "WHAT CHANGES",
+      "headline": "What this signals about agents that buy for customers",
+      "items": [
+        "The business decides whether an outside agent may act at all",
+        "Credentials and payments are where the risk concentrates",
+        "Two airlines, two opposite policies on the same technology"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: the agent ships before the rules exist",
+      "items": [
+        "Nobody defines where the agent may act and where it may not",
+        "Access to payments and data is granted before anyone decides who is liable",
+        "The company does not control the channel, so it cannot control the outcome"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "A building materials store in southern Brazil: an agent inside its own channel",
+      "items": [
+        "AI sales rep on WhatsApp: one agent and three tools, 9 nodes in the whole flow",
+        "Rules: no made-up specs, never reveals stock, never gives discounts",
+        "65 out of 65 real customer questions found the right product"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Simple that works beats complex that impresses.",
+      "body": "United is drawing a line around where an agent may act. In practice, that is the right question to start with. An agent with a defined channel, a few tools and hard rules is easier to trust and easier to measure than one with open access."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment SDR.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment SDR · vssolutions.io"
+    }
+  ],
+  "caption": "United Airlines said it is banning third-party AI agents from booking flights on travelers' behalf. Its reasons: security risks around shared credentials, unintended purchases, and possible conflicts with federal rules. Southwest went the other way and opened its inventory to ChatGPT users.\n\nWhat I see in companies is the same gap on a smaller scale. The agent gets built, but nobody defines where it may act, what it can touch and what it must never do. Then it either stalls or creates risk.\n\nI built an AI sales rep on WhatsApp for a building materials store in southern Brazil. It works inside a channel the business controls. One agent, three tools (search, size a heater, call a human salesperson), 9 nodes in the whole flow. Rules are fixed: no made-up specs, never reveals stock, never gives discounts. Result: 65 out of 65 real customer questions found the right product.\n\nAgents that act for customers scale when the business defines the channel and the rules first. Design those before you ship the agent.\n\nComment SDR and I'll DM you how I did it.\n\nSources: cbsnews.com\n\n#AIAgents #AIinBusiness #WhatsApp #Automation #AIEngineering",
+  "first_comment": "Sources: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/\n\nvssolutions.io",
+  "meta": {
+    "tema": "United Airlines bans AI agents from booking flights on travelers' behalf",
+    "tipo": "ponte",
+    "case_id": "sdr",
+    "palavra": "SDR",
+    "valor": "Simple that works beats complex that impresses.",
+    "angulo": "Agents that transact for customers only scale when the business defines where they may act, so design the channel and the rules before you ship the agent.",
+    "fontes": [
+      "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+    ],
+    "roteiro_reels": "[0-3s] United just banned AI agents from booking its flights.\n[3-20s] The reason is control: credentials, payments, unintended purchases. In practice, the agent was never the real issue. The missing rules were. I built a sales agent on WhatsApp for a building materials store, inside a channel the business controls, with fixed rules: no made-up specs, no stock reveal, no discounts.\n[20-30s] Define the channel and the rules first, then ship the agent. Comment SDR and I'll send you how I did it.",
+    "gerado_em": "2026-11-12T09:30:55.055Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · UNITED AIRLINES",
+          "headline": "United bans AI agents from booking flights for travelers",
+          "sub": "The agent was not the problem. The missing rules were."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "United is blocking outside AI agents from making reservations",
+          "body": "United says sharing credentials with third-party AI assistants can expose sensitive information and cause unintended purchases. It is restricting access on its own platforms and through agencies and aggregators. Southwest took the opposite tack and opened its inventory to ChatGPT users."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "WHAT CHANGES",
+          "headline": "What this signals about agents that buy for customers",
+          "items": [
+            "The business decides whether an outside agent may act at all",
+            "Credentials and payments are where the risk concentrates",
+            "Two airlines, two opposite policies on the same technology"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: the agent ships before the rules exist",
+          "items": [
+            "Nobody defines where the agent may act and where it may not",
+            "Access to payments and data is granted before anyone decides who is liable",
+            "The company does not control the channel, so it cannot control the outcome"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil: an agent inside its own channel",
+          "items": [
+            "AI sales rep on WhatsApp: one agent and three tools, 9 nodes in the whole flow",
+            "Rules: no made-up specs, never reveals stock, never gives discounts",
+            "65 out of 65 real customer questions found the right product"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works beats complex that impresses.",
+          "body": "United is drawing a line around where an agent may act. In practice, that is the right question to start with. An agent with a defined channel, a few tools and hard rules is easier to trust and easier to measure than one with open access."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "caption": "United Airlines said it is banning third-party AI agents from booking flights on travelers' behalf. Its reasons: security risks around shared credentials, unintended purchases, and possible conflicts with federal rules. Southwest went the other way and opened its inventory to ChatGPT users.\n\nWhat I see in companies is the same gap on a smaller scale. The agent gets built, but nobody defines where it may act, what it can touch and what it must never do. Then it either stalls or creates risk.\n\nI built an AI sales rep on WhatsApp for a building materials store in southern Brazil. It works inside a channel the business controls. One agent, three tools (search, size a heater, call a human salesperson), 9 nodes in the whole flow. Rules are fixed: no made-up specs, never reveals stock, never gives discounts. Result: 65 out of 65 real customer questions found the right product.\n\nAgents that act for customers scale when the business defines the channel and the rules first. Design those before you ship the agent.\n\nComment SDR and I'll DM you how I did it.\n\nSources: cbsnews.com\n\n#AIAgents #AIinBusiness #WhatsApp #Automation #AIEngineering"
+    }
+  }
+}
