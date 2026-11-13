@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-13-ai-mode-and-being-cited",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Google upgraded Search with Gemini 4, and TechCrunch reports it calls this its biggest model improvement to Search yet. The pitch: better handling of multi-part questions, very specific requests and typos, plus more visual answers and a broader range of links through query fan-out.\n\nIn practice, this suggests the question is no longer only \"do we rank?\" It is \"can an AI system retrieve our content, understand it and cite it?\"\n\nWhat I see in companies: content is written for people only, and nobody measures what AI engines do with it. Teams watch rankings and clicks. Few watch crawling, real questions or citation clicks.\n\nI worked on this with one of Brazil's largest cosmetics companies. We rebuilt an annual report to be read and cited by ChatGPT, Claude and Perplexity: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt and 17 AI crawlers allowed by name. In 15 days of measurement: 1,427 reads by AI crawlers from 8 engines, 553 searches triggered by a real person asking a question, and 60 people who arrived by clicking an AI citation.\n\nMeasure instead of assuming.\n\nComment GEO and I'll DM you how I did it.\n\nSources: blog.google, techcrunch.com\n\n#GEO #AISearch #GoogleAIMode #AIStrategy #ContentStrategy",
+  "first_comment": "Sources: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/ · https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "AI Mode answers harder questions. Does it cite you?",
+    "caption": "Google upgraded Search with Gemini 4, and TechCrunch reports it calls this its biggest model improvement to Search yet. The pitch: better handling of multi-part questions, very specific requests and typos, plus more visual answers and a broader range of links through query fan-out.\n\nIn practice, this suggests the question is no longer only \"do we rank?\" It is \"can an AI system retrieve our content, understand it and cite it?\"\n\nWhat I see in companies: content is written for people only, and nobody measures what AI engines do with it. Teams watch rankings and clicks. Few watch crawling, real questions or citation clicks.\n\nI worked on this with one of Brazil's largest cosmetics companies. We rebuilt an annual report to be read and cited by ChatGPT, Claude and Perplexity: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt and 17 AI crawlers allowed by name. In 15 days of measurement: 1,427 reads by AI crawlers from 8 engines, 553 searches triggered by a real person asking a question, and 60 people who arrived by clicking an AI citation.\n\nMeasure instead of assuming.\n\nComment GEO and I'll DM you how I did it.\n\nSources: blog.google, techcrunch.com\n\n#GEO #AISearch #GoogleAIMode #AIStrategy #ContentStrategy"
+  }
+}

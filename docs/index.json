@@ -1,6 +1,156 @@
 {
-  "atualizado_em": "2026-11-12T09:31:58.883796Z",
+  "atualizado_em": "2026-11-13T09:32:13.991127Z",
   "posts": [
+    {
+      "slug": "2026-11-13-ai-mode-and-being-cited",
+      "data": "2026-11-13",
+      "titulo": "AI Mode answers harder questions. Does it cite you?",
+      "subtitulo": "A smarter Search changes who gets seen, and who gets left out.",
+      "tema": "Google AI Mode on Gemini 4 Hydrogen answers complex queries: what it means for being cited",
+      "tipo": "ponte",
+      "case_id": "geo",
+      "palavra": "GEO",
+      "valor": "Measure instead of assuming.",
+      "fontes": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+        "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · GOOGLE AI MODE",
+          "headline": "AI Mode answers harder questions. Does it cite you?",
+          "sub": "A smarter Search changes who gets seen, and who gets left out."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Google upgraded Search with Gemini 4, aimed at complex questions",
+          "body": "Per TechCrunch, Google calls it its biggest model improvement to Search yet. Multi-part questions, very specific requests and even typos should be handled better, with more visual answers and a wider range of links."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "WHAT CHANGES",
+          "headline": "What the upgrade changes for your content",
+          "items": [
+            "Search breaks one question into several subqueries (query fan-out)",
+            "Answers include comparison tables, images and structured responses",
+            "Google says users will be connected to sites they might have missed"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: nobody knows if AI cites them",
+          "items": [
+            "Content is written for people, not for machines that retrieve and quote it",
+            "Teams track rankings and clicks, but not AI crawling or citations",
+            "Nobody owns the question: is our brand being read by AI engines?"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "One of Brazil's largest cosmetics companies already has this",
+          "items": [
+            "Annual report rebuilt: 3-language server-rendered HTML, JSON-LD, llms.txt, 17 AI crawlers allowed",
+            "1,427 reads by AI crawlers from 8 engines, plus 553 searches from a real person's question",
+            "60 people reached the site by clicking an AI citation, in 15 days of measurement"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "A smarter AI Mode makes citation more valuable, but it doesn't tell you whether you're getting it. In my work, an in-house log collector separates crawling, real questions and citation clicks. Without that split, you are guessing."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment GEO.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment GEO · vssolutions.io"
+        }
+      ],
+      "legenda": "Google upgraded Search with Gemini 4, and TechCrunch reports it calls this its biggest model improvement to Search yet. The pitch: better handling of multi-part questions, very specific requests and typos, plus more visual answers and a broader range of links through query fan-out.\n\nIn practice, this suggests the question is no longer only \"do we rank?\" It is \"can an AI system retrieve our content, understand it and cite it?\"\n\nWhat I see in companies: content is written for people only, and nobody measures what AI engines do with it. Teams watch rankings and clicks. Few watch crawling, real questions or citation clicks.\n\nI worked on this with one of Brazil's largest cosmetics companies. We rebuilt an annual report to be read and cited by ChatGPT, Claude and Perplexity: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt and 17 AI crawlers allowed by name. In 15 days of measurement: 1,427 reads by AI crawlers from 8 engines, 553 searches triggered by a real person asking a question, and 60 people who arrived by clicking an AI citation.\n\nMeasure instead of assuming.\n\nComment GEO and I'll DM you how I did it.\n\nSources: blog.google, techcrunch.com\n\n#GEO #AISearch #GoogleAIMode #AIStrategy #ContentStrategy",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-13-ai-mode-and-being-cited/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-13-ai-mode-and-being-cited/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-13-ai-mode-and-being-cited/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-13-ai-mode-and-being-cited/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-13-ai-mode-and-being-cited/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-13-ai-mode-and-being-cited/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-13-ai-mode-and-being-cited/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-13-ai-mode-and-being-cited/1.jpg",
+      "gerado_em": "2026-11-13T09:31:01.980Z",
+      "traducoes": {
+        "en": {
+          "titulo": "AI Mode answers harder questions. Does it cite you?",
+          "subtitulo": "A smarter Search changes who gets seen, and who gets left out.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · GOOGLE AI MODE",
+              "headline": "AI Mode answers harder questions. Does it cite you?",
+              "sub": "A smarter Search changes who gets seen, and who gets left out."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Google upgraded Search with Gemini 4, aimed at complex questions",
+              "body": "Per TechCrunch, Google calls it its biggest model improvement to Search yet. Multi-part questions, very specific requests and even typos should be handled better, with more visual answers and a wider range of links."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "WHAT CHANGES",
+              "headline": "What the upgrade changes for your content",
+              "items": [
+                "Search breaks one question into several subqueries (query fan-out)",
+                "Answers include comparison tables, images and structured responses",
+                "Google says users will be connected to sites they might have missed"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: nobody knows if AI cites them",
+              "items": [
+                "Content is written for people, not for machines that retrieve and quote it",
+                "Teams track rankings and clicks, but not AI crawling or citations",
+                "Nobody owns the question: is our brand being read by AI engines?"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "One of Brazil's largest cosmetics companies already has this",
+              "items": [
+                "Annual report rebuilt: 3-language server-rendered HTML, JSON-LD, llms.txt, 17 AI crawlers allowed",
+                "1,427 reads by AI crawlers from 8 engines, plus 553 searches from a real person's question",
+                "60 people reached the site by clicking an AI citation, in 15 days of measurement"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assuming.",
+              "body": "A smarter AI Mode makes citation more valuable, but it doesn't tell you whether you're getting it. In my work, an in-house log collector separates crawling, real questions and citation clicks. Without that split, you are guessing."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment GEO.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment GEO · vssolutions.io"
+            }
+          ],
+          "legenda": "Google upgraded Search with Gemini 4, and TechCrunch reports it calls this its biggest model improvement to Search yet. The pitch: better handling of multi-part questions, very specific requests and typos, plus more visual answers and a broader range of links through query fan-out.\n\nIn practice, this suggests the question is no longer only \"do we rank?\" It is \"can an AI system retrieve our content, understand it and cite it?\"\n\nWhat I see in companies: content is written for people only, and nobody measures what AI engines do with it. Teams watch rankings and clicks. Few watch crawling, real questions or citation clicks.\n\nI worked on this with one of Brazil's largest cosmetics companies. We rebuilt an annual report to be read and cited by ChatGPT, Claude and Perplexity: server-rendered HTML in 3 languages, Schema.org/JSON-LD, llms.txt and 17 AI crawlers allowed by name. In 15 days of measurement: 1,427 reads by AI crawlers from 8 engines, 553 searches triggered by a real person asking a question, and 60 people who arrived by clicking an AI citation.\n\nMeasure instead of assuming.\n\nComment GEO and I'll DM you how I did it.\n\nSources: blog.google, techcrunch.com\n\n#GEO #AISearch #GoogleAIMode #AIStrategy #ContentStrategy"
+        }
+      }
+    },
     {
       "slug": "2026-11-12-united-bans-ai-agents-from-booking",
       "data": "2026-11-12",
