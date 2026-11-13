@@ -1,0 +1,18 @@
+{
+  "slug": "2026-11-13-ai-mode-and-being-cited",
+  "video": "2026-11-13-ai-mode-and-being-cited.mp4",
+  "duration": 48.28,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning: Google upgraded Search with Gemini 4 so AI Mode answers harder questions, and I asked whether it cites you.\n\nThree new data points. Profound: AI Mode cites 15.2 sources per run, vs 11.1 for AI Overviews. A study: 18.8 points fewer clicks to outside sites in AI Mode. PPC Land: 1 billion monthly users, with queries 3x longer.\n\nMy take: more citations don't mean more visits. Measure citations and clicks separately.\n\nComment GEO and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Profound: Variability of Google models, Gemini vs AIO vs AI Mode — https://www.tryprofound.com/blog/variability-of-google-models-gemini-vs-aio-vs-ai-mode\n[2] Babel42: Google's AI Mode cuts referral traffic, a new study finds — https://babel42.io/blog/google-ai-mode-referral-traffic\n[3] PPC Land: Google Search gains Gemini 4 Hydrogen for all users — https://ppc.land/google-search-gains-gemini-4-hydrogen-for-all-users-not-just-subscribers/\n\nvssolutions.io",
+  "keyword": "GEO",
+  "check_dm": "",
+  "scenes": [
+    "This morning: Google put Gemini 4 into Search to answer complex questions, with more visual answers and a wider range of links. I went back in to check the numbers.",
+    "First, Profound measured AI Mode at 15.2 citations per run, against 11.1 for AI Overviews and 6.6 for the Gemini app.",
+    "Second, a study found people assigned to AI Mode clicked out to websites 18.8 percentage points less often than on normal Google.",
+    "Third, AI Mode passed one billion monthly users in May, and PPC Land reports its queries run three times longer than classic search.",
+    "My take: more citations don't mean more visits. Track citations and clicks separately, then decide where your content effort actually goes."
+  ]
+}
