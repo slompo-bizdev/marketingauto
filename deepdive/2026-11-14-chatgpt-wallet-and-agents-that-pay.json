@@ -1,0 +1,82 @@
+{
+  "slug": "2026-11-14-chatgpt-wallet-and-agents-that-pay",
+  "topic": "CHATGPT WALLET",
+  "keyword": "SDR",
+  "hook": {
+    "claim": "\"Agents can now pay.\"",
+    "line": "Now the numbers around it.",
+    "say": "OpenAI launched ChatGPT Wallet this morning: agents can pay, with a security check on every purchase. I went back in to check the numbers around it."
+  },
+  "findings": [
+    {
+      "label": "COST",
+      "big": "$100",
+      "headline": "Cheapest way in: ChatGPT Pro, from $100 a month",
+      "detail": "Dots need Pro. Claude Duet is included in a $20 plan.",
+      "bars": [
+        {
+          "label": "ChatGPT Dots, lowest plan ($/month)",
+          "value": 100,
+          "display": "$100",
+          "kind": "accent"
+        },
+        {
+          "label": "Claude Duet, lowest plan ($/month)",
+          "value": 20,
+          "display": "$20",
+          "kind": "solid"
+        }
+      ],
+      "source": 1,
+      "evidence": "ChatGPT Dots need Pro, which OpenAI prices from $100 a month",
+      "say": "First, getting in costs money. Dots need ChatGPT Pro, priced from $100 a month, against $20 for Anthropic's Claude Duet agent.",
+      "status": "confirmed"
+    },
+    {
+      "label": "BENCHMARK",
+      "big": "42.8%",
+      "headline": "Visa's shopper test: AI models failed 42.8% of the time",
+      "detail": "22 models tested as shoppers. Agents in general, not Wallet itself.",
+      "bars": [],
+      "source": 2,
+      "evidence": "Visa tested 22 AI models acting as shoppers and found they failed 42.8% of the time.",
+      "say": "Second, Visa tested 22 AI models as shoppers and they failed 42.8% of the time. That is agents in general, not Wallet.",
+      "status": "confirmed"
+    },
+    {
+      "label": "PRECEDENT",
+      "big": "~30",
+      "headline": "Instant Checkout had about 30 Shopify merchants",
+      "detail": "Forrester's count, before OpenAI dropped it for its own checkout flow.",
+      "bars": [],
+      "source": 3,
+      "evidence": "As of last month, she said, roughly 30 Shopify merchants were available via Instant Checkout.",
+      "say": "Third, the predecessor, Instant Checkout, reached only about 30 Shopify merchants before OpenAI dropped it. Reach was the problem last time.",
+      "status": "confirmed"
+    }
+  ],
+  "take": {
+    "headline": "Approval is easy. Reliability is not.",
+    "say": "My take: approval is the easy part. Before giving an agent a card, measure how often it fails and how often it converts."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "title": "Digital Applied: Claude Duet vs Gemini vs ChatGPT Dots for Small Business",
+      "url": "https://www.digitalapplied.com/blog/claude-duet-vs-gemini-vs-chatgpt-dots-small-business"
+    },
+    {
+      "n": 2,
+      "title": "daily.dev: OpenAI launches ChatGPT Wallet so AI agents can shop without seeing your card",
+      "url": "https://daily.dev/posts/openai-launches-chatgpt-wallet-so-ai-agents-can-shop-without-seeing-your-card-xqx6qp8dw"
+    },
+    {
+      "n": 3,
+      "title": "CNBC: OpenAI's first crack at online shopping stumbled",
+      "url": "https://www.cnbc.com/2026/03/20/open-ai-agentic-shopping-etsy-shopify-walmart-amazon.html"
+    }
+  ],
+  "caption": "This morning I covered ChatGPT Wallet: AI agents can now pay, with a security check on every purchase.\n\nThree new data points. Entry price is $100 a month for ChatGPT Pro, against $20 for Claude Duet. Visa's test of 22 AI models as shoppers found a 42.8% failure rate. The earlier Instant Checkout reached only about 30 Shopify merchants.\n\nMy take: approval is the easy part. Measure how often the agent fails and converts before you hand it a card.\n\nComment SDR and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Digital Applied: Claude Duet vs Gemini vs ChatGPT Dots for Small Business — https://www.digitalapplied.com/blog/claude-duet-vs-gemini-vs-chatgpt-dots-small-business\n[2] daily.dev: OpenAI launches ChatGPT Wallet so AI agents can shop without seeing your card — https://daily.dev/posts/openai-launches-chatgpt-wallet-so-ai-agents-can-shop-without-seeing-your-card-xqx6qp8dw\n[3] CNBC: OpenAI's first crack at online shopping stumbled — https://www.cnbc.com/2026/03/20/open-ai-agentic-shopping-etsy-shopify-walmart-amazon.html\n\nvssolutions.io",
+  "gerado_em": "2026-11-14T13:00:52.849Z"
+}
