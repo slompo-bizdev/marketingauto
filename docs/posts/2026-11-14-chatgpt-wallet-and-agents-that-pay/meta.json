@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-14-chatgpt-wallet-and-agents-that-pay",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "OpenAI announced ChatGPT Wallet. AI agents can now complete purchases for the user, with a security check like Face ID on every purchase and a record of each approval. It starts as a limited rollout to US ChatGPT Pro subscribers. OpenAI also says spending limits and categories are planned for later.\n\nWhat I see in companies is that the agent itself is the easy part. The hard part is deciding what it may do alone, keeping a trail of every action, and measuring how many conversations turn into real orders.\n\nI already built the step right before payment. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 different ways of writing the unit of measure. I mapped 245 counter-slang synonyms. The AI never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes, and the rules are clear: no made-up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMy view: build limits, trail and measurement before you give an agent a card.\n\nComment SDR and I'll DM you how I did it.\n\nSources: openai.com, techcrunch.com\n\n#AIagents #AgenticCommerce #ChatGPT #WhatsAppAutomation #AIinProduction",
+  "first_comment": "Sources: https://openai.com/index/introducing-chatgpt-wallet · https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "AI agents can now pay. Is yours ready to be trusted with a card?",
+    "caption": "OpenAI announced ChatGPT Wallet. AI agents can now complete purchases for the user, with a security check like Face ID on every purchase and a record of each approval. It starts as a limited rollout to US ChatGPT Pro subscribers. OpenAI also says spending limits and categories are planned for later.\n\nWhat I see in companies is that the agent itself is the easy part. The hard part is deciding what it may do alone, keeping a trail of every action, and measuring how many conversations turn into real orders.\n\nI already built the step right before payment. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 different ways of writing the unit of measure. I mapped 245 counter-slang synonyms. The AI never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes, and the rules are clear: no made-up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMy view: build limits, trail and measurement before you give an agent a card.\n\nComment SDR and I'll DM you how I did it.\n\nSources: openai.com, techcrunch.com\n\n#AIagents #AgenticCommerce #ChatGPT #WhatsAppAutomation #AIinProduction"
+  }
+}
