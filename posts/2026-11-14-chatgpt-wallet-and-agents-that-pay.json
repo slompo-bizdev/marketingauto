@@ -1,0 +1,148 @@
+{
+  "slug": "2026-11-14-chatgpt-wallet-and-agents-that-pay",
+  "lang": "en",
+  "palette": [
+    "tiffany",
+    "yellow",
+    "red",
+    "black"
+  ],
+  "accent": "tiffany",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who approves what the AI is allowed to do?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · CHATGPT WALLET",
+      "headline": "AI agents can now pay. Is yours ready to be trusted with a card?",
+      "sub": "OpenAI launched ChatGPT Wallet. Approval limits come first."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "OpenAI launched ChatGPT Wallet for agent purchases",
+      "body": "Agents can now complete purchases for the user. Each purchase needs a security check like Face ID, which creates a record. Agents pay with a token, not the real card. Limited rollout to US ChatGPT Pro subscribers."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "1.2B",
+      "label": "people use ChatGPT each week, per OpenAI",
+      "sub": "Many use it to research products, compare options and decide what to buy."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: the agent is the easy part",
+      "items": [
+        "Nobody defines what the agent may do alone and what needs a human approval",
+        "Actions happen with no trail, so no one can explain a wrong order later",
+        "The agent goes live and nobody measures how many chats become real orders"
+      ],
+      "highlight_last": false
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "A building materials store in southern Brazil, from question to order",
+      "items": [
+        "13,312 products in the ERP, 136 ways of writing the unit, 245 slang synonyms mapped",
+        "Search answers in milliseconds and hands 8 results to the model, which never sees the catalog",
+        "Rules: no made-up specs, never reveals stock, no discounts. 65 of 65 real questions found the product"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Measure instead of assuming.",
+      "body": "An agent that can pay is only useful with approval limits, a trail of every action and a measured conversion rate. Build those before you hand it a card. OpenAI itself says spending limits are still a future step."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment SDR.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment SDR · vssolutions.io"
+    }
+  ],
+  "caption": "OpenAI announced ChatGPT Wallet. AI agents can now complete purchases for the user, with a security check like Face ID on every purchase and a record of each approval. It starts as a limited rollout to US ChatGPT Pro subscribers. OpenAI also says spending limits and categories are planned for later.\n\nWhat I see in companies is that the agent itself is the easy part. The hard part is deciding what it may do alone, keeping a trail of every action, and measuring how many conversations turn into real orders.\n\nI already built the step right before payment. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 different ways of writing the unit of measure. I mapped 245 counter-slang synonyms. The AI never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes, and the rules are clear: no made-up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMy view: build limits, trail and measurement before you give an agent a card.\n\nComment SDR and I'll DM you how I did it.\n\nSources: openai.com, techcrunch.com\n\n#AIagents #AgenticCommerce #ChatGPT #WhatsAppAutomation #AIinProduction",
+  "first_comment": "Sources: https://openai.com/index/introducing-chatgpt-wallet · https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/\n\nvssolutions.io",
+  "meta": {
+    "tema": "ChatGPT Wallet lets AI agents shop and check out, with user approval",
+    "tipo": "ponte",
+    "case_id": "sdr",
+    "palavra": "SDR",
+    "valor": "Measure instead of assuming.",
+    "angulo": "An agent that can pay is only useful if it has approval limits, a trail of every action and a measured conversion rate, so build those before you hand it a card.",
+    "fontes": [
+      "https://openai.com/index/introducing-chatgpt-wallet",
+      "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+    ],
+    "roteiro_reels": "[0-3s] AI agents can now pay for things. Is yours ready for that?\n[3-20s] OpenAI launched ChatGPT Wallet. Every purchase needs a security check and leaves a record. In companies, the hard part is limits, a trail of actions and measuring conversion. I built the step before payment: a WhatsApp sales agent where 65 out of 65 real questions found the right product.\n[20-30s] Build the limits before you hand an agent a card. Comment SDR and I'll send you how I did it.",
+    "gerado_em": "2026-11-14T09:30:52.976Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · CHATGPT WALLET",
+          "headline": "AI agents can now pay. Is yours ready to be trusted with a card?",
+          "sub": "OpenAI launched ChatGPT Wallet. Approval limits come first."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "OpenAI launched ChatGPT Wallet for agent purchases",
+          "body": "Agents can now complete purchases for the user. Each purchase needs a security check like Face ID, which creates a record. Agents pay with a token, not the real card. Limited rollout to US ChatGPT Pro subscribers."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "1.2B",
+          "label": "people use ChatGPT each week, per OpenAI",
+          "sub": "Many use it to research products, compare options and decide what to buy."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: the agent is the easy part",
+          "items": [
+            "Nobody defines what the agent may do alone and what needs a human approval",
+            "Actions happen with no trail, so no one can explain a wrong order later",
+            "The agent goes live and nobody measures how many chats become real orders"
+          ],
+          "highlight_last": false
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil, from question to order",
+          "items": [
+            "13,312 products in the ERP, 136 ways of writing the unit, 245 slang synonyms mapped",
+            "Search answers in milliseconds and hands 8 results to the model, which never sees the catalog",
+            "Rules: no made-up specs, never reveals stock, no discounts. 65 of 65 real questions found the product"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "An agent that can pay is only useful with approval limits, a trail of every action and a measured conversion rate. Build those before you hand it a card. OpenAI itself says spending limits are still a future step."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "caption": "OpenAI announced ChatGPT Wallet. AI agents can now complete purchases for the user, with a security check like Face ID on every purchase and a record of each approval. It starts as a limited rollout to US ChatGPT Pro subscribers. OpenAI also says spending limits and categories are planned for later.\n\nWhat I see in companies is that the agent itself is the easy part. The hard part is deciding what it may do alone, keeping a trail of every action, and measuring how many conversations turn into real orders.\n\nI already built the step right before payment. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 different ways of writing the unit of measure. I mapped 245 counter-slang synonyms. The AI never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. The flow has 9 nodes, and the rules are clear: no made-up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMy view: build limits, trail and measurement before you give an agent a card.\n\nComment SDR and I'll DM you how I did it.\n\nSources: openai.com, techcrunch.com\n\n#AIagents #AgenticCommerce #ChatGPT #WhatsAppAutomation #AIinProduction"
+    }
+  }
+}
