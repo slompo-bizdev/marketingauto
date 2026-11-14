@@ -1,0 +1,18 @@
+{
+  "slug": "2026-11-14-chatgpt-wallet-and-agents-that-pay",
+  "video": "2026-11-14-chatgpt-wallet-and-agents-that-pay.mp4",
+  "duration": 47.2,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning I covered ChatGPT Wallet: AI agents can now pay, with a security check on every purchase.\n\nThree new data points. Entry price is $100 a month for ChatGPT Pro, against $20 for Claude Duet. Visa's test of 22 AI models as shoppers found a 42.8% failure rate. The earlier Instant Checkout reached only about 30 Shopify merchants.\n\nMy take: approval is the easy part. Measure how often the agent fails and converts before you hand it a card.\n\nComment SDR and I will send you the details by DM.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] Digital Applied: Claude Duet vs Gemini vs ChatGPT Dots for Small Business — https://www.digitalapplied.com/blog/claude-duet-vs-gemini-vs-chatgpt-dots-small-business\n[2] daily.dev: OpenAI launches ChatGPT Wallet so AI agents can shop without seeing your card — https://daily.dev/posts/openai-launches-chatgpt-wallet-so-ai-agents-can-shop-without-seeing-your-card-xqx6qp8dw\n[3] CNBC: OpenAI's first crack at online shopping stumbled — https://www.cnbc.com/2026/03/20/open-ai-agentic-shopping-etsy-shopify-walmart-amazon.html\n\nvssolutions.io",
+  "keyword": "SDR",
+  "check_dm": "",
+  "scenes": [
+    "OpenAI launched ChatGPT Wallet this morning: agents can pay, with a security check on every purchase. I went back in to check the numbers around it.",
+    "First, getting in costs money. Dots need ChatGPT Pro, priced from $100 a month, against $20 for Anthropic's Claude Duet agent.",
+    "Second, Visa tested 22 AI models as shoppers and they failed 42.8% of the time. That is agents in general, not Wallet.",
+    "Third, the predecessor, Instant Checkout, reached only about 30 Shopify merchants before OpenAI dropped it. Reach was the problem last time.",
+    "My take: approval is the easy part. Before giving an agent a card, measure how often it fails and how often it converts."
+  ]
+}
