@@ -1,0 +1,143 @@
+{
+  "slug": "2026-11-15-lovable-apps-leak-customer-data",
+  "lang": "en",
+  "palette": [
+    "red",
+    "black"
+  ],
+  "accent": "red",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who reviews the code the AI writes?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · VIBE CODING SECURITY",
+      "headline": "A demo in a day. A data breach in production.",
+      "sub": "Researchers found passports and 200K chats exposed in Lovable apps."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "Researchers checked 159,041 Lovable projects",
+      "body": "Crissy Field GmbH found sensitive data readable without a login. Examples: 80,000+ forum profiles, 200,000+ chat messages, and 1,000+ records with passport numbers. They could not establish whether any of it was misused."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "7,403",
+      "label": "sites with email records exposed, out of 24,664 examined closely",
+      "sub": "That is 30%, but the researchers say it is not a confirmed leak rate."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies shipping AI-built apps",
+      "items": [
+        "The app works in the demo, so nobody asks who can read the data behind it",
+        "Access rules are nobody's job once the prototype goes live",
+        "Nobody reviews the code the AI wrote before real customers use it"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "How the AskMoses.AI development team ships AI-written code",
+      "items": [
+        "Every dev works with Claude Code on the project",
+        "Another Claude reviews every pull request; the human decides on business grounds",
+        "Deploys on Vercel with 1-click rollback and daily backups"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Simple that works beats complex that impresses.",
+      "body": "Speed is not the risk. Shipping without a review step is. The researchers say access permissions must be reviewed before an app handles real data. In practice, that means review and a safe way to roll back are part of the process from day one."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment CLAUDE.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment CLAUDE · vssolutions.io"
+    }
+  ],
+  "caption": "A research team analyzed 159,041 Lovable projects and found sensitive data readable without a login. Examples: a forum exposing 80,000+ profiles and 200,000+ chat messages, and a service provider exposing 1,000+ records with passport details. The researchers could not establish whether any of it was misused, and they say the 30% figure is not a confirmed leak rate.\n\nMy reading: vibe coding gets you to a demo in a day. Production needs access rules, security review and measurement. Without them, speed turns into a data breach.\n\nThis is a problem I had to solve. The AskMoses.AI development team is 100% agentic. Every dev works with Claude Code on the project. Another Claude reviews the pull request. The human decides on business grounds, not technical ones. Deploys run on Vercel with 1-click rollback and daily backups.\n\nThe question is not whether AI writes your code. It is who checks it before customers rely on it.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: crissyfield.de\n\n#VibeCoding #AISecurity #AIEngineering #Lovable #SoftwareDevelopment",
+  "first_comment": "Sources: https://www.crissyfield.de/research/lovable-en/\n\nvssolutions.io",
+  "meta": {
+    "tema": "Lovable apps leak passports and 200K private messages: vibe-coded apps in production",
+    "tipo": "ponte",
+    "case_id": "agentic",
+    "palavra": "CLAUDE",
+    "valor": "Simple that works beats complex that impresses.",
+    "angulo": "Vibe coding gets an app to a demo in a day, but putting it into production needs access rules, security review and measurement. Without them, the speed turns into a data breach.",
+    "fontes": [
+      "https://www.crissyfield.de/research/lovable-en/"
+    ],
+    "roteiro_reels": "[0-3s] An app built in a day can leak your customers' passports.\n[3-20s] Researchers checked 159,041 Lovable projects and found sensitive data readable without a login. The problem is not speed. It is shipping with no review. On our team, every dev uses Claude Code, and another Claude reviews the pull request.\n[20-30s] A human decides on business grounds, and we deploy on Vercel with 1-click rollback and daily backups. Comment CLAUDE and I'll send you how I did it.",
+    "gerado_em": "2026-11-15T09:30:53.109Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · VIBE CODING SECURITY",
+          "headline": "A demo in a day. A data breach in production.",
+          "sub": "Researchers found passports and 200K chats exposed in Lovable apps."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Researchers checked 159,041 Lovable projects",
+          "body": "Crissy Field GmbH found sensitive data readable without a login. Examples: 80,000+ forum profiles, 200,000+ chat messages, and 1,000+ records with passport numbers. They could not establish whether any of it was misused."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "7,403",
+          "label": "sites with email records exposed, out of 24,664 examined closely",
+          "sub": "That is 30%, but the researchers say it is not a confirmed leak rate."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies shipping AI-built apps",
+          "items": [
+            "The app works in the demo, so nobody asks who can read the data behind it",
+            "Access rules are nobody's job once the prototype goes live",
+            "Nobody reviews the code the AI wrote before real customers use it"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "How the AskMoses.AI development team ships AI-written code",
+          "items": [
+            "Every dev works with Claude Code on the project",
+            "Another Claude reviews every pull request; the human decides on business grounds",
+            "Deploys on Vercel with 1-click rollback and daily backups"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works beats complex that impresses.",
+          "body": "Speed is not the risk. Shipping without a review step is. The researchers say access permissions must be reviewed before an app handles real data. In practice, that means review and a safe way to roll back are part of the process from day one."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment CLAUDE.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment CLAUDE · vssolutions.io"
+        }
+      ],
+      "caption": "A research team analyzed 159,041 Lovable projects and found sensitive data readable without a login. Examples: a forum exposing 80,000+ profiles and 200,000+ chat messages, and a service provider exposing 1,000+ records with passport details. The researchers could not establish whether any of it was misused, and they say the 30% figure is not a confirmed leak rate.\n\nMy reading: vibe coding gets you to a demo in a day. Production needs access rules, security review and measurement. Without them, speed turns into a data breach.\n\nThis is a problem I had to solve. The AskMoses.AI development team is 100% agentic. Every dev works with Claude Code on the project. Another Claude reviews the pull request. The human decides on business grounds, not technical ones. Deploys run on Vercel with 1-click rollback and daily backups.\n\nThe question is not whether AI writes your code. It is who checks it before customers rely on it.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: crissyfield.de\n\n#VibeCoding #AISecurity #AIEngineering #Lovable #SoftwareDevelopment"
+    }
+  }
+}
