@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-15-lovable-apps-leak-customer-data",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A research team analyzed 159,041 Lovable projects and found sensitive data readable without a login. Examples: a forum exposing 80,000+ profiles and 200,000+ chat messages, and a service provider exposing 1,000+ records with passport details. The researchers could not establish whether any of it was misused, and they say the 30% figure is not a confirmed leak rate.\n\nMy reading: vibe coding gets you to a demo in a day. Production needs access rules, security review and measurement. Without them, speed turns into a data breach.\n\nThis is a problem I had to solve. The AskMoses.AI development team is 100% agentic. Every dev works with Claude Code on the project. Another Claude reviews the pull request. The human decides on business grounds, not technical ones. Deploys run on Vercel with 1-click rollback and daily backups.\n\nThe question is not whether AI writes your code. It is who checks it before customers rely on it.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: crissyfield.de\n\n#VibeCoding #AISecurity #AIEngineering #Lovable #SoftwareDevelopment",
+  "first_comment": "Sources: https://www.crissyfield.de/research/lovable-en/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "A demo in a day. A data breach in production.",
+    "caption": "A research team analyzed 159,041 Lovable projects and found sensitive data readable without a login. Examples: a forum exposing 80,000+ profiles and 200,000+ chat messages, and a service provider exposing 1,000+ records with passport details. The researchers could not establish whether any of it was misused, and they say the 30% figure is not a confirmed leak rate.\n\nMy reading: vibe coding gets you to a demo in a day. Production needs access rules, security review and measurement. Without them, speed turns into a data breach.\n\nThis is a problem I had to solve. The AskMoses.AI development team is 100% agentic. Every dev works with Claude Code on the project. Another Claude reviews the pull request. The human decides on business grounds, not technical ones. Deploys run on Vercel with 1-click rollback and daily backups.\n\nThe question is not whether AI writes your code. It is who checks it before customers rely on it.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: crissyfield.de\n\n#VibeCoding #AISecurity #AIEngineering #Lovable #SoftwareDevelopment"
+  }
+}
