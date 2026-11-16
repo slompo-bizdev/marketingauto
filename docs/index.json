@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "2026-11-16T09:32:11.139979Z",
+  "atualizado_em": "2026-11-16T12:12:51.733754Z",
   "posts": [
     {
       "slug": "2026-11-16-agents-pick-the-hackable-vendor",
       "data": "2026-11-16",
-      "titulo": "Your AI agent will pick the vendor it can change, not the safest",
+      "titulo": "Your AI agent will pick the vendor it can change and fix later",
       "subtitulo": "When agents shop for you, security becomes part of the product.",
       "tema": "Your AI agent will pick the hackable vendor: security in agent-driven buying",
       "tipo": "ponte",
@@ -18,20 +18,20 @@
         {
           "type": "hook",
           "eyebrow": "AI ON THE RISE · AGENT-DRIVEN BUYING",
-          "headline": "Your AI agent will pick the vendor it can change, not the safest",
+          "headline": "Your AI agent will pick the vendor it can change and fix later",
           "sub": "When agents shop for you, security becomes part of the product."
         },
         {
           "type": "text",
           "eyebrow": "WHAT HAPPENED",
           "headline": "A post argues agents will favor devices they can modify",
-          "body": "Geoff Stearns writes that when you ask an agent which TV, router or synth to buy, it will lean toward the one it can fix later. He also warns that harmful firmware is now as easy to write as useful firmware. The post is trending on Hacker News (75 points, 59 comments)."
+          "body": "Geoff Stearns writes that when you ask an agent which TV, router or synth to buy, it will lean toward the one it can fix later. He also warns that harmful firmware is now as easy to write as useful firmware. He is a Product Manager at Google who builds AI agents."
         },
         {
           "type": "stat",
           "eyebrow": "THE NUMBER",
           "stat": "10 sec",
-          "label": "Time for M-Vave's tool to restore the stock firmware",
+          "label": "Roughly how long M-Vave's tool takes to restore the stock firmware",
           "sub": "The source says an agent can't open the case, so recovery must be easy."
         },
         {
@@ -69,7 +69,7 @@
           "button": "Comment SDR · vssolutions.io"
         }
       ],
-      "legenda": "An agent that shops for you will pick what it can change and fix. That is the argument in a post trending on Hacker News (75 points, 59 comments). The author also notes that cheap code makes harmful firmware as easy to write as useful firmware.\n\nIn practice, this suggests security and verification stop being a separate checklist. They become part of the product. What I see in companies is agents getting access before anyone decides which sources they can trust, which tools they can use, and who reviews what they did.\n\nI had to answer those questions for a WhatsApp sales agent at a building materials store in southern Brazil. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model, out of 13,312 products. The whole flow has 9 nodes: one agent and three tools. Rules are hard: no made-up specs, never reveals stock, never gives discounts. It found the right product in 65 out of 65 real customer questions.\n\nMy view: whitelist sources, limit tool permissions, log every decision. Measure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: geoffstearns.com\n\n#AIAgents #AISecurity #AIinProduction #Automation #SalesAutomation",
+      "legenda": "An agent that shops for you will pick what it can change and fix. That is the argument in a new post by Geoff Stearns, a Google product manager who builds AI agents. The author also notes that cheap code makes harmful firmware as easy to write as useful firmware.\n\nIn practice, this suggests security and verification stop being a separate checklist. They become part of the product. What I see in companies is agents getting access before anyone decides which sources they can trust, which tools they can use, and who reviews what they did.\n\nI had to answer those questions for a WhatsApp sales agent at a building materials store in southern Brazil. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model, out of 13,312 products. The whole flow has 9 nodes: one agent and three tools. Rules are hard: no made-up specs, never reveals stock, never gives discounts. It found the right product in 65 out of 65 real customer questions.\n\nMy view: whitelist sources, limit tool permissions, log every decision. Measure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: geoffstearns.com\n\n#AIAgents #AISecurity #AIinProduction #Automation #SalesAutomation",
       "imagens": [
         "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-16-agents-pick-the-hackable-vendor/1.jpg",
         "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-16-agents-pick-the-hackable-vendor/2.jpg",
@@ -83,26 +83,26 @@
       "gerado_em": "2026-11-16T09:30:52.533Z",
       "traducoes": {
         "en": {
-          "titulo": "Your AI agent will pick the vendor it can change, not the safest",
+          "titulo": "Your AI agent will pick the vendor it can change and fix later",
           "subtitulo": "When agents shop for you, security becomes part of the product.",
           "slides": [
             {
               "type": "hook",
               "eyebrow": "AI ON THE RISE · AGENT-DRIVEN BUYING",
-              "headline": "Your AI agent will pick the vendor it can change, not the safest",
+              "headline": "Your AI agent will pick the vendor it can change and fix later",
               "sub": "When agents shop for you, security becomes part of the product."
             },
             {
               "type": "text",
               "eyebrow": "WHAT HAPPENED",
               "headline": "A post argues agents will favor devices they can modify",
-              "body": "Geoff Stearns writes that when you ask an agent which TV, router or synth to buy, it will lean toward the one it can fix later. He also warns that harmful firmware is now as easy to write as useful firmware. The post is trending on Hacker News (75 points, 59 comments)."
+              "body": "Geoff Stearns writes that when you ask an agent which TV, router or synth to buy, it will lean toward the one it can fix later. He also warns that harmful firmware is now as easy to write as useful firmware. He is a Product Manager at Google who builds AI agents."
             },
             {
               "type": "stat",
               "eyebrow": "THE NUMBER",
               "stat": "10 sec",
-              "label": "Time for M-Vave's tool to restore the stock firmware",
+              "label": "Roughly how long M-Vave's tool takes to restore the stock firmware",
               "sub": "The source says an agent can't open the case, so recovery must be easy."
             },
             {
@@ -140,7 +140,7 @@
               "button": "Comment SDR · vssolutions.io"
             }
           ],
-          "legenda": "An agent that shops for you will pick what it can change and fix. That is the argument in a post trending on Hacker News (75 points, 59 comments). The author also notes that cheap code makes harmful firmware as easy to write as useful firmware.\n\nIn practice, this suggests security and verification stop being a separate checklist. They become part of the product. What I see in companies is agents getting access before anyone decides which sources they can trust, which tools they can use, and who reviews what they did.\n\nI had to answer those questions for a WhatsApp sales agent at a building materials store in southern Brazil. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model, out of 13,312 products. The whole flow has 9 nodes: one agent and three tools. Rules are hard: no made-up specs, never reveals stock, never gives discounts. It found the right product in 65 out of 65 real customer questions.\n\nMy view: whitelist sources, limit tool permissions, log every decision. Measure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: geoffstearns.com\n\n#AIAgents #AISecurity #AIinProduction #Automation #SalesAutomation"
+          "legenda": "An agent that shops for you will pick what it can change and fix. That is the argument in a new post by Geoff Stearns, a Google product manager who builds AI agents. The author also notes that cheap code makes harmful firmware as easy to write as useful firmware.\n\nIn practice, this suggests security and verification stop being a separate checklist. They become part of the product. What I see in companies is agents getting access before anyone decides which sources they can trust, which tools they can use, and who reviews what they did.\n\nI had to answer those questions for a WhatsApp sales agent at a building materials store in southern Brazil. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model, out of 13,312 products. The whole flow has 9 nodes: one agent and three tools. Rules are hard: no made-up specs, never reveals stock, never gives discounts. It found the right product in 65 out of 65 real customer questions.\n\nMy view: whitelist sources, limit tool permissions, log every decision. Measure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: geoffstearns.com\n\n#AIAgents #AISecurity #AIinProduction #Automation #SalesAutomation"
         }
       }
     },
