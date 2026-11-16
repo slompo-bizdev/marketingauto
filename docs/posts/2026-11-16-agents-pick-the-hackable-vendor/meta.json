@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-16-agents-pick-the-hackable-vendor",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "An agent that shops for you will pick what it can change and fix. That is the argument in a post trending on Hacker News (75 points, 59 comments). The author also notes that cheap code makes harmful firmware as easy to write as useful firmware.\n\nIn practice, this suggests security and verification stop being a separate checklist. They become part of the product. What I see in companies is agents getting access before anyone decides which sources they can trust, which tools they can use, and who reviews what they did.\n\nI had to answer those questions for a WhatsApp sales agent at a building materials store in southern Brazil. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model, out of 13,312 products. The whole flow has 9 nodes: one agent and three tools. Rules are hard: no made-up specs, never reveals stock, never gives discounts. It found the right product in 65 out of 65 real customer questions.\n\nMy view: whitelist sources, limit tool permissions, log every decision. Measure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: geoffstearns.com\n\n#AIAgents #AISecurity #AIinProduction #Automation #SalesAutomation",
+  "first_comment": "Sources: https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Your AI agent will pick the vendor it can change, not the safest",
+    "caption": "An agent that shops for you will pick what it can change and fix. That is the argument in a post trending on Hacker News (75 points, 59 comments). The author also notes that cheap code makes harmful firmware as easy to write as useful firmware.\n\nIn practice, this suggests security and verification stop being a separate checklist. They become part of the product. What I see in companies is agents getting access before anyone decides which sources they can trust, which tools they can use, and who reviews what they did.\n\nI had to answer those questions for a WhatsApp sales agent at a building materials store in southern Brazil. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model, out of 13,312 products. The whole flow has 9 nodes: one agent and three tools. Rules are hard: no made-up specs, never reveals stock, never gives discounts. It found the right product in 65 out of 65 real customer questions.\n\nMy view: whitelist sources, limit tool permissions, log every decision. Measure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: geoffstearns.com\n\n#AIAgents #AISecurity #AIinProduction #Automation #SalesAutomation"
+  }
+}
