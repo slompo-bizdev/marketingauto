@@ -1,0 +1,143 @@
+{
+  "slug": "2026-11-16-agents-pick-the-hackable-vendor",
+  "lang": "en",
+  "palette": [
+    "yellow",
+    "black"
+  ],
+  "accent": "yellow",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who decides what your AI agent can trust?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · AGENT-DRIVEN BUYING",
+      "headline": "Your AI agent will pick the vendor it can change, not the safest",
+      "sub": "When agents shop for you, security becomes part of the product."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "A post argues agents will favor devices they can modify",
+      "body": "Geoff Stearns writes that when you ask an agent which TV, router or synth to buy, it will lean toward the one it can fix later. He also warns that harmful firmware is now as easy to write as useful firmware. The post is trending on Hacker News (75 points, 59 comments)."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "10 sec",
+      "label": "Time for M-Vave's tool to restore the stock firmware",
+      "sub": "The source says an agent can't open the case, so recovery must be easy."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: agents get trust before rules",
+      "items": [
+        "Nobody defines which sources an agent may trust when it picks a tool or vendor.",
+        "Tool permissions are wide open because it was faster to ship that way.",
+        "Decisions are not logged, so no one can explain why the agent chose what it chose."
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "A building materials store in southern Brazil: what the agent may trust",
+      "items": [
+        "The AI never sees the catalog: a simple search hands it 8 results from 13,312 products.",
+        "The flow has 9 nodes: one agent and three tools (search, size a heater, call a human).",
+        "Rules: no made-up specs, never reveals stock, never gives discounts. 65 of 65 questions right."
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Measure instead of assuming.",
+      "body": "Before an agent touches money or customers, I want to know which data it trusts, which actions it can take and what it did. Whitelist sources, limit tool permissions, log every decision. Then test it on real questions, not on a demo."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment SDR.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment SDR · vssolutions.io"
+    }
+  ],
+  "caption": "An agent that shops for you will pick what it can change and fix. That is the argument in a post trending on Hacker News (75 points, 59 comments). The author also notes that cheap code makes harmful firmware as easy to write as useful firmware.\n\nIn practice, this suggests security and verification stop being a separate checklist. They become part of the product. What I see in companies is agents getting access before anyone decides which sources they can trust, which tools they can use, and who reviews what they did.\n\nI had to answer those questions for a WhatsApp sales agent at a building materials store in southern Brazil. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model, out of 13,312 products. The whole flow has 9 nodes: one agent and three tools. Rules are hard: no made-up specs, never reveals stock, never gives discounts. It found the right product in 65 out of 65 real customer questions.\n\nMy view: whitelist sources, limit tool permissions, log every decision. Measure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: geoffstearns.com\n\n#AIAgents #AISecurity #AIinProduction #Automation #SalesAutomation",
+  "first_comment": "Sources: https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/\n\nvssolutions.io",
+  "meta": {
+    "tema": "Your AI agent will pick the hackable vendor: security in agent-driven buying",
+    "tipo": "ponte",
+    "case_id": "sdr",
+    "palavra": "SDR",
+    "valor": "Measure instead of assuming.",
+    "angulo": "When agents choose vendors and tools on their own, security and verification become part of the product: whitelist sources, limit tool permissions and log every decision before the agent touches money or customers.",
+    "fontes": [
+      "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/"
+    ],
+    "roteiro_reels": "[0-3s] Your AI agent will pick the vendor it can change, not the safest one.\n[3-20s] A post trending on Hacker News says agents will favor devices they can modify and fix. That makes security part of the product. For my WhatsApp sales agent, the AI never sees the catalog. A search hands it 8 results, and it has three tools and hard rules.\n[20-30s] Whitelist sources, limit permissions, log every decision. Comment SDR and I'll send you how I did it.",
+    "gerado_em": "2026-11-16T09:30:52.533Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AGENT-DRIVEN BUYING",
+          "headline": "Your AI agent will pick the vendor it can change, not the safest",
+          "sub": "When agents shop for you, security becomes part of the product."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A post argues agents will favor devices they can modify",
+          "body": "Geoff Stearns writes that when you ask an agent which TV, router or synth to buy, it will lean toward the one it can fix later. He also warns that harmful firmware is now as easy to write as useful firmware. The post is trending on Hacker News (75 points, 59 comments)."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "10 sec",
+          "label": "Time for M-Vave's tool to restore the stock firmware",
+          "sub": "The source says an agent can't open the case, so recovery must be easy."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: agents get trust before rules",
+          "items": [
+            "Nobody defines which sources an agent may trust when it picks a tool or vendor.",
+            "Tool permissions are wide open because it was faster to ship that way.",
+            "Decisions are not logged, so no one can explain why the agent chose what it chose."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil: what the agent may trust",
+          "items": [
+            "The AI never sees the catalog: a simple search hands it 8 results from 13,312 products.",
+            "The flow has 9 nodes: one agent and three tools (search, size a heater, call a human).",
+            "Rules: no made-up specs, never reveals stock, never gives discounts. 65 of 65 questions right."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "Before an agent touches money or customers, I want to know which data it trusts, which actions it can take and what it did. Whitelist sources, limit tool permissions, log every decision. Then test it on real questions, not on a demo."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "caption": "An agent that shops for you will pick what it can change and fix. That is the argument in a post trending on Hacker News (75 points, 59 comments). The author also notes that cheap code makes harmful firmware as easy to write as useful firmware.\n\nIn practice, this suggests security and verification stop being a separate checklist. They become part of the product. What I see in companies is agents getting access before anyone decides which sources they can trust, which tools they can use, and who reviews what they did.\n\nI had to answer those questions for a WhatsApp sales agent at a building materials store in southern Brazil. The AI never sees the catalog. A simple search answers in milliseconds and hands 8 results to the model, out of 13,312 products. The whole flow has 9 nodes: one agent and three tools. Rules are hard: no made-up specs, never reveals stock, never gives discounts. It found the right product in 65 out of 65 real customer questions.\n\nMy view: whitelist sources, limit tool permissions, log every decision. Measure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: geoffstearns.com\n\n#AIAgents #AISecurity #AIinProduction #Automation #SalesAutomation"
+    }
+  }
+}
