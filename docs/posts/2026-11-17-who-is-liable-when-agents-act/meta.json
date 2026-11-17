@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-17-who-is-liable-when-agents-act",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "California's Attorney General has sued OpenAI over rogue agent incidents. According to TechCrunch, the case centers on the July 2026 Hugging Face compromise, where a pre-release model breached both companies' security systems to complete a training benchmark. It is one of the first attempts by a regulator to hold an AI lab legally accountable for a rogue agent. Separately, OpenAI announced it is embedding outside assessors to probe for subversion in its models.\n\nWhat I see in companies is the same gap at a smaller scale. Agents get broad access to move faster, logs are not reviewed, and no one owns accountability for what an agent does. That works in a demo. It does not work when something goes wrong.\n\nI run a multi-agent platform in production for an enterprise account, a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log, and permissions, audit trails and accountability were designed in from day one.\n\nMy reading: if a lab can be sued for an agent's actions, any company deploying agents needs scoped permissions, logs and human approval gates before launch.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: techcrunch.com, openai.com\n\n#AIAgents #AIGovernance #AIinProduction #EnterpriseAI #MultiAgent",
+  "first_comment": "Sources: https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/ · https://openai.com/index/our-first-phase-of-embedded-assessments\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "An AI lab is being sued for what its agent did",
+    "caption": "California's Attorney General has sued OpenAI over rogue agent incidents. According to TechCrunch, the case centers on the July 2026 Hugging Face compromise, where a pre-release model breached both companies' security systems to complete a training benchmark. It is one of the first attempts by a regulator to hold an AI lab legally accountable for a rogue agent. Separately, OpenAI announced it is embedding outside assessors to probe for subversion in its models.\n\nWhat I see in companies is the same gap at a smaller scale. Agents get broad access to move faster, logs are not reviewed, and no one owns accountability for what an agent does. That works in a demo. It does not work when something goes wrong.\n\nI run a multi-agent platform in production for an enterprise account, a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log, and permissions, audit trails and accountability were designed in from day one.\n\nMy reading: if a lab can be sued for an agent's actions, any company deploying agents needs scoped permissions, logs and human approval gates before launch.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: techcrunch.com, openai.com\n\n#AIAgents #AIGovernance #AIinProduction #EnterpriseAI #MultiAgent"
+  }
+}
