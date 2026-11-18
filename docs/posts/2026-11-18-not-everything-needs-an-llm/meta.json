@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-18-not-everything-needs-an-llm",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "PostHog published a piece called \"Not Everything Needs an LLM.\" Their point: decision models take a structured question and return a typed answer with a probability, instead of a few hundred words of \"it depends.\"\n\nIn their PII pipeline, two narrow yes/no questions decide whether a session summary needs an LLM rewrite. In production, 98.7% skip the LLM call entirely. TechCrunch also reports that in October more than one in four requests on Vercel's AI model router went to decision models, not LLMs.\n\nHere is what I see in companies. The default is to send every task to a generative model. Nobody asks whether generation is needed. And nobody decides which mistake costs more, a false positive or a false negative.\n\nThe sources are clear on the limits. A score of 0.85 still means roughly 150 wrong answers per 1,000 checks. Thresholds change between model versions. Multi-step reasoning is still a job for LLMs.\n\nMy take: not every problem needs AI, and not every AI problem needs generation. The first production decision is whether you need an LLM at all. If a small model returning a probability over fixed options does the job, it is easier to measure and easier to trust.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: newsletter.posthog.com, techcrunch.com\n\n#AI #DecisionModels #LLM #AIinProduction #MachineLearning #Automation",
+  "first_comment": "Sources: https://newsletter.posthog.com/p/decision-models · https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Most of your AI workflows don't need a chatbot",
+    "caption": "PostHog published a piece called \"Not Everything Needs an LLM.\" Their point: decision models take a structured question and return a typed answer with a probability, instead of a few hundred words of \"it depends.\"\n\nIn their PII pipeline, two narrow yes/no questions decide whether a session summary needs an LLM rewrite. In production, 98.7% skip the LLM call entirely. TechCrunch also reports that in October more than one in four requests on Vercel's AI model router went to decision models, not LLMs.\n\nHere is what I see in companies. The default is to send every task to a generative model. Nobody asks whether generation is needed. And nobody decides which mistake costs more, a false positive or a false negative.\n\nThe sources are clear on the limits. A score of 0.85 still means roughly 150 wrong answers per 1,000 checks. Thresholds change between model versions. Multi-step reasoning is still a job for LLMs.\n\nMy take: not every problem needs AI, and not every AI problem needs generation. The first production decision is whether you need an LLM at all. If a small model returning a probability over fixed options does the job, it is easier to measure and easier to trust.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: newsletter.posthog.com, techcrunch.com\n\n#AI #DecisionModels #LLM #AIinProduction #MachineLearning #Automation"
+  }
+}

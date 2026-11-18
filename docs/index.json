@@ -1,6 +1,204 @@
 {
-  "atualizado_em": "2026-11-17T09:32:01.474205Z",
+  "atualizado_em": "2026-11-18T09:37:03.578449Z",
   "posts": [
+    {
+      "slug": "2026-11-18-not-everything-needs-an-llm",
+      "data": "2026-11-18",
+      "titulo": "Most of your AI workflows don't need a chatbot",
+      "subtitulo": "A small model that returns a probability may be the better first call.",
+      "tema": "Not everything needs an LLM: decision models and when to skip generative AI",
+      "tipo": "radar",
+      "case_id": null,
+      "palavra": "PROJECT",
+      "valor": "Not every problem needs AI.",
+      "fontes": [
+        "https://newsletter.posthog.com/p/decision-models",
+        "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · DECISION MODELS",
+          "headline": "Most of your AI workflows don't need a chatbot",
+          "sub": "A small model that returns a probability may be the better first call."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "PostHog skipped the LLM for most of its checks",
+          "body": "PostHog wrote about using decision models: you ask a structured question and get a typed answer with a probability. TechCrunch reports that in October more than one in four requests on Vercel's AI model router went to decision models, not LLMs.",
+          "stat": ""
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "98.7%",
+          "label": "of session summaries skip the LLM call in PostHog's PII pipeline",
+          "sub": "Two yes/no questions to a decision model gate the expensive Gemini call."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: every task goes to the LLM",
+          "items": [
+            "The first idea is a chatbot, so nobody asks if generation is needed at all.",
+            "Answers come back as free-form prose, so nobody can measure them.",
+            "Nobody sets a threshold based on which mistake costs more."
+          ]
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHERE THIS BREAKS IN PRACTICE",
+          "headline": "A probability is not a guarantee",
+          "body": "PostHog notes a 0.85 score still means about 150 wrong answers per 1,000 checks. Thresholds also changed between v1 and v2 of the same model, and multi-step reasoning flooded their model server. Calibrate per task and per model.",
+          "stat": ""
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Not every problem needs AI. Some need less of it.",
+          "body": "In practice, the first production decision is whether you need generation at all. A model that picks from fixed options is easier to measure and to compare. Keep the LLM for the open-ended work, and measure the rest.",
+          "stat": ""
+        },
+        {
+          "type": "cta",
+          "eyebrow": "VS SOLUTIONS · AI SOFTWARE",
+          "headline": "Want this working at your company?",
+          "body": "Comment PROJECT and tell me what you want to solve. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment PROJECT · vssolutions.io"
+        }
+      ],
+      "legenda": "PostHog published a piece called \"Not Everything Needs an LLM.\" Their point: decision models take a structured question and return a typed answer with a probability, instead of a few hundred words of \"it depends.\"\n\nIn their PII pipeline, two narrow yes/no questions decide whether a session summary needs an LLM rewrite. In production, 98.7% skip the LLM call entirely. TechCrunch also reports that in October more than one in four requests on Vercel's AI model router went to decision models, not LLMs.\n\nHere is what I see in companies. The default is to send every task to a generative model. Nobody asks whether generation is needed. And nobody decides which mistake costs more, a false positive or a false negative.\n\nThe sources are clear on the limits. A score of 0.85 still means roughly 150 wrong answers per 1,000 checks. Thresholds change between model versions. Multi-step reasoning is still a job for LLMs.\n\nMy take: not every problem needs AI, and not every AI problem needs generation. The first production decision is whether you need an LLM at all. If a small model returning a probability over fixed options does the job, it is easier to measure and easier to trust.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: newsletter.posthog.com, techcrunch.com\n\n#AI #DecisionModels #LLM #AIinProduction #MachineLearning #Automation",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-18-not-everything-needs-an-llm/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-18-not-everything-needs-an-llm/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-18-not-everything-needs-an-llm/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-18-not-everything-needs-an-llm/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-18-not-everything-needs-an-llm/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-18-not-everything-needs-an-llm/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-18-not-everything-needs-an-llm/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-18-not-everything-needs-an-llm/1.jpg",
+      "gerado_em": "2026-11-18T09:30:51.537Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Most of your AI workflows don't need a chatbot",
+          "subtitulo": "A small model that returns a probability may be the better first call.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · DECISION MODELS",
+              "headline": "Most of your AI workflows don't need a chatbot",
+              "sub": "A small model that returns a probability may be the better first call."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "PostHog skipped the LLM for most of its checks",
+              "body": "PostHog wrote about using decision models: you ask a structured question and get a typed answer with a probability. TechCrunch reports that in October more than one in four requests on Vercel's AI model router went to decision models, not LLMs.",
+              "stat": ""
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "98.7%",
+              "label": "of session summaries skip the LLM call in PostHog's PII pipeline",
+              "sub": "Two yes/no questions to a decision model gate the expensive Gemini call."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: every task goes to the LLM",
+              "items": [
+                "The first idea is a chatbot, so nobody asks if generation is needed at all.",
+                "Answers come back as free-form prose, so nobody can measure them.",
+                "Nobody sets a threshold based on which mistake costs more."
+              ]
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHERE THIS BREAKS IN PRACTICE",
+              "headline": "A probability is not a guarantee",
+              "body": "PostHog notes a 0.85 score still means about 150 wrong answers per 1,000 checks. Thresholds also changed between v1 and v2 of the same model, and multi-step reasoning flooded their model server. Calibrate per task and per model.",
+              "stat": ""
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Not every problem needs AI. Some need less of it.",
+              "body": "In practice, the first production decision is whether you need generation at all. A model that picks from fixed options is easier to measure and to compare. Keep the LLM for the open-ended work, and measure the rest.",
+              "stat": ""
+            },
+            {
+              "type": "cta",
+              "eyebrow": "VS SOLUTIONS · AI SOFTWARE",
+              "headline": "Want this working at your company?",
+              "body": "Comment PROJECT and tell me what you want to solve. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment PROJECT · vssolutions.io"
+            }
+          ],
+          "legenda": "PostHog published a piece called \"Not Everything Needs an LLM.\" Their point: decision models take a structured question and return a typed answer with a probability, instead of a few hundred words of \"it depends.\"\n\nIn their PII pipeline, two narrow yes/no questions decide whether a session summary needs an LLM rewrite. In production, 98.7% skip the LLM call entirely. TechCrunch also reports that in October more than one in four requests on Vercel's AI model router went to decision models, not LLMs.\n\nHere is what I see in companies. The default is to send every task to a generative model. Nobody asks whether generation is needed. And nobody decides which mistake costs more, a false positive or a false negative.\n\nThe sources are clear on the limits. A score of 0.85 still means roughly 150 wrong answers per 1,000 checks. Thresholds change between model versions. Multi-step reasoning is still a job for LLMs.\n\nMy take: not every problem needs AI, and not every AI problem needs generation. The first production decision is whether you need an LLM at all. If a small model returning a probability over fixed options does the job, it is easier to measure and easier to trust.\n\nComment PROJECT and I'll DM you how to apply this to your company.\n\nSources: newsletter.posthog.com, techcrunch.com\n\n#AI #DecisionModels #LLM #AIinProduction #MachineLearning #Automation"
+        },
+        "ru": {
+          "titulo": "Большинству ваших ИИ-процессов не нужен чат-бот",
+          "subtitulo": "Небольшая модель, которая возвращает вероятность, может быть лучшим первым выбором.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · МОДЕЛИ РЕШЕНИЙ",
+              "headline": "Большинству ваших ИИ-процессов не нужен чат-бот",
+              "sub": "Небольшая модель, которая возвращает вероятность, может быть лучшим первым выбором."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "PostHog обошёлся без LLM в большинстве проверок",
+              "body": "PostHog написал об использовании моделей решений: вы задаёте структурированный вопрос и получаете типизированный ответ с вероятностью. TechCrunch сообщает, что в октябре более одного из четырёх запросов к AI-роутеру моделей Vercel ушли не к LLM, а к моделям решений.",
+              "stat": ""
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "98,7%",
+              "label": "сводок сессий пропускают вызов LLM в конвейере PII у PostHog",
+              "sub": "Два вопроса с ответом «да/нет» к модели решений решают, нужен ли дорогой вызов Gemini."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях: каждая задача уходит в LLM",
+              "items": [
+                "Первая идея — чат-бот, поэтому никто не спрашивает, нужна ли вообще генерация.",
+                "Ответы приходят в свободной форме, поэтому их невозможно измерить.",
+                "Никто не задаёт порог с учётом того, какая ошибка обходится дороже."
+              ]
+            },
+            {
+              "type": "text",
+              "eyebrow": "ГДЕ ЭТО ЛОМАЕТСЯ НА ПРАКТИКЕ",
+              "headline": "Вероятность — не гарантия",
+              "body": "PostHog отмечает, что оценка 0,85 всё равно означает около 150 ошибочных ответов на 1 000 проверок. Пороги также менялись между v1 и v2 одной и той же модели, а многошаговые рассуждения перегрузили их сервер моделей. Калибруйте под каждую задачу и под каждую модель.",
+              "stat": ""
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Не каждой проблеме нужен ИИ. Некоторым нужно его меньше.",
+              "body": "На практике первое производственное решение — нужна ли вообще генерация. Модель, которая выбирает из фиксированных вариантов, легче измерить и сравнить. Оставьте LLM для открытых задач, а остальное измеряйте.",
+              "stat": ""
+            },
+            {
+              "type": "cta",
+              "eyebrow": "VS SOLUTIONS · ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ С ИИ",
+              "headline": "Хотите, чтобы это работало в вашей компании?",
+              "body": "Напишите PROJECT в комментариях и расскажите, что хотите решить. Я перевожу ИИ из стадии идеи в продакшн, с измеримыми результатами.",
+              "button": "Напишите PROJECT · vssolutions.io"
+            }
+          ],
+          "legenda": "PostHog опубликовал статью «Not Everything Needs an LLM» («Не всему нужен LLM»). Их мысль: модели решений получают структурированный вопрос и возвращают типизированный ответ с вероятностью, а не несколько сотен слов в духе «всё зависит от обстоятельств».\n\nВ их конвейере PII два узких вопроса с ответом «да/нет» решают, нужна ли сводке сессии переписка через LLM. В продакшне 98,7% сводок вообще пропускают вызов LLM. TechCrunch также сообщает, что в октябре более одного из четырёх запросов к AI-роутеру моделей Vercel ушли к моделям решений, а не к LLM.\n\nВот что я вижу в компаниях. По умолчанию каждая задача отправляется в генеративную модель. Никто не спрашивает, нужна ли здесь генерация. И никто не решает, какая ошибка обойдётся дороже: ложное срабатывание или пропуск.\n\nИсточники ясно говорят о ограничениях. Оценка 0,85 всё равно означает примерно 150 ошибочных ответов на 1 000 проверок. Пороги меняются между версиями моделей. Многошаговые рассуждения по-прежнему задача для LLM.\n\nМоё мнение: не каждой проблеме нужен ИИ, и не каждой ИИ-задаче нужна генерация. Первое производственное решение — нужен ли вообще LLM. Если справляется небольшая модель, которая возвращает вероятность по фиксированным вариантам, её легче измерить и легче доверять.\n\nНапишите PROJECT, и я пришлю в личные сообщения, как применить это в вашей компании.\n\nИсточники: newsletter.posthog.com, techcrunch.com\n\n#AI #ModelsДляРешений #LLM #AIвПродакшне #MachineLearning #Автоматизация"
+        }
+      }
+    },
     {
       "slug": "2026-11-17-who-is-liable-when-agents-act",
       "data": "2026-11-17",
