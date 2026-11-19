@@ -1,6 +1,156 @@
 {
-  "atualizado_em": "2026-11-18T09:37:03.578449Z",
+  "atualizado_em": "2026-11-19T09:40:16.715151Z",
   "posts": [
+    {
+      "slug": "2026-11-19-banks-won-t-cover-customer-ai-agents",
+      "data": "2026-11-19",
+      "titulo": "Banks say: your AI agent, your problem. Even if it's hacked.",
+      "subtitulo": "Who is accountable when an agent touches money or orders?",
+      "tema": "Banks tell customers using AI agents they're on their own, even if hacked",
+      "tipo": "ponte",
+      "case_id": "sdr",
+      "palavra": "SDR",
+      "valor": "Measure instead of assuming.",
+      "fontes": [
+        "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+        "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · BANKS & AI AGENTS",
+          "headline": "Banks say: your AI agent, your problem. Even if it's hacked.",
+          "sub": "Who is accountable when an agent touches money or orders?"
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Citi told customers: if your AI agent goes wrong, it's on you",
+          "body": "Citi updated its terms. Customers who give third-party AI agents account access are responsible for what those agents do, including if the tool leaks credentials or is hacked. JPMorgan, Bank of America and PNC made similar moves."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "WHAT CHANGES",
+          "headline": "The accountability question is now in the contract",
+          "items": [
+            "Citi's terms: customers are responsible for activity done through third-party agents",
+            "If the AI tool is hacked, the customer owns what hackers do with the account",
+            "Citi's own agents are the exception: no extra liability for customers"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies shipping agents",
+          "items": [
+            "The agent gets broad access first. Limits get discussed after something breaks.",
+            "Nobody can say exactly what the agent did, or why, when a customer complains.",
+            "Success is assumed from a demo, not measured on real customer conversations."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil runs an agent with scoped tools",
+          "items": [
+            "The whole flow has 9 nodes: one agent and three tools (search, size a heater, call a human)",
+            "Rules: no made-up specs, never reveals stock, never gives discounts",
+            "65 out of 65 real customer questions found the right product"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "If banks won't cover what agents do, any company shipping one needs tight tool permissions, audit trails and measured outcomes before it touches money or orders. In my reading, the trust problem is solved by design, not by terms of service."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "legenda": "Citi just told customers that if they give a third-party AI agent access to their account, anything that goes wrong is their problem. That includes the agent leaking credentials or getting hacked, according to TechCrunch. JPMorgan, Bank of America and PNC have made similar moves.\n\nIn practice, this is the accountability question every company with an agent will face. What I see in companies: agents get broad access first, limits come later, nobody can trace what the agent did, and success is assumed from a demo.\n\nI built the opposite for a building materials store in southern Brazil. An AI sales rep on WhatsApp, with one agent and three tools: search, size a heater, call a human salesperson. The whole flow has 9 nodes. Rules are hard: no made-up specs, never reveals stock, never gives discounts. Result: 65 out of 65 real customer questions found the right product.\n\nIf an agent can act for your business, scope its tools, keep an audit trail and measure the outcome before it touches money or orders.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIAgents #AIinProduction #AIGovernance #Fintech #BusinessAutomation",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-19-banks-won-t-cover-customer-ai-agents/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-19-banks-won-t-cover-customer-ai-agents/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-19-banks-won-t-cover-customer-ai-agents/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-19-banks-won-t-cover-customer-ai-agents/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-19-banks-won-t-cover-customer-ai-agents/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-19-banks-won-t-cover-customer-ai-agents/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-19-banks-won-t-cover-customer-ai-agents/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-19-banks-won-t-cover-customer-ai-agents/1.jpg",
+      "gerado_em": "2026-11-19T09:30:55.676Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Banks say: your AI agent, your problem. Even if it's hacked.",
+          "subtitulo": "Who is accountable when an agent touches money or orders?",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · BANKS & AI AGENTS",
+              "headline": "Banks say: your AI agent, your problem. Even if it's hacked.",
+              "sub": "Who is accountable when an agent touches money or orders?"
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Citi told customers: if your AI agent goes wrong, it's on you",
+              "body": "Citi updated its terms. Customers who give third-party AI agents account access are responsible for what those agents do, including if the tool leaks credentials or is hacked. JPMorgan, Bank of America and PNC made similar moves."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "WHAT CHANGES",
+              "headline": "The accountability question is now in the contract",
+              "items": [
+                "Citi's terms: customers are responsible for activity done through third-party agents",
+                "If the AI tool is hacked, the customer owns what hackers do with the account",
+                "Citi's own agents are the exception: no extra liability for customers"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies shipping agents",
+              "items": [
+                "The agent gets broad access first. Limits get discussed after something breaks.",
+                "Nobody can say exactly what the agent did, or why, when a customer complains.",
+                "Success is assumed from a demo, not measured on real customer conversations."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "A building materials store in southern Brazil runs an agent with scoped tools",
+              "items": [
+                "The whole flow has 9 nodes: one agent and three tools (search, size a heater, call a human)",
+                "Rules: no made-up specs, never reveals stock, never gives discounts",
+                "65 out of 65 real customer questions found the right product"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assuming.",
+              "body": "If banks won't cover what agents do, any company shipping one needs tight tool permissions, audit trails and measured outcomes before it touches money or orders. In my reading, the trust problem is solved by design, not by terms of service."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment SDR.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "Citi just told customers that if they give a third-party AI agent access to their account, anything that goes wrong is their problem. That includes the agent leaking credentials or getting hacked, according to TechCrunch. JPMorgan, Bank of America and PNC have made similar moves.\n\nIn practice, this is the accountability question every company with an agent will face. What I see in companies: agents get broad access first, limits come later, nobody can trace what the agent did, and success is assumed from a demo.\n\nI built the opposite for a building materials store in southern Brazil. An AI sales rep on WhatsApp, with one agent and three tools: search, size a heater, call a human salesperson. The whole flow has 9 nodes. Rules are hard: no made-up specs, never reveals stock, never gives discounts. Result: 65 out of 65 real customer questions found the right product.\n\nIf an agent can act for your business, scope its tools, keep an audit trail and measure the outcome before it touches money or orders.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIAgents #AIinProduction #AIGovernance #Fintech #BusinessAutomation"
+        }
+      }
+    },
     {
       "slug": "2026-11-18-not-everything-needs-an-llm",
       "data": "2026-11-18",

@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-19-banks-won-t-cover-customer-ai-agents",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Citi just told customers that if they give a third-party AI agent access to their account, anything that goes wrong is their problem. That includes the agent leaking credentials or getting hacked, according to TechCrunch. JPMorgan, Bank of America and PNC have made similar moves.\n\nIn practice, this is the accountability question every company with an agent will face. What I see in companies: agents get broad access first, limits come later, nobody can trace what the agent did, and success is assumed from a demo.\n\nI built the opposite for a building materials store in southern Brazil. An AI sales rep on WhatsApp, with one agent and three tools: search, size a heater, call a human salesperson. The whole flow has 9 nodes. Rules are hard: no made-up specs, never reveals stock, never gives discounts. Result: 65 out of 65 real customer questions found the right product.\n\nIf an agent can act for your business, scope its tools, keep an audit trail and measure the outcome before it touches money or orders.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIAgents #AIinProduction #AIGovernance #Fintech #BusinessAutomation",
+  "first_comment": "Sources: https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/ · https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Banks say: your AI agent, your problem. Even if it's hacked.",
+    "caption": "Citi just told customers that if they give a third-party AI agent access to their account, anything that goes wrong is their problem. That includes the agent leaking credentials or getting hacked, according to TechCrunch. JPMorgan, Bank of America and PNC have made similar moves.\n\nIn practice, this is the accountability question every company with an agent will face. What I see in companies: agents get broad access first, limits come later, nobody can trace what the agent did, and success is assumed from a demo.\n\nI built the opposite for a building materials store in southern Brazil. An AI sales rep on WhatsApp, with one agent and three tools: search, size a heater, call a human salesperson. The whole flow has 9 nodes. Rules are hard: no made-up specs, never reveals stock, never gives discounts. Result: 65 out of 65 real customer questions found the right product.\n\nIf an agent can act for your business, scope its tools, keep an audit trail and measure the outcome before it touches money or orders.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIAgents #AIinProduction #AIGovernance #Fintech #BusinessAutomation"
+  }
+}
