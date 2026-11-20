@@ -1,6 +1,210 @@
 {
-  "atualizado_em": "2026-11-19T09:40:16.715151Z",
+  "atualizado_em": "2026-11-20T09:31:51.786883Z",
   "posts": [
+    {
+      "slug": "2026-11-20-muse-mixes-up-conversations",
+      "data": "2026-11-20",
+      "titulo": "An AI agent showed one person another person's bank balance",
+      "subtitulo": "That is not a model bug. It is an isolation failure.",
+      "tema": "Meta's Muse agent mixes up conversations and exposes private data",
+      "tipo": "ponte",
+      "case_id": "sdr",
+      "palavra": "SDR",
+      "valor": "Measure instead of assuming.",
+      "fontes": [
+        "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+        "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · META MUSE",
+          "headline": "An AI agent showed one person another person's bank balance",
+          "sub": "That is not a model bug. It is an isolation failure."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Meta employees say Muse mixed up conversations across accounts",
+          "body": "Per a Reuters report cited by TechCrunch, employees said Muse surfaced orders they never placed and bank balances that were not theirs. Meta says employees test different versions than the public."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "10M+",
+          "label": "Muse downloads since its September launch",
+          "sub": "TechCrunch calls it one of the fastest-growing apps on record."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: nobody owns context isolation",
+          "items": [
+            "The demo works with one user. Nobody tests what happens with many at once.",
+            "Memory is shared by default, and no one decides where one customer ends.",
+            "Leak tests are skipped because the agent already passed the accuracy tests."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil: many customers, one agent",
+          "items": [
+            "The AI never sees the catalog: a search hands it 8 results from 13,312 products.",
+            "Rules in the flow: no made-up specs, never reveals stock, never gives discounts.",
+            "65 out of 65 real customer questions found the right product."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "An agent that talks to many customers at once needs a memory boundary per session, and a test that tries to break it before going live. In practice, a leak is a design failure. Not something the model will fix on its own."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "legenda": "TechCrunch reported on Nov 19, citing Reuters, that Meta employees saw its AI agent Muse mix up conversations across accounts. Employees described messages about orders they never placed and bank balances that were not theirs. Meta says employees test different versions than the public.\n\nMy reading: this looks like a context-isolation problem, not a model problem. When one agent serves many people at once, each conversation needs its own memory boundary. If it does not, the agent will eventually mix them up.\n\nWhat I see in companies is that the demo works with one user, and nobody tests what happens with many. Leak tests get skipped because the agent already passed the accuracy tests.\n\nI built an AI sales rep on WhatsApp for a building materials store in southern Brazil. It handles many customers at once. The AI never sees the catalog: a simple search hands it 8 results from 13,312 products. The flow has 9 nodes, one agent and three tools. Rules are explicit: no made-up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMeasure instead of assuming. Test for leakage before launch, not after.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIAgents #AIinProduction #DataPrivacy #WhatsAppAutomation #AIEngineering",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-20-muse-mixes-up-conversations/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-20-muse-mixes-up-conversations/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-20-muse-mixes-up-conversations/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-20-muse-mixes-up-conversations/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-20-muse-mixes-up-conversations/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-20-muse-mixes-up-conversations/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-20-muse-mixes-up-conversations/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-20-muse-mixes-up-conversations/1.jpg",
+      "gerado_em": "2026-11-20T09:30:54.622Z",
+      "traducoes": {
+        "en": {
+          "titulo": "An AI agent showed one person another person's bank balance",
+          "subtitulo": "That is not a model bug. It is an isolation failure.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · META MUSE",
+              "headline": "An AI agent showed one person another person's bank balance",
+              "sub": "That is not a model bug. It is an isolation failure."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Meta employees say Muse mixed up conversations across accounts",
+              "body": "Per a Reuters report cited by TechCrunch, employees said Muse surfaced orders they never placed and bank balances that were not theirs. Meta says employees test different versions than the public."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "10M+",
+              "label": "Muse downloads since its September launch",
+              "sub": "TechCrunch calls it one of the fastest-growing apps on record."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: nobody owns context isolation",
+              "items": [
+                "The demo works with one user. Nobody tests what happens with many at once.",
+                "Memory is shared by default, and no one decides where one customer ends.",
+                "Leak tests are skipped because the agent already passed the accuracy tests."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "A building materials store in southern Brazil: many customers, one agent",
+              "items": [
+                "The AI never sees the catalog: a search hands it 8 results from 13,312 products.",
+                "Rules in the flow: no made-up specs, never reveals stock, never gives discounts.",
+                "65 out of 65 real customer questions found the right product."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assuming.",
+              "body": "An agent that talks to many customers at once needs a memory boundary per session, and a test that tries to break it before going live. In practice, a leak is a design failure. Not something the model will fix on its own."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment SDR.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "TechCrunch reported on Nov 19, citing Reuters, that Meta employees saw its AI agent Muse mix up conversations across accounts. Employees described messages about orders they never placed and bank balances that were not theirs. Meta says employees test different versions than the public.\n\nMy reading: this looks like a context-isolation problem, not a model problem. When one agent serves many people at once, each conversation needs its own memory boundary. If it does not, the agent will eventually mix them up.\n\nWhat I see in companies is that the demo works with one user, and nobody tests what happens with many. Leak tests get skipped because the agent already passed the accuracy tests.\n\nI built an AI sales rep on WhatsApp for a building materials store in southern Brazil. It handles many customers at once. The AI never sees the catalog: a simple search hands it 8 results from 13,312 products. The flow has 9 nodes, one agent and three tools. Rules are explicit: no made-up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMeasure instead of assuming. Test for leakage before launch, not after.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIAgents #AIinProduction #DataPrivacy #WhatsAppAutomation #AIEngineering"
+        },
+        "ru": {
+          "titulo": "ИИ-агент показал одному человеку банковский баланс другого",
+          "subtitulo": "Это не баг модели. Это провал изоляции.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · META MUSE",
+              "headline": "ИИ-агент показал одному человеку банковский баланс другого",
+              "sub": "Это не баг модели. Это провал изоляции."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Сотрудники Meta говорят, что Muse перепутал диалоги разных аккаунтов",
+              "body": "По данным Reuters, на которые ссылается TechCrunch, сотрудники рассказали, что Muse показывал заказы, которых они не делали, и банковские балансы, которые им не принадлежали. Meta говорит, что сотрудники тестируют версии, отличные от публичной."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "10M+",
+              "label": "скачиваний Muse с момента запуска в сентябре",
+              "sub": "TechCrunch называет его одним из самых быстрорастущих приложений."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях: никто не отвечает за изоляцию контекста",
+              "items": [
+                "Демо работает с одним пользователем. Никто не проверяет, что будет со многими одновременно.",
+                "Память общая по умолчанию, и никто не решает, где заканчивается один клиент.",
+                "Тесты на утечки пропускают, потому что агент уже прошёл тесты на точность."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я ЭТО УЖЕ РЕШАЛ",
+              "headline": "Магазин стройматериалов на юге Бразилии: много клиентов, один агент",
+              "items": [
+                "ИИ никогда не видит каталог: поиск передаёт ему 8 результатов из 13 312 товаров.",
+                "Правила заложены в сценарий: никаких выдуманных характеристик, никогда не сообщает наличие, никогда не даёт скидок.",
+                "65 из 65 реальных вопросов клиентов нашли нужный товар."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Измеряйте, а не предполагайте.",
+              "body": "Агенту, который общается с множеством клиентов одновременно, нужна граница памяти для каждой сессии и тест, который пытается её нарушить до запуска. На практике утечка — это ошибка проектирования, а не то, что модель исправит сама."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите SDR.",
+              "body": "Пришлю пошаговый разбор этого кейса в личные сообщения. Я перевожу ИИ из чертежей в продакшн, с измеренными результатами.",
+              "button": "Напишите SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "TechCrunch написал 19 ноября, со ссылкой на Reuters, что сотрудники Meta видели, как её ИИ-агент Muse перепутал диалоги разных аккаунтов. Сотрудники описали сообщения о заказах, которых они не делали, и банковских балансах, которые им не принадлежали. Meta говорит, что сотрудники тестируют версии, отличные от публичной.\n\nМоё прочтение: это похоже на проблему изоляции контекста, а не на проблему модели. Когда один агент обслуживает многих людей одновременно, каждому диалогу нужна своя граница памяти. Если её нет, агент рано или поздно всё перепутает.\n\nЧто я вижу в компаниях: демо работает с одним пользователем, и никто не проверяет, что будет со многими. Тесты на утечки пропускают, потому что агент уже прошёл тесты на точность.\n\nЯ построил ИИ-продавца в WhatsApp для магазина стройматериалов на юге Бразилии. Он обслуживает многих клиентов одновременно. ИИ никогда не видит каталог: простой поиск передаёт ему 8 результатов из 13 312 товаров. В сценарии 9 узлов, один агент и три инструмента. Правила прописаны явно: никаких выдуманных характеристик, никогда не сообщает наличие, никогда не даёт скидок. 65 из 65 реальных вопросов клиентов нашли нужный товар.\n\nИзмеряйте, а не предполагайте. Проверяйте утечки до запуска, а не после.\n\nНапишите SDR, и я пришлю в личные сообщения, как я это сделал.\n\nИсточники: techcrunch.com\n\n#AIAgents #AIinProduction #DataPrivacy #WhatsAppAutomation #AIEngineering"
+        }
+      }
+    },
     {
       "slug": "2026-11-19-banks-won-t-cover-customer-ai-agents",
       "data": "2026-11-19",

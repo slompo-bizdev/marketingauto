@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-20-muse-mixes-up-conversations",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "TechCrunch reported on Nov 19, citing Reuters, that Meta employees saw its AI agent Muse mix up conversations across accounts. Employees described messages about orders they never placed and bank balances that were not theirs. Meta says employees test different versions than the public.\n\nMy reading: this looks like a context-isolation problem, not a model problem. When one agent serves many people at once, each conversation needs its own memory boundary. If it does not, the agent will eventually mix them up.\n\nWhat I see in companies is that the demo works with one user, and nobody tests what happens with many. Leak tests get skipped because the agent already passed the accuracy tests.\n\nI built an AI sales rep on WhatsApp for a building materials store in southern Brazil. It handles many customers at once. The AI never sees the catalog: a simple search hands it 8 results from 13,312 products. The flow has 9 nodes, one agent and three tools. Rules are explicit: no made-up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMeasure instead of assuming. Test for leakage before launch, not after.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIAgents #AIinProduction #DataPrivacy #WhatsAppAutomation #AIEngineering",
+  "first_comment": "Sources: https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/ · https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "An AI agent showed one person another person's bank balance",
+    "caption": "TechCrunch reported on Nov 19, citing Reuters, that Meta employees saw its AI agent Muse mix up conversations across accounts. Employees described messages about orders they never placed and bank balances that were not theirs. Meta says employees test different versions than the public.\n\nMy reading: this looks like a context-isolation problem, not a model problem. When one agent serves many people at once, each conversation needs its own memory boundary. If it does not, the agent will eventually mix them up.\n\nWhat I see in companies is that the demo works with one user, and nobody tests what happens with many. Leak tests get skipped because the agent already passed the accuracy tests.\n\nI built an AI sales rep on WhatsApp for a building materials store in southern Brazil. It handles many customers at once. The AI never sees the catalog: a simple search hands it 8 results from 13,312 products. The flow has 9 nodes, one agent and three tools. Rules are explicit: no made-up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMeasure instead of assuming. Test for leakage before launch, not after.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com\n\n#AIAgents #AIinProduction #DataPrivacy #WhatsAppAutomation #AIEngineering"
+  }
+}
