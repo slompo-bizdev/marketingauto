@@ -1,6 +1,210 @@
 {
-  "atualizado_em": "2026-11-20T09:31:51.786883Z",
+  "atualizado_em": "2026-11-21T09:32:29.423703Z",
   "posts": [
+    {
+      "slug": "2026-11-21-signal-and-the-ai-agent-data-boundary",
+      "data": "2026-11-21",
+      "titulo": "Signal is blocking AI agents. Is your customer-facing agent next?",
+      "subtitulo": "Platforms are drawing the data line. Design yours first.",
+      "tema": "Signal pushes OS-level limits on AI agents capturing data from your apps",
+      "tipo": "ponte",
+      "case_id": "sdr",
+      "palavra": "SDR",
+      "valor": "Simple that works beats complex that impresses.",
+      "fontes": [
+        "https://signal.org/blog/protecting-your-privacy/",
+        "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AGENT PERMISSIONS",
+          "headline": "Signal is blocking AI agents. Is your customer-facing agent next?",
+          "sub": "Platforms are drawing the data line. Design yours first."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Signal will block OS-level AI agents from reading its screen",
+          "body": "Signal says AI agents built into iOS 27 and Android can capture and store message data once they scan the screen. It is blocking that capture where it can, and asking Apple, Google and Microsoft for opt-out tools for developers."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "549",
+          "label": "points on Hacker News for Signal's post on restricting AI agents",
+          "sub": "With 321 comments, amid a wave of agent security stories this month."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies putting agents in front of customers",
+          "items": [
+            "Nobody defines what data the agent can read before it goes live",
+            "Permissions get granted broadly during setup and never reviewed",
+            "The agent sees the whole system when it only needs one answer"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil: an agent with a tight boundary",
+          "items": [
+            "The AI never sees the catalog: a search hands it 8 results in milliseconds",
+            "Rules: no made-up specs, never reveals stock, never gives discounts",
+            "The whole flow has 9 nodes: one agent and three tools. 65 out of 65 real questions found the right product"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works beats complex that impresses.",
+          "body": "An agent that only sees what it needs is easier to secure, test and explain. Signal's post suggests platforms will start enforcing these limits. If your boundary is already designed, that is a change you can absorb instead of a crisis."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "legenda": "Signal published a post saying it will restrict AI agents built into mobile operating systems from capturing its data. Its argument: once an OS-level agent scans the screen, the data is outside the app's control. The post hit 549 points and 321 comments on Hacker News.\n\nWhat I see in companies is the same problem from the other side. They put an agent in front of customers without deciding what it can read, what it can say and who checks. Permissions get broad at setup and nobody revisits them.\n\nI built a WhatsApp sales agent for a building materials store in southern Brazil where the boundary came first. The AI never sees the catalog. A simple search hands it 8 results in milliseconds. The rules are explicit: no made-up specs, never reveals stock, never gives discounts. The whole flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product.\n\nMy reading: platforms are about to enforce data limits for you. Design the boundary and the permissions first.\n\nComment SDR and I'll DM you how I did it.\n\nSources: signal.org, techcrunch.com\n\n#AIAgents #AISecurity #Privacy #WhatsApp #AIinProduction",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-21-signal-and-the-ai-agent-data-boundary/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-21-signal-and-the-ai-agent-data-boundary/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-21-signal-and-the-ai-agent-data-boundary/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-21-signal-and-the-ai-agent-data-boundary/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-21-signal-and-the-ai-agent-data-boundary/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-21-signal-and-the-ai-agent-data-boundary/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-21-signal-and-the-ai-agent-data-boundary/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-21-signal-and-the-ai-agent-data-boundary/1.jpg",
+      "gerado_em": "2026-11-21T09:30:54.211Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Signal is blocking AI agents. Is your customer-facing agent next?",
+          "subtitulo": "Platforms are drawing the data line. Design yours first.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · AGENT PERMISSIONS",
+              "headline": "Signal is blocking AI agents. Is your customer-facing agent next?",
+              "sub": "Platforms are drawing the data line. Design yours first."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Signal will block OS-level AI agents from reading its screen",
+              "body": "Signal says AI agents built into iOS 27 and Android can capture and store message data once they scan the screen. It is blocking that capture where it can, and asking Apple, Google and Microsoft for opt-out tools for developers."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "549",
+              "label": "points on Hacker News for Signal's post on restricting AI agents",
+              "sub": "With 321 comments, amid a wave of agent security stories this month."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies putting agents in front of customers",
+              "items": [
+                "Nobody defines what data the agent can read before it goes live",
+                "Permissions get granted broadly during setup and never reviewed",
+                "The agent sees the whole system when it only needs one answer"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "A building materials store in southern Brazil: an agent with a tight boundary",
+              "items": [
+                "The AI never sees the catalog: a search hands it 8 results in milliseconds",
+                "Rules: no made-up specs, never reveals stock, never gives discounts",
+                "The whole flow has 9 nodes: one agent and three tools. 65 out of 65 real questions found the right product"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Simple that works beats complex that impresses.",
+              "body": "An agent that only sees what it needs is easier to secure, test and explain. Signal's post suggests platforms will start enforcing these limits. If your boundary is already designed, that is a change you can absorb instead of a crisis."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment SDR.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "Signal published a post saying it will restrict AI agents built into mobile operating systems from capturing its data. Its argument: once an OS-level agent scans the screen, the data is outside the app's control. The post hit 549 points and 321 comments on Hacker News.\n\nWhat I see in companies is the same problem from the other side. They put an agent in front of customers without deciding what it can read, what it can say and who checks. Permissions get broad at setup and nobody revisits them.\n\nI built a WhatsApp sales agent for a building materials store in southern Brazil where the boundary came first. The AI never sees the catalog. A simple search hands it 8 results in milliseconds. The rules are explicit: no made-up specs, never reveals stock, never gives discounts. The whole flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product.\n\nMy reading: platforms are about to enforce data limits for you. Design the boundary and the permissions first.\n\nComment SDR and I'll DM you how I did it.\n\nSources: signal.org, techcrunch.com\n\n#AIAgents #AISecurity #Privacy #WhatsApp #AIinProduction"
+        },
+        "ru": {
+          "titulo": "Signal блокирует ИИ-агентов. А ваш агент для клиентов следующий?",
+          "subtitulo": "Платформы проводят границу по данным. Сначала спроектируйте свою.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "ИИ НА ПОДЪЁМЕ · РАЗРЕШЕНИЯ ДЛЯ АГЕНТОВ",
+              "headline": "Signal блокирует ИИ-агентов. А ваш агент для клиентов следующий?",
+              "sub": "Платформы проводят границу по данным. Сначала спроектируйте свою."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Signal будет блокировать системных ИИ-агентов от чтения экрана",
+              "body": "Signal заявляет, что ИИ-агенты, встроенные в iOS 27 и Android, могут захватывать и сохранять данные сообщений, как только сканируют экран. Там, где это возможно, Signal блокирует такой захват и просит Apple, Google и Microsoft дать разработчикам инструменты для отказа от сканирования."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "549",
+              "label": "баллов на Hacker News у поста Signal об ограничении ИИ-агентов",
+              "sub": "При 321 комментарии, на волне историй о безопасности агентов в этом месяце."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "РЕАЛЬНАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, которые ставят агентов перед клиентами",
+              "items": [
+                "Никто не определяет, какие данные агент может читать до запуска",
+                "Разрешения выдаются широко при настройке и никогда не пересматриваются",
+                "Агент видит всю систему, хотя ему нужен один ответ"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "ЭТО Я УЖЕ РЕШАЛ",
+              "headline": "Магазин строительных материалов на юге Бразилии: агент с жёсткой границей",
+              "items": [
+                "ИИ никогда не видит каталог: поиск передаёт ему 8 результатов за миллисекунды",
+                "Правила: никаких выдуманных характеристик, никогда не раскрывает наличие, не даёт скидок",
+                "Весь процесс состоит из 9 узлов: один агент и три инструмента. 65 из 65 реальных вопросов нашли правильный товар"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Простое, которое работает, важнее сложного, которое впечатляет.",
+              "body": "Агент, который видит только необходимое, проще защитить, протестировать и объяснить. Пост Signal намекает, что платформы начнут применять такие ограничения. Если граница уже спроектирована, это изменение можно пережить спокойно, а не в режиме кризиса."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите SDR в комментариях.",
+              "body": "Пришлю пошаговое описание этого кейса в личные сообщения. Я перевожу ИИ из стадии черновика в продакшен, с измеренными результатами.",
+              "button": "Напишите SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "Signal опубликовал пост о том, что будет ограничивать системных ИИ-агентов, встроенных в мобильные ОС, в захвате своих данных. Его аргумент: как только агент уровня системы сканирует экран, данные выходят из-под контроля приложения. Пост набрал 549 баллов и 321 комментарий на Hacker News.\n\nВ компаниях я вижу ту же проблему, только с другой стороны. Агента ставят перед клиентами, не решив, что он может читать, что может говорить и кто проверяет. При настройке разрешения становятся широкими, и к ним никто не возвращается.\n\nЯ построил агента продаж в WhatsApp для магазина строительных материалов на юге Бразилии, где сначала определили границу. ИИ никогда не видит каталог. Простой поиск передаёт ему 8 результатов за миллисекунды. Правила явные: никаких выдуманных характеристик, никогда не раскрывает наличие, не даёт скидок. Весь процесс состоит из 9 узлов: один агент и три инструмента. 65 из 65 реальных вопросов клиентов нашли нужный товар.\n\nМоё прочтение: платформы скоро начнут навязывать ограничения по данным за вас. Сначала спроектируйте границу и разрешения.\n\nНапишите SDR в комментариях, и я пришлю в личные сообщения, как я это сделал.\n\nИсточники: signal.org, techcrunch.com\n\n#AIAgents #AISecurity #Privacy #WhatsApp #AIinProduction"
+        }
+      }
+    },
     {
       "slug": "2026-11-20-muse-mixes-up-conversations",
       "data": "2026-11-20",

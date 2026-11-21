@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-21-signal-and-the-ai-agent-data-boundary",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Signal published a post saying it will restrict AI agents built into mobile operating systems from capturing its data. Its argument: once an OS-level agent scans the screen, the data is outside the app's control. The post hit 549 points and 321 comments on Hacker News.\n\nWhat I see in companies is the same problem from the other side. They put an agent in front of customers without deciding what it can read, what it can say and who checks. Permissions get broad at setup and nobody revisits them.\n\nI built a WhatsApp sales agent for a building materials store in southern Brazil where the boundary came first. The AI never sees the catalog. A simple search hands it 8 results in milliseconds. The rules are explicit: no made-up specs, never reveals stock, never gives discounts. The whole flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product.\n\nMy reading: platforms are about to enforce data limits for you. Design the boundary and the permissions first.\n\nComment SDR and I'll DM you how I did it.\n\nSources: signal.org, techcrunch.com\n\n#AIAgents #AISecurity #Privacy #WhatsApp #AIinProduction",
+  "first_comment": "Sources: https://signal.org/blog/protecting-your-privacy/ · https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Signal is blocking AI agents. Is your customer-facing agent next?",
+    "caption": "Signal published a post saying it will restrict AI agents built into mobile operating systems from capturing its data. Its argument: once an OS-level agent scans the screen, the data is outside the app's control. The post hit 549 points and 321 comments on Hacker News.\n\nWhat I see in companies is the same problem from the other side. They put an agent in front of customers without deciding what it can read, what it can say and who checks. Permissions get broad at setup and nobody revisits them.\n\nI built a WhatsApp sales agent for a building materials store in southern Brazil where the boundary came first. The AI never sees the catalog. A simple search hands it 8 results in milliseconds. The rules are explicit: no made-up specs, never reveals stock, never gives discounts. The whole flow has 9 nodes: one agent and three tools. 65 out of 65 real customer questions found the right product.\n\nMy reading: platforms are about to enforce data limits for you. Design the boundary and the permissions first.\n\nComment SDR and I'll DM you how I did it.\n\nSources: signal.org, techcrunch.com\n\n#AIAgents #AISecurity #Privacy #WhatsApp #AIinProduction"
+  }
+}
