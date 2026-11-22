@@ -1,6 +1,209 @@
 {
-  "atualizado_em": "2026-11-21T09:32:29.423703Z",
+  "atualizado_em": "2026-11-22T09:32:07.035013Z",
   "posts": [
+    {
+      "slug": "2026-11-22-embeddings-vs-grep-for-agents",
+      "data": "2026-11-22",
+      "titulo": "Do your AI agents really need a vector database?",
+      "subtitulo": "A new paper questions the dense retrieval lead over keyword search.",
+      "tema": "Embeddings vs. grep: do coding agents need vector search at all?",
+      "tipo": "ponte",
+      "case_id": "sdr",
+      "palavra": "SDR",
+      "valor": "Simple that works beats complex that impresses.",
+      "fontes": [
+        "https://huggingface.co/papers/2611.20455"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · EMBEDDINGS VS GREP",
+          "headline": "Do your AI agents really need a vector database?",
+          "sub": "A new paper questions the dense retrieval lead over keyword search."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A paper asks what the dense advantage really measures",
+          "body": "Code-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with grep. The authors built Repo-Premium, a repository-level benchmark, and traced the lead to evaluation choices and queries missing the code's rare identifiers."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "0.551",
+          "label": "nDCG@10 for fusing dense + BM25, vs 0.533 dense and 0.432 BM25",
+          "sub": "Across 539 lockbox queries in the paper. Fusion beat both retrievers alone."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: retrieval gets picked by hype",
+          "items": [
+            "Teams add a vector database first and never test a plain keyword baseline",
+            "Nobody benchmarks retrieval on the real questions customers actually type",
+            "Extra infrastructure gets approved without proof it improves the answers"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil faced this exact choice",
+          "items": [
+            "13,312 products in the ERP, with 136 different ways of writing the unit of measure",
+            "245 counter-slang synonyms mapped, because customers write slang and the catalog does not",
+            "A simple search answers in milliseconds and hands 8 results to the model. 65 of 65 real questions found the right product."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works beats complex that impresses.",
+          "body": "The paper suggests the dense lead can be an artifact of how it is measured. In practice, I would benchmark any retrieval layer against plain keyword search on real queries first. If the simple one wins, the fancy stack only adds cost."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "legenda": "A new Hugging Face paper asks a question many AI teams skip: what does the dense retrieval advantage actually measure?\n\nCode-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with grep. The authors built a realistic benchmark and traced the lead to two sources: evaluation choices that favor dense retrieval, and queries that lack the code's rare identifiers. Fusing dense retrieval with BM25 reached 0.551 nDCG@10, ahead of dense (0.533) and BM25 (0.432).\n\nWhat I see in companies is the same pattern. A vector database gets added first, and nobody tests a keyword baseline on real queries.\n\nI faced this choice with an AI sales rep on WhatsApp for a building materials store in southern Brazil. The ERP has 13,312 products and 136 different ways of writing the unit of measure. I mapped 245 counter-slang synonyms. The AI never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. 65 out of 65 real customer questions found the right product.\n\nBenchmark the fancy option against the simple one on your real queries before you pay for it.\n\nComment SDR and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AIagents #RAG #VectorSearch #AIinProduction #BM25",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-22-embeddings-vs-grep-for-agents/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-22-embeddings-vs-grep-for-agents/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-22-embeddings-vs-grep-for-agents/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-22-embeddings-vs-grep-for-agents/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-22-embeddings-vs-grep-for-agents/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-22-embeddings-vs-grep-for-agents/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-22-embeddings-vs-grep-for-agents/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-22-embeddings-vs-grep-for-agents/1.jpg",
+      "gerado_em": "2026-11-22T09:30:53.819Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Do your AI agents really need a vector database?",
+          "subtitulo": "A new paper questions the dense retrieval lead over keyword search.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · EMBEDDINGS VS GREP",
+              "headline": "Do your AI agents really need a vector database?",
+              "sub": "A new paper questions the dense retrieval lead over keyword search."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "A paper asks what the dense advantage really measures",
+              "body": "Code-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with grep. The authors built Repo-Premium, a repository-level benchmark, and traced the lead to evaluation choices and queries missing the code's rare identifiers."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "0.551",
+              "label": "nDCG@10 for fusing dense + BM25, vs 0.533 dense and 0.432 BM25",
+              "sub": "Across 539 lockbox queries in the paper. Fusion beat both retrievers alone."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: retrieval gets picked by hype",
+              "items": [
+                "Teams add a vector database first and never test a plain keyword baseline",
+                "Nobody benchmarks retrieval on the real questions customers actually type",
+                "Extra infrastructure gets approved without proof it improves the answers"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "A building materials store in southern Brazil faced this exact choice",
+              "items": [
+                "13,312 products in the ERP, with 136 different ways of writing the unit of measure",
+                "245 counter-slang synonyms mapped, because customers write slang and the catalog does not",
+                "A simple search answers in milliseconds and hands 8 results to the model. 65 of 65 real questions found the right product."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Simple that works beats complex that impresses.",
+              "body": "The paper suggests the dense lead can be an artifact of how it is measured. In practice, I would benchmark any retrieval layer against plain keyword search on real queries first. If the simple one wins, the fancy stack only adds cost."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment SDR.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "A new Hugging Face paper asks a question many AI teams skip: what does the dense retrieval advantage actually measure?\n\nCode-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with grep. The authors built a realistic benchmark and traced the lead to two sources: evaluation choices that favor dense retrieval, and queries that lack the code's rare identifiers. Fusing dense retrieval with BM25 reached 0.551 nDCG@10, ahead of dense (0.533) and BM25 (0.432).\n\nWhat I see in companies is the same pattern. A vector database gets added first, and nobody tests a keyword baseline on real queries.\n\nI faced this choice with an AI sales rep on WhatsApp for a building materials store in southern Brazil. The ERP has 13,312 products and 136 different ways of writing the unit of measure. I mapped 245 counter-slang synonyms. The AI never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. 65 out of 65 real customer questions found the right product.\n\nBenchmark the fancy option against the simple one on your real queries before you pay for it.\n\nComment SDR and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AIagents #RAG #VectorSearch #AIinProduction #BM25"
+        },
+        "ru": {
+          "titulo": "Нужна ли вашим AI-агентам векторная база данных на самом деле?",
+          "subtitulo": "Новая статья ставит под сомнение преимущество плотного поиска над поиском по ключевым словам.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI НА ПОДЪЁМЕ · ЭМБЕДДИНГИ ПРОТИВ GREP",
+              "headline": "Нужна ли вашим AI-агентам векторная база данных на самом деле?",
+              "sub": "Новая статья ставит под сомнение преимущество плотного поиска над поиском по ключевым словам."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Статья спрашивает, что на самом деле измеряет преимущество плотного поиска",
+              "body": "Бенчмарки поиска по коду показывают, что плотные энкодеры заметно опережают BM25, однако агенты для программирования хорошо справляются с grep. Авторы создали Repo-Premium, бенчмарк на уровне репозитория, и проследили это преимущество до выбора методики оценки и до запросов, в которых не хватает редких идентификаторов из кода."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ГЛАВНАЯ ЦИФРА",
+              "stat": "0,551",
+              "label": "nDCG@10 при объединении плотного поиска и BM25, против 0,533 у плотного и 0,432 у BM25",
+              "sub": "По 539 запросам из закрытой выборки статьи. Объединение превзошло оба поиска по отдельности."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях: поиск выбирают под влиянием хайпа",
+              "items": [
+                "Команды сначала подключают векторную базу и никогда не проверяют простую базовую линию на ключевых словах",
+                "Никто не измеряет качество поиска на реальных вопросах, которые действительно задают клиенты",
+                "Дополнительная инфраструктура одобряется без доказательств, что она улучшает ответы"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "Я УЖЕ РЕШАЛ ЭТУ ЗАДАЧУ",
+              "headline": "Магазин строительных материалов на юге Бразилии столкнулся с точно таким же выбором",
+              "items": [
+                "13 312 товаров в ERP, и единицы измерения записаны 136 разными способами",
+                "245 синонимов разговорного сленга покупателей сопоставлены, потому что клиенты пишут на сленге, а каталог — нет",
+                "Простой поиск отвечает за миллисекунды и передаёт модели 8 результатов. 65 из 65 реальных вопросов нашли нужный товар."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Простое, что работает, важнее сложного, что впечатляет.",
+              "body": "Статья показывает, что преимущество плотного поиска может быть артефактом способа измерения. На практике я бы сначала сравнивал любой слой поиска с обычным поиском по ключевым словам на реальных запросах. Если простой вариант выигрывает, сложный стек только добавляет расходов."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите SDR в комментариях.",
+              "body": "Пришлю пошаговый разбор этого кейса в личные сообщения. Я перевожу AI из стадии идей в продакшен, с измеримыми результатами.",
+              "button": "Напишите SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "Новая статья на Hugging Face задаёт вопрос, который многие AI-команды пропускают: что на самом деле измеряет преимущество плотного поиска?\n\nБенчмарки поиска по коду показывают, что плотные энкодеры заметно опережают BM25, однако агенты для программирования хорошо справляются с grep. Авторы создали реалистичный бенчмарк и проследили преимущество до двух причин: методика оценки, которая благоприятствует плотному поиску, и запросы без редких идентификаторов из кода. Объединение плотного поиска с BM25 дало 0,551 nDCG@10, против 0,533 у плотного и 0,432 у BM25.\n\nЧто я вижу в компаниях, та же картина. Сначала подключают векторную базу, и никто не проверяет простую базовую линию на реальных запросах.\n\nЯ столкнулся с этим выбором, когда делал AI-продавца в WhatsApp для магазина строительных материалов на юге Бразилии. В ERP 13 312 товаров, а единицы измерения записаны 136 разными способами. Я сопоставил 245 синонимов разговорного сленга. ИИ никогда не видит каталог целиком: простой поиск отвечает за миллисекунды и передаёт модели 8 результатов. 65 из 65 реальных вопросов клиентов нашли нужный товар.\n\nПрежде чем платить за сложный вариант, сравните его с простым на ваших реальных запросах.\n\nНапишите SDR в комментариях, и я пришлю в личные сообщения, как я это сделал.\n\nИсточники: huggingface.co\n\n#AIagents #RAG #VectorSearch #AIinProduction #BM25"
+        }
+      }
+    },
     {
       "slug": "2026-11-21-signal-and-the-ai-agent-data-boundary",
       "data": "2026-11-21",

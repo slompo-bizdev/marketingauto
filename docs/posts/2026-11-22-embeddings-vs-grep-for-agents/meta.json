@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-22-embeddings-vs-grep-for-agents",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A new Hugging Face paper asks a question many AI teams skip: what does the dense retrieval advantage actually measure?\n\nCode-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with grep. The authors built a realistic benchmark and traced the lead to two sources: evaluation choices that favor dense retrieval, and queries that lack the code's rare identifiers. Fusing dense retrieval with BM25 reached 0.551 nDCG@10, ahead of dense (0.533) and BM25 (0.432).\n\nWhat I see in companies is the same pattern. A vector database gets added first, and nobody tests a keyword baseline on real queries.\n\nI faced this choice with an AI sales rep on WhatsApp for a building materials store in southern Brazil. The ERP has 13,312 products and 136 different ways of writing the unit of measure. I mapped 245 counter-slang synonyms. The AI never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. 65 out of 65 real customer questions found the right product.\n\nBenchmark the fancy option against the simple one on your real queries before you pay for it.\n\nComment SDR and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AIagents #RAG #VectorSearch #AIinProduction #BM25",
+  "first_comment": "Sources: https://huggingface.co/papers/2611.20455\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Do your AI agents really need a vector database?",
+    "caption": "A new Hugging Face paper asks a question many AI teams skip: what does the dense retrieval advantage actually measure?\n\nCode-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with grep. The authors built a realistic benchmark and traced the lead to two sources: evaluation choices that favor dense retrieval, and queries that lack the code's rare identifiers. Fusing dense retrieval with BM25 reached 0.551 nDCG@10, ahead of dense (0.533) and BM25 (0.432).\n\nWhat I see in companies is the same pattern. A vector database gets added first, and nobody tests a keyword baseline on real queries.\n\nI faced this choice with an AI sales rep on WhatsApp for a building materials store in southern Brazil. The ERP has 13,312 products and 136 different ways of writing the unit of measure. I mapped 245 counter-slang synonyms. The AI never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. 65 out of 65 real customer questions found the right product.\n\nBenchmark the fancy option against the simple one on your real queries before you pay for it.\n\nComment SDR and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AIagents #RAG #VectorSearch #AIinProduction #BM25"
+  }
+}
