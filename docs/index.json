@@ -1,6 +1,149 @@
 {
-  "atualizado_em": "2026-11-22T09:32:07.035013Z",
+  "atualizado_em": "2026-11-23T09:31:54.864173Z",
   "posts": [
+    {
+      "slug": "2026-11-23-intent-contracts-for-ai-agents",
+      "data": "2026-11-23",
+      "titulo": "Safe agents don't need smarter planners. They need fewer tools.",
+      "subtitulo": "A new paper takes every tool away from the planning model.",
+      "tema": "Intent Contracts: stripping tools from the planning model to make AI agents safe",
+      "tipo": "ponte",
+      "case_id": "enterprise",
+      "palavra": "AGENTS",
+      "valor": "Simple that works beats complex that impresses.",
+      "fontes": [
+        "https://huggingface.co/papers/2611.24025"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · INTENT CONTRACTS",
+          "headline": "Safe agents don't need smarter planners. They need fewer tools.",
+          "sub": "A new paper takes every tool away from the planning model."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A paper strips the tools from the planner",
+          "body": "The planner submits a logged contract: a goal, a verbatim quote of the user, and scope fields. Code validates it. A small trusted model checks it against the user's words and writes the tool call itself."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "27/30",
+          "label": "tasks completed with contracts vs 16/30 with a command reviewer",
+          "sub": "When the planner added work the user never asked for."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: agents act, and nobody can say why",
+          "items": [
+            "The agent has broad tool access, and permission is an afterthought",
+            "There is no record of what the agent intended before it acted",
+            "A reviewer can only block the whole action, so teams switch it off"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "Multi-agent in production at an enterprise account",
+          "items": [
+            "A multi-agent platform running in production at a US$5.5 million account",
+            "About 60% efficiency gain",
+            "Multi-agent in production requires an audited defect log"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works beats complex that impresses.",
+          "body": "The paper is honest: contracts did not reduce unauthorized actions versus blind review. They add a complete pre-action record and let the trusted side do only the authorized part. In practice, a hard permission layer in plain code beats a smarter planner."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment AGENTS.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment AGENTS · vssolutions.io"
+        }
+      ],
+      "legenda": "A new paper on Hugging Face Papers takes every tool away from the planning model. The planner only states its intent: a goal, a verbatim quote of the user, and scope fields. Code validates the contract. A small trusted model writes the tool call.\n\nThe result worth reading: when the planner added work the user never asked for, contracts completed the user's task in 27 of 30 runs. A reviewer that sees the intent completed 16 of 30, because it can only refuse a whole command.\n\nThe authors also report that contracts did not reduce unauthorized actions compared with a blind reviewer. One model pair, benign over-reach only. I respect that candor.\n\nWhat I see in companies: agents get broad access, nobody records intent before the action, and review becomes all-or-nothing.\n\nI run a multi-agent platform in production at a US$5.5 million account. About 60% efficiency gain, and multi-agent in production requires an audited defect log. My view: reliability comes from a hard permission layer, not a smarter planner. The model proposes. Plain code decides.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AIAgents #AIGovernance #MultiAgent #LLM #AIinProduction",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-23-intent-contracts-for-ai-agents/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-23-intent-contracts-for-ai-agents/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-23-intent-contracts-for-ai-agents/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-23-intent-contracts-for-ai-agents/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-23-intent-contracts-for-ai-agents/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-23-intent-contracts-for-ai-agents/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-23-intent-contracts-for-ai-agents/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-23-intent-contracts-for-ai-agents/1.jpg",
+      "gerado_em": "2026-11-23T09:30:56.240Z",
+      "traducoes": {
+        "en": {
+          "titulo": "Safe agents don't need smarter planners. They need fewer tools.",
+          "subtitulo": "A new paper takes every tool away from the planning model.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · INTENT CONTRACTS",
+              "headline": "Safe agents don't need smarter planners. They need fewer tools.",
+              "sub": "A new paper takes every tool away from the planning model."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "A paper strips the tools from the planner",
+              "body": "The planner submits a logged contract: a goal, a verbatim quote of the user, and scope fields. Code validates it. A small trusted model checks it against the user's words and writes the tool call itself."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "27/30",
+              "label": "tasks completed with contracts vs 16/30 with a command reviewer",
+              "sub": "When the planner added work the user never asked for."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: agents act, and nobody can say why",
+              "items": [
+                "The agent has broad tool access, and permission is an afterthought",
+                "There is no record of what the agent intended before it acted",
+                "A reviewer can only block the whole action, so teams switch it off"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "Multi-agent in production at an enterprise account",
+              "items": [
+                "A multi-agent platform running in production at a US$5.5 million account",
+                "About 60% efficiency gain",
+                "Multi-agent in production requires an audited defect log"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Simple that works beats complex that impresses.",
+              "body": "The paper is honest: contracts did not reduce unauthorized actions versus blind review. They add a complete pre-action record and let the trusted side do only the authorized part. In practice, a hard permission layer in plain code beats a smarter planner."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment AGENTS.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment AGENTS · vssolutions.io"
+            }
+          ],
+          "legenda": "A new paper on Hugging Face Papers takes every tool away from the planning model. The planner only states its intent: a goal, a verbatim quote of the user, and scope fields. Code validates the contract. A small trusted model writes the tool call.\n\nThe result worth reading: when the planner added work the user never asked for, contracts completed the user's task in 27 of 30 runs. A reviewer that sees the intent completed 16 of 30, because it can only refuse a whole command.\n\nThe authors also report that contracts did not reduce unauthorized actions compared with a blind reviewer. One model pair, benign over-reach only. I respect that candor.\n\nWhat I see in companies: agents get broad access, nobody records intent before the action, and review becomes all-or-nothing.\n\nI run a multi-agent platform in production at a US$5.5 million account. About 60% efficiency gain, and multi-agent in production requires an audited defect log. My view: reliability comes from a hard permission layer, not a smarter planner. The model proposes. Plain code decides.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AIAgents #AIGovernance #MultiAgent #LLM #AIinProduction"
+        }
+      }
+    },
     {
       "slug": "2026-11-22-embeddings-vs-grep-for-agents",
       "data": "2026-11-22",
