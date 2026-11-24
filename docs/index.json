@@ -1,6 +1,210 @@
 {
-  "atualizado_em": "2026-11-23T09:31:54.864173Z",
+  "atualizado_em": "2026-11-24T09:32:01.387609Z",
   "posts": [
+    {
+      "slug": "2026-11-24-sierra-30b-and-the-resolution-rate",
+      "data": "2026-11-24",
+      "titulo": "$30B for support agents. Who measures what they resolve?",
+      "subtitulo": "Buyers pay for agents in real conversations. Demos don't count.",
+      "tema": "Sierra hits a $30B valuation as AI customer experience agents take off",
+      "tipo": "ponte",
+      "case_id": "sdr",
+      "palavra": "SDR",
+      "valor": "Measure instead of assuming.",
+      "fontes": [
+        "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+        "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · SIERRA AND CX AGENTS",
+          "headline": "$30B for support agents. Who measures what they resolve?",
+          "sub": "Buyers pay for agents in real conversations. Demos don't count."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "Sierra doubled its valuation to $30B in six months",
+          "body": "Sierra raised $1.75 billion in a Series F, up from a $15 billion valuation in the previous round. It says it serves almost 50% of Fortune 50 companies and uses outcome-based pricing. Customer experience is one of the few areas where AI adoption is moving fast."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "$400M",
+          "label": "Sierra's run-rate revenue, doubled within five months",
+          "sub": "Per the source, driven by its outcome-based pricing model."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies that try support agents",
+          "items": [
+            "The demo works on clean questions. Real customers write messy, with slang and typos.",
+            "The agent is connected to a catalog or system it can't read reliably.",
+            "Nobody defines what counts as resolved, so nobody measures it."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A building materials store in southern Brazil runs an AI sales rep on WhatsApp",
+          "items": [
+            "13,312 products, 136 ways of writing the unit, 245 slang synonyms mapped.",
+            "One agent, three tools, 9 nodes. The AI never sees the catalog: it gets 8 results.",
+            "65 out of 65 real customer questions found the right product."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "A $1.75B round says buyers will pay for agents that resolve real conversations. In practice, what separates a pilot from production is a measured result on real questions, not a good demo. I would rather show 65 out of 65 than a nice presentation."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "legenda": "Sierra just raised $1.75 billion at a $30 billion valuation, double its previous round from less than six months ago. TechCrunch reports its run-rate revenue doubled to $400 million in five months under an outcome-based pricing model.\n\nMy reading: buyers are paying for support and sales agents that resolve real conversations. That makes the resolution rate the number that matters, not the demo.\n\nWhat I see in companies is the same gap again and again. Customers write in slang, the catalog is messy, and nobody defines what counts as resolved.\n\nI built a smaller version of this for a building materials store in southern Brazil: an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 ways of writing the unit of measure. I mapped 245 slang synonyms. The AI never sees the catalog. A simple search hands it 8 results. One agent, three tools, 9 nodes. It never makes up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMeasure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com, openai.com\n\n#AIAgents #CustomerExperience #WhatsApp #AIinProduction #Automation",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-24-sierra-30b-and-the-resolution-rate/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-24-sierra-30b-and-the-resolution-rate/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-24-sierra-30b-and-the-resolution-rate/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-24-sierra-30b-and-the-resolution-rate/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-24-sierra-30b-and-the-resolution-rate/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-24-sierra-30b-and-the-resolution-rate/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-24-sierra-30b-and-the-resolution-rate/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-24-sierra-30b-and-the-resolution-rate/1.jpg",
+      "gerado_em": "2026-11-24T09:30:53.932Z",
+      "traducoes": {
+        "en": {
+          "titulo": "$30B for support agents. Who measures what they resolve?",
+          "subtitulo": "Buyers pay for agents in real conversations. Demos don't count.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · SIERRA AND CX AGENTS",
+              "headline": "$30B for support agents. Who measures what they resolve?",
+              "sub": "Buyers pay for agents in real conversations. Demos don't count."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "Sierra doubled its valuation to $30B in six months",
+              "body": "Sierra raised $1.75 billion in a Series F, up from a $15 billion valuation in the previous round. It says it serves almost 50% of Fortune 50 companies and uses outcome-based pricing. Customer experience is one of the few areas where AI adoption is moving fast."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "$400M",
+              "label": "Sierra's run-rate revenue, doubled within five months",
+              "sub": "Per the source, driven by its outcome-based pricing model."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies that try support agents",
+              "items": [
+                "The demo works on clean questions. Real customers write messy, with slang and typos.",
+                "The agent is connected to a catalog or system it can't read reliably.",
+                "Nobody defines what counts as resolved, so nobody measures it."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "A building materials store in southern Brazil runs an AI sales rep on WhatsApp",
+              "items": [
+                "13,312 products, 136 ways of writing the unit, 245 slang synonyms mapped.",
+                "One agent, three tools, 9 nodes. The AI never sees the catalog: it gets 8 results.",
+                "65 out of 65 real customer questions found the right product."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assuming.",
+              "body": "A $1.75B round says buyers will pay for agents that resolve real conversations. In practice, what separates a pilot from production is a measured result on real questions, not a good demo. I would rather show 65 out of 65 than a nice presentation."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment SDR.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "Sierra just raised $1.75 billion at a $30 billion valuation, double its previous round from less than six months ago. TechCrunch reports its run-rate revenue doubled to $400 million in five months under an outcome-based pricing model.\n\nMy reading: buyers are paying for support and sales agents that resolve real conversations. That makes the resolution rate the number that matters, not the demo.\n\nWhat I see in companies is the same gap again and again. Customers write in slang, the catalog is messy, and nobody defines what counts as resolved.\n\nI built a smaller version of this for a building materials store in southern Brazil: an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 ways of writing the unit of measure. I mapped 245 slang synonyms. The AI never sees the catalog. A simple search hands it 8 results. One agent, three tools, 9 nodes. It never makes up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMeasure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com, openai.com\n\n#AIAgents #CustomerExperience #WhatsApp #AIinProduction #Automation"
+        },
+        "ru": {
+          "titulo": "$30 млрд за агентов поддержки. Кто измеряет, что они решают?",
+          "subtitulo": "Покупатели платят за агентов в реальных диалогах. Демо не в счёт.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI НАБИРАЕТ ОБОРОТЫ · SIERRA И CX-АГЕНТЫ",
+              "headline": "$30 млрд за агентов поддержки. Кто измеряет, что они решают?",
+              "sub": "Покупатели платят за агентов в реальных диалогах. Демо не в счёт."
+            },
+            {
+              "type": "text",
+              "eyebrow": "ЧТО ПРОИЗОШЛО",
+              "headline": "Sierra за шесть месяцев удвоила оценку до $30 млрд",
+              "body": "Sierra привлекла $1,75 млрд в раунде Series F, после оценки в $15 млрд в предыдущем раунде. Компания говорит, что обслуживает почти 50% компаний из Fortune 50 и использует ценообразование по результату. Клиентский сервис — одна из немногих областей, где внедрение AI идёт быстро."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "ЦИФРА",
+              "stat": "$400M",
+              "label": "Годовая выручка Sierra (run-rate) удвоилась за пять месяцев",
+              "sub": "По источнику, это связано с моделью ценообразования по результату."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "НАСТОЯЩАЯ ПРОБЛЕМА В КОМПАНИЯХ",
+              "headline": "Что я вижу в компаниях, которые пробуют агентов поддержки",
+              "items": [
+                "Демо работает на чистых вопросах. Реальные клиенты пишут сумбурно, со сленгом и опечатками.",
+                "Агент подключён к каталогу или системе, которую он не может надёжно прочитать.",
+                "Никто не определяет, что считается решённым вопросом, поэтому никто этого не измеряет."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "ЭТО Я УЖЕ РЕШАЛ",
+              "headline": "Магазин стройматериалов на юге Бразилии работает с AI-продавцом в WhatsApp",
+              "items": [
+                "13 312 товаров, 136 способов записать единицу измерения, 245 сленговых синонимов сопоставлены.",
+                "Один агент, три инструмента, 9 узлов. AI никогда не видит каталог: он получает 8 результатов.",
+                "65 из 65 реальных вопросов клиентов нашли правильный товар."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "МОЁ МНЕНИЕ",
+              "headline": "Измеряйте, а не предполагайте.",
+              "body": "Раунд на $1,75 млрд говорит о том, что покупатели готовы платить за агентов, которые решают реальные диалоги. На практике от пилота к продакшену отделяет измеренный результат на реальных вопросах, а не хорошее демо. Я лучше покажу 65 из 65, чем красивую презентацию."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "ХОТИТЕ УВИДЕТЬ, КАК Я ЭТО СДЕЛАЛ?",
+              "headline": "Напишите SDR в комментарии.",
+              "body": "Я пришлю пошаговый разбор этого кейса в личные сообщения. Я перевожу AI из чертёжа в продакшен, с измеренными результатами.",
+              "button": "Напишите SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "Sierra только что привлекла $1,75 млрд при оценке в $30 млрд, вдвое больше предыдущего раунда менее чем полгода назад. TechCrunch сообщает, что её годовая выручка (run-rate) удвоилась до $400 млн за пять месяцев благодаря модели ценообразования по результату.\n\nМоё прочтение: покупатели платят за агентов поддержки и продаж, которые решают реальные диалоги. Поэтому главная цифра — доля решённых обращений, а не демо.\n\nВ компаниях я вижу один и тот же разрыв раз за разом. Клиенты пишут сленгом, каталог беспорядочный, и никто не определяет, что считается решённым.\n\nЯ сделал меньшую версию этого для магазина стройматериалов на юге Бразилии: AI-продавец в WhatsApp. В ERP 13 312 товаров и 136 способов записать единицу измерения. Я сопоставил 245 сленговых синонимов. AI никогда не видит каталог. Простой поиск передаёт ему 8 результатов. Один агент, три инструмента, 9 узлов. Он не придумывает характеристики, не раскрывает остатки и не даёт скидок. 65 из 65 реальных вопросов клиентов нашли нужный товар.\n\nИзмеряйте, а не предполагайте.\n\nНапишите SDR в комментариях, и я пришлю в личные сообщения, как я это сделал.\n\nИсточники: techcrunch.com, openai.com\n\n#AIAgents #CustomerExperience #WhatsApp #AIinProduction #Automation"
+        }
+      }
+    },
     {
       "slug": "2026-11-23-intent-contracts-for-ai-agents",
       "data": "2026-11-23",

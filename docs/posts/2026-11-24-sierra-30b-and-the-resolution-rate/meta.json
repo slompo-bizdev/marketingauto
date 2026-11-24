@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-24-sierra-30b-and-the-resolution-rate",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Sierra just raised $1.75 billion at a $30 billion valuation, double its previous round from less than six months ago. TechCrunch reports its run-rate revenue doubled to $400 million in five months under an outcome-based pricing model.\n\nMy reading: buyers are paying for support and sales agents that resolve real conversations. That makes the resolution rate the number that matters, not the demo.\n\nWhat I see in companies is the same gap again and again. Customers write in slang, the catalog is messy, and nobody defines what counts as resolved.\n\nI built a smaller version of this for a building materials store in southern Brazil: an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 ways of writing the unit of measure. I mapped 245 slang synonyms. The AI never sees the catalog. A simple search hands it 8 results. One agent, three tools, 9 nodes. It never makes up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMeasure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com, openai.com\n\n#AIAgents #CustomerExperience #WhatsApp #AIinProduction #Automation",
+  "first_comment": "Sources: https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/ · https://openai.com/business/customer-stories/richpanel-ai-customer-support\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "$30B for support agents. Who measures what they resolve?",
+    "caption": "Sierra just raised $1.75 billion at a $30 billion valuation, double its previous round from less than six months ago. TechCrunch reports its run-rate revenue doubled to $400 million in five months under an outcome-based pricing model.\n\nMy reading: buyers are paying for support and sales agents that resolve real conversations. That makes the resolution rate the number that matters, not the demo.\n\nWhat I see in companies is the same gap again and again. Customers write in slang, the catalog is messy, and nobody defines what counts as resolved.\n\nI built a smaller version of this for a building materials store in southern Brazil: an AI sales rep on WhatsApp. The ERP has 13,312 products and 136 ways of writing the unit of measure. I mapped 245 slang synonyms. The AI never sees the catalog. A simple search hands it 8 results. One agent, three tools, 9 nodes. It never makes up specs, never reveals stock, never gives discounts. 65 out of 65 real customer questions found the right product.\n\nMeasure instead of assuming.\n\nComment SDR and I'll DM you how I did it.\n\nSources: techcrunch.com, openai.com\n\n#AIAgents #CustomerExperience #WhatsApp #AIinProduction #Automation"
+  }
+}
