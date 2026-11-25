@@ -1,0 +1,144 @@
+{
+  "slug": "2026-11-25-agents-fail-everyday-tasks",
+  "lang": "en",
+  "palette": [
+    "red",
+    "black"
+  ],
+  "accent": "red",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who checks what the AI agent actually did?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · AI AGENTS",
+      "headline": "The best AI agents still fail a third of everyday tasks",
+      "sub": "A new benchmark tests agents on real work, not demos."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "ShellBench tested agents on the messy work people actually delegate",
+      "body": "TechCrunch reports that even the most advanced models from OpenAI, Anthropic and Meta failed more than a third of the time. The benchmark draws on more than 10 million anonymized, real-world agent interactions."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "40.3%",
+      "label": "of attempts recommended duplicate or incorrect invoice payments",
+      "sub": "Across all models tested, 15.7% of attempts failed a safety requirement."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: the demo works, the real task doesn't",
+      "items": [
+        "The agent gets access to messy data, and nobody defined what it may touch",
+        "Nobody approves the action before it has a side effect",
+        "The team ships it and never measures how often it fails"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "A multi-agent platform in production at an enterprise account",
+      "items": [
+        "A US$5.5 million account running a multi-agent platform in production",
+        "About 60% efficiency gain on the work the agents handle",
+        "Multi-agent in production requires an audited defect log"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Measure instead of assuming.",
+      "body": "In practice, the fix is not waiting for a better model. The article itself shows results shift with the harness around the model. Scoped tools, approvals and a log of every defect tell you what the agent really does."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment AGENTS.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment AGENTS · vssolutions.io"
+    }
+  ],
+  "caption": "A new benchmark called ShellBench tested AI agents on everyday work. According to TechCrunch, even the most advanced models from OpenAI, Anthropic and Meta failed more than a third of the time. Across all models, 15.7% of attempts failed at least one safety requirement. In one task, agents recommended duplicate or incorrect invoice payments 40.3% of the time.\n\nWhat I see in companies is the same gap. The demo looks great. Then the agent meets real data, real permissions and real consequences. Nobody defined what it can touch, nobody approves the risky step, and nobody measures failures.\n\nThat is the problem I work on. I run a multi-agent platform in production at an enterprise account, a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log. In practice, the model is only one part. Scoped tools, approvals and measurement are what make it usable.\n\nLaunching is not the same as being used. Measure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: techcrunch.com, huggingface.co\n\n#AIAgents #AIinProduction #EnterpriseAI #MultiAgent #AIReliability",
+  "first_comment": "Sources: https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/ · https://huggingface.co/papers/2611.30962\n\nvssolutions.io",
+  "meta": {
+    "tema": "Even the best AI agents struggle with everyday tasks, a new benchmark shows",
+    "tipo": "ponte",
+    "case_id": "enterprise",
+    "palavra": "AGENTS",
+    "valor": "Measure instead of assuming.",
+    "angulo": "Agents that look great in demos still fail or cause side effects on ordinary tasks, so the fix is not a better model but scoped tools, approvals and measured results in production.",
+    "fontes": [
+      "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "https://huggingface.co/papers/2611.30962"
+    ],
+    "roteiro_reels": "[0-3s] The best AI agents still fail more than a third of everyday tasks.\n[3-20s] A new benchmark, ShellBench, tested them on real work. In one task, agents recommended duplicate or incorrect invoice payments 40.3% of the time. What I see in companies is the same gap: the demo works, but nobody scopes the tools, approves the actions or measures the failures.\n[20-30s] I run a multi-agent platform in production at an enterprise account. The fix is not a better model. It is guardrails and measurement. Comment AGENTS and I'll send you how I did it.",
+    "gerado_em": "2026-11-25T09:30:52.552Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AI AGENTS",
+          "headline": "The best AI agents still fail a third of everyday tasks",
+          "sub": "A new benchmark tests agents on real work, not demos."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "ShellBench tested agents on the messy work people actually delegate",
+          "body": "TechCrunch reports that even the most advanced models from OpenAI, Anthropic and Meta failed more than a third of the time. The benchmark draws on more than 10 million anonymized, real-world agent interactions."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "40.3%",
+          "label": "of attempts recommended duplicate or incorrect invoice payments",
+          "sub": "Across all models tested, 15.7% of attempts failed a safety requirement."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: the demo works, the real task doesn't",
+          "items": [
+            "The agent gets access to messy data, and nobody defined what it may touch",
+            "Nobody approves the action before it has a side effect",
+            "The team ships it and never measures how often it fails"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "A multi-agent platform in production at an enterprise account",
+          "items": [
+            "A US$5.5 million account running a multi-agent platform in production",
+            "About 60% efficiency gain on the work the agents handle",
+            "Multi-agent in production requires an audited defect log"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "In practice, the fix is not waiting for a better model. The article itself shows results shift with the harness around the model. Scoped tools, approvals and a log of every defect tell you what the agent really does."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment AGENTS.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment AGENTS · vssolutions.io"
+        }
+      ],
+      "caption": "A new benchmark called ShellBench tested AI agents on everyday work. According to TechCrunch, even the most advanced models from OpenAI, Anthropic and Meta failed more than a third of the time. Across all models, 15.7% of attempts failed at least one safety requirement. In one task, agents recommended duplicate or incorrect invoice payments 40.3% of the time.\n\nWhat I see in companies is the same gap. The demo looks great. Then the agent meets real data, real permissions and real consequences. Nobody defined what it can touch, nobody approves the risky step, and nobody measures failures.\n\nThat is the problem I work on. I run a multi-agent platform in production at an enterprise account, a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log. In practice, the model is only one part. Scoped tools, approvals and measurement are what make it usable.\n\nLaunching is not the same as being used. Measure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: techcrunch.com, huggingface.co\n\n#AIAgents #AIinProduction #EnterpriseAI #MultiAgent #AIReliability"
+    }
+  }
+}
