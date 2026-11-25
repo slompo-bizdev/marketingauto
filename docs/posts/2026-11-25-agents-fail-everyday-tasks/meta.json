@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-25-agents-fail-everyday-tasks",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A new benchmark called ShellBench tested AI agents on everyday work. According to TechCrunch, even the most advanced models from OpenAI, Anthropic and Meta failed more than a third of the time. Across all models, 15.7% of attempts failed at least one safety requirement. In one task, agents recommended duplicate or incorrect invoice payments 40.3% of the time.\n\nWhat I see in companies is the same gap. The demo looks great. Then the agent meets real data, real permissions and real consequences. Nobody defined what it can touch, nobody approves the risky step, and nobody measures failures.\n\nThat is the problem I work on. I run a multi-agent platform in production at an enterprise account, a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log. In practice, the model is only one part. Scoped tools, approvals and measurement are what make it usable.\n\nLaunching is not the same as being used. Measure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: techcrunch.com, huggingface.co\n\n#AIAgents #AIinProduction #EnterpriseAI #MultiAgent #AIReliability",
+  "first_comment": "Sources: https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/ · https://huggingface.co/papers/2611.30962\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "The best AI agents still fail a third of everyday tasks",
+    "caption": "A new benchmark called ShellBench tested AI agents on everyday work. According to TechCrunch, even the most advanced models from OpenAI, Anthropic and Meta failed more than a third of the time. Across all models, 15.7% of attempts failed at least one safety requirement. In one task, agents recommended duplicate or incorrect invoice payments 40.3% of the time.\n\nWhat I see in companies is the same gap. The demo looks great. Then the agent meets real data, real permissions and real consequences. Nobody defined what it can touch, nobody approves the risky step, and nobody measures failures.\n\nThat is the problem I work on. I run a multi-agent platform in production at an enterprise account, a US$5.5 million account, with about 60% efficiency gain. Multi-agent in production requires an audited defect log. In practice, the model is only one part. Scoped tools, approvals and measurement are what make it usable.\n\nLaunching is not the same as being used. Measure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: techcrunch.com, huggingface.co\n\n#AIAgents #AIinProduction #EnterpriseAI #MultiAgent #AIReliability"
+  }
+}
