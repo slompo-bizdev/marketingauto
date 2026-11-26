@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-26-multiagent-coding-in-production",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "Kalzumeus published 'Multiagent coding is the future' and it is on Hacker News today. The author describes an orchestrator that puts 2-100+ Claudes in a devbox, and says he shipped 42 pull requests in about a day against a system he had just met. He also notes that the labs have not yet built good products around this.\n\nIn practice, the hard part is not spawning more agents. It is what surrounds them. In companies I see the same pattern: no clear owner for review, orchestration that lives in one person's head, and no measurement of what the agents actually delivered.\n\nThat is why I treat orchestration and review as the product. On the AskMoses.AI development team, every dev works with Claude Code on the project. Another Claude reviews the pull request. The human decides on business grounds, not technical ones. Deploys go through Vercel with 1-click rollback and daily backups.\n\nMultiagent coding only pays off when it ships with guardrails and measured output. Launching is not the same as being used.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: kalzumeus.com, huggingface.co\n\n#AIagents #AIengineering #MultiagentCoding #ClaudeCode #SoftwareDevelopment #AIinProduction",
+  "first_comment": "Sources: https://www.kalzumeus.com/2026/11/25/multiagent-coding-is-the-future/ · https://huggingface.co/papers/2611.34147\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "Running 100 agents is easy. Trusting their output is not.",
+    "caption": "Kalzumeus published 'Multiagent coding is the future' and it is on Hacker News today. The author describes an orchestrator that puts 2-100+ Claudes in a devbox, and says he shipped 42 pull requests in about a day against a system he had just met. He also notes that the labs have not yet built good products around this.\n\nIn practice, the hard part is not spawning more agents. It is what surrounds them. In companies I see the same pattern: no clear owner for review, orchestration that lives in one person's head, and no measurement of what the agents actually delivered.\n\nThat is why I treat orchestration and review as the product. On the AskMoses.AI development team, every dev works with Claude Code on the project. Another Claude reviews the pull request. The human decides on business grounds, not technical ones. Deploys go through Vercel with 1-click rollback and daily backups.\n\nMultiagent coding only pays off when it ships with guardrails and measured output. Launching is not the same as being used.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: kalzumeus.com, huggingface.co\n\n#AIagents #AIengineering #MultiagentCoding #ClaudeCode #SoftwareDevelopment #AIinProduction"
+  }
+}
