@@ -1,0 +1,146 @@
+{
+  "slug": "2026-11-26-multiagent-coding-in-production",
+  "lang": "en",
+  "palette": [
+    "yellow",
+    "black"
+  ],
+  "accent": "yellow",
+  "footer": "Victor Slompo · vssolutions.io",
+  "footer_last": "Victor Slompo · Florianópolis, Brazil · GMT-3",
+  "story_eyebrow": "QUESTION OF THE DAY",
+  "story_pergunta": "At your company, who reviews what the coding agents ship?",
+  "slides": [
+    {
+      "type": "hook",
+      "eyebrow": "AI ON THE RISE · MULTIAGENT CODING",
+      "headline": "Running 100 agents is easy. Trusting their output is not.",
+      "sub": "The model is not the product. The system around it is."
+    },
+    {
+      "type": "text",
+      "eyebrow": "WHAT HAPPENED",
+      "headline": "A veteran engineer says multiagent coding is the next paradigm shift",
+      "body": "Kalzumeus writes that multiagent coding is as big a shift as LLMs writing code. At a hedge fund, he saw an orchestrator that puts 2-100+ Claudes in a devbox, talking to each other. He says the labs have not yet built good products for this."
+    },
+    {
+      "type": "stat",
+      "eyebrow": "THE NUMBER",
+      "stat": "42",
+      "label": "pull requests shipped in about a day, per the author",
+      "sub": "Against a system he first saw that day. He reviewed the agents' tradeoff analyses."
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+      "headline": "What I see in companies: the agents work, the system around them doesn't",
+      "items": [
+        "Nobody owns review, so agent output piles up unchecked",
+        "Orchestration lives in one person's head, not in a documented process",
+        "No one measures what the agents shipped, so no one knows if it paid off"
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "I'VE ALREADY SOLVED THIS",
+      "headline": "How the AskMoses.AI development team runs 100% agentic",
+      "items": [
+        "Every dev works with Claude Code on the project",
+        "Another Claude reviews the pull request",
+        "The human decides on business grounds, not technical ones",
+        "Vercel deploys with 1-click rollback and daily backups"
+      ],
+      "highlight_last": true
+    },
+    {
+      "type": "text",
+      "eyebrow": "MY TAKE",
+      "headline": "Launching is not the same as being used.",
+      "body": "Spinning up more agents is the easy part. What matters is whether the output is reviewed, reversible and measured. Orchestration and review are the product. The model is a component you can swap."
+    },
+    {
+      "type": "cta",
+      "eyebrow": "WANT TO SEE HOW I DID IT?",
+      "headline": "Comment CLAUDE.",
+      "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+      "button": "Comment CLAUDE · vssolutions.io"
+    }
+  ],
+  "caption": "Kalzumeus published 'Multiagent coding is the future' and it is on Hacker News today. The author describes an orchestrator that puts 2-100+ Claudes in a devbox, and says he shipped 42 pull requests in about a day against a system he had just met. He also notes that the labs have not yet built good products around this.\n\nIn practice, the hard part is not spawning more agents. It is what surrounds them. In companies I see the same pattern: no clear owner for review, orchestration that lives in one person's head, and no measurement of what the agents actually delivered.\n\nThat is why I treat orchestration and review as the product. On the AskMoses.AI development team, every dev works with Claude Code on the project. Another Claude reviews the pull request. The human decides on business grounds, not technical ones. Deploys go through Vercel with 1-click rollback and daily backups.\n\nMultiagent coding only pays off when it ships with guardrails and measured output. Launching is not the same as being used.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: kalzumeus.com, huggingface.co\n\n#AIagents #AIengineering #MultiagentCoding #ClaudeCode #SoftwareDevelopment #AIinProduction",
+  "first_comment": "Sources: https://www.kalzumeus.com/2026/11/25/multiagent-coding-is-the-future/ · https://huggingface.co/papers/2611.34147\n\nvssolutions.io",
+  "meta": {
+    "tema": "Multiagent coding is the future: what it takes to run agent teams in production",
+    "tipo": "ponte",
+    "case_id": "agentic",
+    "palavra": "CLAUDE",
+    "valor": "Launching is not the same as being used.",
+    "angulo": "Multiagent coding only pays off when it ships with guardrails and measured output; the winning teams treat orchestration and review as the product, not the model.",
+    "fontes": [
+      "https://www.kalzumeus.com/2026/11/25/multiagent-coding-is-the-future/",
+      "https://huggingface.co/papers/2611.34147"
+    ],
+    "roteiro_reels": "[0-3s] Running 100 coding agents is easy. Trusting what they ship is the hard part.\n[3-20s] A well-known engineer just wrote that multiagent coding is the next paradigm shift. In practice, the model is not the bottleneck. Orchestration and review are. On our team, every dev works with Claude Code, and another Claude reviews the pull request.\n[20-30s] A human decides on business grounds, and we can roll back in one click. Guardrails first, speed second. Comment CLAUDE and I'll send you how I did it.",
+    "gerado_em": "2026-11-26T09:30:54.309Z"
+  },
+  "traducoes": {
+    "en": {
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · MULTIAGENT CODING",
+          "headline": "Running 100 agents is easy. Trusting their output is not.",
+          "sub": "The model is not the product. The system around it is."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A veteran engineer says multiagent coding is the next paradigm shift",
+          "body": "Kalzumeus writes that multiagent coding is as big a shift as LLMs writing code. At a hedge fund, he saw an orchestrator that puts 2-100+ Claudes in a devbox, talking to each other. He says the labs have not yet built good products for this."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "42",
+          "label": "pull requests shipped in about a day, per the author",
+          "sub": "Against a system he first saw that day. He reviewed the agents' tradeoff analyses."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: the agents work, the system around them doesn't",
+          "items": [
+            "Nobody owns review, so agent output piles up unchecked",
+            "Orchestration lives in one person's head, not in a documented process",
+            "No one measures what the agents shipped, so no one knows if it paid off"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "How the AskMoses.AI development team runs 100% agentic",
+          "items": [
+            "Every dev works with Claude Code on the project",
+            "Another Claude reviews the pull request",
+            "The human decides on business grounds, not technical ones",
+            "Vercel deploys with 1-click rollback and daily backups"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Launching is not the same as being used.",
+          "body": "Spinning up more agents is the easy part. What matters is whether the output is reviewed, reversible and measured. Orchestration and review are the product. The model is a component you can swap."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment CLAUDE.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment CLAUDE · vssolutions.io"
+        }
+      ],
+      "caption": "Kalzumeus published 'Multiagent coding is the future' and it is on Hacker News today. The author describes an orchestrator that puts 2-100+ Claudes in a devbox, and says he shipped 42 pull requests in about a day against a system he had just met. He also notes that the labs have not yet built good products around this.\n\nIn practice, the hard part is not spawning more agents. It is what surrounds them. In companies I see the same pattern: no clear owner for review, orchestration that lives in one person's head, and no measurement of what the agents actually delivered.\n\nThat is why I treat orchestration and review as the product. On the AskMoses.AI development team, every dev works with Claude Code on the project. Another Claude reviews the pull request. The human decides on business grounds, not technical ones. Deploys go through Vercel with 1-click rollback and daily backups.\n\nMultiagent coding only pays off when it ships with guardrails and measured output. Launching is not the same as being used.\n\nComment CLAUDE and I'll DM you how I did it.\n\nSources: kalzumeus.com, huggingface.co\n\n#AIagents #AIengineering #MultiagentCoding #ClaudeCode #SoftwareDevelopment #AIinProduction"
+    }
+  }
+}
