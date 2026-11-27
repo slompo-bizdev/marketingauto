@@ -1,6 +1,151 @@
 {
-  "atualizado_em": "2026-11-26T09:31:59.499607Z",
+  "atualizado_em": "2026-11-27T09:32:21.733211Z",
   "posts": [
+    {
+      "slug": "2026-11-27-guardrails-decide-the-damage",
+      "data": "2026-11-27",
+      "titulo": "When an agent errs in your database, the model isn't the fix",
+      "subtitulo": "A new paper tests what actually decides the damage.",
+      "tema": "When an AI agent errs in your database, guardrails decide the damage, not the model",
+      "tipo": "ponte",
+      "case_id": "enterprise",
+      "palavra": "AGENTS",
+      "valor": "Measure instead of assuming.",
+      "fontes": [
+        "https://huggingface.co/papers/2611.30483"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AGENT GUARDRAILS",
+          "headline": "When an agent errs in your database, the model isn't the fix",
+          "sub": "A new paper tests what actually decides the damage."
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A paper tested agents on databases with planted hazards",
+          "body": "Researchers gave a minimal tool-calling agent tasks like freeing disk space and cleaning up tables. They ran six small open-weight models against nine engines, including PostgreSQL, MySQL and MongoDB. The study was preregistered.",
+          "stat": null
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "215/392",
+          "label": "data-loss trials where only a reachable backup copy was lost",
+          "sub": "Out of the box, per the paper. The agent could reach the backup."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: the agent gets access first, limits later",
+          "items": [
+            "The agent inherits broad credentials because it is faster to set up.",
+            "Backups sit within reach of the same account the agent uses.",
+            "Nobody logs what the agent actually did until something breaks."
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "At an enterprise account, limiting agents is a design requirement",
+          "items": [
+            "Multi-agent platform in production at a US$5.5 million account.",
+            "About 60% efficiency gain, with limits on live systems built in.",
+            "Multi-agent in production requires an audited defect log."
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Measure instead of assuming.",
+          "body": "A smarter model won't keep an agent from wiping production data. Permissions, guard layers and recoverability will. And you only know they work if you measure what the agent really does, not what you assume it does."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment AGENTS.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment AGENTS · vssolutions.io"
+        }
+      ],
+      "legenda": "A new Hugging Face paper looks at what decides the damage when an AI agent makes a mistake in a database. The authors gave a minimal agent tasks with hazards in them, like freeing disk space, cleaning up tables, an instruction injected into the data and a superuser password left in a table. They ran six small open-weight models against nine engines, across 9,468 preregistered trials.\n\nOne result stood out: out of the box, in 215 of 392 trials that lost data, the only thing lost was a backup copy the agent could reach. The paper also reports that model choice moved loss about as much as engine choice.\n\nIn practice, this suggests the model is only one variable. What I see in companies is agents getting broad access first and limits later, with backups in reach and no record of what the agent did.\n\nThat is why, on the multi-agent platform I run in production at an enterprise account (a US$5.5 million account, about 60% efficiency gain), limiting what agents can do to live systems is a design requirement. Multi-agent in production requires an audited defect log. Measure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AIAgents #AIGovernance #AIinProduction #DataSafety #MultiAgent",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-27-guardrails-decide-the-damage/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-27-guardrails-decide-the-damage/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-27-guardrails-decide-the-damage/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-27-guardrails-decide-the-damage/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-27-guardrails-decide-the-damage/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-27-guardrails-decide-the-damage/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-27-guardrails-decide-the-damage/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-27-guardrails-decide-the-damage/1.jpg",
+      "gerado_em": "2026-11-27T09:30:52.815Z",
+      "traducoes": {
+        "en": {
+          "titulo": "When an agent errs in your database, the model isn't the fix",
+          "subtitulo": "A new paper tests what actually decides the damage.",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · AGENT GUARDRAILS",
+              "headline": "When an agent errs in your database, the model isn't the fix",
+              "sub": "A new paper tests what actually decides the damage."
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "A paper tested agents on databases with planted hazards",
+              "body": "Researchers gave a minimal tool-calling agent tasks like freeing disk space and cleaning up tables. They ran six small open-weight models against nine engines, including PostgreSQL, MySQL and MongoDB. The study was preregistered.",
+              "stat": null
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "215/392",
+              "label": "data-loss trials where only a reachable backup copy was lost",
+              "sub": "Out of the box, per the paper. The agent could reach the backup."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: the agent gets access first, limits later",
+              "items": [
+                "The agent inherits broad credentials because it is faster to set up.",
+                "Backups sit within reach of the same account the agent uses.",
+                "Nobody logs what the agent actually did until something breaks."
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "At an enterprise account, limiting agents is a design requirement",
+              "items": [
+                "Multi-agent platform in production at a US$5.5 million account.",
+                "About 60% efficiency gain, with limits on live systems built in.",
+                "Multi-agent in production requires an audited defect log."
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Measure instead of assuming.",
+              "body": "A smarter model won't keep an agent from wiping production data. Permissions, guard layers and recoverability will. And you only know they work if you measure what the agent really does, not what you assume it does."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment AGENTS.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment AGENTS · vssolutions.io"
+            }
+          ],
+          "legenda": "A new Hugging Face paper looks at what decides the damage when an AI agent makes a mistake in a database. The authors gave a minimal agent tasks with hazards in them, like freeing disk space, cleaning up tables, an instruction injected into the data and a superuser password left in a table. They ran six small open-weight models against nine engines, across 9,468 preregistered trials.\n\nOne result stood out: out of the box, in 215 of 392 trials that lost data, the only thing lost was a backup copy the agent could reach. The paper also reports that model choice moved loss about as much as engine choice.\n\nIn practice, this suggests the model is only one variable. What I see in companies is agents getting broad access first and limits later, with backups in reach and no record of what the agent did.\n\nThat is why, on the multi-agent platform I run in production at an enterprise account (a US$5.5 million account, about 60% efficiency gain), limiting what agents can do to live systems is a design requirement. Multi-agent in production requires an audited defect log. Measure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AIAgents #AIGovernance #AIinProduction #DataSafety #MultiAgent"
+        }
+      }
+    },
     {
       "slug": "2026-11-26-multiagent-coding-in-production",
       "data": "2026-11-26",

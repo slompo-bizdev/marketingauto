@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-27-guardrails-decide-the-damage",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A new Hugging Face paper looks at what decides the damage when an AI agent makes a mistake in a database. The authors gave a minimal agent tasks with hazards in them, like freeing disk space, cleaning up tables, an instruction injected into the data and a superuser password left in a table. They ran six small open-weight models against nine engines, across 9,468 preregistered trials.\n\nOne result stood out: out of the box, in 215 of 392 trials that lost data, the only thing lost was a backup copy the agent could reach. The paper also reports that model choice moved loss about as much as engine choice.\n\nIn practice, this suggests the model is only one variable. What I see in companies is agents getting broad access first and limits later, with backups in reach and no record of what the agent did.\n\nThat is why, on the multi-agent platform I run in production at an enterprise account (a US$5.5 million account, about 60% efficiency gain), limiting what agents can do to live systems is a design requirement. Multi-agent in production requires an audited defect log. Measure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AIAgents #AIGovernance #AIinProduction #DataSafety #MultiAgent",
+  "first_comment": "Sources: https://huggingface.co/papers/2611.30483\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "When an agent errs in your database, the model isn't the fix",
+    "caption": "A new Hugging Face paper looks at what decides the damage when an AI agent makes a mistake in a database. The authors gave a minimal agent tasks with hazards in them, like freeing disk space, cleaning up tables, an instruction injected into the data and a superuser password left in a table. They ran six small open-weight models against nine engines, across 9,468 preregistered trials.\n\nOne result stood out: out of the box, in 215 of 392 trials that lost data, the only thing lost was a backup copy the agent could reach. The paper also reports that model choice moved loss about as much as engine choice.\n\nIn practice, this suggests the model is only one variable. What I see in companies is agents getting broad access first and limits later, with backups in reach and no record of what the agent did.\n\nThat is why, on the multi-agent platform I run in production at an enterprise account (a US$5.5 million account, about 60% efficiency gain), limiting what agents can do to live systems is a design requirement. Multi-agent in production requires an audited defect log. Measure instead of assuming.\n\nComment AGENTS and I'll DM you how I did it.\n\nSources: huggingface.co\n\n#AIAgents #AIGovernance #AIinProduction #DataSafety #MultiAgent"
+  }
+}
