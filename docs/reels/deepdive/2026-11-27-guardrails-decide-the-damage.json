@@ -1,0 +1,18 @@
+{
+  "slug": "2026-11-27-guardrails-decide-the-damage",
+  "video": "2026-11-27-guardrails-decide-the-damage.mp4",
+  "duration": 50.53,
+  "voice": "am_liam",
+  "tts": "kokoro",
+  "caption": "This morning I shared a new paper on agent guardrails: in 215 of 392 data-loss trials, only a reachable backup copy was lost.\n\nNot confirmed: the paper is said to report that 177 of those 392 trials destroyed original rows. We could not find this figure on the cited page at check time. Other data points: only 3 of 7 preregistered hypotheses met their decision rule, and all 9,468 trials used small open-weight models.\n\nMy take: measure what your agent really touches, and keep backups out of its reach.\n\nComment CHECK and I will DM you what I find.\n\nSources in the first comment.",
+  "first_comment": "Sources:\n[1] arXiv: When an AI agent makes a mistake in a database, what decides the damage? — https://arxiv.org/pdf/2611.30483 (claim not confirmed on this page at check time)\n[2] ZeroHour: Study tests what limits damage when AI agents err on databases — https://zerohour.day/item/f16fc64b85dca1efff97ee0e3f7b9f5e881e4aee\n[3] KBlip: When an AI agent makes a mistake in a database, what decides the damage? — https://kblip.com/topic/llama.cpp\n\nvssolutions.io",
+  "keyword": "CHECK",
+  "check_dm": "Thanks for asking! The claim I could not confirm is that 177 of 392 permanent-loss trials destroyed original rows, not just backups. It comes from the arXiv paper \"When an AI agent makes a mistake in a database, what decides the damage?\" I could not find that figure on the page when I checked. What do you see or run into in practice with agents and database backups? I will reply here as soon as I confirm it.",
+  "scenes": [
+    "This morning's paper found 215 of 392 data-loss trials hit only a reachable backup. I went back into the paper and its coverage for more.",
+    "First, the arXiv paper says 177 of 392 permanent-loss trials destroyed original rows, but we could not confirm that number on its page.",
+    "Second, only three of the seven preregistered hypotheses held up. Four did not, so the conclusions are narrower than the headline suggests.",
+    "Third, the study ran 9,468 trials, but only on small models up to 35 billion parameters. Larger frontier models were not part of it.",
+    "Keep backups out of your agent's reach and test your own setup. Do you use agents on databases? Comment CHECK and tell me."
+  ]
+}
