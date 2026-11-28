@@ -1,6 +1,149 @@
 {
-  "atualizado_em": "2026-11-27T09:32:21.733211Z",
+  "atualizado_em": "2026-11-28T09:32:10.204609Z",
   "posts": [
+    {
+      "slug": "2026-11-28-ai-assistant-rent-eviction-liability",
+      "data": "2026-11-28",
+      "titulo": "An AI email said she could pay late. She was evicted anyway.",
+      "subtitulo": "A customer-facing agent improvised a promise. Who owns it?",
+      "tema": "Woman evicted after landlord's AI assistant wrongly told her she could delay rent",
+      "tipo": "ponte",
+      "case_id": "sdr",
+      "palavra": "SDR",
+      "valor": "Simple that works beats complex that impresses.",
+      "fontes": [
+        "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai"
+      ],
+      "slides": [
+        {
+          "type": "hook",
+          "eyebrow": "AI ON THE RISE · AI LIABILITY",
+          "headline": "An AI email said she could pay late. She was evicted anyway.",
+          "sub": "A customer-facing agent improvised a promise. Who owns it?"
+        },
+        {
+          "type": "text",
+          "eyebrow": "WHAT HAPPENED",
+          "headline": "A tenant says an AI assistant approved a late rent payment",
+          "body": "On 8 November, Laura Mack got an email saying paying on November 30 \"works.\" She got an eviction notice on 16 November and was evicted on 19 November. The company has not confirmed her account or whether the assistant could approve extensions."
+        },
+        {
+          "type": "stat",
+          "eyebrow": "THE NUMBER",
+          "stat": "$3,934",
+          "label": "The overdue rent balance at the center of the dispute",
+          "sub": "Evicted 11 days before the payment date the email appeared to accept."
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+          "headline": "What I see in companies: nobody defines what the agent may promise",
+          "items": [
+            "The agent answers fast, but no one decides which commitments it is allowed to make",
+            "Its answers are not tied to approved data, so it fills gaps with plausible text",
+            "When it is unsure, there is no clear handoff to a person who owns the decision"
+          ]
+        },
+        {
+          "type": "bullets",
+          "eyebrow": "I'VE ALREADY SOLVED THIS",
+          "headline": "For a building materials store in southern Brazil, I built an agent with hard limits",
+          "items": [
+            "The AI never sees the catalog: search hands 8 results to the model from 13,312 products",
+            "Rules: no made-up specs, never reveals stock, never gives discounts",
+            "65 out of 65 real customer questions found the right product"
+          ],
+          "highlight_last": true
+        },
+        {
+          "type": "text",
+          "eyebrow": "MY TAKE",
+          "headline": "Simple that works beats complex that impresses.",
+          "body": "An agent that talks to customers does not need to be clever about policy. It needs approved data, a short list of things it can commit to, and a human to call when it is unsure. In practice, that is what keeps a helpful answer from becoming a liability."
+        },
+        {
+          "type": "cta",
+          "eyebrow": "WANT TO SEE HOW I DID IT?",
+          "headline": "Comment SDR.",
+          "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+          "button": "Comment SDR · vssolutions.io"
+        }
+      ],
+      "legenda": "A North Carolina tenant says an AI assistant approved paying her overdue $3,934.17 rent on November 30. She received an eviction notice on 16 November and was evicted on 19 November. The company has not confirmed her account, or whether the assistant was authorized to approve extensions.\n\nI am not judging the legal outcome. What I see in companies is simpler: an agent talks to customers, and nobody defined what it is allowed to promise. It answers fast, sounds sure, and fills gaps with plausible text.\n\nThat is why I build agents with limits. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. It never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. The rules are clear: no made-up specs, never reveals stock, never gives discounts. The whole flow has 9 nodes: one agent and three tools, including calling a human salesperson. 65 out of 65 real customer questions found the right product.\n\nSimple that works beats complex that impresses.\n\nComment SDR and I'll DM you how I did it.\n\nSources: drmahfouz.substack.com\n\n#AI #AIAgents #AIGovernance #Automation #CustomerExperience",
+      "imagens": [
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-28-ai-assistant-rent-eviction-liability/1.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-28-ai-assistant-rent-eviction-liability/2.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-28-ai-assistant-rent-eviction-liability/3.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-28-ai-assistant-rent-eviction-liability/4.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-28-ai-assistant-rent-eviction-liability/5.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-28-ai-assistant-rent-eviction-liability/6.jpg",
+        "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-28-ai-assistant-rent-eviction-liability/7.jpg"
+      ],
+      "capa": "https://slompo-bizdev.github.io/marketingauto/posts/2026-11-28-ai-assistant-rent-eviction-liability/1.jpg",
+      "gerado_em": "2026-11-28T09:30:52.388Z",
+      "traducoes": {
+        "en": {
+          "titulo": "An AI email said she could pay late. She was evicted anyway.",
+          "subtitulo": "A customer-facing agent improvised a promise. Who owns it?",
+          "slides": [
+            {
+              "type": "hook",
+              "eyebrow": "AI ON THE RISE · AI LIABILITY",
+              "headline": "An AI email said she could pay late. She was evicted anyway.",
+              "sub": "A customer-facing agent improvised a promise. Who owns it?"
+            },
+            {
+              "type": "text",
+              "eyebrow": "WHAT HAPPENED",
+              "headline": "A tenant says an AI assistant approved a late rent payment",
+              "body": "On 8 November, Laura Mack got an email saying paying on November 30 \"works.\" She got an eviction notice on 16 November and was evicted on 19 November. The company has not confirmed her account or whether the assistant could approve extensions."
+            },
+            {
+              "type": "stat",
+              "eyebrow": "THE NUMBER",
+              "stat": "$3,934",
+              "label": "The overdue rent balance at the center of the dispute",
+              "sub": "Evicted 11 days before the payment date the email appeared to accept."
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "THE REAL PROBLEM IN COMPANIES",
+              "headline": "What I see in companies: nobody defines what the agent may promise",
+              "items": [
+                "The agent answers fast, but no one decides which commitments it is allowed to make",
+                "Its answers are not tied to approved data, so it fills gaps with plausible text",
+                "When it is unsure, there is no clear handoff to a person who owns the decision"
+              ]
+            },
+            {
+              "type": "bullets",
+              "eyebrow": "I'VE ALREADY SOLVED THIS",
+              "headline": "For a building materials store in southern Brazil, I built an agent with hard limits",
+              "items": [
+                "The AI never sees the catalog: search hands 8 results to the model from 13,312 products",
+                "Rules: no made-up specs, never reveals stock, never gives discounts",
+                "65 out of 65 real customer questions found the right product"
+              ],
+              "highlight_last": true
+            },
+            {
+              "type": "text",
+              "eyebrow": "MY TAKE",
+              "headline": "Simple that works beats complex that impresses.",
+              "body": "An agent that talks to customers does not need to be clever about policy. It needs approved data, a short list of things it can commit to, and a human to call when it is unsure. In practice, that is what keeps a helpful answer from becoming a liability."
+            },
+            {
+              "type": "cta",
+              "eyebrow": "WANT TO SEE HOW I DID IT?",
+              "headline": "Comment SDR.",
+              "body": "I'll send you the step-by-step of this case by DM. I take AI off the drawing board and put it into production, with measured results.",
+              "button": "Comment SDR · vssolutions.io"
+            }
+          ],
+          "legenda": "A North Carolina tenant says an AI assistant approved paying her overdue $3,934.17 rent on November 30. She received an eviction notice on 16 November and was evicted on 19 November. The company has not confirmed her account, or whether the assistant was authorized to approve extensions.\n\nI am not judging the legal outcome. What I see in companies is simpler: an agent talks to customers, and nobody defined what it is allowed to promise. It answers fast, sounds sure, and fills gaps with plausible text.\n\nThat is why I build agents with limits. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. It never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. The rules are clear: no made-up specs, never reveals stock, never gives discounts. The whole flow has 9 nodes: one agent and three tools, including calling a human salesperson. 65 out of 65 real customer questions found the right product.\n\nSimple that works beats complex that impresses.\n\nComment SDR and I'll DM you how I did it.\n\nSources: drmahfouz.substack.com\n\n#AI #AIAgents #AIGovernance #Automation #CustomerExperience"
+        }
+      }
+    },
     {
       "slug": "2026-11-27-guardrails-decide-the-damage",
       "data": "2026-11-27",

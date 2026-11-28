@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-28-ai-assistant-rent-eviction-liability",
+  "slides": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "slides_jpg": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+  ],
+  "story": "story.png",
+  "story_jpg": "story.jpg",
+  "caption": "A North Carolina tenant says an AI assistant approved paying her overdue $3,934.17 rent on November 30. She received an eviction notice on 16 November and was evicted on 19 November. The company has not confirmed her account, or whether the assistant was authorized to approve extensions.\n\nI am not judging the legal outcome. What I see in companies is simpler: an agent talks to customers, and nobody defined what it is allowed to promise. It answers fast, sounds sure, and fills gaps with plausible text.\n\nThat is why I build agents with limits. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. It never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. The rules are clear: no made-up specs, never reveals stock, never gives discounts. The whole flow has 9 nodes: one agent and three tools, including calling a human salesperson. 65 out of 65 real customer questions found the right product.\n\nSimple that works beats complex that impresses.\n\nComment SDR and I'll DM you how I did it.\n\nSources: drmahfouz.substack.com\n\n#AI #AIAgents #AIGovernance #Automation #CustomerExperience",
+  "first_comment": "Sources: https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai\n\nvssolutions.io",
+  "en": {
+    "slides_jpg": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ],
+    "pdf": "carousel-en.pdf",
+    "title": "An AI email said she could pay late. She was evicted anyway.",
+    "caption": "A North Carolina tenant says an AI assistant approved paying her overdue $3,934.17 rent on November 30. She received an eviction notice on 16 November and was evicted on 19 November. The company has not confirmed her account, or whether the assistant was authorized to approve extensions.\n\nI am not judging the legal outcome. What I see in companies is simpler: an agent talks to customers, and nobody defined what it is allowed to promise. It answers fast, sounds sure, and fills gaps with plausible text.\n\nThat is why I build agents with limits. For a building materials store in southern Brazil, I built an AI sales rep on WhatsApp. It never sees the catalog: a simple search answers in milliseconds and hands 8 results to the model. The rules are clear: no made-up specs, never reveals stock, never gives discounts. The whole flow has 9 nodes: one agent and three tools, including calling a human salesperson. 65 out of 65 real customer questions found the right product.\n\nSimple that works beats complex that impresses.\n\nComment SDR and I'll DM you how I did it.\n\nSources: drmahfouz.substack.com\n\n#AI #AIAgents #AIGovernance #Automation #CustomerExperience"
+  }
+}
